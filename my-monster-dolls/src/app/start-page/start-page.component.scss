@@ -1,6 +1,26 @@
-app-start-page{
-  backgrond-color:green;
-}
+.start-page{
+   height: 95vh;
+   width: 100%;
+   background-image: url("https://img2.goodfon.ru/wallpaper/nbig/4/dc/gotika-zamok-vorony-noch.jpg");
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   align-items: center;
+
+   h1 {
+     font-size: 50px;
+     text-transform: uppercase;
+   }
+
 li{
     cursor: pointer;
+    list-style: none;
+    margin: 4vh 0;
+    border: 3px solid white;
+    border-radius: 30px;
+    width: 300px;
+    height: 6vh;
+    text-align: center;
+    font-size: 30px;
+}
 }
