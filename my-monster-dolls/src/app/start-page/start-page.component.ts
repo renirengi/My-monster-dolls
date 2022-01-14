@@ -22,8 +22,6 @@ export class StartPageComponent implements OnInit {
   public goToCatalogPage(){
     this.router.navigate(['/catalog-component']);
   }
-  public goToSecondStartPage(){
-    this.router.navigate(['/second-start-component']);
-  }
+
 
 }
