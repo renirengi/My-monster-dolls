@@ -12,6 +12,9 @@ import { ModalFormComponent } from './modal-form/modal-form.component';
 import { MatCardModule } from '@angular/material/card';
 import {MatDialogModule} from '@angular/material/dialog';
 import {MatFormFieldModule} from '@angular/material/form-field';
+import { HttpClientModule } from '@angular/common/http';
+import { DollsService } from './services/dolls-service.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,15 +24,14 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     CatalogPageComponent,
     ModalFormComponent,
   ],
-  imports: [
-    BrowserModule,
+  imports: [ BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
     MatDialogModule,
     MatFormFieldModule,
-  ],
-  providers: [],
+    HttpClientModule],
+  providers: [DollsService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

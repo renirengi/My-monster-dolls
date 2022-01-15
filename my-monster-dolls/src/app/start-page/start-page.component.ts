@@ -25,3 +25,4 @@ export class StartPageComponent implements OnInit {
 
   public openDialog(): void {}
 }
+

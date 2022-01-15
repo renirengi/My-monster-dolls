@@ -1,1 +1,7 @@
 <p>catalog-page works!</p>
+
+<div *ngIf="doll1$ | async as doll1">
+  <div>{{doll1.character}}</div>
+  <div>{{doll1.year}}</div>
+  <img [src]="doll1.galleryImagesLinks[0]"/>
+</div>
