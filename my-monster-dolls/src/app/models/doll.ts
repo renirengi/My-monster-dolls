@@ -1,5 +1,5 @@
 export interface IDoll {
-  character?: string;
+  character?: string[];
   description: string[];
   galleryImagesFileNames: string[];
   galleryImagesLinks: string[];

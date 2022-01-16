@@ -18,6 +18,8 @@ import { DollsService } from './services/dolls-service.service';
 import { MatButtonModule } from '@angular/material/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatIconModule} from '@angular/material/icon';
+import { SearchPageComponent } from './search-page/search-page.component';
+import { AdvSearchPageComponent } from './adv-search-page/adv-search-page.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,6 +28,8 @@ import {MatIconModule} from '@angular/material/icon';
     UserPageComponent,
     CatalogPageComponent,
     ModalFormComponent,
+    SearchPageComponent,
+    AdvSearchPageComponent,
   ],
   imports: [
     BrowserModule,
