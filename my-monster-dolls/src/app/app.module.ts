@@ -14,6 +14,7 @@ import {MatDialogModule} from '@angular/material/dialog';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { HttpClientModule } from '@angular/common/http';
 import { DollsService } from './services/dolls-service.service';
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,11 @@ import { DollsService } from './services/dolls-service.service';
     MatCardModule,
     MatDialogModule,
     MatFormFieldModule,
-    HttpClientModule],
+    HttpClientModule,
+    MatButtonModule,
+  
+  
+  ],
   providers: [DollsService],
   bootstrap: [AppComponent],
 })
