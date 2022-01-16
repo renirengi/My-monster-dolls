@@ -8,7 +8,7 @@ import { IDoll } from '../models';
 })
 export class DollsService {
 
-  private readonly baseUrl = 'http://localhost:4200/dolls';
+  private readonly baseUrl = 'http://localhost:3000/dolls';
 
   constructor(private http: HttpClient) { }
 
