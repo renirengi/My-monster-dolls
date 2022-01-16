@@ -10,12 +10,14 @@ import { CatalogPageComponent } from './catalog-page/catalog-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ModalFormComponent } from './modal-form/modal-form.component';
 import { MatCardModule } from '@angular/material/card';
-import {MatDialogModule} from '@angular/material/dialog';
-import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 import { HttpClientModule } from '@angular/common/http';
 import { DollsService } from './services/dolls-service.service';
-import {MatButtonModule} from '@angular/material/button';
-
+import { MatButtonModule } from '@angular/material/button';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {MatIconModule} from '@angular/material/icon';
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +27,8 @@ import {MatButtonModule} from '@angular/material/button';
     CatalogPageComponent,
     ModalFormComponent,
   ],
-  imports: [ BrowserModule,
+  imports: [
+    BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatCardModule,
@@ -33,8 +36,10 @@ import {MatButtonModule} from '@angular/material/button';
     MatFormFieldModule,
     HttpClientModule,
     MatButtonModule,
-  
-  
+    FormsModule,
+    ReactiveFormsModule,
+    MatInputModule,
+    MatIconModule,
   ],
   providers: [DollsService],
   bootstrap: [AppComponent],
