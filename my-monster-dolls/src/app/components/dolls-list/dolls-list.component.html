@@ -1,0 +1,5 @@
+<p *ngIf="currentPage">Current page: {{ currentPage }}</p>
+<div class="cards-container">
+  <doll-card [doll]="doll" *ngFor="let doll of dolls;"></doll-card>
+</div>
+<button *ngIf="showLoadMore" (click)="onLoadMore()">Load more</button>

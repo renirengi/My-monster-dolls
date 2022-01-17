@@ -9,4 +9,7 @@ export interface IDoll {
   series?: string;
   type?: string;
   year: number;
+  exclusive?: string;
+  reissue?: boolean;
+
 }

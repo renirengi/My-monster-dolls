@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { StartPageComponent } from './start-page/start-page.component';
-import { MainPageComponent } from './main-page/main-page.component';
-import { UserPageComponent } from './user-page/user-page.component';
-import { CatalogPageComponent } from './catalog-page/catalog-page.component';
-import { SearchPageComponent } from './search-page/search-page.component';
-import { AdvSearchPageComponent } from './adv-search-page/adv-search-page.component';
+import { StartPageComponent } from './components/start-page/start-page.component';
+import { MainPageComponent } from './components/main-page/main-page.component';
+import { UserPageComponent } from './components/user-page/user-page.component';
+import { CatalogPageComponent } from './components/catalog-page/catalog-page.component';
+import { SearchPageComponent } from './components/search-page/search-page.component';
+import { AdvSearchPageComponent } from './components/adv-search-page/adv-search-page.component';
 
 
 const routes: Routes = [

@@ -2,11 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-main-page',
-  templateUrl: './main-page.component.html',
-  styleUrls: ['./main-page.component.scss']
+  selector: 'app-search-page',
+  templateUrl: './search-page.component.html'
 })
-export class MainPageComponent implements OnInit {
+export class SearchPageComponent implements OnInit {
 
   constructor(private router: Router) { }
 
@@ -19,5 +18,6 @@ export class MainPageComponent implements OnInit {
   public goToAdvSearchPage() {
     this.router.navigate(['/adv-search-component']);
   }
+
 
 }

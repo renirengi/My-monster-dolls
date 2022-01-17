@@ -9,8 +9,7 @@ import { UserPageComponent } from '../user-page/user-page.component';
 
 @Component({
   selector: 'app-start-page',
-  templateUrl: './start-page.component.html',
-  styleUrls: ['./start-page.component.scss'],
+  templateUrl: './start-page.component.html'
 })
 export class StartPageComponent implements OnInit {
   constructor(private router: Router, public dialog: MatDialog) {}

@@ -1,4 +1,4 @@
-<section class="head">
+<!-- <section class="head">
   <div class="icons-settings">
     <button class="background-picture">background</button>
     <button class="music">Music</button>
@@ -12,16 +12,20 @@
   <button class="user-profile">User</button>
 </section>
 <section class="main">
-<div class="card" *ngIf="doll1$ | async as doll1">
-  <div>{{doll1.character}}</div>
-  <div>{{doll1.series}}</div>
-  <div>{{doll1.year}}</div>
-  <img [src]="doll1.galleryImagesLinks[0]"/>
-  <div>{{doll1.description}}</div>
-  <div>{{doll1.gender}}</div>
-  <div>{{doll1.modelNumber}}</div>
-  <div>{{doll1.type}}</div>
-</div>
+
 </section>
 
 
+ -->
+
+<section class="pages">
+  <dolls-list
+    *ngIf="dolls; else loading"
+    [dolls]="dolls"
+    [currentPage]="lastPage"
+    [showLoadMore]="true"
+    (loadMore)="onLoadMore()"
+  ></dolls-list>
+</section>
+
+<ng-template #loading>Loading...</ng-template>
