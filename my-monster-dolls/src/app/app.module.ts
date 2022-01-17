@@ -8,7 +8,6 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { UserPageComponent } from './user-page/user-page.component';
 import { CatalogPageComponent } from './catalog-page/catalog-page.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ModalFormComponent } from './modal-form/modal-form.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
@@ -27,7 +26,6 @@ import { AdvSearchPageComponent } from './adv-search-page/adv-search-page.compon
     MainPageComponent,
     UserPageComponent,
     CatalogPageComponent,
-    ModalFormComponent,
     SearchPageComponent,
     AdvSearchPageComponent,
   ],

@@ -25,13 +25,14 @@
             </mat-form-field>
         </div>
 
-        <p>
-            <mat-form-field appearance="legacy">
-                <mat-label>Phone</mat-label>
-                <input matInput placeholder="Placeholder">
-                <!-- <mat-hint>Hint</mat-hint> -->
+        <form class="example-form">
+            <mat-form-field class="example-full-width" appearance="fill">
+              <mat-label>Phone</mat-label>
+              <span matPrefix>+7 &nbsp;</span>
+              <input type="tel" matInput placeholder="555-555-1234">
+              <mat-icon matSuffix>mode_edit</mat-icon>
             </mat-form-field>
-        </p>
+          </form>
 
         <p>
             <mat-form-field appearance="legacy">

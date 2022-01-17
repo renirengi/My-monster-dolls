@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-adv-search-page',
   templateUrl: './adv-search-page.component.html',
-  styleUrls: ['./adv-search-page.component.css']
+  styleUrls: ['./adv-search-page.component.scss']
 })
 export class AdvSearchPageComponent implements OnInit {
 
