@@ -1,7 +1,11 @@
 <ng-container *ngIf="doll">
   <img [src]="doll.galleryImagesLinks[0]"/>
   <h3>{{doll.character}}</h3>
-  <p>Series: {{doll.series}}</p>
-  <p>Year: {{doll.year}}</p>
-  <p>Type: {{doll.type}}</p>
+  <p class="description">{{doll.description}}</p>
+  <p>{{doll.series}}</p>
+  <p>{{doll.year}}</p>
+  <p>{{doll.gender}}</p>
+  <p>{{doll.modelNumber}}</p>
+  <p>{{doll.type}}</p>
+  <p>{{doll.exclusive}}</p>
 </ng-container>

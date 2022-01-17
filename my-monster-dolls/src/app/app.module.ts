@@ -17,7 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { DollsService } from './services/dolls-service.service';
 import { MatButtonModule } from '@angular/material/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { MatIconModule } from '@angular/material/icon';
+import {MatIconModule} from '@angular/material/icon';
 import { SearchPageComponent } from './components/search-page/search-page.component';
 import { AdvSearchPageComponent } from './components/adv-search-page/adv-search-page.component';
 import { DollCardComponent } from './components/doll-card/doll-card.component';
@@ -29,6 +29,7 @@ import { DollsListComponent } from './components/dolls-list/dolls-list.component
     MainPageComponent,
     UserPageComponent,
     CatalogPageComponent,
+    ModalFormComponent,
     SearchPageComponent,
     AdvSearchPageComponent,
     DollCardComponent,

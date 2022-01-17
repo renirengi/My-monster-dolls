@@ -4,9 +4,8 @@
 @use 'styles/dolls-list.scss';
 @use 'styles/main-page.scss';
 @use 'styles/modal-form.scss';
-@use 'styles/search-page.scss';
-@use 'styles/user-page.scss';
 @use 'styles/start-page.scss';
+@use 'styles/user-page.scss';
 
 
 body {
@@ -40,25 +39,20 @@ body {
   .input-container {
     width: 45%;
 
-
     .input-search {
       width: 70%;
       height: 3vh;
       border: 2px solid black;
       border-radius: 30px;
     }
-
+  }
 }
-.main,
-.ad-search-main {
+.main {
   position: relative;
   color: black;
-  width: 80%;
   height: 80vh;
+  width: 80%;
   margin: 0 auto;
   border: 2px solid white;
   background-color: white;
-}
-.ad-search-main{
-  height: auto;
 }

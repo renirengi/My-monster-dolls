@@ -11,64 +11,6 @@
   </div>
   <button class="user-profile">User</button>
 </section>
-<section class="ad-search-main">
-  <div class="search-form">
-    <div class="search-type">
-      <p>Search by type:</p>
-      <select class="sort-type" name="type[]" multiple="multiple" size="5">
-        <option value="1">Doll</option>
-        <option value="2">Playset</option>
-        <option value="3">Multipack</option>
-        <option value="4">Plush</option>
-        <option value="5">Budget</option>
-        <option value="6">Create-A-Monster</option>
-        <option value="7">Electrocuties</option>
-        <option value="8">Fashion Packs</option>
-        <option value="9">Fash’ems</option>
-        <option value="10">Fright-Mares/option>
-        <option value="11">Funko Pop!</option>
-        <option value="12">Apptivity – Finders Creepers</option>
-        <option value="13">Inner Monstert</option>
-        <option value="14">Mega Bloks</option>
-        <option value="15">Minis</option>
-        <option value="16">Monster Cross</option>
-        <option value="17">Monster Pen</option>
-        <option value="18">Ornaments</option>
-        <option value="19">Rock Candy</option>
-        <option value="20">Scary Cute Figures/option>
-        <option value="21">Secret Creepers</option>
-        <option value="22">Vinyl</option>
-      </select>
-      <p>Press cltr to select multiple items</p>
-    </div>
-    <div class="search-year"></div>
-    <p>Search by year:</p>
-    <select class="sort-years" name="years">
-      <option value="2010">2010</option>
-      <option value="2011">2011</option>
-      <option value="2012">2012</option>
-      <option value="2013">2013</option>
-      <option value="2014">2014</option>
-      <option value="2015">2015</option>
-      <option value="2016">2016</option>
-      <option value="2017">2017</option>
-      <option value="2018">2018</option>
-      <option value="2019">2019</option>
-      <option value="2020">2020</option>
-      <option value="2021">2021</option>
-    </select>
-    <p>Press cltr to select multiple items</p>
-  </div>
-
-  <section class="pages">
-    <dolls-list
-      *ngIf="dolls; else loading"
-      [dolls]="dolls"
-      [currentPage]="lastPage"
-      [showLoadMore]="true"
-      (loadMore)="onLoadMore()"
-    ></dolls-list>
-  </section>
-
-  <ng-template #loading>Loading...</ng-template>
+<section class="main">
+  <p>Это расширенный поиск. Здесь форма расширенного поиска. Фильтры: предмет поиска (doll, playset, fashion packs, electrocuties, minis, Plush и т.д), год выпуска(выпадающий список с множественным выбором) (формируется динамически), коллекция  выпадающий список (формируется динамически), персонаж выпадающий список (тоже динамически), эксклюзив выпадающий список (тоже динамически), чекбокс только Comic Con, инпут поиск по ключесвым словам. Найденное отображается под фильтрами.Если совпадений нет, отображается сообщение что ничего не найдено </p>
 </section>
