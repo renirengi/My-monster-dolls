@@ -1,0 +1,22 @@
+doll-card {
+  box-sizing: border-box;
+  display: block;
+  border: 1px dashed red;
+  width: 40%;
+  height: 30vh;
+  overflow: hidden;
+  padding: 1em 15% 1em 1em;
+  position: relative;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  img {
+    height: 30vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+}
