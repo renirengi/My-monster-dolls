@@ -29,7 +29,6 @@ import { DollsListComponent } from './components/dolls-list/dolls-list.component
     MainPageComponent,
     UserPageComponent,
     CatalogPageComponent,
-    ModalFormComponent,
     SearchPageComponent,
     AdvSearchPageComponent,
     DollCardComponent,
