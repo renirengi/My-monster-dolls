@@ -1,3 +1,24 @@
+<header class="header">
+  <div class="icons-settings">
+    <mat-icon aria-hidden="false" aria-label="Example home icon">
+      <span class="material-icons">
+        language
+      </span>
+    </mat-icon>
+    <mat-icon aria-hidden="false" aria-label="Example home icon">
+      <span class="material-icons">
+        music_note
+      </span>
+    </mat-icon>
+    <mat-icon aria-hidden="false" aria-label="Example home icon">
+      <span class="material-icons">
+        wallpaper
+      </span>
+    </mat-icon>
+  </div>
+  <button mat-stroked-button (click)="openDialog()">User page</button>
+</header>
+
 <div class='start-page'>
   <h1>My monster dolls</h1>
   <nav>
@@ -5,12 +26,24 @@
       <li>
         <button mat-stroked-button (click)="goToMainPage()">Main page</button>
       </li>
-      <li>
-        <button mat-stroked-button (click)="openDialog()">User page</button>
-      </li>
+
       <li>
         <button mat-stroked-button (click)="goToCatalogPage()">Catalog Page </button>
       </li>
     </ul>
   </nav>
 </div>
+
+<footer class="footer">
+  <div>
+    <span>
+      teamcomp
+    </span>
+  </div>
+  <div>
+    <span>
+      2022
+    </span>
+  </div>
+  <img src="../../../assets/rs_school_js.svg" class="footer_image">
+</footer>

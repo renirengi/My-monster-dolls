@@ -10,7 +10,7 @@ import { UserPageComponent } from '../user-page/user-page.component';
 @Component({
   selector: 'app-start-page',
   templateUrl: './start-page.component.html',
-  styleUrls: ['./start-page.component.scss'],
+  // styleUrls: ['./start-page.component.scss'],
 })
 export class StartPageComponent implements OnInit {
   constructor(private router: Router, public dialog: MatDialog) {}
@@ -30,4 +30,5 @@ export class StartPageComponent implements OnInit {
       width: '110vh',
     });
   }
+
 }

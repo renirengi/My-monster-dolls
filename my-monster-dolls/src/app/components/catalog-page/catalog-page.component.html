@@ -1,8 +1,20 @@
-<section class="head">
+<header class="header">
   <div class="icons-settings">
-    <button class="background-picture">background</button>
-    <button class="music">Music</button>
-    <button class="language">Language</button>
+    <mat-icon aria-hidden="false" aria-label="Example home icon">
+      <span class="material-icons">
+        language
+      </span>
+    </mat-icon>
+    <mat-icon aria-hidden="false" aria-label="Example home icon">
+      <span class="material-icons">
+        music_note
+      </span>
+    </mat-icon>
+    <mat-icon aria-hidden="false" aria-label="Example home icon">
+      <span class="material-icons">
+        wallpaper
+      </span>
+    </mat-icon>
   </div>
   <div class="input-container">
     <input matInput placeholder="Placeholder" class="input input-search">
@@ -10,7 +22,7 @@
     <button mat-stroked-button (click)="goToAdvSearchPage()">Advanced Search</button>
   </div>
   <button class="user-profile">User</button>
-</section>
+</header>
 <section class="catalog-main">
 <div class="pages">
   <dolls-list
@@ -25,7 +37,19 @@
 <ng-template #loading>Loading...</ng-template>
 
 </section>
-
+<footer class="footer">
+  <div>
+    <span>
+      teamcomp
+    </span>
+  </div>
+  <div>
+    <span>
+      2022
+    </span>
+  </div>
+  <img src="../../../assets/rs_school_js.svg" class="footer_image">
+</footer>
 
 
 

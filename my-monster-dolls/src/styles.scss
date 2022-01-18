@@ -7,7 +7,6 @@
 @use 'styles/start-page.scss';
 @use 'styles/user-page.scss';
 
-
 body {
   background-color: black;
   color: white;
@@ -22,7 +21,7 @@ body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
-.head {
+.header {
   height: 10vh;
   width: 100%;
   display: flex;
@@ -45,6 +44,16 @@ body {
       border: 2px solid black;
       border-radius: 30px;
     }
+  }
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 9%;
+  &_image{
+    width: 150px;
   }
 }
 .main,

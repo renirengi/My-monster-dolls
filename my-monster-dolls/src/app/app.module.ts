@@ -17,11 +17,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { DollsService } from './services/dolls-service.service';
 import { MatButtonModule } from '@angular/material/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import {MatIconModule} from '@angular/material/icon';
+import { MatIconModule } from '@angular/material/icon';
 import { SearchPageComponent } from './components/search-page/search-page.component';
 import { AdvSearchPageComponent } from './components/adv-search-page/adv-search-page.component';
 import { DollCardComponent } from './components/doll-card/doll-card.component';
 import { DollsListComponent } from './components/dolls-list/dolls-list.component';
+import { MatSelectModule } from '@angular/material/select';
+import {MatListModule} from '@angular/material/list';
+import {MatCheckboxModule} from '@angular/material/checkbox';
 @NgModule({
   declarations: [
     AppComponent,
@@ -48,6 +51,9 @@ import { DollsListComponent } from './components/dolls-list/dolls-list.component
     ReactiveFormsModule,
     MatInputModule,
     MatIconModule,
+    MatSelectModule,
+    MatListModule,
+    MatCheckboxModule,
   ],
   providers: [DollsService],
   bootstrap: [AppComponent],
