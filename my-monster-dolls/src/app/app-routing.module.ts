@@ -4,8 +4,7 @@ import { StartPageComponent } from './components/start-page/start-page.component
 import { MainPageComponent } from './components/main-page/main-page.component';
 import { UserPageComponent } from './components/user-page/user-page.component';
 import { CatalogPageComponent } from './components/catalog-page/catalog-page.component';
-import { SearchPageComponent } from './components/search-page/search-page.component';
-import { AdvSearchPageComponent } from './components/adv-search-page/adv-search-page.component';
+
 
 
 const routes: Routes = [
@@ -13,9 +12,6 @@ const routes: Routes = [
   { path: 'main-component', component: MainPageComponent },
   { path: 'user-component', component: UserPageComponent },
   { path: 'catalog-component', component: CatalogPageComponent },
-  { path: 'search-component', component: SearchPageComponent },
-  { path: 'adv-search-component', component: AdvSearchPageComponent },
-
 ];
 
 @NgModule({

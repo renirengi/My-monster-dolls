@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { lastValueFrom } from 'rxjs';
 import { IDoll } from '../../models';
 import { DollsService } from '../../services/dolls-service.service';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-catalog-page',
@@ -11,20 +10,15 @@ import { Router } from '@angular/router';
 export class CatalogPageComponent implements OnInit {
 
   public dolls!: IDoll[];
-  public lastPage = 1;
+  private lastPage: number = 1;
+  public displayedPage: number|null = 1;
+  public showLoadMore: boolean = true;
+  public appliedFilters?: {[key: string]: string};
 
-  constructor(private dollsService: DollsService, private router: Router) { }
+  constructor(private dollsService: DollsService) { }
 
   async ngOnInit(): Promise<void> {
     this.dolls = await lastValueFrom(this.dollsService.getDollsPage(this.lastPage));
-  }
-
-  public goToSearchPage() {
-    this.router.navigate(['/search-component']);
-  }
-
-  public goToAdvSearchPage() {
-    this.router.navigate(['/adv-search-component']);
   }
 
   public async onLoadMore() {
@@ -32,6 +26,13 @@ export class CatalogPageComponent implements OnInit {
 
     this.dolls = [...this.dolls, ...newDolls];
     this.lastPage += 1;
+    this.displayedPage = this.lastPage;
+  }
+
+  public async applyFilters(params: {[key: string]: string}) {
+    this.dolls = await lastValueFrom(this.dollsService.findDollsByParams(params));
+    this.displayedPage = null;
+    this.showLoadMore = false;
   }
 
 }

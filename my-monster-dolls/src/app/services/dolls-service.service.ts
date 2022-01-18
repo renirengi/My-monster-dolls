@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable, shareReplay } from 'rxjs';
+import { map, Observable, shareReplay } from 'rxjs';
 import { IDoll } from '../models';
 
 @Injectable({
@@ -37,5 +37,21 @@ export class DollsService {
 
   private sanitiseGetParam(str: string): string {
     return str.replace(/[^a-z0-9áéíóúñü \.,_-]/gim,"").trim().replace(/ +/g, '%20');
+  }
+
+  public findDollsByParams(params: {[key: string]: string}): Observable<IDoll[]> {
+    return this.http.get<IDoll[]>(this.baseUrl, { params });
+  }
+
+  public getAvalableYears(): Observable<number[]> {
+    return this.http.get<IDoll[]>(this.baseUrl).pipe(
+      map((dolls) => {
+        const years = new Set();
+
+        dolls.forEach((doll) => years.add(doll.year));
+
+        return Array.from(years) as number[];
+      })
+    );
   }
 }

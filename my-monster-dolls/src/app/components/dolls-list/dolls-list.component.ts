@@ -7,7 +7,7 @@ import { IDoll } from '../../models';
 })
 export class DollsListComponent {
   @Input() dolls!: IDoll[];
-  @Input() currentPage?: number;
+  @Input() currentPage: number|null = null;
   @Input() showLoadMore: boolean = false;
   @Output() loadMore = new EventEmitter()
 

@@ -1,35 +1,12 @@
-<header class="header">
-  <div class="icons-settings">
-    <mat-icon aria-hidden="false" aria-label="Example home icon">
-      <span class="material-icons">
-        language
-      </span>
-    </mat-icon>
-    <mat-icon aria-hidden="false" aria-label="Example home icon">
-      <span class="material-icons">
-        music_note
-      </span>
-    </mat-icon>
-    <mat-icon aria-hidden="false" aria-label="Example home icon">
-      <span class="material-icons">
-        wallpaper
-      </span>
-    </mat-icon>
-  </div>
-  <div class="input-container">
-    <input matInput placeholder="Placeholder" class="input input-search">
-    <button mat-stroked-button (click)="goToSearchPage()">Search</button>
-    <button mat-stroked-button (click)="goToAdvSearchPage()">Advanced Search</button>
-  </div>
-  <button class="user-profile">User</button>
-</header>
+<catalog-filters (filtersChanged)="applyFilters($event)"></catalog-filters>
+
 <section class="catalog-main">
 <div class="pages">
   <dolls-list
     *ngIf="dolls; else loading"
     [dolls]="dolls"
-    [currentPage]="lastPage"
-    [showLoadMore]="true"
+    [currentPage]="displayedPage"
+    [showLoadMore]="showLoadMore"
     (loadMore)="onLoadMore()"
   ></dolls-list>
 </div>
