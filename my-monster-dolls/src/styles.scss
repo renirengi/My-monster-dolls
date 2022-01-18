@@ -47,12 +47,21 @@ body {
     }
   }
 }
-.main {
+.main,
+.ad-search-main {
   position: relative;
   color: black;
-  height: 80vh;
   width: 80%;
   margin: 0 auto;
   border: 2px solid white;
   background-color: white;
 }
+
+.ad-search-main {
+  height: auto;
+}
+
+.main {
+  height: 80vh;
+}
+

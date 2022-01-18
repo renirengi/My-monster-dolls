@@ -1,4 +1,4 @@
-<!-- <section class="head">
+<section class="head">
   <div class="icons-settings">
     <button class="background-picture">background</button>
     <button class="music">Music</button>
@@ -11,14 +11,8 @@
   </div>
   <button class="user-profile">User</button>
 </section>
-<section class="main">
-
-</section>
-
-
- -->
-
-<section class="pages">
+<section class="catalog-main">
+<div class="pages">
   <dolls-list
     *ngIf="dolls; else loading"
     [dolls]="dolls"
@@ -26,6 +20,12 @@
     [showLoadMore]="true"
     (loadMore)="onLoadMore()"
   ></dolls-list>
-</section>
+</div>
 
 <ng-template #loading>Loading...</ng-template>
+
+</section>
+
+
+
+

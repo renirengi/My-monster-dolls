@@ -7,10 +7,109 @@
   <div class="input-container">
     <input matInput placeholder="Placeholder" class="input input-search">
     <button mat-stroked-button (click)="goToSearchPage()">Search</button>
-    <button mat-stroked-button (click)="goToAdvSearchPage()">Advanced Search</button>
+
   </div>
   <button class="user-profile">User</button>
 </section>
-<section class="main">
-  <p>Это расширенный поиск. Здесь форма расширенного поиска. Фильтры: предмет поиска (doll, playset, fashion packs, electrocuties, minis, Plush и т.д), год выпуска(выпадающий список с множественным выбором) (формируется динамически), коллекция  выпадающий список (формируется динамически), персонаж выпадающий список (тоже динамически), эксклюзив выпадающий список (тоже динамически), чекбокс только Comic Con, инпут поиск по ключесвым словам. Найденное отображается под фильтрами.Если совпадений нет, отображается сообщение что ничего не найдено </p>
+<section class="ad-search-main">
+  <div class="search-form">
+    <div class="search-type">
+      <p>Search by type:</p>
+      <select class="type" name="type[]" multiple="multiple" size="5">
+        <option value="Doll">Doll</option>
+        <option value="Playset">Playset</option>
+        <option value="Multipack">Multipack</option>
+        <option value="Plush">Plush</option>
+        <option value="Budget">Budget</option>
+        <option value="Create-A-Monster">Create-A-Monster</option>
+        <option value="Electrocuties">Electrocuties</option>
+        <option value="Fashion Packs">Fashion Packs</option>
+        <option value="Fash’ems">Fash’ems</option>
+        <option value="Fright-Mares">Fright-Mares</option>
+        <option value="Funko Pop!">Funko Pop!</option>
+        <option value="Apptivity – Finders Creepers">Apptivity – Finders Creepers</option>
+        <option value="Inner Monstert">Inner Monstert</option>
+        <option value="Mega Bloks">Mega Bloks</option>
+        <option value="Minis">Minis</option>
+        <option value="Monster Cross">Monster Cross</option>
+        <option value="Monster Pen">Monster Pen</option>
+        <option value="Ornaments">Ornaments</option>
+        <option value="Rock Candy">Rock Candy</option>
+        <option value="Scary Cute Figures">Scary Cute Figures</option>
+        <option value="Secret Creepers">Secret Creepers</option>
+        <option value="Vinyl">Vinyl</option>
+      </select>
+      <p>Press cltr to select multiple items</p>
+    </div>
+    <div class="search-year">
+      <p>Search by year:</p>
+      <select class="years" name="years[]" multiple="multiple" size="5">
+        <option value="2010">2010</option>
+        <option value="2011">2011</option>
+        <option value="2012">2012</option>
+        <option value="2013">2013</option>
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+      </select>
+      <p>Press cltr to select multiple items</p>
+    </div>
+    <div class="search-character">
+      <p>Search by character:</p>
+      <select class="character" >
+      </select>
+    </div>
+    <div class="search-series">
+      <p>Search by series:</p>
+      <select class="series" >
+      </select>
+    </div>
+
+    <div class="reissue-container">
+    Don't use reissue
+      <div class="reissue-group">
+        <input type="checkbox" class="reissue-group-input" id="checkbox"/>
+        <label for="checkbox" class="reissue-group-input-label"></label>
+      </div>
+    </div>
+    <div class="exclusive-container">
+      Only exclusives
+      <div class="exclusives-group">
+        <input type="checkbox" class="exclusives-group-input" id="checkbox"/>
+        <label for="checkbox" class="exclusives-group-input-label"></label>
+      </div>
+    </div>
+    <div class="comiccon-container">
+      Only ComicCon's exclusive
+      <div class="comiccon-group">
+        <input type="checkbox" class="comiccon-group-input" id="checkbox"/>
+        <label for="checkbox" class="comiccon-group-input-label"></label>
+      </div>
+    </div>
+    <div class="comiccon-container">
+      Only Skullector
+      <div class="skullector">
+        <input type="checkbox" class="skullector-group-input" id="checkbox"/>
+        <label for="checkbox" class="skullector-group-input-label"></label>
+      </div>
+    </div>
+  </div>
+
+  <div class="pages">
+    <dolls-list
+    *ngIf="dolls; else loading"
+    [dolls]="dolls"
+    [currentPage]="lastPage"
+    [showLoadMore]="true"
+    (loadMore)="onLoadMore()"
+  ></dolls-list>
+</div>
+
+<ng-template #loading>Loading...</ng-template>
+
 </section>
