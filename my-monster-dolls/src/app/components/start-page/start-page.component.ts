@@ -6,6 +6,7 @@ import {
   MAT_DIALOG_DATA,
 } from '@angular/material/dialog';
 import { UserPageComponent } from '../user-page/user-page.component';
+import { LoginPageComponent } from '../login-page/login-page.component';
 
 @Component({
   selector: 'app-start-page',
@@ -25,10 +26,14 @@ export class StartPageComponent implements OnInit {
     this.router.navigate(['/catalog-component']);
   }
 
-  public openDialog(): void {
+  public openSignupDialog(): void {
     const dialogRef = this.dialog.open(UserPageComponent, {
-      width: '110vh',
+      width: '50vh',
     });
   }
-
+  public openLoginDialog(): void {
+    const dialogRef = this.dialog.open(LoginPageComponent, {
+      width: '50vh',
+    });
+  }
 }

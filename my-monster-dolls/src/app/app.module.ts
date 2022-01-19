@@ -26,6 +26,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { HeaderComponent } from './components/header/header.component';
 import { CatalogFiltersComponent } from './components/catalog-filters/catalog-filters.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { LoginPageComponent } from './components/login-page/login-page.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { FooterComponent } from './components/footer/footer.component';
     DollsListComponent,
     HeaderComponent,
     CatalogFiltersComponent,
-    FooterComponent
+    FooterComponent,
+    LoginPageComponent,
   ],
   imports: [
     BrowserModule,
