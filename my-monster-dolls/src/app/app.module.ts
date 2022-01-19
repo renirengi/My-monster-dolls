@@ -21,10 +21,12 @@ import { MatIconModule } from '@angular/material/icon';
 import { DollCardComponent } from './components/doll-card/doll-card.component';
 import { DollsListComponent } from './components/dolls-list/dolls-list.component';
 import { MatSelectModule } from '@angular/material/select';
-import {MatListModule} from '@angular/material/list';
-import {MatCheckboxModule} from '@angular/material/checkbox';
+import { MatListModule } from '@angular/material/list';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 import { HeaderComponent } from './components/header/header.component';
 import { CatalogFiltersComponent } from './components/catalog-filters/catalog-filters.component';
+import { FooterComponent } from './components/footer/footer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +39,7 @@ import { CatalogFiltersComponent } from './components/catalog-filters/catalog-fi
     DollsListComponent,
     HeaderComponent,
     CatalogFiltersComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
