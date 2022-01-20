@@ -7,6 +7,7 @@ import { IDoll } from '../models';
   providedIn: 'root',
 })
 export class DollsService {
+  [x: string]: any;
   private readonly baseUrl = 'http://localhost:3000/dolls';
 
   constructor(private http: HttpClient) {}
@@ -43,15 +44,29 @@ export class DollsService {
     return this.http.get<IDoll[]>(this.baseUrl, { params });
   }
 
-  public getAvalableYears(): Observable<number[]> {
-    return this.http.get<IDoll[]>(this.baseUrl).pipe(
+  public getAvailable(value:string): Observable<string[]> {
+    return this.http.get<IDoll[]>('http://localhost:3000/dolls').pipe(
       map((dolls) => {
         const years = new Set();
-
-        dolls.forEach((doll) => years.add(doll.year));
-
-        return Array.from(years) as number[];
+        if (value==='year') {
+        dolls.forEach((doll) => years.add(doll.year));}
+        else if (value==='type') {
+          dolls.forEach((doll) => years.add(doll.type));
+        }
+        else if (value==='series') {
+          dolls.forEach((doll) => years.add(doll.series));
+        }
+        else if (value==='exclusive') {
+          dolls.forEach((doll) => years.add(doll.exclusive));
+        }
+        else if (value==='character') {
+          dolls.forEach((doll) => years.add(doll.character));
+        }
+        return Array.from(years) as string[];
       })
     );
   }
+
 }
+
+

@@ -1,12 +1,15 @@
 doll-card {
   box-sizing: border-box;
+  margin: 3em 0;
   display: block;
-  border: 1px dashed red;
+  border: 2px solid black;
+  border-radius: 30px;
   width: 40%;
-  height: 30vh;
+  height: 34vh;
   overflow: hidden;
   padding: 1em 15% 1em 1em;
   position: relative;
+  background-color: white;
 
   h3 {
     margin-top: 0;
@@ -15,11 +18,9 @@ doll-card {
   img {
     height: 30vh;
     position: absolute;
+    padding: 1em;
     right: 0;
     top: 0;
   }
 
-  p.description {
-    font-size: 0.8em;
-  }
 }

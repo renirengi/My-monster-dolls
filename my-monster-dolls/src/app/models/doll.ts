@@ -1,4 +1,5 @@
 export interface IDoll {
+  value(value: any): void;
   character?: string[];
   description: string[];
   galleryImagesFileNames: string[];

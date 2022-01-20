@@ -1,93 +1,72 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
-import { FormControl } from '@angular/forms';
-
-
-
+import { FormControl, FormGroup } from '@angular/forms';
+import { Observable } from 'rxjs';
+import { DollsService } from '../../services/dolls-service.service';
 
 @Component({
   selector: 'catalog-filters',
   templateUrl: './catalog-filters.component.html',
 })
-
-
 export class CatalogFiltersComponent implements OnInit {
-  @Output() filtersChanged = new EventEmitter<{[key: string]: string}>();
+  @Output() filtersChanged = new EventEmitter<{ [key: string]: string }>();
 
-  private filterParams: {[key: string]: string} = {};
+  public filtersForm = new FormGroup({
+    character: new FormControl([]),
+    year: new FormControl([]),
+    type: new FormControl([]),
+    series: new FormControl([]),
+    exclusive: new FormControl([]),
+    notReissue: new FormControl(false),
+  });
 
-  yearControl = new FormControl();
+  public characters$: Observable<string[]>;
 
-  years = [
-    {value: '2010', name: '2010'},
-    {value: '2011', name: '2011'},
-    {value: '2012', name: '2012'},
-    {value: '2013', name: '2013'},
-    {value: '2014', name: '2014'},
-    {value: '2015', name: '2015'},
-    {value: '2016', name: '2016'},
-    {value: '2017', name: '2017'},
-    {value: '2018', name: '2018'},
-    {value: '2019', name: '2019'},
-    {value: '2020', name: '2020'},
-    {value: '2021', name: '2021'},
+  public years$: Observable<string[]>;
 
-  ];
+  public types$: Observable<string[]>;
 
-  constructor() { }
+  public serieses$: Observable<string[]>;
 
-  ngOnInit(): void {
+  public exclusives$: Observable<string[]>;
+
+  constructor(private dollsService: DollsService) {
+    this.characters$ = this.dollsService.getAvailable('character');
+    this.years$ = this.dollsService.getAvailable('year');
+    this.types$ = this.dollsService.getAvailable('type');
+    this.serieses$ = this.dollsService.getAvailable('series');
+    this.exclusives$ = this.dollsService.getAvailable('exclusive')
   }
 
-  onYearClick(event: any) {
-    let array = this.yearControl.value;
-    let arrayYears:string[]=[];
-    array.forEach((elem:any) => arrayYears.push(`(${elem.name})`));
-    let string = arrayYears.join('|');
-    this.filterParams['year_like'] = string;
-    this.filtersChanged.emit(this.filterParams);
+  public ngOnInit(): void {}
+
+  public onChange() {
+    let filterParams: { [key: string]: string } = {};
+
+    filterParams = Object.entries(this.filtersForm.value).reduce((acc, [key, value]) => {
+      let keyString: string;
+      let valueString: string;
+
+      if (Array.isArray(value) && value.length > 0) {
+        keyString = `${key}_like`;
+        valueString = value.reduce((acc, val, i) => i === 0 ? `(${val})`: `${acc}|(${val})`, '');
+        acc = {...acc, [keyString]: valueString};
+      } else if (typeof value === 'boolean' && value === true) {
+        [keyString, valueString] = this.booleanFilterGenerator(key);
+        acc = {...acc, [keyString]: valueString};
+      }
+
+      return acc;
+    }, {});
+
+    this.filtersChanged.emit(filterParams);
   }
 
+  private booleanFilterGenerator(key: string): string[] {
+    const config: {[key: string]: () => string[]} = {
+      notReissue: () => ['reissue', 'false'],
+    };
 
-  onExclusiveClick(event: any) {
-    if (event.checked) {
-      this.filterParams['exclusive_like'] = '';
-    } else {
-      delete this.filterParams['exclusive_like'];
-    }
-
-    this.filtersChanged.emit(this.filterParams);
+    return config[key]();
   }
-
-  onComicConClick(event: any) {
-    if (event.checked) {
-      this.filterParams['exclusive_like'] = 'Comic Con';
-    } else {
-      delete this.filterParams['exclusive_like'];
-    }
-
-    this.filtersChanged.emit(this.filterParams);
-  }
-  onSkullectorClick(event: any) {
-    if (event.checked) {
-      this.filterParams['series_like'] = 'Skullector';
-    } else {
-      delete this.filterParams['series_like'];
-    }
-
-    this.filtersChanged.emit(this.filterParams);
-  }
-
-  onReissueClick(event: any) {
-    if (event.checked) {
-      this.filterParams['reissue_like'];
-    } else {
-      delete this.filterParams['reissue_like'];
-    }
-
-    this.filtersChanged.emit(this.filterParams);
-  }
-
-
-
 
 }

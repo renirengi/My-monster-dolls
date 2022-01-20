@@ -57,17 +57,27 @@ body {
   }
 }
 .main,
-.ad-search-main {
-  position: relative;
+.catalog-filter-main,
+.cards-container {
   color: black;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   border: 2px solid white;
+  border-radius: 30px;
   background-color: white;
+
 }
 
-.ad-search-main {
+.catalog-filter-main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
   height: auto;
+}
+
+.cards-container {
+  background-color:black;
+  border: none;
 }
 
 .main {
