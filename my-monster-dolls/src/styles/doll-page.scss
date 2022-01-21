@@ -1,3 +1,5 @@
+$font-color:  #f8caf8;
+
 .doll-page-container h3{
   padding: 1em;
   text-align: center;
@@ -19,10 +21,10 @@ p {
   font-size: 20px;
 }
 
-span {
-  color: blue;
-  font-size: 25px;
-}
+// span {
+//   color: $font-color;
+//   font-size: 20px;
+// }
 
 .doll-text  {
   padding: 1em 3em;

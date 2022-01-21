@@ -1,16 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import {
-  MatDialog,
-  MatDialogRef,
-  MAT_DIALOG_DATA,
-} from '@angular/material/dialog';
+import { MatDialog } from '@angular/material/dialog';
 import { UserPageComponent } from '../user-page/user-page.component';
 import { LoginPageComponent } from '../login-page/login-page.component';
 
 @Component({
   selector: 'app-start-page',
-  templateUrl: './start-page.component.html'
+  templateUrl: './start-page.component.html',
 })
 export class StartPageComponent implements OnInit {
   constructor(private router: Router, public dialog: MatDialog) {}
