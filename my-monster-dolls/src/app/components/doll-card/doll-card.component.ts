@@ -1,16 +1,17 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { IDoll } from '../../models';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'doll-card',
-  templateUrl: './doll-card.component.html'
+  templateUrl: './doll-card.component.html',
 })
-export class DollCardComponent implements OnInit {
+export class DollCardComponent {
   @Input() doll!: IDoll;
 
-  constructor() { }
+  constructor(private router: Router) {}
 
-  ngOnInit(): void {
+  public goToDollPage(doll: IDoll) {
+    this.router.navigate([`/catalog/${doll.id}`]);
   }
-
 }

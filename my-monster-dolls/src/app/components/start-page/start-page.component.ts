@@ -10,8 +10,7 @@ import { LoginPageComponent } from '../login-page/login-page.component';
 
 @Component({
   selector: 'app-start-page',
-  templateUrl: './start-page.component.html',
-  // styleUrls: ['./start-page.component.scss'],
+  templateUrl: './start-page.component.html'
 })
 export class StartPageComponent implements OnInit {
   constructor(private router: Router, public dialog: MatDialog) {}
@@ -23,7 +22,7 @@ export class StartPageComponent implements OnInit {
     this.router.navigate(['/main-component']);
   }
   public goToCatalogPage() {
-    this.router.navigate(['/catalog-component']);
+    this.router.navigate(['/catalog']);
   }
 
   public openSignupDialog(): void {

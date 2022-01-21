@@ -6,6 +6,7 @@
 @use 'styles/modal-form.scss';
 @use 'styles/start-page.scss';
 @use 'styles/user-page.scss';
+@use 'styles/doll-page.scss';
 
 body {
   background-color: black;
@@ -58,7 +59,8 @@ body {
 }
 .main,
 .catalog-filter-main,
-.cards-container {
+.cards-container,
+.doll-page-container {
   color: black;
   width: 90%;
   margin: 0 auto;

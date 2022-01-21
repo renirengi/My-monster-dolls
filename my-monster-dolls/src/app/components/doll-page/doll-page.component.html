@@ -1,0 +1,18 @@
+<ng-container *ngIf="doll$ | async as doll;" >
+  <div class="doll-page-container">
+  <h3>{{doll.character}}</h3>
+  <div class="doll-page-information">
+  <img [src]="doll.galleryImagesLinks[0]"/>
+  <div class="doll-page-text">
+  <p><span>Series:</span> {{doll.series}}</p>
+  <p><span>Year:</span> {{doll.year}}</p>
+  <p><span>Type:</span> {{doll.type}}</p>
+  <p><span>Gender:</span> {{doll.gender}}</p>
+  <p><span>Number:</span> {{doll.modelNumber}}</p>
+  <p><span>Reissue:</span> {{doll.reissue}}</p>
+   </div>
+
+  </div>
+  <p class="doll-text"><span>Description:<br></span> {{doll.description}}</p>
+  </div>
+</ng-container>

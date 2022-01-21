@@ -16,8 +16,8 @@ export class HeaderComponent implements OnInit {
     this.router.navigate(['/search-component']);
   }
 
-  public goToAdvSearchPage() {
-    this.router.navigate(['/adv-search-component']);
+  public goToUserPage() {
+    this.router.navigate(['/user-component']);
   }
 
 }

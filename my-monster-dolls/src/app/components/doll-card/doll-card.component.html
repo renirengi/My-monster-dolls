@@ -1,7 +1,8 @@
-<ng-container *ngIf="doll">
+<ng-container *ngIf="doll" >
   <img [src]="doll.galleryImagesLinks[0]"/>
   <h3>{{doll.character}}</h3>
   <p>Series: {{doll.series}}</p>
   <p>Year: {{doll.year}}</p>
   <p>Type: {{doll.type}}</p>
+  <button mat-stroked-button (click)="goToDollPage(doll)">Read more</button>
 </ng-container>

@@ -27,6 +27,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { CatalogFiltersComponent } from './components/catalog-filters/catalog-filters.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LoginPageComponent } from './components/login-page/login-page.component';
+import { DollPageComponent } from './components/doll-page/doll-page.component';
 
 @NgModule({
   declarations: [
@@ -42,6 +43,7 @@ import { LoginPageComponent } from './components/login-page/login-page.component
     CatalogFiltersComponent,
     FooterComponent,
     LoginPageComponent,
+    DollPageComponent,
   ],
   imports: [
     BrowserModule,
