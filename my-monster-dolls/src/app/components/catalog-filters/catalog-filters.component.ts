@@ -1,7 +1,7 @@
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { Observable } from 'rxjs';
-import { DollsService } from '../../services/dolls-service.service';
+import { DollsService } from '../../services/dolls.service';
 
 @Component({
   selector: 'catalog-filters',

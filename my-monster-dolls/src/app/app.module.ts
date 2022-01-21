@@ -14,7 +14,7 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { HttpClientModule } from '@angular/common/http';
-import { DollsService } from './services/dolls-service.service';
+import { DollsService } from './services/dolls.service';
 import { MatButtonModule } from '@angular/material/button';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
@@ -28,6 +28,8 @@ import { CatalogFiltersComponent } from './components/catalog-filters/catalog-fi
 import { FooterComponent } from './components/footer/footer.component';
 import { LoginPageComponent } from './components/login-page/login-page.component';
 import { DollPageComponent } from './components/doll-page/doll-page.component';
+import { UsersService } from './services/users.service';
+import { RegisterPageComponent } from './components/register-page/register-page.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +46,7 @@ import { DollPageComponent } from './components/doll-page/doll-page.component';
     FooterComponent,
     LoginPageComponent,
     DollPageComponent,
+    RegisterPageComponent,
   ],
   imports: [
     BrowserModule,
@@ -62,7 +65,7 @@ import { DollPageComponent } from './components/doll-page/doll-page.component';
     MatListModule,
     MatCheckboxModule,
   ],
-  providers: [DollsService],
+  providers: [DollsService, UsersService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

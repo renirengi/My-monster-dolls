@@ -4,7 +4,7 @@ $font-color:  #f8caf8;
   padding: 1em;
   text-align: center;
   width: 100%;
-  color: blue;
+  color: gold;
   text-transform: uppercase;
   font-size: 40px;
 }
@@ -21,10 +21,10 @@ p {
   font-size: 20px;
 }
 
-// span {
-//   color: $font-color;
-//   font-size: 20px;
-// }
+.span-title {
+  color: gold;
+  font-size: 25px;
+}
 
 .doll-text  {
   padding: 1em 3em;

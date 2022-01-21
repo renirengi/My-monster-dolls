@@ -1,0 +1,62 @@
+<mat-card>
+  <p>
+    <mat-form-field appearance="legacy">
+        <mat-label>Nickname</mat-label>
+        <input matInput autocomplete="off">
+    </mat-form-field>
+  </p>
+
+  <p>
+    <mat-form-field appearance="legacy">
+        <mat-label>Country</mat-label>
+        <input matInput autocomplete="off">
+    </mat-form-field>
+  </p>
+    <div class="email-container">
+        <mat-form-field appearance="fill">
+            <mat-label>Enter your email</mat-label>
+            <input matInput placeholder="pat@example.com" [formControl]="email" required>
+            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+    </div>
+    <form class="tel-form">
+        <mat-form-field class="example-full-width" appearance="fill">
+          <span matPrefix>+&nbsp;</span>
+          <input type="tel" matInput placeholder="555-555-1234" autocomplete="off">
+          <mat-icon matSuffix>mode_edit</mat-icon>
+        </mat-form-field>
+      </form>
+
+    <p>
+        <mat-form-field appearance="legacy">
+            <mat-label>Birthday</mat-label>
+            <input matInput autocomplete="off">
+        </mat-form-field>
+    </p>
+
+    <div class="password-container">
+      <mat-form-field appearance="fill">
+          <mat-label>Enter your password</mat-label>
+          <input matInput [(ngModel)] = "passwordInput" [type]="hide ? 'password' : 'text'">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+              [attr.aria-pressed]="hide">
+              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+      </mat-form-field>
+    </div>
+
+    <div class="password-container">
+      <mat-form-field appearance="fill">
+          <mat-label>Password confirmation</mat-label>
+          <input matInput  [(ngModel)] = "passwordConfirmInput"  [type]="hide ? 'password' : 'text'">
+          <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+              [attr.aria-pressed]="hide">
+              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </button>
+      </mat-form-field>
+    </div>
+    <div>
+      <button mat-stroked-button (click)="checkingFunc()"> check </button>
+    </div>
+  </mat-card>
+

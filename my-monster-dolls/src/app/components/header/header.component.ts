@@ -20,5 +20,8 @@ export class HeaderComponent implements OnInit {
   public goToUserPage() {
     this.router.navigate(['/user-component']);
   }
+  public goToRegisterPage() {
+    this.router.navigate(['/register-page']);
+  }
 
 }

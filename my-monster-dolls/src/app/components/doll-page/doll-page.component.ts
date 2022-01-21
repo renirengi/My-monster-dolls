@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { map, Observable, switchMap } from 'rxjs';
 import { IDoll } from 'src/app/models';
-import { DollsService } from 'src/app/services/dolls-service.service';
+import { DollsService } from 'src/app/services/dolls.service';
 
 @Component({
   selector: 'app-doll-page',

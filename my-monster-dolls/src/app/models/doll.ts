@@ -12,5 +12,4 @@ export interface IDoll {
   year: number;
   exclusive?: string;
   reissue?: boolean;
-
 }

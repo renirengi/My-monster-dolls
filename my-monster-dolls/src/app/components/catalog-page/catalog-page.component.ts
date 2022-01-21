@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { lastValueFrom } from 'rxjs';
 import { IDoll } from '../../models';
-import { DollsService } from '../../services/dolls-service.service';
+import { DollsService } from '../../services/dolls.service';
 
 @Component({
   selector: 'app-catalog-page',
