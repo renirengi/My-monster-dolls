@@ -1,21 +1,33 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, Validators } from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { map, Observable } from 'rxjs';
+import { UsersService } from 'src/app/services/users.service';
 @Component({
   selector: 'app-login-page',
   templateUrl: './login-page.component.html',
-  styleUrls: ['./login-page.component.scss']
 })
 export class LoginPageComponent implements OnInit {
-  email = new FormControl('', [Validators.required, Validators.email]);
-  hide = true;
-  constructor() {}
+  public result$?: Observable<string>;
+  public showConfirmation = true;
+  public passwordInput: string = '';
+  public loginForm = new FormGroup({
+    email: new FormControl('', [Validators.required, Validators.email]),
+    password: new FormControl('', [
+      Validators.minLength(3),
+      Validators.maxLength(16),
+    ]),
+  });
+
+  constructor(private usersService: UsersService) {}
 
   ngOnInit(): void {}
-  public getErrorMessage() {
-    if (this.email.hasError('required')) {
-      return 'You must enter a value';
-    }
-    return this.email.hasError('email') ? 'Not a valid email' : '';
-  }
 
+  public onSubmit() {
+    const email = this.loginForm.value['email'];
+    const password = this.loginForm.value['password'];
+
+    this.result$ = this.usersService.loginUser(email, password).pipe(
+      map((result) => result ? 'Success' : 'nope')
+    );
+  }
 }

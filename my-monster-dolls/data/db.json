@@ -1,5 +1,16 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": 1,
+      "email": "tomieForever@gmail.com",
+      "name": "Renisenb",
+      "password": "65e84be33532fb784c48129675f9eff3a682b27168c0ea744b2cf58ee02337c5",
+      "rights": 2,
+      "personalData": {
+        "birthday": "1989-12-18T21:00:00.000Z"
+      }
+    }
+  ],
   "dolls": [
     {
       "year": 2010,
@@ -193,7 +204,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/03/Mirror-Bed-2.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/03/Mirror-Bed.jpg"
       ],
-      "galleryImagesFileNames": ["v2953_-0", "v2953_-1", "v2953_-2"],
+      "galleryImagesFileNames": [
+        "v2953_-0",
+        "v2953_-1",
+        "v2953_-2"
+      ],
       "description": "The Mirror Bed is actually a rotatable laboratory table. The table is silver with two pink & blue striped lightning bolts, a pair of black neck bolt clamps, a pair of clamps in the middle, and another pair at the foot. The black & blue headboard has two pink & purple plasma balls and a storage compartment with clear doors. The black & blue footboard has a retractable TV.\nThe bed is held by two blue legs that attach to a black base. There is a pink & silver crank which allows the bed to be rotated. On the underside of the table bed is a real mirror. When turned to a vertical position Frankie Stein can use it as a full-length mirror.\nWith the bed is a pillow and blanket. The pillow is white with a diagonal blue stitched line pattern and pink frills on the sides. The blanket has two designs. The first is blue checkered with black lightning bolts and pink squares with various images. The second part is white and matches the pillow with the diagonal blue stitched line pattern.\nAccessories for the playset include a silver staple gun, silver scissors, silver need & thread, a blue drink box with silver straw, and a journal with a blue pen. Also included is a life-size blue comb with pink lightning bolts.",
       "type": "Playsets",
       "id": 10,
@@ -229,7 +244,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/03/Scream-Uniform-Deuce-Gorgon-L.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/03/Scream-Uniform-Deuce-Gorgon-Box.jpg"
       ],
-      "galleryImagesFileNames": ["t7985_-0", "t7985_-1", "t7985_-2"],
+      "galleryImagesFileNames": [
+        "t7985_-0",
+        "t7985_-1",
+        "t7985_-2"
+      ],
       "description": "Deuce will look awesome on the court when he wears this casketball uniform. It features a sleeveless black jersey with a pink v-neck, “Monster High” and “13” on the front, and pink & white on the hem. The shorts are also black with pink & white on the hem. The white socks have a pink line and black diamond-shaped scales at the top.\nThe shoes are black, green & white high tops with green laces and light green scales on the sides. Also included are green sport sunglasses, a black & pink basketball, and a trading card of Deuce in his uniform. ",
       "type": "Fashion Packs",
       "id": 12,
@@ -1067,7 +1086,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/03/Day-at-the-Maul-Fashion-Pack-box.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/03/Day-at-the-Maul-Fashion-Pack.jpg"
       ],
-      "galleryImagesFileNames": ["v7969_-0", "v7969_-1", "v7969_-2"],
+      "galleryImagesFileNames": [
+        "v7969_-0",
+        "v7969_-1",
+        "v7969_-2"
+      ],
       "description": "This awesome fashion pack features amazing outfits designed for Draculaura and Frankie Stein. It also has some extra items that are perfect for Clawdeen Wolf.\nThe first ensemble has a multi-layered black top with pink hearts, pink trim, and a white strip with pink ruffles on the front. The turtleneck and sleeves are made of white fishnet. The double-layered skirt has a light pink layer and a dark pink layer; both layers have black mesh frills. Under the skirt are tights that are a combination of white fishnet and black thigh high stockings with pink bows. The shoes are pink with bow ankle straps and silver heels with hearts.\nAccessories for the outfit are a pink barrette and white skullette dangle earrings with pink bows. The pink heart-shaped purse has dark pink bows and a black strap. Also included is a pink cup with pink straws and a pink & white M&H shopping bag.\nThe second outfit sports an extra-long light blue top with a red & white crisscross pattern. To go with the shirt is a small silver vest with red stitching and a red lightning bolt. The pants are a pattern of black, red, and blue diamonds with a crisscross of silver stitches. The black & blue sneakers each boast silver laces and soles, red lightning bolts, and red bolts on the heels.\nAccessories are a silver belt with a red nut-shaped buckle, black dangle earrings with silver lightning bolts, a black necklace with a blue nut pendant, a pink bracelet, and a blue lightning bolt ring. The square black purse has a silver handle and features a blue stripe with a silver a silver lightning bolt. Also included is a blue & black XIII shopping bag.\nThe extra items in the fashion pack include a wide gold & purple belt, a black necklace with gold claw pendant, and a purple & gold ring glove. There is also a purple & blue leopard print purse with gold accents.",
       "type": "Fashion Packs",
       "id": 51,
@@ -1135,7 +1158,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/03/Comic-Book-Club-Ghoulia-Yelps-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/03/Comic-Book-Club-Ghoulia-Yelps-box.jpg"
       ],
-      "galleryImagesFileNames": ["w2555_-0", "w2555_-1", "w2555_-2"],
+      "galleryImagesFileNames": [
+        "w2555_-0",
+        "w2555_-1",
+        "w2555_-2"
+      ],
       "description": "Everyone will know Ghoulia is a mega-fan when she wears this super cute outfit. It features a black tee with green stitched edges and an image of Dead Fast, her favorite superhero, on the front. The white skirt has red stitching on top, red & black brain wrinkles on the bottom, and black mesh frills on the hem. The sneakers each have black laces, a green tongue, red on the sides, and a black sole and toe.\nAccessories for the outfit are green cat-eye glasses, a red hair band, a black choker, and four black bracelets. Also included is a Dead Fast comic book, a Dead Fast action figure still in the package, and a School Clubs card of Ghoulia Yelps.",
       "type": "Fashion Packs",
       "id": 54,
@@ -1150,7 +1177,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/03/Fashion-Entrepreneurs-Club-Clawdeen-Wolf-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/03/Fashion-Entrepreneurs-Club-Clawdeen-Wolf-box.jpg"
       ],
-      "galleryImagesFileNames": ["w2552_-0", "w2552_-1", "w2552_-2"],
+      "galleryImagesFileNames": [
+        "w2552_-0",
+        "w2552_-1",
+        "w2552_-2"
+      ],
       "description": "Clawdeen will look ferociously spectacular in this fearsome ensemble. The outfit features a gold & black tiger striped top with black cuffs and collar. The front of the shirt is purple with two purple straps held by gold buckles. Below the top is a black skirt with a gold zipper design.\nThe outfit is accessorized by a gold pendant and black peep-toe pumps with gold stitching. Also included is a purple & black tiger striped notebook with yellow highlights and black skull, a blue briefcase with a gold tear in the middle, and a School Clubs card of Clawdeen Wolf.",
       "type": "Fashion Packs",
       "id": 55,
@@ -1165,7 +1196,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/03/Newspaper-Club-Draculaura-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/03/Newspaper-Club-Draculaura-box.jpg"
       ],
-      "galleryImagesFileNames": ["w2553_-0", "w2553_-1", "w2553_-2"],
+      "galleryImagesFileNames": [
+        "w2553_-0",
+        "w2553_-1",
+        "w2553_-2"
+      ],
       "description": "Draculaura will be ready to report on the most terrorific stories when she’s wearing this newsworthy outfit. It features a pink & black pinstripe collared shirt with a white strip in the front and a pink bow tie. The burgundy shorts have black stitching and are held up with black suspenders. Under the shorts are white tights with pink newspaper print headlining “Monster High”, Scary Cute”, and “Creepy Cool”.\nThe outfit is completed by black & burgundy lace-up ankle boots and a pink fedora with a black strap. Also included is a pink & black camera with heart-shaped flash, a roll of film, and a School Clubs card of Draculaura.",
       "type": "Fashion Packs",
       "id": 56,
@@ -1180,7 +1215,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/03/Snowboarding-Club-Abbey-Bominable-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/03/Snowboarding-Club-Abbey-Bominable-box.jpg"
       ],
-      "galleryImagesFileNames": ["w2554_-0", "w2554_-1", "w2554_-2"],
+      "galleryImagesFileNames": [
+        "w2554_-0",
+        "w2554_-1",
+        "w2554_-2"
+      ],
       "description": "This ultra-cool outfit will look amazing on Abbey as she rides the moguls. The outfit features a white long sleeve turtleneck sweater under a blue fur vest. The black compression tights have a blue hem, blue waistband, and purple striped padding on the sides. The boots are pink and blue with blue laces and black soles.\nAccessories for the outfit are a translucent blue ice crystal necklace and blue snow goggles with purple lenses and a black strap. Also included is a transparent pink, blue & purple snowboard and a School Clubs card of Abbey Bominable.",
       "type": "Fashion Packs",
       "id": 57,
@@ -1450,7 +1489,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/02/Sweet-1600-CA-Cupid.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/02/CA-Cupid-Boxed.jpg"
       ],
-      "galleryImagesFileNames": ["x3799_c.a._cupid-0", "x3799_c.a._cupid-1"],
+      "galleryImagesFileNames": [
+        "x3799_c.a._cupid-0",
+        "x3799_c.a._cupid-1"
+      ],
       "description": "C.A. Cupid is wearing a black, white, and pink ensemble to Draculaura’s birthday party. Her strapless dress has a pink top and a black waist that flows into white blending into pink. The bottom of the skirt is adorned with black tulle and black hearts.\nC.A.’s accessories feature a white heart-shaped purse with pink handles, a black tulle shawl, a bow & arrow ring, and white earrings – one a bow, the other an arrow. Her shoes are black with pink & white heart-shaped chains. One has a bow for the heel and the other has an arrow. A pink stand is included with this Walmart exclusive doll.",
       "id": 70,
       "exclusive": "Walmart",
@@ -1529,7 +1571,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/02/Draculauras-Roadster-lic-plate.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/02/Draculauras-Roadster-Boxed.jpg"
       ],
-      "galleryImagesFileNames": ["x0592_-0", "x0592_-1", "x0592_-2"],
+      "galleryImagesFileNames": [
+        "x0592_-0",
+        "x0592_-1",
+        "x0592_-2"
+      ],
       "description": "The Roadster is a gift for Draculaura’s 1600th birthday. The black and pink convertible features raised cobweb filigree designs on the sides & hood, pink heart-shaped headlights & grill, a pink interior, a pink windshield, and a personalized license plate.",
       "type": "Playsets",
       "id": 74,
@@ -1734,7 +1780,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Basic-Fashion-Abbey-Bominable-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Basic-Fashion-Abbey-Bominable-box.jpg"
       ],
-      "galleryImagesFileNames": ["y0401_-0", "y0401_-1", "y0401_-2"],
+      "galleryImagesFileNames": [
+        "y0401_-0",
+        "y0401_-1",
+        "y0401_-2"
+      ],
       "description": "Abbey will be icy hot when she wears this form-fitting dress. The off-the-shoulder light blue dress features rows of ice crystals pointing toward the center. The top of the dress, sleeves, and hem are all black mesh detailed with light blue trim.\nAccessories include a translucent pink crystal necklace and a translucent blue bag with chain handle. The outfit is completed with translucent purple peep-toe pumps with cut-out sides.",
       "type": "Fashion Packs",
       "id": 84,
@@ -1749,7 +1799,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Basic-Fashion-Draculaura-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Basic-Fashion-Draculaura-box.jpg"
       ],
-      "galleryImagesFileNames": ["y0398_-0", "y0398_-1", "y0398_-2"],
+      "galleryImagesFileNames": [
+        "y0398_-0",
+        "y0398_-1",
+        "y0398_-2"
+      ],
       "description": "Draculaura will look adorable in this pink & black ensemble. The black dress features rows of pink skullettes, crossbones, bows, and hearts. The top of the dress has a pink trim with a bow and is held by a lacy pink halter strap. The hem has a scalloped pink trim decorated with floral cut-outs.\nThe dress is accessorized with a black bangle, a pink bangle, and a heart-shaped top hat. The hat is pink with a pink bow and a black chin strap. Pink pumps complete the wardrobe with each shoe having a black platform and a cut-out heart for a heel.",
       "type": "Fashion Packs",
       "id": 85,
@@ -1764,7 +1818,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Basic-Fashion-Lagoona-Blue-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Basic-Fashion-Lagoona-Blue-box.jpg"
       ],
-      "galleryImagesFileNames": ["y0399_-0", "y0399_-1", "y0399_-2"],
+      "galleryImagesFileNames": [
+        "y0399_-0",
+        "y0399_-1",
+        "y0399_-2"
+      ],
       "description": "Lagoona has an amazingly cute outfit with an aquatic theme. The dress features a black bodice detailed with a teal fish pattern, teal trim, and teal straps. The black skirt is decorated with a pattern of pink coral and teal seahorses.\nAccessories consist of a white pearl bracelet, a translucent teal satchel, and translucent teal shoes. The shoes each have a translucent strap that winds up a leg and ends with a bow. ",
       "type": "Fashion Packs",
       "id": 86,
@@ -1779,7 +1837,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Basic-Fashion-Spectra-Vondergeist-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Basic-Fashion-Spectra-Vondergeist-box.jpg"
       ],
-      "galleryImagesFileNames": ["y0400_-0", "y0400_-1", "y0400_-2"],
+      "galleryImagesFileNames": [
+        "y0400_-0",
+        "y0400_-1",
+        "y0400_-2"
+      ],
       "description": "Spectra will be spook-tacular when she wears this breathtaking outfit. The black single-shoulder dress is detailed with a purple image of an ornate tower. Purple trim and a single purple tulle sleeve with a flared cuff accentuate the dress.\nSilver accessories consist of chain-framed sunglasses, a belt, and shoes. The belt is ringed with triangles and has a dangling chain. The shoes feature cut-out platform heels with chain straps.",
       "type": "Fashion Packs",
       "id": 87,
@@ -1894,7 +1956,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/06/Dance-Class-Operetta.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/06/Dance-Class-Operetta-box.jpg"
       ],
-      "galleryImagesFileNames": ["y0433_operetta-0", "y0433_operetta-1"],
+      "galleryImagesFileNames": [
+        "y0433_operetta-0",
+        "y0433_operetta-1"
+      ],
       "description": "Operetta is a cool cat on the dance floor with her rockabilly ensemble. She is wearing a black leotard with a pattern of white dice with red pips. It is held by a red halterneck and a black & white spiderweb skirt is worn over top.\nOn her feet are white shoes with black tips and piano key heels. Her red baguette bag is embellished with music notes and spiderwebs. Over one eye is a purple heart-shaped mask and holding her red & black hair is a white & purple mini check headscarf.",
       "id": 93,
       "type": "Doll",
@@ -1967,7 +2032,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/03/Dead-Tired-Draculaura-Nightie.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/03/Dead-Tired-Draculaura-Nightie-box.jpg"
       ],
-      "galleryImagesFileNames": ["x4515_draculaura-0", "x4515_draculaura-1"],
+      "galleryImagesFileNames": [
+        "x4515_draculaura-0",
+        "x4515_draculaura-1"
+      ],
       "description": "Draculaura is back again with her hair pulled back in a ponytail and a brand new outfit. For the sleepover she is wearing a pink nightie with a pattern of black bat-wing hearts. It has white & pink mesh frills decorating the chest and the hem.\nHer slippers are pink fuzzy monsters with black eyes, a black fanged mouth, and pink bat-wings. She has a pink sleep mask with the same pattern as her nightie. Also included with the doll is a copy of “Monster Beat” magazine.",
       "id": 97,
       "type": "Doll",
@@ -1982,7 +2050,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Deluxe-Fashion-Frankie-Stein-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Deluxe-Fashion-Frankie-Stein-box.jpg"
       ],
-      "galleryImagesFileNames": ["y0406_-0", "y0406_-1", "y0406_-2"],
+      "galleryImagesFileNames": [
+        "y0406_-0",
+        "y0406_-1",
+        "y0406_-2"
+      ],
       "description": "Two energizing outfits that are perfectly designed for Frankie. The first is a dress with silver straps, silver trim, and a blue bodice. The skirt features a red, white, and blue diagonal checkered pattern with black nuts in some squares.\nThe second outfit begins with a blue top detailed with horizontal black stitched lines and a diagonal blue stitched line. The top is complemented by a shiny silver skirt covered with a pattern of black nuts.\nA half & half jacket and open-toe wedges are included with the dresses. The jacket is black and silver and features a large blue lightning shaped collar. One stitched shoe is white and the other is black; both are decorated with a silver lightning bolt.\nAccessories for the wardrobe consist of blue dangling stitched-heart earrings, a red tie attached to a silver chain, and a silver riveted belt with two nuts. The silver purse has nut-shaped handles and a bag that is riveted sheet metal stitched to irregular black & silver stripes.",
       "type": "Fashion Packs",
       "id": 98,
@@ -1997,7 +2069,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Deluxe-Fashion-Ghoulia-Yelps-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Deluxe-Fashion-Ghoulia-Yelps-box.jpg"
       ],
-      "galleryImagesFileNames": ["y0408_-0", "y0408_-1", "y0408_-2"],
+      "galleryImagesFileNames": [
+        "y0408_-0",
+        "y0408_-1",
+        "y0408_-2"
+      ],
       "description": "Ghoulia will be drop dead gorgeous when she wears one of these awesome outfits. The first is a lovely sleeveless dress that features rows of  interconnected gray and white cracked tombstomes separated by red or black.\nThe second outfit has a black top with white trim accentuated by a red & black brain wrinkle bow tie. Over the top is a white vest with a pattern of red cherries & black stems. The red pants have black cuffs and spots creating a dripping appearance.\nAccessories include pink worm earrings, black horn-rimmed glasses, a diamond textured blue belt with skullette buckle, a purse, and shoes. The red purse is made up of eyeballs held by chain handles. The shoes are black peep-toe pumps with diamond textured blue platforms and heels.",
       "type": "Fashion Packs",
       "id": 99,
@@ -2012,7 +2088,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Deluxe-Fashion-Operetta-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Deluxe-Fashion-Operetta-box.jpg"
       ],
-      "galleryImagesFileNames": ["y0405_-0", "y0405_-1", "y0405_-2"],
+      "galleryImagesFileNames": [
+        "y0405_-0",
+        "y0405_-1",
+        "y0405_-2"
+      ],
       "description": "Operetta will be a stunning sight while wearing one of these music-themed outfits. The first is a white rockabilly dress embellished with a shiny purple collar and detailed with a pattern of purple spiderwebs and musical filigree. Over the dress is a purple vest etched with a red music note heart.\nThe second outfit features a red off-the-shoulder top with a large white collar. The collar is decorated with black and red wavy lines and music notes. Accentuating the top is a black pencil skirt with four wavy white-stitched lines.\nRed accessories consist of a dice belt, a swirling heart-shaped mask, and earrings with hearts shaped into music notes. The purse is purple with  four etched dots on the side and a black & white keyboard strap. Shoes for the outfits are a pair of red spiderweb peep-toe pumps with white soles and stacked dice for heels.",
       "type": "Fashion Packs",
       "id": 100,
@@ -2027,7 +2107,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Deluxe-Fashion-Robecca-Steam-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Deluxe-Fashion-Robecca-Steam-box.jpg"
       ],
-      "galleryImagesFileNames": ["y0407_-0", "y0407_-1", "y0407_-2"],
+      "galleryImagesFileNames": [
+        "y0407_-0",
+        "y0407_-1",
+        "y0407_-2"
+      ],
       "description": "Robecca will look amazing in these fun steampunk emsembles. The first outfit is a sleeveless blue dress adorned with a light blue bow around the neck and a ruffled hem. It is decorated with a pattern of shiny bronze cogs & skulls and light blue gear-themed filigree.\nThe second outfit has a black shirt with a blue neckline and a pattern of interconnected blue grommet lines and bronze rings. Over the shirt is an underbust top that features a blue, pink & black diamond pattern. The black, blue & bronze striped shorts are decorated with bronze cogs and gears.\nAccessories consist of a dangling bronze gear earring, a translucent blue eye patch monacle, and a bronze belt embellished with chains, rivets, and gauges. The riveted bronze purse is detailed with screws, blue dials, and blue gauges. For shoes the wardrobe has peep-toe riveted pumps that are blue with bronze platforms and heels.",
       "type": "Fashion Packs",
       "id": 101,
@@ -2127,7 +2211,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Ghouls-Alive-Clawdeen-Wolf.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Ghouls-Alive-Clawdeen-Wolf-box.jpg"
       ],
-      "galleryImagesFileNames": ["_clawdeen_wolf-0", "_clawdeen_wolf-1"],
+      "galleryImagesFileNames": [
+        "_clawdeen_wolf-0",
+        "_clawdeen_wolf-1"
+      ],
       "description": "Clawdeen is wearing a shiny gold top featuring black tiger print and a ruffled neck. Over the top is a black vest with a wide purple hem and a white faux fur collar. Her a-line skirt is shimmery purple with a black tulle hem.\nOn her feet are knee-high black sandals with purple straps and gold buckles. Accessories consist of gold hoop earrings, a gold necklace with purple pendant, and a gold studded black belt. \nThis version is similar to the Signature doll, but also has the Ghoul’s Alive! feature. When a lever on her back is depressed Clawdeen tilts her head back ,closes her eyes, raises her arms, and howls. Also included with the doll is a stand.",
       "id": 106,
       "type": "Doll",
@@ -2355,7 +2442,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Killer-Style-II-Operetta.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Killer-Style-II-Operetta-box.jpg"
       ],
-      "galleryImagesFileNames": ["x5106_operetta-0", "x5106_operetta-1"],
+      "galleryImagesFileNames": [
+        "x5106_operetta-0",
+        "x5106_operetta-1"
+      ],
       "description": "Operetta is wearing a lovely black, white & red ensemble that goes wonderfully with her red and black hair. Her fitted black top features a black & white striped strip in the front, black & white striped straps, and purple top trim. The white pencil skirt has a pattern of black spots and music notes.\nShe accentuates the outfit with black & white wedges that feature leopard print toeboxes and red trim. Accessories consist of a red spiderweb brooch, a red spiderweb belt, and a translucent black heart-shaped eye mask. Her record purse is embellished with red trim and a red spiderweb.\nThe outfit was previously released, with some minor variations, as Operetta’s Maul Session fashion pack.\nI love it when I can spend the day haunting old record stores",
       "id": 117,
       "exclusive": "Kohls",
@@ -2371,7 +2461,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Maul-Session-Abbey-Bominable-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Maul-Session-Abbey-Bominable-box.jpg"
       ],
-      "galleryImagesFileNames": ["x3662_-0", "x3662_-1", "x3662_-2"],
+      "galleryImagesFileNames": [
+        "x3662_-0",
+        "x3662_-1",
+        "x3662_-2"
+      ],
       "description": "Abbey will be so cool in this icy blue ensemble. It begins with a lovely white top with long sleeves, a black collar, and light blue lines that create a crystal appearance. \nPaired with the top is a purple & snowflake print skirt. The skirt features two purple tulle top layers that form icicle frills. Holding the skirt is a black rope belt with translucent blue beads at the ends.\nFor Abbey’s feet there are knee-high ice skate boots. The boots have black laces and translucent blue blades.\nTo stay warm there is a cropped jacket covered in black faux fur. To carry essentials, the outfit comes with a translucent blue crystal purse.",
       "type": "Fashion Packs",
       "id": 118,
@@ -2386,7 +2480,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Maul-Session-Clawdeen-Wolf-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Maul-Session-Clawdeen-Wolf-box.jpg"
       ],
-      "galleryImagesFileNames": ["x3663_-0", "x3663_-1", "x3663_-2"],
+      "galleryImagesFileNames": [
+        "x3663_-0",
+        "x3663_-1",
+        "x3663_-2"
+      ],
       "description": "Clawdeen is going to be freaky fabulous in these retro duds that begin with a black, blue, and yellow striped top. Over the top is a yellow jacket with a puffy purple faux fur collar. \nContinuing the crazy costume are black pants with blue and yellow speckles. The shoes are gold open-toe wedges with mesh-like sides and zippers on the front. Completing the outfit is a pair of translucent purple glasses with a gold zipper top bar.",
       "type": "Fashion Packs",
       "id": 119,
@@ -2401,7 +2499,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Maul-Session-Cleo-de-Nile-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Maul-Session-Cleo-de-Nile-box.jpg"
       ],
-      "galleryImagesFileNames": ["w9124_-0", "w9124_-1", "w9124_-2"],
+      "galleryImagesFileNames": [
+        "w9124_-0",
+        "w9124_-1",
+        "w9124_-2"
+      ],
       "description": "Cleo will be dignified and magnificent in this mummy-themed wardrobe. It features a halterneck jumpsuit covered with a pattern of golden mummy wrappings as well as black & gold triangles covering the chest. Around the waist is a turquoise triangle chain belt with a dangling chain in the front.\nComplementing the jumpsuit is an arm wrap and a leg wrap using the same pattern of golden wrappings. The ornate gold heels each have black straps and a wide gold ankle strap. Instead of a purse the outfit comes with a tan tote with mummy wrappings and an image of a canopic jar on the sides.\nAlso included in the fashion pack are a golden perfume bottle and a translucent green makeup jar with gold lid.",
       "type": "Fashion Packs",
       "id": 120,
@@ -2416,7 +2518,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Maul-Session-Frankie-Stein-box.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Maul-Session-Frankie-Stein-l.jpg"
       ],
-      "galleryImagesFileNames": ["w9123_-0", "w9123_-1", "w9123_-2"],
+      "galleryImagesFileNames": [
+        "w9123_-0",
+        "w9123_-1",
+        "w9123_-2"
+      ],
       "description": "This outfit will be fabulous for Frankie when she spends the day shopping with her ghoulfriends. It begins with a light blue top with short red sleeves and red shoulders. To go with the top is a suspender skirt that features a shimmery pattern of red, white, black, blue, and silver nuts. The waist is black with red trim and the white suspenders have red and black crisscrossed lines.\nAccessorizing the outfit are light blue cone heels with red straps. The silver metal-looking purse with a jagged lightning bolt handle has light blue on the sides, black horizontal straps, and two vertical silver straps held with screws.\nAlso included in the clothing pack is a slice of purple pie with green topping, a fork with a piece of pie, a blue plate, and a green drink with straw in an orange glass.",
       "type": "Fashion Packs",
       "id": 121,
@@ -2431,7 +2537,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Maul-Session-Lagoona-Blue-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Maul-Session-Lagoona-Blue-box.jpg"
       ],
-      "galleryImagesFileNames": ["x3664_-0", "x3664_-1", "x3664_-2"],
+      "galleryImagesFileNames": [
+        "x3664_-0",
+        "x3664_-1",
+        "x3664_-2"
+      ],
       "description": "Lagoona will look swimmingly cute in her bubble-themed ensemble. The turquoise bubble-patterned sleeveless jumpsuit has pink trim and swatches of black fishnet sewn onto one side and one leg. Worn around the jumpsuit is a pink waist scarf with a fish scale pattern and translucent turquoise beads at the ends.\nThe outfit is accentuated with pink, turquoise, & black wedge sandals held by winding black straps. The bubble theme is continued with round pink bubble glasses and a clear bubble bag with a single pink shoulder strap.\nAlso included in the fashion pack is a translucent pink glass with a yellow-green drink and twisty straw.",
       "type": "Fashion Packs",
       "id": 122,
@@ -2446,7 +2556,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Maul-Session-Operetta-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Maul-Session-Operetta-box.jpg"
       ],
-      "galleryImagesFileNames": ["x3665_-0", "x3665_-1", "x3665_-2"],
+      "galleryImagesFileNames": [
+        "x3665_-0",
+        "x3665_-1",
+        "x3665_-2"
+      ],
       "description": "Operetta will look extra sassy in this blend of gothic and rockabilly fashion. The fitted black top has purple top trim, a black & white strip in the front, and black & white striped straps. \nComplementing the top is a white pencil skirt covered in black music notes and splotches. The pumps have black & white leopard print toe boxes, red on the sides, black on the back, and black & white striped soles.\nGothic accessories for the outfit include a red spiderweb belt, a red spiderweb clip, and black sunglasses with red spiderweb tips. The black & red record-styled purse has double black straps and features a red spiderweb with a white skullette in the center. ",
       "type": "Fashion Packs",
       "id": 123,
@@ -2461,7 +2575,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Maul-Session-Spectra-Vondergeist-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Maul-Session-Spectra-Vondergeist-box.jpg"
       ],
-      "galleryImagesFileNames": ["w9125_-0", "w9125_-1", "w9125_-2"],
+      "galleryImagesFileNames": [
+        "w9125_-0",
+        "w9125_-1",
+        "w9125_-2"
+      ],
       "description": "Spectra’s ghoulfriends will be envious when she’s wearing this varicolored long sleeve sheath dress. Over the collage of blue, pink, and black is a pattern of interconnected silver chains.\nAccessorizing the dress is a shimmery silver tulle headscarf and a pair of sunglasses made of chains. A ball & chain purse attaches to one wrist and features a translucent pink ball held by a silver chain. The shoes are translucent white boots wrapped in silver chains.\nAlso included in the fashion pack is a Monster Beat magazine full of creepy cool news and a gray tombstone-shaped phone.",
       "type": "Fashion Packs",
       "id": 124,
@@ -2476,7 +2594,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Maul-Session-Toralei-Stripe-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Maul-Session-Toralei-Stripe-box.jpg"
       ],
-      "galleryImagesFileNames": ["w9126_-0", "w9126_-1", "w9126_-2"],
+      "galleryImagesFileNames": [
+        "w9126_-0",
+        "w9126_-1",
+        "w9126_-2"
+      ],
       "description": "Toralei will be ferociously fashionable in this black & orange outfit. It begins with a black top detailed with diagonal silver dots and a black miniskirt with shiny silver tiger stripes.\nIntensifying the clothing is a black & orange checkered scarf and a wide silver studded belt. The shoes are black open-toe wedges with silver studs and orange scarves wrapped around the tops. A black and silver studded purse with three orange straps and silver buckles that form a cat face complete the outfit.\nAlso included in the fashion pack are two yellow coffin-shaped movie tickets, a blue box of candy with an image of a mouse, and triangular 3D glasses with one orange and one blue lens.",
       "type": "Fashion Packs",
       "id": 125,
@@ -2491,7 +2613,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Abbey-Bominable-Bed-2.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Abbey-Bominable-Bed-1.jpg"
       ],
-      "galleryImagesFileNames": ["y0403_-0", "y0403_-1", "y0403_-2"],
+      "galleryImagesFileNames": [
+        "y0403_-0",
+        "y0403_-1",
+        "y0403_-2"
+      ],
       "description": "Abbey is always cozy and comfy in her translucent bed carved out of a block of ice. The shimmery bed has a tufted ice mattress and an igloo headboard. The edge of the igloo is adorned with white icicles and the top has a white skull with earmuffs. On each side of the headboard are frozen trees with snowflakes on the branches. At the foot of the bed is an ice TV with snowboarding on the screen.\nBedding consists of a pink pillow decorated with white snowflakes and a blanket. The blanket features a black, pink, and blue mosaic pattern with diagonal white icicle stripes.\nAccessories for the playset include a translucent green alarm clock, a translucent pink snowflake lamp, a frozen drink in a purple mug, a pen, and a journal. There is also a small purple pet bed with white lining that is for Shiver, Abbey’s baby woolly mammoth.",
       "type": "Playsets",
       "id": 126,
@@ -2507,7 +2633,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/CA-Cupid.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/CA-Cupid-box.jpg"
       ],
-      "galleryImagesFileNames": ["y4683_c.a._cupid-0", "y4683_c.a._cupid-1"],
+      "galleryImagesFileNames": [
+        "y4683_c.a._cupid-0",
+        "y4683_c.a._cupid-1"
+      ],
       "description": "This reissue of C.A. is almost identical to the original Sweet 1600 version. Her strapless dress has a pink top with a a black tulle shawl worn over it. The white skirt turns into pink at the bottom and is decorated with black hearts and black mesh along the hem. Her black soled pumps are made from a chain of pink and white hearts. One shoe has a bow for the heel and the other has an arrow.\nAccessories for the outfit include white bow & arrow earrings, a pin wrist cuff, and a pink & white bow & arrow ring. her white heart-shaped purse has pink handles and black, pink & gray designs. Extras for the doll consist of a pink doll stand and her diary.",
       "id": 127,
       "reissue": true,
@@ -2561,7 +2690,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/powder-room-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/powder-room-box.jpg"
       ],
-      "galleryImagesFileNames": ["x3660_-0", "x3660_-1", "x3660_-2"],
+      "galleryImagesFileNames": [
+        "x3660_-0",
+        "x3660_-1",
+        "x3660_-2"
+      ],
       "description": "The powder room has a vanity and bathtub where Draculaura can relax after a long night. The pink and black slipper tub features black claw feet and a white scalloped edge. The foot of the tub has a black faucet and a pink ribbon tied into a heart-shaped bow. The head has a heart and an animal head with big ears and a bow. The tub comes with a detachable pink shelf with claws and bat wings.\nThe black coffin-shaped vanity has ornate pink doors with white fang handles and white swirls. The pink spiderweb countertop has a white bowl sink with a pink faucet and bat wing handles. Black bat wings and swirls form the frame of the heart-shaped mirror. Since Draculaura doesn’t have a reflection the mirror only has an image of her clothes and earrings.\nAccessories for the powder room begin with a black & pink pink towel embroidered with Draculaura’s crest. A white toothbrush, a white tube of toothpaste, a pink heart-shaped bottle, and makeup are also included.",
       "type": "Playsets",
       "id": 130,
@@ -2598,7 +2731,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Scooter.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Scooter-box.jpg"
       ],
-      "galleryImagesFileNames": ["x3659_-0", "x3659_-1"],
+      "galleryImagesFileNames": [
+        "x3659_-0",
+        "x3659_-1"
+      ],
       "description": "Ghoulia’s red and black scooter has a cute skeletal theme. The front sports a white stripe with a skull wearing goggles and a gray rib cage basket. The black mirrors are held by skeletal hands and the foot rest has a white spinal column running down the center. The red seat is covered with brain wrinkles and the red splattered license plate is personalized with “BRAINS”. The sides of the scooter has a white section decorated by a pattern of cherries with green stems. Gray skeletal hands hold the pink rimmed wheels and a white bone kickstand keeps the scooter upright.\nAccessories include a cup, backpack, and two helmets. The cup is green, dripping, and has a white lid and straw. The gray tombstone backpack is detailed with a skull wearing goggles, a wrought iron gate design, and red straps. Ghoulia’s helmet is black with a white center stripe, red visor, black chin strap, and red goggles. The other helmet is black with red goggles. It is smaller and fits Sir Hoots A Lot, Ghoulia’s pet owl.",
       "type": "Playsets",
       "id": 132,
@@ -2913,7 +3049,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Scaris-Cafe-Cart-box.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Scaris-Cafe-Cart.jpg"
       ],
-      "galleryImagesFileNames": ["y4308_-0", "y4308_-1", "y4308_-2"],
+      "galleryImagesFileNames": [
+        "y4308_-0",
+        "y4308_-1",
+        "y4308_-2"
+      ],
       "description": "The rolling cafe cart is etched magenta outlined by black wrought iron and detailed with swirls and spiderwebs. On the side of the cart is a black sign with “Cafe” and the Eiffel Terror in white with skullettes and swirls in the background.\nThe wheels and posts are teal and on two of the posts are illegible menus. On top of the translucent teal canopy rests a black bat. The cart has a black & gray coffinccino maker and a purple shelf where pastries are displayed.\nA wrought iron table, chair, and bench is provided for ghouls to sit and enjoy their pastries and coffinccino. The purple table has a spiderweb design and a translucent pink umbrella with yellow dangling skulls. The chair is magenta with a spiderweb design and a skull seat. The teal bench has a skull on the back rest and a spiderweb design.\nAccessories include a translucent blue glass and bottle, a coffinccino cup, a black vase with yellow dripping flowers, and a variety of pastries.",
       "type": "Playsets",
       "id": 146,
@@ -2948,7 +3088,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Scaris-Convertible.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Scaris-Convertible-box.jpg"
       ],
-      "galleryImagesFileNames": ["y4307_-0", "y4307_-1"],
+      "galleryImagesFileNames": [
+        "y4307_-0",
+        "y4307_-1"
+      ],
       "description": "The ghouls of Monster High will look freak-tastic as they drive around in this ornate purple convertible. It’s body, headlights, silver windshield frame, and black styling bar are all detailed with filigree designs and cut-outs. The front of the car has a skull emblem and a gray spiderweb grill. The back features a Scaris license plate and silver werewolf taillights. Each of the tires is decorated by a skull surrounded by silver filigree.\nThe dark purple interior has a spiderweb design. The seat belts, steering wheel, gargoyle shifter, and console are light blue. Under the rear-facing back seat is a trunk detailed with a large skullette.",
       "type": "Playsets",
       "id": 148,
@@ -2983,7 +3126,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/06/Scaris-Draculaura.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/06/Scaris-Draculaura-box.jpg"
       ],
-      "galleryImagesFileNames": ["y0396_draculaura-0", "y0396_draculaura-1"],
+      "galleryImagesFileNames": [
+        "y0396_draculaura-0",
+        "y0396_draculaura-1"
+      ],
       "description": "Draculaura is ready to experience the City of Frights. She is wearing an off-the-shoulder pink top covered in black printed chandeliers. The sleeves are black and the top is trimmed with pink. Her short skirt is light pink with pink & black zigzag stitching and a black tulle hem.\nShe accessorizes with black rounded-toe pumps and pink dripping heart earrings. Draculaura’s rounded travel bag is light pink and features a dark pink lid with a bow and skullette.",
       "id": 150,
       "type": "Doll",
@@ -3453,7 +3599,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/05/Skultimate-Roller-Maze-Operetta.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/05/Skultimate-Roller-Maze-Operetta-box.jpg"
       ],
-      "galleryImagesFileNames": ["x3674_operetta-0", "x3674_operetta-1"],
+      "galleryImagesFileNames": [
+        "x3674_operetta-0",
+        "x3674_operetta-1"
+      ],
       "description": "Operetta looks spectacular in her black & white halterneck dress. It features a pattern of colorful records, a black collar, and a black strip down the front with pink dots. Around her waist is a black belt with a record buckle.\nSkater accessories include black knee pads with helmeted skulls, a black helmet with music notes, and a white heart-shaped eye mask attached to the helmet. Her white spiderweb skates have purple music note heels with translucent red and green wheels.\nIncluded with the doll is a neon green stand and a trading card of Operetta.",
       "id": 173,
       "type": "Doll",
@@ -3549,7 +3698,11 @@
         "https://mhcollector.com/wp-content/uploads/2017/03/Create-A-Monster-Torso-Pack-bag.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/03/Create-A-Monster-Torso-Pack-1.jpg"
       ],
-      "galleryImagesFileNames": ["y5698_-0", "y5698_-1", "y5698_-2"],
+      "galleryImagesFileNames": [
+        "y5698_-0",
+        "y5698_-1",
+        "y5698_-2"
+      ],
       "description": "The pack supplied torsos that were not included in some of the early starter and add-on packs. They were offered for a short while at the Mattel Shop.\nThe pink torso was for the Dragon and the blue one completes the Sea Monster.\nThe other three torsos include upper arms and thighs. The yellow torso is for the Insect, the Skeleton has the white torso, and the Three-Eyed Ghoul is completed by the light blue torso.",
       "type": "Create-A-Monster",
       "id": 178,
@@ -3585,7 +3738,11 @@
         "https://mhcollector.com/wp-content/uploads/2017/03/Create-A-Monster-Add-On-Pack-Harpy-box-2.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/03/Create-A-Monster-Add-On-Pack-Harpy-box-1.jpg"
       ],
-      "galleryImagesFileNames": ["y0420_-0", "y0420_-1", "y0420_-2"],
+      "galleryImagesFileNames": [
+        "y0420_-0",
+        "y0420_-1",
+        "y0420_-2"
+      ],
       "description": "This add-on creates a bird-like ghoul. She has pink forearms, pink calves, three-toed feet, purple hands, and purple wing forearms trimmed with black.\nHer light pink head has green eyes, pink shadow, blue eyebrows, and pink lips. The hair is long and curly with pink highlights.\nShe has a strapless dress with an asymmetrical hem and a feather print that is black with shades of purple and pink. It is accessorized with magenta peep-toe wedges covered in feathers.",
       "type": "Create-A-Monster",
       "id": 180,
@@ -3641,7 +3798,11 @@
         "https://mhcollector.com/wp-content/uploads/2017/03/Create-A-Monster-Design-Lab-Mystical-Add-On-Pack-box-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/03/Create-A-Monster-Design-Lab-Mystical-Add-On-Pack1.jpg"
       ],
-      "galleryImagesFileNames": ["x3730_-0", "x3730_-1", "x3730_-2"],
+      "galleryImagesFileNames": [
+        "x3730_-0",
+        "x3730_-1",
+        "x3730_-2"
+      ],
       "description": "The Mystical add-on has doll parts to create a pearly pink ghoul. It comes with hands, forearms, calves, feet, and a head. Upper limbs, hair, or clothing are not included.\nThere is a headband with a spiral unicorn horn and an extra head that is pearly green. The 75 face and body tattoos are glittery.",
       "type": "Create-A-Monster",
       "id": 183,
@@ -3655,7 +3816,11 @@
         "https://mhcollector.com/wp-content/uploads/2017/03/Create-A-Monster-Design-Lab-Nocturnal-Add-On-Pack-box-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/03/Create-A-Monster-Design-Lab-Nocturnal-Add-On-Pack-1.jpg"
       ],
-      "galleryImagesFileNames": ["x3729_-0", "x3729_-1", "x3729_-2"],
+      "galleryImagesFileNames": [
+        "x3729_-0",
+        "x3729_-1",
+        "x3729_-2"
+      ],
       "description": "The Nocturnal add-on has doll parts to create a custom ghoul. Parts include orange hands, forearms, calves and feet, a tail, clip-on ears, and a head. Upper limbs, hair, or clothing are not included. \nThere is an extra head that is green and 75 tattoos. The face and body tattoos are glow-in-the-dark. ",
       "type": "Create-A-Monster",
       "id": 184,
@@ -3740,7 +3905,11 @@
         "https://mhcollector.com/wp-content/uploads/2017/03/Create-A-Monster-Starter-Pack-Ice-Blob-box-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/03/Create-A-Monster-Starter-Pack-Ice-Blob-1.jpg"
       ],
-      "galleryImagesFileNames": ["y0417_-0", "y0417_-1", "y0417_-2"],
+      "galleryImagesFileNames": [
+        "y0417_-0",
+        "y0417_-1",
+        "y0417_-2"
+      ],
       "description": "This starter pack lets you build two Monster High dolls. It includes two sets of body parts and outfits.\nBody Parts\nThe Ice ghoul has translucent blue arms, legs, and torso. The blue head has crystal-like eyes with light purple shadow and pink lips. Her long pink and blue hair is straight with blunt bangs.\nThe Blob has translucent pink and sparkly arms, legs, and torso. The sparkly pink head has orange eyes with pink and lavender shadow, blue eyeliner, and red lips. Her molded short pink hair has a drippy style with curled ends.\nClothing\nThe halterneck dress is black with a decorative print. It has pink icicle stripes, blue diamond stripes with Skullette snowflakes, and pink details.\nNext is a form-fitting light blue dress with short sleeves. It has a print made up of pink drips and splatter. \nThe last item is a pair of translucent pink pumps. They have ankle straps, gooey accents, and dripping heels.",
       "type": "Create-A-Monster",
       "id": 188,
@@ -4123,7 +4292,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/06/Art-Class-Studio.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/06/Art-Class-Studio-l.jpg"
       ],
-      "galleryImagesFileNames": ["bdd83_-0", "bdd83_-1", "bdd83_-2"],
+      "galleryImagesFileNames": [
+        "bdd83_-0",
+        "bdd83_-1",
+        "bdd83_-2"
+      ],
       "description": "The Art Class studio is designed to let the ghouls of Monster High be as creative as monstrously possible. There is an easel, kiln, and other art supplies for painting, pottery, and ice carving.\nThe black skeletal easel has a spinal column and three legs. The legs extend from the pelvis and are connected by a spiderweb. Skeletal hands hold the purple framed painting of Draculaura, Abbey Bominable, Robecca Steam, and Skelita Calaveras.\nA pink cart and chair accompany the easel. The cart is pink with three shelves, a black top with inset cup, and black wheels. Resting on the cart is a skullette palette, a brush, and a pen. The chair is a pink skeletal hand with webbed fingers forming the backrest. It rests upon a black column with a pink pedestal.\nThe kiln is gray brick with a purple coffin-shaped door decorated with the Monster High crest and blue splatter. The top of the kiln has purple coffin-themed shelves with spiderweb backing. A purple wood shelf sits on the side of the kiln and is adorned with spiderweb accents.\nOther art supplies consist of an orange vase sitting in a green pottery wheel, three red apples with worms, and a purple bowl of yellow eyeballs. A hammer and chisel is included to use on the translucent blue skullette ice sculpture.",
       "type": "Playsets",
       "id": 206,
@@ -4372,7 +4545,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/06/Frights-Camera-Action-Draculaura.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/06/Frights-Camera-Action-Draculaura-box.jpg"
       ],
-      "galleryImagesFileNames": ["bdf23_draculaura-0", "bdf23_draculaura-1"],
+      "galleryImagesFileNames": [
+        "bdf23_draculaura-0",
+        "bdf23_draculaura-1"
+      ],
       "description": "Draculaura’s hair is pink & black and worn in a high ponytail. She is wearing a black dress with a pattern of pink bats with white dotted wings. The sleeveless dress has pink bow straps, a serrated diagonal hem, and a shimmery pink underlayer with a serrated hem. \nAccessories begin with dangling black beaded earrings and a beaded necklace with rows of dangling beads. Around her waist is an elaborate pink belt with a row of pink beads with diamonds, a beaded middle row, and bottom chain with hanging beads and charms. \nOn her feet are pink peep-toe heels decorated with strings of beads, a row of lips, and a black heart with bat wings on each foot strap.  Her pink beaded purse is in the shape of lips with fangs and is accentuated by strings of hanging beads.\nIt has been 400 years since the last vampire queen ran away rather than rule. Now Draculaura has been declared the new heir to the vampire throne but is she really the true queen or just a stand-in? The ghouls will have to exit stage fright and go on location to Londoom, New Gorleans and finally Hauntlywood to find the real star and to see how the final scene ends.",
       "id": 218,
       "type": "Doll",
@@ -4784,7 +4960,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/06/Draculaura-Operetta-Die-ner-box.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/06/Draculaura-Operetta-Die-ner.jpg"
       ],
-      "galleryImagesFileNames": ["bbr93_draculaura-0", "bbr93_draculaura-1"],
+      "galleryImagesFileNames": [
+        "bbr93_draculaura-0",
+        "bbr93_draculaura-1"
+      ],
       "description": "If you want food that is to die for, the Die-ner is where you need to go. This playset includes Draculaura, Operetta, a bar & kitchen, two chairs, a dining table, and a bench.\nDraculaura\nDraculaura has long black hair with streaks of pink and bangs. Her halter strap dress is black with a pink front decorated with a row of black hearts and a bat silhouette The hem of her dress is black mesh.\nShe accessorizes with a pink heart cutout headband, pink bow earrings, a pink charm bracelet, and a pink & black heart polka dot scarf. Accentuating  her pink & white oxford pumps are black knee highs with pink cuffs.\nOperetta\nOperetta has wavy red hair with a streak of black. She is wearing a black & white diagonal gingham check top with skullettes in the black squares. Complementing the top is a black pencil skirt with swatches of the gingham check along the flared hem.\nRed accessories consist of a heart-shaped eye mask, a spiderweb earring, and a piano key belt. Tied around her neck is a black & white polka dot scarf. Her red peep-toe wedges have black tips and piano key platforms.\nDie-ner\nThe bar & kitchen has a silver tabletop with red & white diamond designs and black claw legs with spiderweb accents. The red counter has a black window frame with a spiderweb order wheel and two pink & yellow spiderweb lights. The top of the frame has a pink coffin-shaped clock and sticking out the side is a pink and black skull & crossbones sign with the bones replaced by a fork and spoon. \nBehind the counter is the grill and oven. Two black pedestal chairs with spiderweb etchings and cutouts come with the bar.\nThe coffin-shaped dining table is silver, outlined with studs, and features a skull & crossbones with a fork and spoon replacing the bones. The table rests upon three black claw legs with wing accents. With the table is a red tufted bench that sits on a black stand. The stand has spiderweb etchings and is trimmed with studs.\nAccessories consist of a black coffin register, a blue mini-jukebox, a blue milkshake mixer, a coffin-shaped tray, two red cups, a black cauldron, a yellow sandwich, a winged bowl, and a black cake stand with cover.\nThere are two versions of the Die-ner; this Walmart exclusive and a playset with only Draculaura.",
       "type": "Playsets",
       "id": 238,
@@ -4867,7 +5046,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/03/Draculaura-and-Jewelry-Box-Coffin.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/03/Draculaura-and-Jewelry-Box-Coffin-box.jpg"
       ],
-      "galleryImagesFileNames": ["bdc40_draculaura-0", "bdc40_draculaura-1"],
+      "galleryImagesFileNames": [
+        "bdc40_draculaura-0",
+        "bdc40_draculaura-1"
+      ],
       "description": "This playset combines two previously released items: Dead Tired Draculaura and the Jewelry Box Coffin. Draculaura is wearing a cute polka dot pajama set. The shirt is pink with white polka dots on the shoulders, a white jabot with black bow, and white frills on the hem and sleeves. Her knee length pants are pink with white polka dots and white frills. She also has pink monster slippers with black wings.\nThe black coffin has black & pink filigree, pink tufting on the lid, and pink rails. When opened by the hinge there is a pink jewelry compartment where trinkets can be stored. When the lid is raised vertically it forms a four-poster bed with a pink tufted interior. The bed comes with a pink pillow, a pink & black blanket with white, a white heart-shaped tray, a pink cup & saucer, and a journal with a white pen.",
       "type": "Playsets",
       "id": 242,
@@ -4881,7 +5063,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/06/Lagoona-Blue-Shower-l.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/06/Lagoona-Blue-Shower-box.jpg"
       ],
-      "galleryImagesFileNames": ["y7715_-0", "y7715_-1"],
+      "galleryImagesFileNames": [
+        "y7715_-0",
+        "y7715_-1"
+      ],
       "description": "This playset includes a vanity, chair, and shower. Everything a ghoul needs to help make herself beautiful.\nVanity\nThe vanity has three black squirmy tentacle legs that hold a translucent blue shelf and a coral pink sink. The faucet and handles on the sink are silver seahorses.\nAbove the sink is a mirror outlined by an aqua blue octopus. Hanging from two of the tentacles are translucent purple jellyfish accents.\nChair\nThe chair has three legs made up of intertwined aqua blue tentacles. The seat is black coral with a pink Skullette emblem on the back.\nShower\nThe stand-up shower has a coral pink seashell tub with a light blue doll stand and a black tentacle pipe. The pipe has a translucent blue basket, silver knobs, and a translucent purple jellyfish shower head.\nA round rod is at the top of the pipe and it holds a translucent blue curtain. The curtain is decorated with a print of seahorses and seashells.\nAccessories\nBathroom accessories include a blue fish bottle, a pink seahorse bottle, and a purple loofah.",
       "type": "Playsets",
       "id": 243,
@@ -4896,7 +5081,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/06/Spectra-Vondergeist-Floating-Bed.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/06/Spectra-Vondergeist-Floating-Bed-box.jpg"
       ],
-      "galleryImagesFileNames": ["y7714_-0", "y7714_-1", "y7714_-2"],
+      "galleryImagesFileNames": [
+        "y7714_-0",
+        "y7714_-1",
+        "y7714_-2"
+      ],
       "description": "The playset includes Spectra’s bed and a bed for her pet ferret, Rhuen.\nBed\nThe floating bed has a magenta mattress decorated with crisscrossed chains and a Skullette. The jagged hem is trimmed with translucent lavender chains and the bed “floats” with the help of translucent pedestals.\nThe headboard and footboard are black wrought iron with skull topped posts. The footboard has a built-in magenta TV with an image of a spooky house.\nTranslucent lavender chains hang from the headboard and a magenta skull rests at the top. A small candle also sits on the headboard.\nAccessories\nCovering the bed is a blanket that has shades of pink and purple with a hoop and chain link print. The pillow has diagonal stripes of black and pink outlined in white.\nBed time accessories consist of a pink tombstone tablet, a purple sippy cup, and Spectra’s journal. Everything fits on a fuchsia breakfast tray with wrought iron designs.\nPet Bed\nRhuen’s bed is a basket formed by translucent lavender chains. The inside of the basket is magenta with a quilted bottom.",
       "type": "Playsets",
       "id": 244,
@@ -5075,7 +5264,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/02/Draculaura-Original-Favorites1.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/02/Draculaura-Original-Favorites-Box.jpg"
       ],
-      "galleryImagesFileNames": ["bbc41_draculaura-0", "bbc41_draculaura-1"],
+      "galleryImagesFileNames": [
+        "bbc41_draculaura-0",
+        "bbc41_draculaura-1"
+      ],
       "description": "This resissue of Draculaura is just like the one from the Basic series. She is wearing the same signature pink, black, and white outfit and accessories. She also inlcudes the same extras like Count Fabulous, her pet bat, a pink brush, pink doll stand, and her diary.\nThe main difference between the two releases is the packaging. The Original Favorites box features a window that wraps around the side.",
       "id": 253,
       "reissue": true,
@@ -5355,7 +5547,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/03/Sweet-1600-Draculaura-Walmart.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/03/Sweet-1600-Draculaura-Walmart-Box.jpg"
       ],
-      "galleryImagesFileNames": ["bcw53_draculaura-0", "bcw53_draculaura-1"],
+      "galleryImagesFileNames": [
+        "bcw53_draculaura-0",
+        "bcw53_draculaura-1"
+      ],
       "description": "This is a Walmart exclusive reissue of the original Sweet 1600 Draculaura doll. She is wearing her stunning black, pink, and white lace birthday dress, pink tiara, and frosting-themed shoes. The shoes are mostly pink and lack the white frosting accents of the original.\nShe is lacking many of the accessories from the original, but does include a new purse. The heart-shaped purse is pink with dark pink bows and a black strap.",
       "id": 266,
       "exclusive": "Walmart",
@@ -5477,7 +5672,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/06/Swim-Class-Holt-Hyde.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/06/Swim-Class-Holt-Hyde-box.jpg"
       ],
-      "galleryImagesFileNames": ["bbr82_holt_hyde-0", "bbr82_holt_hyde-1"],
+      "galleryImagesFileNames": [
+        "bbr82_holt_hyde-0",
+        "bbr82_holt_hyde-1"
+      ],
       "description": "Holt may have flaming hair but he isn’t afraid to spend some time in the water. He’s wearing a red sleeveless shirt emblazoned with flames and a black & white checkered skullette on the front. His swim shorts are gray with black flame outlines and feature a translucent orange & yellow flame protruding from each leg.\nHolt’s translucent orange accessories consist of flaming sunglasses, sandals with flame-like straps, and a single-strap turntable backpack. His black beach towel is decorated with a pattern of orange & yellow flames.",
       "id": 272,
       "exclusive": "Justice",
@@ -5805,7 +6003,10 @@
         "https://mhcollector.com/wp-content/uploads/2017/02/Gift-Creation-Draculaura-2013-Ornament.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/02/Gift-Creation-Draculaura-2013-Ornament-box-1.jpg"
       ],
-      "galleryImagesFileNames": ["_draculaura-0", "_draculaura-1"],
+      "galleryImagesFileNames": [
+        "_draculaura-0",
+        "_draculaura-1"
+      ],
       "description": "The Draculaura ornament has pink and black streaked hair with blunt bangs and pigtails. She has pale pink skin, bright pink eyes, pink eyeshadow, pink lips, and a heart on her cheek.\nHer pink top has purple sleeves and a white ascot with a pink bow. Complementing the top is a white skirt with a black hem and purple tights. On her feet are hot pink boots with black laces and straps.\nDraculaura is holding a large green wreath. It is decorated with snowflakes, ribbon, winged hearts, and a big red bow.",
       "type": "Ornaments",
       "id": 287,
@@ -5921,7 +6122,11 @@
         "https://mhcollector.com/wp-content/uploads/2017/03/Freaky-Fabulous-Purrsephone-Meowlody-box-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/03/Freaky-Fabulous-Purrsephone-Meowlody-1.jpg"
       ],
-      "galleryImagesFileNames": ["_meowlody-0", "_meowlody-1", "_meowlody-2"],
+      "galleryImagesFileNames": [
+        "_meowlody-0",
+        "_meowlody-1",
+        "_meowlody-2"
+      ],
       "description": "Purrsephone and Meowlody are twin werecat sisters. Each plush figure is about ten inches tall, has a long tail, and is gray with a lighter patch on the face. They have yellow eyes with blue shadow, little black noses, and dashed orange mouths.\nPurrsephone\nPurrsephone has black ribbon hair with a streak of jagged black and white. White stripes appear on her left arm and right leg.\nHer outfit has a white top with black tiger stripes, an orange jacket, and an orange skirt. On her right hand are dotted black bracelets and an orange fingerless glove. Her shoes are orange and black peep-toe boots with studs.\nMeowlody\nMeowlody has white ribbon hair with a streak of jagged black and white. White stripes appear on her right arm and left leg.\nShe wears a black top with white tiger stripes, a black jacket with silver accents, and an orange skirt. On her left hand are dotted black bracelets and an orange fingerless glove. Her shoes are studded, orange, and decorated with black bow straps.",
       "type": "Plush",
       "id": 293,
@@ -5980,7 +6185,11 @@
         "https://mhcollector.com/wp-content/uploads/2017/03/Freaky-Fabulous-Pets-Rhuen-box-2.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/03/Freaky-Fabulous-Pets-Rhuen-box-1.jpg"
       ],
-      "galleryImagesFileNames": ["_rhuen-0", "_rhuen-1", "_rhuen-2"],
+      "galleryImagesFileNames": [
+        "_rhuen-0",
+        "_rhuen-1",
+        "_rhuen-2"
+      ],
       "description": "Rhuen is the pet ferret of Spectra Vondergeist. The plush figure is about six inches tall with blue fur that transitions to white down his body.\nOn his head are shimmery silver ears, a fluffy white tuft, and a sparkly purple bow. His right eye is a solid magenta circle and his left is a “+” surrounded by a squiggly blue circle. He has a heart-shaped nose and a thin mouth with long fangs.\nA blue tuft decorates his neck, he has black line claws, and silver paw pads on his back feet. His tail is white at the base and becomes fluffy blue.\nRhuen is Spectra Vondergeists's ghost ferret. Did you know that the name ferret comes from the Latin furittus, which means \"little thief?\" Of course you didn't until I told you! Best friends? Everyone loves Rhuen!",
       "type": "Plush",
       "id": 296,
@@ -6162,7 +6371,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/06/Coffin-Bean-Twyla.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/06/Coffin-Bean-Twyla-box.jpg"
       ],
-      "galleryImagesFileNames": ["cbx49_twyla-0", "cbx49_twyla-1"],
+      "galleryImagesFileNames": [
+        "cbx49_twyla-0",
+        "cbx49_twyla-1"
+      ],
       "description": "Twyla’s hair is a lovely bluish purple with big streaks of light teal. She is wearing a purple romper with a pattern of light blue spiderwebs and black spiders. A black bow is tied around the collar and under it is a square of light blue tulle.\nAccessories consist of a light blue beaded bracelet, a purple bracelet, and a black belt with a light blue buckle. On her feet are light blue Mary Janes trimmed with rows of studs and wedge heels. Her blue spiderweb mug has three ghostly marshmallows floating in hot cocoa.",
       "id": 305,
       "type": "Doll",
@@ -6724,7 +6936,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/07/Freaky-Fusions-Dracubecca.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/07/Freaky-Fusions-Dracubecca-box.jpg"
       ],
-      "galleryImagesFileNames": ["bjr38_draculaura-0", "bjr38_draculaura-1"],
+      "galleryImagesFileNames": [
+        "bjr38_draculaura-0",
+        "bjr38_draculaura-1"
+      ],
       "description": "Dracubecca is a fusion of Draculaura and Robecca Steam making her a vampire robot. Her black wavy hair features streaks of blue and pink. She has gear-shaped irides, fangs, and pink skin held together by small heart-shaped rivets.\nShe is wearing a dress with a pink top and a midriff adorned with blue stripes outlined in black. The sleeves are black lace and the neckline has black lace accents. The blue print skirt features rows of copper dots with fancy hearts, purple swirly designs, and a pink ruffled hem with black lace trim.\nCopper accessories begin with heart-shaped goggles and earrings made of gears and winged hearts. On her back are removable cutout wings decorated with swirls and rivets. Around her waist is an elaborate peplum belt with riveted bat wing cutouts. \nShe also has on black knee-high rocket boots that lace up the front. The pink platforms and heels are made up of rocket exhaust nozzles. Her last accessory is a parasol with a twisted black handle, winged accents, and a copper canopy. The cutout canopy has rivets, swirls, and a mechanical heart at the finial.\nIncluded with the doll is a yellow brush, doll stand, and Dracubecca’s diary.",
       "id": 332,
       "type": "Doll",
@@ -7737,7 +7952,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/02/Draculaura-Original-Ghouls1.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/02/Draculaura-Original-Ghouls-Box.jpg"
       ],
-      "galleryImagesFileNames": ["cfc61_draculaura-0", "cfc61_draculaura-1"],
+      "galleryImagesFileNames": [
+        "cfc61_draculaura-0",
+        "cfc61_draculaura-1"
+      ],
       "description": "This reissue of Draculaura is wearing her classic black, white, and pink outfit. It consists of a vest, skirt, and boots and is less detailed than the one in the Basic series.\nThe pink vest has black stitching, faux black buttons, a white mesh jabot, and black fishnet sleeves with white mesh cuffs. She has a short white skirt with pink stitching, black fishnet tights, and pink knee-high boots with black laces and hearts.\nHer accessories feature a pink flower necklace and gray safety pin earrings. Also included with Draculaura is a doll stand.",
       "id": 379,
       "reissue": true,
@@ -7774,7 +7992,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/07/Scaritage-Operetta.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/07/Scaritage-Operetta-box.jpg"
       ],
-      "galleryImagesFileNames": ["cbx73_operetta-0", "cbx73_operetta-1"],
+      "galleryImagesFileNames": [
+        "cbx73_operetta-0",
+        "cbx73_operetta-1"
+      ],
       "description": "Operetta is awesome with her big red hair, big bangs, big hair bump, and big ponytail with streaks of black. She is wearing a black top with a magenta collar, a red & white design on the chest, and a magenta bow by the waist. Her white capri pants have checkered pink lines and four black pips in each white square creating a dice-like appearance.\nAccessories begin with a white heart-shaped mask that covers one eye, a white music note earring, and a purple lace headband scarf. Around her waist is a belt made of all black dice. On her feet are purple wedges decorated with straps, treble clefs, and white platforms.\nOperetta has two bags. Her purse is purple with a music note handle and black piano key accents. The duffel bag is white with spiderwebs and red music note designs. \nIncluded with the doll is a brush and doll stand.",
       "id": 381,
       "type": "Doll",
@@ -7829,7 +8050,11 @@
         "https://mhcollector.com/wp-content/uploads/2015/07/Social-Spots-Student-Lounge-2.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/07/Social-Spots-Student-Lounge-1.jpg"
       ],
-      "galleryImagesFileNames": ["bjr20_-0", "bjr20_-1", "bjr20_-2"],
+      "galleryImagesFileNames": [
+        "bjr20_-0",
+        "bjr20_-1",
+        "bjr20_-2"
+      ],
       "description": "The Student Lounge includes a game table, couch, and vending machine. The silver coffin-shaped oozeball table is outlined with studs, has spiderweb cutouts, a pink field, and black spiderweb styled wrought iron legs. The table has two rods of green zombie players, two rods of magenta zombie players, and comes with two brain balls.\nThe pink couch has spiderweb tufted cushions with skullette buttons. The frame is black wrought iron decorated with rows of studs, a spider skull at the top, and an ornate spiderweb design in the front.\nThe coffin-shaped vending machine is black with spiderweb cutouts in the back, pink shelves and cranks, and a magenta front. The front has a quilted design that is outlined with studs and has vending buttons and controls. It has green goo at the top, the Monster High crest, a spiderweb-etched clear door, and a low blue door decorated with skullettes. \nThe machine is filled with a bag of piranha crackers, a red cherry juice bottle, a green sour apple juice box, a blue sour apple juice box, crunchy mouse tails, and two studded soda cans; one red and one blue. Also included with the playset is a green laptop and a purple tombstone shaped tablet.",
       "type": "Playsets",
       "id": 384,
@@ -8045,7 +8270,11 @@
         "https://mhcollector.com/wp-content/uploads/2017/03/Inner-Monster-Add-On-Pack-Scared-Silly-box-2.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/03/Inner-Monster-Add-On-Pack-Scared-Silly-box-1.jpg"
       ],
-      "galleryImagesFileNames": ["bjr29_-0", "bjr29_-1", "bjr29_-2"],
+      "galleryImagesFileNames": [
+        "bjr29_-0",
+        "bjr29_-1",
+        "bjr29_-2"
+      ],
       "description": "This add-on has a monstrously fun theme that includes a face mask, hair, emoticons, and clothing.\nDoll Parts\nThe face mask is a light orange with purple and yellow eyeshadow, light blue eyeliner, and hot pink lips with a tongue poking out. The molded green hair has two buns, bangs, and hanging side curls. There are four orange emoticons; a Skullette jack-in-the-box, an ice cream sundae, a jester hat, and a heart with glasses.\nClothing\nThe halterneck dress has a big sheer purple ruffled collar, a purple waist, and a double layered skirt. It features a pink, yellow, and gray diamond print decorated with Skullettes with their tongues out, Skullettes with jester hats, spiderwebs, and hearts.\nAccessories consist of winding arm and leg wraps made from purple tentacles. For shoes, there is a pair of green pumps with tentacle heels and purple and orange flowers on the toes.",
       "type": "Inner Monster",
       "id": 394,
@@ -8059,7 +8288,11 @@
         "https://mhcollector.com/wp-content/uploads/2017/03/Inner-Monster-Add-On-Pack-Spooky-Sweet-box-2.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/03/Inner-Monster-Add-On-Pack-Spooky-Sweet-box-1.jpg"
       ],
-      "galleryImagesFileNames": ["cbl22_-0", "cbl22_-1", "cbl22_-2"],
+      "galleryImagesFileNames": [
+        "cbl22_-0",
+        "cbl22_-1",
+        "cbl22_-2"
+      ],
       "description": "This add-on has a candy themed face mask, hair, emoticons, and clothing.\nDoll Parts\nThe face mask is light blue with a whip cream shadow mask, colorful sprinkles, and peppermint candy lips. The molded hair is a dripping yellow with a dollop swirl on top. There are four emoticons; a pink Skullette, a pink sugar skull, turquoise and purple candy, and a purple heart with ruffles.\nClothing\nThe halterneck dress has a black collar, black waist, and a puffy skirt. It features a very busy print with pink candy skulls, yellow drips, hard candy, and hearts.\nAccessories consist of dripping pink arm and legs wraps with white candy accents. For shoes, there are yellow open-toe pumps with lollipop heels.",
       "type": "Inner Monster",
       "id": 395,
@@ -8217,7 +8450,10 @@
         "https://mhcollector.com/wp-content/uploads/2017/02/American-Greetings-Frankie-Stein-Ornament-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/02/American-Greetings-Frankie-Stein-Ornament-box-1.jpg"
       ],
-      "galleryImagesFileNames": ["_frankie_stein-0", "_frankie_stein-1"],
+      "galleryImagesFileNames": [
+        "_frankie_stein-0",
+        "_frankie_stein-1"
+      ],
       "description": "Frankie has long black and white streaked hair with blunt bangs. She has light green skin with gold stitches, one blue and one green eye, gold eyeshadow, and pink lips. \nHer elaborate dress is silver and black with a sweetheart neckline, blue halterneck, and gold lightning bolt accents. The layered skirt is blue and black with a blue train under a black mesh train with flecks of gold.\nGolden accessories consist of a hex nut headband, earrings, and bracelets. On her feet are gold wedges with blue straps.\nFrankie Stein may also be referred to as a Carlton Cards ornament.",
       "type": "Ornaments",
       "id": 401,
@@ -8230,7 +8466,11 @@
         "https://mhcollector.com/wp-content/uploads/2017/02/American-Greetings-Skullette-Ornament-3.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/02/American-Greetings-Skullette-Ornament-2.jpg"
       ],
-      "galleryImagesFileNames": ["_-0", "_-1", "_-2"],
+      "galleryImagesFileNames": [
+        "_-0",
+        "_-1",
+        "_-2"
+      ],
       "description": "The Skullette ornament has a black and white skeletal face with eyelash accented sockets and a magenta bow. She is wearing a red Santa hat with stitches by the fold.\nThe Skullette may also be referred to as a Carlton Cards ornament.",
       "type": "Ornaments",
       "id": 402,
@@ -8244,7 +8484,10 @@
         "https://mhcollector.com/wp-content/uploads/2017/02/Gift-Creation-Clawdeen-Wolf-2014-Ornament-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/02/Gift-Creation-Clawdeen-Wolf-2014-Ornament-box-1.jpg"
       ],
-      "galleryImagesFileNames": ["_clawdeen_wolf-0", "_clawdeen_wolf-1"],
+      "galleryImagesFileNames": [
+        "_clawdeen_wolf-0",
+        "_clawdeen_wolf-1"
+      ],
       "description": "The Clawdeen ornament has long wavy brown hair with tan highlights. She has a tan complexion with yellow eyes, purple eyeshadow, and red lips.\nHer signature outfit has a pink top and a dark purple pleated skirt with a black under layer. Over the top is a black jacket with purple cuffs and a purple fur collar.\nAccessories consist of a gold-studded choker with a gold pendant, a gold-studded belt, and pink knee highs. On her feet are black peep-toe boots with purple straps and gold buckles.\nNext to Clawdeen is a red bag with the Monster High crest, snowflakes, and a white string bow. Sticking out of the top is a purple present with a green bow.",
       "type": "Ornaments",
       "id": 403,
@@ -8302,7 +8545,11 @@
         "https://mhcollector.com/wp-content/uploads/2017/03/Freaky-Fabulous-Pets-Crescent-large-box-1-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/03/Freaky-Fabulous-Pets-Crescent-large-1-1.jpg"
       ],
-      "galleryImagesFileNames": ["_crescent-0", "_crescent-1", "_crescent-2"],
+      "galleryImagesFileNames": [
+        "_crescent-0",
+        "_crescent-1",
+        "_crescent-2"
+      ],
       "description": "Crescent is Clawdeen Wolf’s pet cat. The medium plush figure is about ten inches tall with purple fur and tufts on the top and sides of her head. She has shimmery pink ears, a puffy pink patch of fur on her chest, white claws, and shimmery pink paw pads.\nHer face has a pink bang line, a black triangle nose, and a white fanged smile. Crescent’s left eye is a green “x” and the right is a solid green circle with a purple scratch above and below.\nCrescent is a scary cute little kitten who's just as fierce and fuzzy as Clawdeen. Her best friends are Count Fabulous and Watzit.",
       "type": "Plush",
       "id": 406,
@@ -8551,7 +8798,10 @@
         "https://mhcollector.com/wp-content/uploads/2017/02/Scary-Cute-Figures-Howliday-Draculaura.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/02/Scary-Cute-Figures-Howliday-Draculaura-2.jpg"
       ],
-      "galleryImagesFileNames": ["_draculaura-0", "_draculaura-1"],
+      "galleryImagesFileNames": [
+        "_draculaura-0",
+        "_draculaura-1"
+      ],
       "description": "Draculaura has pink and black striped hair that is worn in pig-tails. She has pink skin, pink eyes, pink lips, and a heart on her cheek.\nHer pink top has silver ruffles and silver sleeves. It is complemented by a silver skirt and matching tights.\nAccessories consist of a pink top hat and lavender wrist cuffs. On her feet are pink knee-high boots with silver laces. \nShe stands on a black Monster High base detailed with a Skullette. On the base is a snow pile with a black tombstone and a candy cane decorated by a Skullette bow.",
       "type": "Scary Cute Figures",
       "id": 418,
@@ -8565,7 +8815,10 @@
         "https://mhcollector.com/wp-content/uploads/2017/02/Scary-Cute-Figures-Howliday-Frankie-Stein.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/02/Scary-Cute-Figures-Howliday-Frankie-Stein-2.jpg"
       ],
-      "galleryImagesFileNames": ["_frankie_stein-0", "_frankie_stein-1"],
+      "galleryImagesFileNames": [
+        "_frankie_stein-0",
+        "_frankie_stein-1"
+      ],
       "description": "Frankie has long silver hair with stripes of black. She has pale green skin, one blue and one green eye, pink eyeshadow, and dark red lips.\nHer blue dress has short puffy silver sleeves and a silver belt with chains and a lightning bolt buckle. Accessories consist of blue earrings and black and white striped pumps.\nFrankie is wrapped in a string of colored lights and holds a Skullette decoration. She stands on a black base with a tombstone wrapped in silver ribbon and a pink present with a lavender bow.",
       "type": "Scary Cute Figures",
       "id": 419,
@@ -9733,7 +9986,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/04/Frightfully-Tall-Ghouls-Elissabat.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/04/Frightfully-Tall-Ghouls-Elissabat-box.jpg"
       ],
-      "galleryImagesFileNames": ["dnb79_elissabat-0", "dnb79_elissabat-1"],
+      "galleryImagesFileNames": [
+        "dnb79_elissabat-0",
+        "dnb79_elissabat-1"
+      ],
       "description": "Elissabat has straight black hair with purple highlights and blunt bangs. This 17 inch Elissabat is just as stunning as her shorter Hauntlywood version and is wearing the same outfit.\nHer ensemble begins with a corseted dress that features a purple top and a purple-laced black bodice. The skirt has frilly layers of black mesh that are topped with a purple peplum. Over the dress is a cropped top with a black & purple print and sleeves that end in flared purple mesh cuffs.\nAccessories consist of a translucent purple bracelet and two pairs of purple tear drop earrings; one pair short and the other pair long. On her feet are black knee high boots with rows of ruffled bands and wedge heels.\nIncluded with Elissabat is a black doll stand.\nKiller Style: I am fangsolutely in love with lace, ruffles, silk, and satin... as long as it's frilly and it's black or deep purple.\n\nFreaky Flaw: I have terrible stage fright so I must be completely prepared before I ever stand in front of an audience. I've been told I'm a natural on stage and in front of a camera, but that's only because I spend hours making sure I have my lines down. It's the only way I can do what I do.\n\nPet: I played the part of a dragon whisperer in a film once. It was a great role but I've never translated that into a real unlife pet.\n\nFavorite Activity: Acting! It might seem strange that I like acting if I have stage fright, but I love inhabiting the characters I play.",
       "id": 470,
       "exclusive": "Toys”R”Us",
@@ -9771,7 +10027,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/03/Geek-Shriek-Catty-Noir.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/03/Geek-Shriek-Catty-Noir-box.jpg"
       ],
-      "galleryImagesFileNames": ["ckd79_catty_noir-0", "ckd79_catty_noir-1"],
+      "galleryImagesFileNames": [
+        "ckd79_catty_noir-0",
+        "ckd79_catty_noir-1"
+      ],
       "description": "Catty is absolutely stunning with her dark complexion and contrasting pink hair pulled into a high ponytail. She is wearing short white dress with short sleeves, a long cracked gray collar, and an argyle print. The print has black dashed lines, gray cracked diamonds, and pink cat face diamonds\nShe accessorizes with white cat eye glasses and white platform wedges with a cracked appearance. Catty does not include a brush or doll stand.\n\"Geek Shreik\" - Noun. \\ɡēk shrēk\\\n\nThe unique art of combining style and smarts into a scary-cool look, monsterality, and way of unlife.\n\nSynonym: Brainy Monsterista.\nAntonym: Booring.",
       "id": 472,
       "type": "Doll",
@@ -9806,7 +10065,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/03/Geek-Shriek-Gigi-Grant.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/03/Geek-Shriek-Gigi-Grant-box.jpg"
       ],
-      "galleryImagesFileNames": ["ckd80_gigi_grant-0", "ckd80_gigi_grant-1"],
+      "galleryImagesFileNames": [
+        "ckd80_gigi_grant-0",
+        "ckd80_gigi_grant-1"
+      ],
       "description": "Gigi has pink hair with a cute orange streak pulled into a high ponytail. She is wearing a high waist dress with a black & blue striped bodice. The blue & white grid patterned skirt features colorful images of “Hi”, “LOL!”, scorpions, atoms, lightning bolts, hearts, stars, and more.\nAccessories consist of blue glasses with pointy segmented rims, a pink tie pendant, and blue curly-toed shoes with gravity heels and sock cuffs. Gigi does not include a brush or doll stand.\n\"Geek Shreik\" - Noun. \\ɡēk shrēk\\\n\nThe unique art of combining style and smarts into a scary-cool look, monsterality, and way of unlife.\n\nSynonym: Brainy Monsterista.\nAntonym: Booring.",
       "id": 474,
       "type": "Doll",
@@ -10635,7 +10897,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/02/Original-Ghouls-Collection-6-Pack-Box.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/02/Original-Ghouls-Collection-6-Pack.jpg"
       ],
-      "galleryImagesFileNames": ["_clawdeen_wolf-0", "_clawdeen_wolf-1"],
+      "galleryImagesFileNames": [
+        "_clawdeen_wolf-0",
+        "_clawdeen_wolf-1"
+      ],
       "description": "This multi-pack includes six dolls wearing their signature outfits. The characters include Clawdeen Wolf, Cleo de Nile, Draculaura, Frankie Stein,  Ghoulia Yelps, and Lagoona Blue. They were all previously released as part of the Signature series.",
       "id": 509,
       "type": "Multipack",
@@ -10835,7 +11100,11 @@
         "https://mhcollector.com/wp-content/uploads/2016/10/Fright-Mares-Fawntine-Fallowhart-2.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/10/Fright-Mares-Fawntine-Fallowhart-Box1.jpg"
       ],
-      "galleryImagesFileNames": ["djf12_-0", "djf12_-1", "djf12_-2"],
+      "galleryImagesFileNames": [
+        "djf12_-0",
+        "djf12_-1",
+        "djf12_-2"
+      ],
       "description": "Fawntine is a deer hybrid with long white blonde hair with a streak of green. Large antlers are on top of her head and they are decorated with pink flowers, bird skulls, and two skeletal birds. Her beige skin is complemented by antler-like eyebrows, green eyes with mint green and pink eyeshadow, pink lips, and mint green freckles on her cheeks.\nShe is wearing a pink tank top with an image of green leafy ivy. Around her waist is a green ivy belt with multiple strands that connect to a bird skull in the front. Her deer body is brown with leafy green spots at the back and a white tail. Green ivy is printed on her left legs and green wraps with leafy vines cover her front legs.\nMy friends say I'm a little bit quiet and a little bit shy, and I suppose they're a little bit right. Although I prefer to think of myself as gentle, which suits me right down to the ground.",
       "type": "Fright-Mares",
       "id": 518,
@@ -11783,7 +12052,12 @@
         "https://mhcollector.com/wp-content/uploads/2017/02/Hallmark-Skullette-Ornament-3.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/02/Hallmark-Skullette-Ornament-2.jpg"
       ],
-      "galleryImagesFileNames": ["_-0", "_-1", "_-2", "_-3"],
+      "galleryImagesFileNames": [
+        "_-0",
+        "_-1",
+        "_-2",
+        "_-3"
+      ],
       "description": "The ornament is the classic version of a Skullette. It is white outlined in black with eyelash eye sockets, a black nose, and a magenta bow. The ornament hangs from a shiny silver string.",
       "type": "Ornaments",
       "id": 557,
@@ -11853,7 +12127,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/02/Draculaura-Vinyl-Chase.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/02/Draculaura-Vinyl-Chase-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_draculaura-0", "_draculaura-1"],
+      "galleryImagesFileNames": [
+        "_draculaura-0",
+        "_draculaura-1"
+      ],
       "description": "Draculaura has pink hair and lacks standard features like eyes, a mouth, and clothes. She is all black with a pink & white pattern that consists of bats, lips with fangs, “X”s, spiderwebs, and the words “Scary Cute”.\nThis chase figure is a variant of the regular Draculaura. She has the same pose, but a different appearance. A chase figure is an intentional variation that is produced in smaller quantities.",
       "type": "Vinyl",
       "id": 561,
@@ -11867,7 +12144,10 @@
         "https://mhcollector.com/wp-content/uploads/2015/02/Frankie-Stein-Vinyl-Chase.jpg",
         "https://mhcollector.com/wp-content/uploads/2015/02/Frankie-Stein-Vinyl-Chase-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_frankie_stein-0", "_frankie_stein-1"],
+      "galleryImagesFileNames": [
+        "_frankie_stein-0",
+        "_frankie_stein-1"
+      ],
       "description": "Frankie has silver hair and lacks standard features like eyes, a mouth, and clothes. The all black figure is embellished with yellow stitches and a blue pattern that consists of nuts, lightning bolts, “Monster High”, “Totally Voltage”, and more stitches.\nThe chase figure is a variant of the regular Frankie Stein. She has the same pose, but a different appearance. A chase figure is an intentional variation that is produced in smaller quantities.",
       "type": "Vinyl",
       "id": 562,
@@ -11991,7 +12271,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/05/Vinyl-Twyla.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/05/Vinyl-Twyla-box.jpg"
       ],
-      "galleryImagesFileNames": ["cjr41_twyla-0", "cjr41_twyla-1"],
+      "galleryImagesFileNames": [
+        "cjr41_twyla-0",
+        "cjr41_twyla-1"
+      ],
       "description": "Twyla has lovely lavender skin and amazingly long and wavy pastel green hair with streaks of light purple. Her clothing is based upon her 13 Wishes outfit.\nThe figure is wearing a blue top with black bug stripes and a black & light green bow by the neck. Her black skirt is decorated with light green filigree, a blue speckled stripe, and a light green belt with dots and a skull buckle.\nShe accessorizes with two bangles: one is light green and the other is black. On her feet are blue boots with black soles, black trim, light green laces, and spider accents. Rising up her legs are black tendrils.",
       "type": "Vinyl",
       "id": 569,
@@ -12005,7 +12288,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/05/Vinyl-Twyla-Chase.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/05/Vinyl-Twyla-Chase-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_twyla-0", "_twyla-1"],
+      "galleryImagesFileNames": [
+        "_twyla-0",
+        "_twyla-1"
+      ],
       "description": "This candy themed Twyla has pastel green hair with colorful speckles. In her hair is a pink & white peppermint barrette. She is all black and lacks facial features. Her body is decorated with a pattern pink and pastel green swirls, dots, and candy-like designs.\nShe is a chase figure and a variant of the regular Twyla. She has the same pose, but a different appearance. A chase figure is an intentional variation that is produced in smaller quantities.",
       "type": "Vinyl",
       "id": 570,
@@ -12037,7 +12323,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/05/Vinyl-Venus-McFlytrap-chase.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/05/Vinyl-Venus-McFlytrap-chase-box.jpg"
       ],
-      "galleryImagesFileNames": ["_venus_mcflytrap-0", "_venus_mcflytrap-1"],
+      "galleryImagesFileNames": [
+        "_venus_mcflytrap-0",
+        "_venus_mcflytrap-1"
+      ],
       "description": "Venus has long green hair with one side shaved short and colored pink. She is all black and lacks eyes and a mouth. Her body is decorated with pink, blue, and teal graphics of ivy, flytraps, flowered faces, skullettes, and leaves.\nShe is a chase figure and a variant of the regular Venus. She has the same pose, but a different appearance. A chase figure is an intentional variation that is produced in smaller quantities.",
       "type": "Vinyl",
       "id": 572,
@@ -12125,7 +12414,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/08/Complete-Look-Ari-Hauntington-2.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/08/Complete-Look-Ari-Hauntington-1.jpg"
       ],
-      "galleryImagesFileNames": ["dvf11_-0", "dvf11_-1"],
+      "galleryImagesFileNames": [
+        "dvf11_-0",
+        "dvf11_-1"
+      ],
       "description": "Ari will be spooktacular in this blue one-shoulder dress decorated with purple and blue chains, little Skullettes, and magenta trim. The single sleeve and asymmetrical top skirt are sheer magenta. \nChain accessories include a wrapped blue necklace and a silver triangle-link belt with a hanging chain. For shoes, there are silver pumps with studs, spikes, chains, and manacle ankle straps. The purse is a purple clutch with wrapped chains.",
       "type": "Fashion Packs",
       "id": 577,
@@ -12139,7 +12431,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/08/Complete-Look-Clawdeen-Wolf-2.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/08/Complete-Look-Clawdeen-Wolf-1.jpg"
       ],
-      "galleryImagesFileNames": ["dnx61_-0", "dnx61_-1"],
+      "galleryImagesFileNames": [
+        "dnx61_-0",
+        "dnx61_-1"
+      ],
       "description": "This form-fitting dress has a ferocious look that is perfect for Clawdeen.  It has short black mesh sleeves, purple and lavender stripes, and a zipper print.\nAccessories consist of black sunglasses, a gold bracelet, and green high tops. Completing the ensemble is a gold clutch with zipper accents and a studded strap.",
       "type": "Fashion Packs",
       "id": 578,
@@ -12164,7 +12459,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/08/Complete-Look-Cleo-de-Nile-2.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/08/Complete-Look-Cleo-de-Nile-1.jpg"
       ],
-      "galleryImagesFileNames": ["dvf09_-0", "dvf09_-1"],
+      "galleryImagesFileNames": [
+        "dvf09_-0",
+        "dvf09_-1"
+      ],
       "description": "Cleo will look spectacular in this form-fitting dress. The black & yellow dress has a bandage wrapped print, black mesh shoulders, and yellow trim.\nComplementing the dress are red sunglasses, a golden belt, and gravity shoes. The shoes are gold with pyramid platforms and Ouroboros ankle straps. The purse is a curved red handbag with two-headed snake handle. ",
       "type": "Fashion Packs",
       "id": 580,
@@ -12189,7 +12487,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/08/Complete-Look-Draculaura-2.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/08/Complete-Look-Draculaura-1.jpg"
       ],
-      "galleryImagesFileNames": ["dnx60_-0", "dnx60_-1"],
+      "galleryImagesFileNames": [
+        "dnx60_-0",
+        "dnx60_-1"
+      ],
       "description": "Draculaura would love to have this stunning pink dress that is decorated with a filigree and Skullette print. It has wide blue straps and a blue waist ribbon.\nAccessories include a black flower necklace and blue sunglasses. For shoes there are blue wedges with ankle bow-straps and heart-shaped cutouts in the heels. Lastly, there is a lip-shaped purse that is pink, covered in beads, and adorned with fangs and dangling strands.",
       "type": "Fashion Packs",
       "id": 582,
@@ -12214,7 +12515,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/09/Complete-Look-Draculaura-Accessories.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/09/Complete-Look-Draculaura-Accessories-box.jpg"
       ],
-      "galleryImagesFileNames": ["dnx43_-0", "dnx43_-1"],
+      "galleryImagesFileNames": [
+        "dnx43_-0",
+        "dnx43_-1"
+      ],
       "description": "Draculaura will have some fangtastic fun with this accessory pack. It features a pair of pink roller skates with yellow wheels and fang heels. Complementing the skates are yellow wing-like glasses. \nTo carry her belongings, there’s a black fanny pack belt adorned with a bow and bat wings. Lastly, Draculaura can listen to an iCoffin and practice her roller disco. The iCoffin is pink with earbuds and wing accents.",
       "type": "Fashion Packs",
       "id": 584,
@@ -12228,7 +12532,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/08/Complete-Look-Frankie-Stein-2.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/08/Complete-Look-Frankie-Stein-1.jpg"
       ],
-      "galleryImagesFileNames": ["dnx59_-0", "dnx59_-1"],
+      "galleryImagesFileNames": [
+        "dnx59_-0",
+        "dnx59_-1"
+      ],
       "description": "Frankie will look amazing in this fun ensemble that features a black & white top with a Skullette print. Complementing the top is a plaid skirt with pink and blue lines, a pink waist, and pink suspenders.\nAccessories for the outfit consist of yellow glasses, a layered silver chain necklace, and silver pumps with double straps. The last item is a blue clutch embellished with zippers, studs, buckles, and a small spiked strap.",
       "type": "Fashion Packs",
       "id": 585,
@@ -12242,7 +12549,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/09/Complete-Look-Frankie-Stein-Accessories.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/09/Complete-Look-Frankie-Stein-Accessories-box.jpg"
       ],
-      "galleryImagesFileNames": ["dnx42_-0", "dnx42_-1"],
+      "galleryImagesFileNames": [
+        "dnx42_-0",
+        "dnx42_-1"
+      ],
       "description": "This accessory pack is perfect for Frankie’s movie night. It starts with a pair a triangle shades with pink and blue 3D lenses. Then there are the blue platform booties that feature popcorn box heels.\nTwo tasty treats are also included. The red delicious brain puffs are in a silver box with “brain puffs” on the sides. To wash them down, there’s an icy blue drink in a cup decorated with lightning bolts and stitches.",
       "type": "Fashion Packs",
       "id": 586,
@@ -12256,7 +12566,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/08/Complete-Look-Lagoona-Blue-2.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/08/Complete-Look-Lagoona-Blue-1.jpg"
       ],
-      "galleryImagesFileNames": ["dvf10_-0", "dvf10_-1"],
+      "galleryImagesFileNames": [
+        "dvf10_-0",
+        "dvf10_-1"
+      ],
       "description": "Lagoona will look adorable in this sleeveless dress. It is turquoise complemented by a black & magenta scale pattern and a black hem with fishy details.\nAccessories include a bubbly pink necklace and a turquoise belt with bubble pockets and a fish buckle. The shoes are pink wedges with winding leg straps. Completing the outfit is a reddish pink beach  tote.",
       "type": "Fashion Packs",
       "id": 587,
@@ -12540,7 +12853,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/11/Emoji-Draculaura.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/11/Emoji-Draculaura-Box.jpg"
       ],
-      "galleryImagesFileNames": ["dvh18_draculaura-0", "dvh18_draculaura-1"],
+      "galleryImagesFileNames": [
+        "dvh18_draculaura-0",
+        "dvh18_draculaura-1"
+      ],
       "description": "Draculaura has long straight black hair with streaks of pink. She has pale pink skin, pink eyeshadow, fanged red lips, and a red heart on her cheek.\nHer blue strapless dress has pink bow straps and a black tulle hem. The front of the dress features a print with little black hearts, safety pins, bats, pink bows, and dark pink emojis.\nShe accessorizes with a big red headband bow decorated with bats, hearts, and emoji bats. On her feet are translucent pink strappy pumps with cutout heels adorned with hearts.\nDraculaura is a budget doll and lacks articulation at her wrists, elbows, and knees.",
       "type": "Budget",
       "id": 600,
@@ -13729,7 +14045,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/05/Sleepover-Draculaura-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/05/Sleepover-Draculaura-box.jpg"
       ],
-      "galleryImagesFileNames": ["dpc41_draculaura-0", "dpc41_draculaura-1"],
+      "galleryImagesFileNames": [
+        "dpc41_draculaura-0",
+        "dpc41_draculaura-1"
+      ],
       "description": "Draculaura has long straight black hair streaked with dark pink. She is wearing a cute pink nightie with an elaborate chain link print. The print features tiny pink polka dots, skullettes, and pink hearts. The neckline and frilly hem are black with red polka dot hearts. The neckline is also adorned with a red bow and the hem is trimmed in red.\nAccessories consist of a sleep mask that matches the print of her nightie and pink slippers. The fuzzy slippers are embellished with bat wing accents. Draculaura does not include a doll stand or brush and lacks articulation at the elbow and wrist.",
       "type": "Budget",
       "id": 650,
@@ -14457,7 +14776,10 @@
         "https://mhcollector.com/wp-content/uploads/2017/01/Mega-Bloks-Abbey-Bominable-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/01/Mega-Bloks-Abbey-Bominable-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_abbey_bominable-0", "_abbey_bominable-1"],
+      "galleryImagesFileNames": [
+        "_abbey_bominable-0",
+        "_abbey_bominable-1"
+      ],
       "description": "Abbey has long white hair with a streak of pink and a streak of blue. It is held back by a silver headband. She has pale blue skin, pink eyes with pink shadow, purple eyebrows, and pink fanged lips.\nHer outfit is a sleeveless black dress decorated with blue and purple triangle shards. A white belt is around her waist and furry white trims the skirt.\nAccessories consist of a furry white scarf, a pink multi-bangle bracelet, and a yellow iCoffin phone. On her feet are furry white knee high boots.\nThe figure stands about 3 inches tall and has 13 pieces.",
       "type": "Mega Bloks",
       "id": 684,
@@ -14471,7 +14793,10 @@
         "https://mhcollector.com/wp-content/uploads/2017/01/Mega-Bloks-Ari-Hauntington-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/01/Mega-Bloks-Ari-Hauntington-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_ari_hauntington-0", "_ari_hauntington-1"],
+      "galleryImagesFileNames": [
+        "_ari_hauntington-0",
+        "_ari_hauntington-1"
+      ],
       "description": "Ari has long wavy pink hair with braided strands in the front. Her pale complexion is complemented by magenta eyebrows, pink eyes with pink shadow, and magenta lips.\nHer outfit features an off-the-shoulder purple dress decorated with pink diamonds and music notes. The asymmetrical skirt is longer in back with black shorts underneath.\nAccessories consist of a silver bracelet, a silver belt with dangling chains, and a red iCoffin phone. On her feet are red wedge pumps.\nThe figure stands about 3 inches tall and has 13 pieces.",
       "type": "Mega Bloks",
       "id": 685,
@@ -14485,7 +14810,10 @@
         "https://mhcollector.com/wp-content/uploads/2017/01/Mega-Bloks-Clawdeen-Wolf-2-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/01/Mega-Bloks-Clawdeen-Wolf-2-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_clawdeen_wolf-0", "_clawdeen_wolf-1"],
+      "galleryImagesFileNames": [
+        "_clawdeen_wolf-0",
+        "_clawdeen_wolf-1"
+      ],
       "description": "Clawdeen has long brown hair with a streak of purple that is piled into a high ponytail. She has brown skin, yellow eyes with purple shadow, and fanged red lips.\nHer outfit begins with a cropped black vest over a sleeveless green top with purple leopard print. Completing the look is a short black skirt and purple tights.\nShe accessorizes with a peach multi-bangle bracelet and a green iCoffin phone. On her feet are yellow wedge pumps.\nThe figure stands about 3 inches tall and has 13 pieces.",
       "type": "Mega Bloks",
       "id": 686,
@@ -14499,7 +14827,10 @@
         "https://mhcollector.com/wp-content/uploads/2017/01/Mega-Bloks-Lagoona-Blue-2.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/01/Mega-Bloks-Lagoona-Blue-2-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_lagoona_blue-0", "_lagoona_blue-1"],
+      "galleryImagesFileNames": [
+        "_lagoona_blue-0",
+        "_lagoona_blue-1"
+      ],
       "description": "Lagoona has wavy yellow hair with turquoise highlights and a pink starfish. She has pale turquoise skin, yellow green eyes with purple eyebrows, purple eyeshadow, pink lips, and freckles. On her calves are turquoise fins.\nHer top is black and sleeveless with a turquoise fish scale print. A pleated turquoise skirt over gray shorts complete the outfit.\nShe accessorizes with a coral pink statement necklace, a black bracelet, and a purple iCoffin phone. On her feet are coral pink strappy pumps.\nThe figure stands about 3 inches tall and has 13 pieces.",
       "type": "Mega Bloks",
       "id": 687,
@@ -14513,7 +14844,10 @@
         "https://mhcollector.com/wp-content/uploads/2017/01/Mega-Bloks-Nefera-de-Nile-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/01/Mega-Bloks-Nefera-de-Nile-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_nefera_de_nile-0", "_nefera_de_nile-1"],
+      "galleryImagesFileNames": [
+        "_nefera_de_nile-0",
+        "_nefera_de_nile-1"
+      ],
       "description": "Nefera has long green hair with black streaks that is pulled into a high ponytail with a gold band. Her tan complexion is complemented by lavender eyes with coral pink shadow and teal lips.\nShe is wearing a sleeveless almond colored top with a teal zigzag stripe. A black skirt with a ruffled hem and a gold Skullette belt complete the look.\nAccessories consist of a gold necklace with a pink gem, a turquoise multi-bangle bracelet, and a pink iCoffin phone. On her feet are gold wedge pumps.\nThe figure stands about 3 inches tall and has 13 pieces.",
       "type": "Mega Bloks",
       "id": 688,
@@ -14527,7 +14861,10 @@
         "https://mhcollector.com/wp-content/uploads/2017/01/Mega-Bloks-Twyla-2.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/01/Mega-Bloks-Twyla-2-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_twyla-0", "_twyla-1"],
+      "galleryImagesFileNames": [
+        "_twyla-0",
+        "_twyla-1"
+      ],
       "description": "Twyla has straight turquoise hair with blunt bangs and streaks of purple. Her pale complexion is complemented by violet eyes, lavender eyeshadow, and pink lips.\nShe is wearing a cropped black vest over a sleeveless lavender top with a spider and heart print. Her black pleated skirt has a turquoise waist.\nAccessories consist of a pink bracelet, a magenta iCoffin phone, and purple pumps with purple socks.\nThe figure stands about 3 inches tall and has 13 pieces.",
       "type": "Mega Bloks",
       "id": 689,
@@ -15464,7 +15801,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2016/11/Circus-Ghouls-Minis-Draculaura.jpg"
       ],
-      "galleryImagesFileNames": ["d02_draculaurad02-0"],
+      "galleryImagesFileNames": [
+        "d02_draculaurad02-0"
+      ],
       "description": "Mini Draculaura has black hair with dark red streaks and pigtails. She has pale pink skin, purple eyes outlined with dangling black dots, and a fanged smile.\nHer dark red outfit features a black diamond print with white heart accents. A black skirt, black shoes, and double red stripes on her legs complete the ensemble.",
       "type": "Minis",
       "id": 728,
@@ -15627,7 +15966,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/12/Geek-Shriek-Ghouls-Minis-Draculaura.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/12/Geek-Shriek-Ghouls-Minis-Draculaura-box.jpg"
       ],
-      "galleryImagesFileNames": ["e03_draculaurae03-0", "e03_draculaurae03-1"],
+      "galleryImagesFileNames": [
+        "e03_draculaurae03-0",
+        "e03_draculaurae03-1"
+      ],
       "description": "Mini Draculaura has pink hair with black streaks in her pigtails and a light blue bow-heart headband. She has pale pink skin, a fanged smile, pink eyeshadow, squinting eyes, and black glasses with heart accents.\nHer outfit has a white collared skirt under a pink overall skirt with hearts, a chest pocket, and black polka dots. Under the skirt are light blue tights and black shoes with pink laces.",
       "type": "Minis",
       "id": 736,
@@ -15980,7 +16322,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2016/12/Mermaid-Ghouls-Minis-Frankie-Stein.jpg"
       ],
-      "galleryImagesFileNames": ["e01_frankie_steine01-0"],
+      "galleryImagesFileNames": [
+        "e01_frankie_steine01-0"
+      ],
       "description": "Mini Frankie has long white hair with black highlights in the front. She has one green and one blue eye, pale green skin, and stitches on her cheek.\nHer sleeveless top is blue with a yellow double lightning bolt emblem. Her lower body is silver and transitions into a blue tail fin.",
       "type": "Minis",
       "id": 753,
@@ -16037,7 +16381,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Ghouls-Minis-Abbey-Bominable.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Ghouls-Minis-Abbey-Bominable-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_abbey_bominable-0", "_abbey_bominable-1"],
+      "galleryImagesFileNames": [
+        "_abbey_bominable-0",
+        "_abbey_bominable-1"
+      ],
       "description": "Mini Abbey has long white hair with streaks of pink, lavender, and blue. Her blue complexion is complemented by purple eyes with snowflake accents.\nShe is wearing a pink dress with a white scalloped collar, white designs, and a lined hem. On her feet are white shoes.",
       "type": "Minis",
       "id": 756,
@@ -16052,7 +16399,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Minis-Ari-Hauntington.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Minis-Ari-Hauntington-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_ari_hauntington-0", "_ari_hauntington-1"],
+      "galleryImagesFileNames": [
+        "_ari_hauntington-0",
+        "_ari_hauntington-1"
+      ],
       "description": "Mini Ari has long violet hair with curly ends. She is pale white with purple eyes that have music not accents.\nHer blue outfit has piano key graphics, a magenta belt, and a ruffled hem. On her feet are magenta shoes.",
       "type": "Minis",
       "id": 757,
@@ -16067,7 +16417,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Ghouls-Minis-Catrine-DeMew-s.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Ghouls-Minis-Catrine-DeMew-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_catrine_demew-0", "_catrine_demew-1"],
+      "galleryImagesFileNames": [
+        "_catrine_demew-0",
+        "_catrine_demew-1"
+      ],
       "description": "Mini Catrine has long lavender hair with curly tips and a red streak. She has a white skin with pointy ears, big blue eyes with bow accents, and a small pink nose.\nHer pink sleeveless pink dress has three blue stripes and a white cat face. On her feet are light blue shoes.",
       "type": "Minis",
       "id": 758,
@@ -16082,7 +16435,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Ghouls-Minis-Catty-Noir.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Ghouls-Minis-Catty-Noir-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_catty_noir-0", "_catty_noir-1"],
+      "galleryImagesFileNames": [
+        "_catty_noir-0",
+        "_catty_noir-1"
+      ],
       "description": "Mini Catty has long pink hair with curled ends. She is dark gray with pointy ears, has pink eyes with music note accents, and has a small pink nose.\nHer shiny silver dress is sleeveless and decorated with pink, gray, and white dots. On her feet are shiny silver shoes.",
       "type": "Minis",
       "id": 759,
@@ -16097,7 +16453,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/10/Original-Minis-Clawdeen-Wolf.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/10/Original-Minis-Clawdeen-Wolf-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_clawdeen_wolf-0", "_clawdeen_wolf-1"],
+      "galleryImagesFileNames": [
+        "_clawdeen_wolf-0",
+        "_clawdeen_wolf-1"
+      ],
       "description": "Mini Clawdeen has lovely brown hair with a magenta streak in the front. Her light brown skin is complemented by big brown eyes with crescent moon accents.\nShe is wearing a sleeveless dress that is medium purple with lime green stitching. A lime green grommet belt and lime green shoes accessorize the outfit.",
       "type": "Minis",
       "id": 760,
@@ -16112,7 +16471,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/10/Original-Minis-Cleo-de-Nile.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/10/Original-Minis-Cleo-de-Nile-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_cleo_de_nile-0", "_cleo_de_nile-1"],
+      "galleryImagesFileNames": [
+        "_cleo_de_nile-0",
+        "_cleo_de_nile-1"
+      ],
       "description": "Mini Cleo has straight brown hair with golden streaks. She has tan skin with raised stitches, big blue eyes with diamond accents, and a turquoise diamond on her right cheek.\nHer outfit is a yellow jumpsuit decorated with random black lines. Crisscrossing her chest are turquoise mummy bandages. She accessorizes with a gold headband.",
       "type": "Minis",
       "id": 761,
@@ -16146,7 +16508,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/10/Original-Minis-Draculaura.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/10/Original-Minis-Draculaura-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_draculaura-0", "_draculaura-1"],
+      "galleryImagesFileNames": [
+        "_draculaura-0",
+        "_draculaura-1"
+      ],
       "description": "Mini Draculaura has black hair with pink highlights, pigtails, and a pink heart-shaped bow with fangs. She has purple eyes with heart accents, pale pink skin, and stitches on her arms and legs. \nShe is wearing a pink outfit with black buttons and a pleated hem. It is complemented by a light blue jabot, a light blue belt, and pink shoes. ",
       "type": "Minis",
       "id": 763,
@@ -16161,7 +16526,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/10/Original-Frankie-Stein-Mini.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/10/Original-Frankie-Stein-Mini-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_frankie_stein-0", "_frankie_stein-1"],
+      "galleryImagesFileNames": [
+        "_frankie_stein-0",
+        "_frankie_stein-1"
+      ],
       "description": "Mini Frankie has long white hair with black highlights in the front. One of her lightning sparkled eyes is green and the other is blue with stitches underneath. Her skin is pale green with raised stitches running down her arms and legs.\nShe is wearing a cute sleeveless dress with a white collar and a black lightning bolt tie. A red belt separates the top from the pleated skirt and on her feet are black shoes.",
       "type": "Minis",
       "id": 764,
@@ -16216,7 +16584,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Minis-Lagoona-Blue.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Minis-Lagoona-Blue-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_lagoona_blue-0", "_lagoona_blue-1"],
+      "galleryImagesFileNames": [
+        "_lagoona_blue-0",
+        "_lagoona_blue-1"
+      ],
       "description": "Mini Lagoona has wavy yellow hair with curly turquoise highlights. Her pale green complexion is complemented by big teal eyes with starry accents.\nShe is wearing a turquoise dress with a pink starfish graphic and a red hem. On her feet are pink shoes.",
       "type": "Minis",
       "id": 767,
@@ -16231,7 +16602,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Ghouls-Minis-Moanica-DKay.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Ghouls-Minis-Moanica-DKay-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_moanica_d'kay-0", "_moanica_d'kay-1"],
+      "galleryImagesFileNames": [
+        "_moanica_d'kay-0",
+        "_moanica_d'kay-1"
+      ],
       "description": "Mini Moanica has purplish-pink hair with a big streak of green. She has pale gray skin with aquamarine eyes that have biohazard symbol accents.\nHer yellow outfit features a black & gray vest and a gray biohazard symbol. On her feet are pink shoes.",
       "type": "Minis",
       "id": 768,
@@ -16265,7 +16639,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Ghouls-Minis-Rochelle-Goyle.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Ghouls-Minis-Rochelle-Goyle-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_rochelle_goyle-0", "_rochelle_goyle-1"],
+      "galleryImagesFileNames": [
+        "_rochelle_goyle-0",
+        "_rochelle_goyle-1"
+      ],
       "description": "Rochelle has straight pink hair with streaks of light blue. She has pale gray speckled skin, gargoyle-like ears and wings, and pink eyes with fleur-de-lis accents.\nHer sleeveless outfit is white with black horizontal stripes. On her feet are pink shoes.",
       "type": "Minis",
       "id": 770,
@@ -16319,7 +16696,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Ghouls-Minis-Twyla.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Ghouls-Minis-Twyla-Box.jpg"
       ],
-      "galleryImagesFileNames": ["c08_twylac08-0", "c08_twylac08-1"],
+      "galleryImagesFileNames": [
+        "c08_twylac08-0",
+        "c08_twylac08-1"
+      ],
       "description": "Mini Twyla has pale turquoise hair that is wavy with streaks of purple. Her white complexion is complemented by bright purple eyes with buggy accents.\nShe is wearing a blue dress decorated with a black bow, a turquoise spiderweb, and a spider. At her feet are smoky swirls and light blue shoes.",
       "type": "Minis",
       "id": 773,
@@ -16334,7 +16714,10 @@
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Ghouls-Mini-Venus-McFlytrap.jpg",
         "https://mhcollector.com/wp-content/uploads/2016/11/Original-Ghouls-Mini-Venus-McFlytrap-Box.jpg"
       ],
-      "galleryImagesFileNames": ["_venus_mcflytrap-0", "_venus_mcflytrap-1"],
+      "galleryImagesFileNames": [
+        "_venus_mcflytrap-0",
+        "_venus_mcflytrap-1"
+      ],
       "description": "Mini Venus has long green hair with pink streaks and highlights. She has green skin, spring green eyes with swirly accents, and a prickly smile.\nHer sleeveless black dress has a pink ivy graphic and a green stitched hem. On her feet are pink shoes.",
       "type": "Minis",
       "id": 774,
@@ -17206,7 +17589,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2016/10/Vinyl-Draculaura-2.jpg"
       ],
-      "galleryImagesFileNames": ["dnj33_draculaura-0"],
+      "galleryImagesFileNames": [
+        "dnj33_draculaura-0"
+      ],
       "description": "Draculaura has long pig-tailed hair that is striped pink and black. Her pale pink complexion is complemented by purple eyes, fanged red lips, and a heart on her cheek.\nShe is wearing a flared top with white sleeves and a white upper half decorated with pink hearts and a bow. The rest of the top is pink with black accents, yellow buttons with crisscrossed lines, and a black hem.\nHer pants are yellow with pink polka dots. Completing the look are light pink pumps with black toe boxes. The ensemble is inspired by Draculaura’s signature outfit from Wave 2.",
       "type": "Vinyl",
       "id": 816,
@@ -17220,7 +17605,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/04/Jinafire-Long-Vinyl.jpg"
       ],
-      "galleryImagesFileNames": ["djc39_jinafire_long-0"],
+      "galleryImagesFileNames": [
+        "djc39_jinafire_long-0"
+      ],
       "description": "Jinafire has green hair with streaks of black that hangs to the floor. She has gold scale skin, green eyes, and purple lips.\nHer purple dress is decorated with outlines of red flames and light blue clouds. It has one black and red mesh sleeve and a gold belt with a mesh accent.\nShe accessorizes with a gold hair stick that has red tassels. On her feet are red pumps with ankle straps and gold heels.",
       "type": "Vinyl",
       "id": 817,
@@ -18133,7 +18520,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2016/12/Party-Ghouls-Venus-McFlytrap.jpg"
       ],
-      "galleryImagesFileNames": ["fdf14_venus_mcflytrap-0"],
+      "galleryImagesFileNames": [
+        "fdf14_venus_mcflytrap-0"
+      ],
       "description": "Venus has long straight hair that is streaked green and pink with one side shaved short. She has pale green skin, blue eyes, gray eyeshadow, and soft pink lips with prickly fangs.\nHer dress features a pink and magenta floral print with green flytrap accents. The dress is embellished by black trim with pink dots and a black tulle hem.\nShe accessorizes with a light green ivy headband with a pink flytrap and a green ivy chest wrap. On her feet are black booties with embossed ivy.\nPink flowers can be used to decorate her accessories. Her purse is an orange pot that has a blue fly and holds Chewlian, her pet Venus flytrap.",
       "id": 853,
       "type": "Doll",
@@ -18660,7 +19049,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/06/Candy-Ghouls-Minis-Catty-Noir.jpg"
       ],
-      "galleryImagesFileNames": ["dxy07_catty_noir-0"],
+      "galleryImagesFileNames": [
+        "dxy07_catty_noir-0"
+      ],
       "description": "Mini Catty has glittery pink hair and a dark gray complexion. She has pink eyes with music notes and a small pink nose. \nHer blue top has white stripes and a light blue lollipop. Magenta shoes are on her feet.\nThe figure can be found in the Minis 8-Pack.",
       "type": "Minis",
       "id": 877,
@@ -18675,7 +19066,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/06/Candy-Ghouls-Minis-Venus-McFytrap.jpg"
       ],
-      "galleryImagesFileNames": ["dxy07_venus_mcflytrap-0"],
+      "galleryImagesFileNames": [
+        "dxy07_venus_mcflytrap-0"
+      ],
       "description": "Mini Venus has sparkly green hair with a hot pink streak. She has pale yellow-green skin, teal blue eyes outlined with black dangling dots, and a prickly smile. \nHer light blue outfit has white polka dots and a sparkly flower. Green shoes are on her feet.\nThe figure can be found in the Minis 8-Pack.",
       "type": "Minis",
       "id": 878,
@@ -18728,7 +19121,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/08/Chalkboard-Ghouls-Minis-Frankie-Stein-1.jpg"
       ],
-      "galleryImagesFileNames": ["f17_frankie_steinf17-0"],
+      "galleryImagesFileNames": [
+        "f17_frankie_steinf17-0"
+      ],
       "description": "Mini Frankie is all black and decorated with pastel colors. She has blue and turquoise streaks in her hair, a blue dot nose, and stitches on her cheek. One eye is turquoise and the other is blue.\nHer outfit has a blue lightning tie, a turquoise waist, and stitch details.",
       "type": "Minis",
       "id": 881,
@@ -18782,7 +19177,10 @@
         "https://mhcollector.com/wp-content/uploads/2017/09/Chalkboard-Ghouls-Minis-Twyla-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/09/Chalkboard-Ghouls-Minis-Twyla-2.jpg"
       ],
-      "galleryImagesFileNames": ["g09_twylag09-0", "g09_twylag09-1"],
+      "galleryImagesFileNames": [
+        "g09_twylag09-0",
+        "g09_twylag09-1"
+      ],
       "description": "Mini Twyla is all black and decorated with pastel colors. She has pink streaks in her hair, magenta eyes, and a magenta nose.\nHer outfit has aquamarine lines and details and the top is decorated with a pink bug. Pink shoes are on her feet.",
       "type": "Minis",
       "id": 884,
@@ -18797,7 +19195,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/08/Fruit-Ghouls-Minis-Ari-Hauntington-1.jpg"
       ],
-      "galleryImagesFileNames": ["f08_ari_hauntingtonf08-0"],
+      "galleryImagesFileNames": [
+        "f08_ari_hauntingtonf08-0"
+      ],
       "description": "Mini Ari is light purple with purple hair decorated with grape details and green streaks. She has blue eyes with grape sparkles and a thin smile.\nHer dress is black with a green collar, grape graphics, and a blue hem. Blue shoes complete the outfit.",
       "type": "Minis",
       "id": 885,
@@ -18812,7 +19212,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/06/Fruit-Ghouls-Minis-Cleo-De-Nile.jpg"
       ],
-      "galleryImagesFileNames": ["dxy07_cleo_de_nile-0"],
+      "galleryImagesFileNames": [
+        "dxy07_cleo_de_nile-0"
+      ],
       "description": "Mini Cleo has straight red hair with a brown headband and leafy accents. She has tan skin, blue eyes with diamond sparkles, and a turquoise diamond on her right cheek. Her red jumpsuit is decorated with a halved apple.\nThe figure can be found in the Minis 8-Pack.",
       "type": "Minis",
       "id": 886,
@@ -18827,7 +19229,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/06/Fruit-Ghouls-Minis-Deuce-Gorgon.jpg"
       ],
-      "galleryImagesFileNames": ["dxy07_deuce_gorgon-0"],
+      "galleryImagesFileNames": [
+        "dxy07_deuce_gorgon-0"
+      ],
       "description": "Mini Deuce has a yellow scaled scalp with a green snake mohawk. He has green eyes with diamond accents behind yellow glasses. \nHis outfit features a yellow sleeveless shirt with crisscrossed lines and a pineapple graphic. His pants are green.\nThe figure can be found in the Minis 8-Pack.",
       "type": "Minis",
       "id": 887,
@@ -18843,7 +19247,10 @@
         "https://mhcollector.com/wp-content/uploads/2017/09/Fruit-Ghouls-Minis-Gigi-Grant-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/09/Fruit-Ghouls-Minis-Gigi-Grant-2.jpg"
       ],
-      "galleryImagesFileNames": ["g17_gigi_grantg17-0", "g17_gigi_grantg17-1"],
+      "galleryImagesFileNames": [
+        "g17_gigi_grantg17-0",
+        "g17_gigi_grantg17-1"
+      ],
       "description": "Mini Gigi has a long green high-top ponytail and pink hair with grape details. She has light skin, green eyes with grape accents, long lashes, and a crooked smile.\nHer black outfit has red trim and features a grapes graphic on the chest. On her feet are pink shoes with jagged green trim.",
       "type": "Minis",
       "id": 888,
@@ -18858,7 +19265,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/08/Fruit-Ghouls-Minis-Lagoona-Blue-1.jpg"
       ],
-      "galleryImagesFileNames": ["f06_lagoona_bluef06-0"],
+      "galleryImagesFileNames": [
+        "f06_lagoona_bluef06-0"
+      ],
       "description": "Mini Lagoona is light turquoise with yellow hair decorated with a pineapple design. She has one teal eye, one winking eye, teal freckles, and a crooked smile.\nHer top is yellow with brown lines and a green collar that create a pineapple graphic. A black skirt and yellow shoes complete the look.",
       "type": "Minis",
       "id": 889,
@@ -18892,7 +19301,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/08/Fruit-Ghouls-Minis-Toralei-Stripe-1.jpg"
       ],
-      "galleryImagesFileNames": ["f15_toralei_stripef15-0"],
+      "galleryImagesFileNames": [
+        "f15_toralei_stripef15-0"
+      ],
       "description": "Mini Toralei has orange-red hair with an orange slice graphic. She has light orange skin, green eyes with orange wedge sparkles, and an angled smile.\nHer orange top has features a white wedge patter. The outfit is completed by a black skirt and orange shoes.",
       "type": "Minis",
       "id": 891,
@@ -18926,7 +19337,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/08/Geek-Shriek-Ghouls-Minis-Catty-Noir-1.jpg"
       ],
-      "galleryImagesFileNames": ["f11_catty_noirf11-0"],
+      "galleryImagesFileNames": [
+        "f11_catty_noirf11-0"
+      ],
       "description": "Mini Catty is dark gray with pink curly hair. She has pink eyes with music note accents, an open smiling mouth, and wears white glasses with pink star details.\nHer outfit is gray with pink stars and a white collared shirt. She completes the look with pink shoes.",
       "type": "Minis",
       "id": 893,
@@ -18960,7 +19373,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/08/Geek-Shriek-Ghouls-Minis-Frankie-Stein-1.jpg"
       ],
-      "galleryImagesFileNames": ["g01_frankie_steing01-0"],
+      "galleryImagesFileNames": [
+        "g01_frankie_steing01-0"
+      ],
       "description": "Mini Frankie has white hair with black streaks and a blue headband. She has has pale green skin and one green and one blue eye with hex nut sparkles. Over her eyes are yellow glasses with lightning frames.\nHer geeky outfit features a collared white shirt with a yellow tie and lightning bolt suspenders. The look is completed with a blue skirt and black shoes.",
       "type": "Minis",
       "id": 895,
@@ -18995,7 +19410,10 @@
         "https://mhcollector.com/wp-content/uploads/2017/06/Gem-Ghouls-Minis-Draculaura-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/06/Gem-Ghouls-Minis-Draculaura-2.jpg"
       ],
-      "galleryImagesFileNames": ["dxy07_draculaura-0", "dxy07_draculaura-1"],
+      "galleryImagesFileNames": [
+        "dxy07_draculaura-0",
+        "dxy07_draculaura-1"
+      ],
       "description": "Mini Draculaura is translucent with angular features. She has pink pigtailed hair with turquoise streaks and bangs, pink skin, spiky purple eyes, and a black heart on her cheek. \nHer black dress is decorated with a turquoise bow and belt. On her feet are black shoes.\nThe figure can be found in the Minis 8-Pack.",
       "type": "Minis",
       "id": 897,
@@ -19048,7 +19466,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/08/Glow-in-the-Dark-Ghouls-Minis-Draculaura-1.jpg"
       ],
-      "galleryImagesFileNames": ["g02_draculaurag02-0"],
+      "galleryImagesFileNames": [
+        "g02_draculaurag02-0"
+      ],
       "description": "Mini Draculaura has pink hair with black streaks. It is worn in pigtails and decorated with a black & white bone heart bow. She has a pale pink complexion, big black eyes with long lashes and heart sparkles, a fanged smile, and a heart on her cheek.\nHer outfit is all pink with bone details and a baby blue skirt. The rib cage graphic has a baby blue heart.",
       "type": "Minis",
       "id": 900,
@@ -19063,7 +19483,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/08/Glow-in-the-Dark-Ghouls-Minis-Lagoona-Blue-1.jpg"
       ],
-      "galleryImagesFileNames": ["f07_lagoona_bluef07-0"],
+      "galleryImagesFileNames": [
+        "f07_lagoona_bluef07-0"
+      ],
       "description": "Mini Lagoona is light turquoise with yellow blonde hair that has a pink curl. She has black eyes with starfish sparkles and teal freckles.\nHer turquoise outfit is decorated with bone details. The rib cage graphic features a pink octopus.",
       "type": "Minis",
       "id": 901,
@@ -19078,7 +19500,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/08/Glow-In-The-Dark-Ghouls-Minis-Venus-McFlytrap-1.jpg"
       ],
-      "galleryImagesFileNames": ["f12_venus_mcflytrapf12-0"],
+      "galleryImagesFileNames": [
+        "f12_venus_mcflytrapf12-0"
+      ],
       "description": "Mini Venus has long green hair with pink highlights and curled ends. She has a green complexion, black eyes with swirl accents, and a prickly smile.\nHer black outfit is decorated with bone details. The rib cage graphic has a wiggly Venus flytrap. ",
       "type": "Minis",
       "id": 902,
@@ -19113,7 +19537,10 @@
         "https://mhcollector.com/wp-content/uploads/2017/09/Mermaid-Ghouls-Minis-Catty-Noir-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/09/Mermaid-Ghouls-Minis-Catty-Noir-2.jpg"
       ],
-      "galleryImagesFileNames": ["g10_catty_noirg10-0", "g10_catty_noirg10-1"],
+      "galleryImagesFileNames": [
+        "g10_catty_noirg10-0",
+        "g10_catty_noirg10-1"
+      ],
       "description": "Mini Catty has curly pink and orange ombre hair. Her dark gray skin is complemented by pink eyes with music note accents.\nShe wears a shiny silver top decorated with a spiderweb print and a pink star. Her mermaid body is yellow and transitions into a pink tail fin.",
       "type": "Minis",
       "id": 904,
@@ -19128,7 +19555,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/06/Mermaid-Ghouls-Minis-Clawdeen-Wolf.jpg"
       ],
-      "galleryImagesFileNames": ["dxy07_clawdeen_wolf-0"],
+      "galleryImagesFileNames": [
+        "dxy07_clawdeen_wolf-0"
+      ],
       "description": "Mini Clawdeen has pink curled hair with a streak of green. Her brown complexion is complemented by brown eyes with crescent moon accents and a fanged smile. \nShe wears a sleeveless pink top with a zigzag graphic. Her lower fish body has green scales and a pink tailfin.\nThe figure can be found in the Minis 8-Pack.",
       "type": "Minis",
       "id": 905,
@@ -19143,7 +19572,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/09/Mermaid-Ghouls-Minis-Cleo-de-Nile-1.jpg"
       ],
-      "galleryImagesFileNames": ["g04_cleo_de_nileg04-0"],
+      "galleryImagesFileNames": [
+        "g04_cleo_de_nileg04-0"
+      ],
       "description": "Mini Cleo has black and teal ombre hair with a gold headband. She has tan skin, blue eyes with lashes and diamond accents, and a diamond on her cheek.\nHer sleeveless blue top is decorated with gold “V” stripes. She has a golden mermaid body that transitions into a blue tail fin.",
       "type": "Minis",
       "id": 906,
@@ -19158,7 +19589,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/08/Mermaid-Ghouls-Minis-Draculaura-1.jpg"
       ],
-      "galleryImagesFileNames": ["f02_draculauraf02-0"],
+      "galleryImagesFileNames": [
+        "f02_draculauraf02-0"
+      ],
       "description": "Mini Draculaura has pink hair that transitions to black on her pigtails. In her hair is a light blue heart bow. She has pale pink skin, purple eyes, a fanged smile, and a heart on her cheek.\nShe is wearing a sleeveless white top with heart buttons and a light blue scalloped collar. Her mermaid body is pink.",
       "type": "Minis",
       "id": 907,
@@ -19173,7 +19606,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/06/Mermaid-Ghouls-Minis-Twyla.jpg"
       ],
-      "galleryImagesFileNames": ["dxy07_twyla-0"],
+      "galleryImagesFileNames": [
+        "dxy07_twyla-0"
+      ],
       "description": "Mini Twyla has light aquamarine hair with purple curls. Her pink complexion is complemented by purple eyes with buggy sparkles. \nShe is wearing a single sleeve top that is purple with a black web design. Her lower fish body has light aquamarine scales and a purple tailfin.\nThe figure can be found in the Minis 8-Pack.",
       "type": "Minis",
       "id": 908,
@@ -19188,7 +19623,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/08/Original-Ghouls-Minis-Avea-Trotter-1.jpg"
       ],
-      "galleryImagesFileNames": ["f18_avea_trotterf18-0"],
+      "galleryImagesFileNames": [
+        "f18_avea_trotterf18-0"
+      ],
       "description": "Mini Avea has aqua blue hair pulled into a ponytail. She has lavender skin and blue eyes with big lashes and wing details.\nHer salmon pink jacket features four black buttons and black trim. She has black wings, a purple horse body with light purple spots, and an aqua blue tail.",
       "type": "Minis",
       "id": 909,
@@ -19204,7 +19641,10 @@
         "https://mhcollector.com/wp-content/uploads/2017/09/Original-Ghouls-Minis-Draculaura-Suspenders.jpg",
         "https://mhcollector.com/wp-content/uploads/2017/09/Original-Ghouls-Minis-Draculaura-Suspenders-2.jpg"
       ],
-      "galleryImagesFileNames": ["fcl35_draculaura-0", "fcl35_draculaura-1"],
+      "galleryImagesFileNames": [
+        "fcl35_draculaura-0",
+        "fcl35_draculaura-1"
+      ],
       "description": "Mini Draculaura has black hair with pigtails, pink streaks in her bangs, and a pink bow. Her pale pink complexion is complemented by purple eyes with heart accents, a crooked fanged smile, and a heart on her cheek.\nShe is wearing a pink top with blue heart buttons and a pink bow tie. Her black pants have suspenders and pink shoes are on her feet.\nDraculaura is an exclusive figure included with the Minis High School Playset.",
       "type": "Minis",
       "id": 910,
@@ -19257,7 +19697,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/08/Sporty-Monsters-Minis-Draculaura-1.jpg"
       ],
-      "galleryImagesFileNames": ["f03_draculauraf03-0"],
+      "galleryImagesFileNames": [
+        "f03_draculauraf03-0"
+      ],
       "description": "Mini Draculaura has pink hair with black net accent streaks. In her hair is a black heart bow. She has pale pink skin, purple eyes, a fanged smile, and a pink heart on her cheek.\nShe is wearing a black, white, and pink top with a graphic of tennis rackets. Her uniform is completed with black shorts and black shoes.",
       "type": "Minis",
       "id": 913,
@@ -19272,7 +19714,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/09/Sporty-Monsters-Minis-Robecca-Steam-1.jpg"
       ],
-      "galleryImagesFileNames": ["g15_robecca_steamg15-0"],
+      "galleryImagesFileNames": [
+        "g15_robecca_steamg15-0"
+      ],
       "description": "Mini Robecca has long black hair with violet and lavender streaks. She has coppery brown skin, forehead line and dots, closed eyes with purple shadow, and an open smile.\nHer magenta cheerleader outfit features blue and light blue drippy graphics with “MHS” and a gear on the chest. On her feet are hot pink shoes with black laces.",
       "type": "Minis",
       "id": 914,
@@ -19306,7 +19750,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/08/Teddy-Bear-Ghouls-Minis-Abbey-Bominable-1.jpg"
       ],
-      "galleryImagesFileNames": ["f09_abbey_bominablef09-0"],
+      "galleryImagesFileNames": [
+        "f09_abbey_bominablef09-0"
+      ],
       "description": "Mini Abbey has pink and white side-swept bangs. She has powder blue skin, purple eyes with snowflake sparkles, a fanged smile, and a snowflake on her cheek.\nHer teddy bear costume is a patchwork of bright blue and white. It has pink buttons and a purple snowflake graphic on the chest. ",
       "type": "Minis",
       "id": 916,
@@ -19340,7 +19786,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2017/08/Teddy-Bear-Ghouls-Minis-Clawdeen-Wolf-1.jpg"
       ],
-      "galleryImagesFileNames": ["g03_clawdeen_wolfg03-0"],
+      "galleryImagesFileNames": [
+        "g03_clawdeen_wolfg03-0"
+      ],
       "description": "Mini Clawdeen has swept bangs that are brown, green, and pink. She has brown skin, brown eyes with crescent moon sparkles, a fanged smile, and a crescent moon on her cheek.\nHer teddy bear costume is a patchwork of yellow and purple. It has gold hex buttons, a crescent moon on the chest, and stuffing leaking out of the seams.",
       "type": "Minis",
       "id": 918,
@@ -19482,7 +19930,10 @@
         "https://mhcollector.com/wp-content/uploads/2018/02/Comic-Book-Draculaura-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2018/02/Comic-Book-Draculaura-2.jpg"
       ],
-      "galleryImagesFileNames": ["fjj16_draculaura-0", "fjj16_draculaura-1"],
+      "galleryImagesFileNames": [
+        "fjj16_draculaura-0",
+        "fjj16_draculaura-1"
+      ],
       "description": "Draculaura has long black hair with pink streaks that is in a high ponytail. She has pale pink skin, purple eyes, and fanged dark pink lips. A star and dots enhance one eye and a red heart is on her cheek.\nHer sleeveless dress has a red collar, ruffled red acrylic shoulders, and a pink back. The blue front features a print with “Ha!”, speech bubbles, fanged hearts, and polka dot hearts. On her feet are pink double-strap pumps with cutout speech bubbles for heels.\nDraculaura accessorizes with a speech bubble handbag that is plum colored and decorated with heart indents and a fanged heart. ",
       "type": "Budget",
       "id": 925,
@@ -19516,7 +19967,10 @@
         "https://mhcollector.com/wp-content/uploads/2018/02/Comic-Book-Lagoona-Blue-1.jpg",
         "https://mhcollector.com/wp-content/uploads/2018/02/Comic-Book-Lagoona-Blue-2.jpg"
       ],
-      "galleryImagesFileNames": ["_lagoona_blue-0", "_lagoona_blue-1"],
+      "galleryImagesFileNames": [
+        "_lagoona_blue-0",
+        "_lagoona_blue-1"
+      ],
       "description": "Lagoona has yellow blonde hair with streaks of turquoise pulled into a ponytail. Her pale turquoise skin is complemented by turquoise eyes, pink shadow, freckles, and hot pink lips. A pink star and dots are under one eye.\nShe wears a sleeveless dress adorned with a turquoise back and an acrylic turquoise overlaid hem. The pink front features a print with “WOW”, fish bone thought bubbles, Skullettes, and turquoise polka dots. On her feet are pink pumps with bubble accents and heels with “WOW” thought bubbles.\nLagoona accessorizes with a thought bubble handbag that is chartreuse and decorated with an embossed fish bone.",
       "type": "Budget",
       "id": 927,
@@ -19778,7 +20232,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2018/05/Swimsuit-Ari-Hauntington.jpg"
       ],
-      "galleryImagesFileNames": ["frg02_ari_hauntington-0"],
+      "galleryImagesFileNames": [
+        "frg02_ari_hauntington-0"
+      ],
       "description": "Ari has long straight hair that is streaked purple and magenta. She has pale translucent skin, light purple eyes, pink shadow, lavender eyeliner, and magenta lips.\nHer molded lavender swimsuit has a floral print on the front that is teal, turquoise, and magenta with music note and teardrop accents. The print is separated by a wide magenta stripe with rows of lavender chains.\nAri is a budget doll. She has limited articulation and lacks accessories.",
       "type": "Budget",
       "id": 939,
@@ -19793,7 +20249,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2018/05/Swimsuit-Clawdeen-Wolf.jpg"
       ],
-      "galleryImagesFileNames": ["fjj04_clawdeen_wolf-0"],
+      "galleryImagesFileNames": [
+        "fjj04_clawdeen_wolf-0"
+      ],
       "description": "Clawdeen has long brown hair with streaks of purple. Her brown skin is complemented by yellow eyes, pink shadow, lavender eyeliner, and fanged deep pink lips.\nShe wears a molded purple swimsuit with colorful dripping splatter that forms a Skullette, crossbones, a paw print, and a crescent moon. Additional details include a neckline with gold and black chains and a double strap belt at the waist.\nClawdeen is a budget doll. She has limited articulation and lacks accessories.",
       "type": "Budget",
       "id": 940,
@@ -19808,7 +20266,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2018/05/Swimsuit-Draculaura-1.jpg"
       ],
-      "galleryImagesFileNames": ["fjj02_draculaura-0"],
+      "galleryImagesFileNames": [
+        "fjj02_draculaura-0"
+      ],
       "description": "Draculaura has long black hair with pink highlights. She has pale pink skin, purple eyes, pink eyeshadow, light blue liner, red fanged lips, and a pink heart on her left cheek.\nHer molded pink swimsuit has a sweetheart neckline and halterneck straps. The front is decorated with a blue spiderweb design and an ascot bow with a fanged black heart.\nDraculaura is a budget doll. She has limited articulation and lacks accessories.",
       "type": "Budget",
       "id": 941,
@@ -19823,7 +20283,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2018/05/Swimsuit-Frankie-Stein.jpg"
       ],
-      "galleryImagesFileNames": ["fjj03_frankie_stein-0"],
+      "galleryImagesFileNames": [
+        "fjj03_frankie_stein-0"
+      ],
       "description": "Frankie has straight black hair with streaks of white. She has pale green skin, one green and one blue eye, light pink eyeshadow, and red lips. On her right cheek are gray stitches. \nHer molded swimsuit is blue with black & white stripes, a red collar neckline, and a lightning bolt tie. Additional details consist of stitching, a yellow zigzag, and a “F” on the chest.\nFrankie is a budget doll. She has limited articulation and lacks accessories.",
       "type": "Budget",
       "id": 942,
@@ -19837,7 +20299,9 @@
       "galleryImagesLinks": [
         "https://mhcollector.com/wp-content/uploads/2018/05/Swimsuit-Lagoona-Blue.jpg"
       ],
-      "galleryImagesFileNames": ["_lagoona_blue-0"],
+      "galleryImagesFileNames": [
+        "_lagoona_blue-0"
+      ],
       "description": "Lagoona has long yellow hair with streaks of turquoise. She has pale turquoise skin, teal eyes, pink eyeshadow, pink blush, freckles, and hot pink lips.\nHer molded coral pink swimsuit is decorated with turquoise seahorses, pink fish skeletons, bubbles, and black & white details. The neckline features  a pink & turquoise scale print.\nLagoona is a budget doll. She has limited articulation and lacks accessories.",
       "type": "Budget",
       "id": 943,
@@ -20176,7 +20640,6 @@
       "id": 955,
       "reissue": false,
       "type": "Doll"
-
     }
   ]
 }

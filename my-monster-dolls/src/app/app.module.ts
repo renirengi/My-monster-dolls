@@ -30,24 +30,10 @@ import { LoginPageComponent } from './components/login-page/login-page.component
 import { DollPageComponent } from './components/doll-page/doll-page.component';
 import { UsersService } from './services/users.service';
 import { RegisterPageComponent } from './components/register-page/register-page.component';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    StartPageComponent,
-    MainPageComponent,
-    UserPageComponent,
-    CatalogPageComponent,
-    ModalFormComponent,
-    DollCardComponent,
-    DollsListComponent,
-    HeaderComponent,
-    CatalogFiltersComponent,
-    FooterComponent,
-    LoginPageComponent,
-    DollPageComponent,
-    RegisterPageComponent,
-  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -64,6 +50,26 @@ import { RegisterPageComponent } from './components/register-page/register-page.
     MatSelectModule,
     MatListModule,
     MatCheckboxModule,
+    MatDatepickerModule,
+    MatDatepickerModule,
+    MatNativeDateModule
+  ],
+  declarations: [
+    AppComponent,
+    StartPageComponent,
+    MainPageComponent,
+    UserPageComponent,
+    CatalogPageComponent,
+    ModalFormComponent,
+    DollCardComponent,
+    DollsListComponent,
+    HeaderComponent,
+    CatalogFiltersComponent,
+    FooterComponent,
+    LoginPageComponent,
+    DollPageComponent,
+    RegisterPageComponent,
+
   ],
   providers: [DollsService, UsersService],
   bootstrap: [AppComponent],

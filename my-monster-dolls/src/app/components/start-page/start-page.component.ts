@@ -15,7 +15,7 @@ export class StartPageComponent implements OnInit {
   title = 'routing-app';
 
   public goToMainPage() {
-    this.router.navigate(['/main-component']);
+    this.router.navigate(['/main']);
   }
   public goToCatalogPage() {
     this.router.navigate(['/catalog']);

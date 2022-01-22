@@ -14,14 +14,14 @@ export class HeaderComponent implements OnInit {
   }
 
   public goToSearchPage() {
-    this.router.navigate(['/search-component']);
+    this.router.navigate(['/search']);
   }
 
   public goToUserPage() {
-    this.router.navigate(['/user-component']);
+    this.router.navigate(['/user']);
   }
   public goToRegisterPage() {
-    this.router.navigate(['/register-page']);
+    this.router.navigate(['/register']);
   }
 
 }

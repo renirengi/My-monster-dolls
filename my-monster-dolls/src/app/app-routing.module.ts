@@ -6,14 +6,14 @@ import { UserPageComponent } from './components/user-page/user-page.component';
 import { CatalogPageComponent } from './components/catalog-page/catalog-page.component';
 import { DollPageComponent } from './components/doll-page/doll-page.component';
 import { RegisterPageComponent } from './components/register-page/register-page.component';
-
-
+import { LoginPageComponent } from './components/login-page/login-page.component';
 
 const routes: Routes = [
   { path: '', component: StartPageComponent},
-  { path: 'main-component', component: MainPageComponent },
-  { path: 'user-component', component: UserPageComponent },
-  { path: 'register-page', component: RegisterPageComponent },
+  { path: 'main', component: MainPageComponent },
+  { path: 'user', component: UserPageComponent },
+  { path: 'register', component: RegisterPageComponent },
+  { path: 'login', component: LoginPageComponent },
   { path: 'catalog', component: CatalogPageComponent },
   { path: 'catalog/:id', component: DollPageComponent },
 ];

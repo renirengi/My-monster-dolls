@@ -2,15 +2,15 @@ export interface IUser {
   id: number;
   email: string;
   name: string;
-  avatar: string;
-  personal: IUserPersonalData;
+  avatar?: string;
+  personalData: IUserPersonalData;
   password: string;
   rights: UserRights;
 }
 
 export interface IUserPersonalData {
   country?: string;
-  birthDay?: Date;
+  birthday: Date;
   phone?: string;
   realName?: string;
   about?: string;
