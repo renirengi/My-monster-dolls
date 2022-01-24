@@ -2,12 +2,62 @@
   "users": [
     {
       "id": 1,
-      "email": "tomieForever@gmail.com",
-      "name": "Renisenb",
-      "password": "65e84be33532fb784c48129675f9eff3a682b27168c0ea744b2cf58ee02337c5",
+      "email": "TomieForever@gmail.com",
+      "name": "Reni",
+      "password": "860c854ed73480d8d17b10348ebf7923d72379692c1203f4e61808ca4cfc5927",
       "rights": 2,
       "personalData": {
         "birthday": "1989-12-18T21:00:00.000Z"
+      }
+    },
+    {
+      "id": 2,
+      "email": "p@p.com",
+      "name": "",
+      "password": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rights": 2,
+      "personalData": {
+        "birthday": ""
+      }
+    },
+    {
+      "id": 3,
+      "email": "p@p.com",
+      "name": "",
+      "password": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rights": 2,
+      "personalData": {
+        "birthday": ""
+      }
+    },
+    {
+      "id": 4,
+      "email": "p@p.com",
+      "name": "proto",
+      "password": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+      "rights": 2,
+      "personalData": {
+        "birthday": "1984-01-22T21:00:00.000Z"
+      }
+    },
+    {
+      "id": 5,
+      "email": "p@p.com",
+      "name": "proto",
+      "password": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+      "rights": 2,
+      "personalData": {
+        "birthday": "1984-01-08T21:00:00.000Z"
+      }
+    },
+    {
+      "id": 6,
+      "email": "p@p.com",
+      "name": "proto",
+      "password": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+      "rights": 2,
+      "personalData": {
+        "birthday": "1984-01-08T21:00:00.000Z"
       }
     }
   ],

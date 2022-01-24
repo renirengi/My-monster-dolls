@@ -21,8 +21,18 @@
       mat-stroked-button
       color="primary"
       [disabled]="!loginForm.valid"
+      (click)="goToUserPage()"
     >
-      Register
+      Check
+    </button>
+     <button
+     type="submit"
+     mat-stroked-button
+      color="primary"
+      [disabled]="!loginForm.valid"
+      (click)="goToRegisterPage()"
+    >
+      I want to register
     </button>
   </form>
 </mat-card>
