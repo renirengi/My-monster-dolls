@@ -1,14 +1,17 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, OnDestroy, OnInit, Output } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
-import { Observable } from 'rxjs';
+import { ActivatedRoute } from '@angular/router';
+import { map, Observable, Subscription, tap } from 'rxjs';
 import { DollsService } from '../../services/dolls.service';
 
 @Component({
   selector: 'catalog-filters',
   templateUrl: './catalog-filters.component.html',
 })
-export class CatalogFiltersComponent implements OnInit {
+export class CatalogFiltersComponent implements OnInit, OnDestroy {
   @Output() filtersChanged = new EventEmitter<{ [key: string]: string }>();
+
+  private subscription: Subscription = new Subscription();
 
   public filtersForm = new FormGroup({
     character: new FormControl([]),
@@ -17,6 +20,7 @@ export class CatalogFiltersComponent implements OnInit {
     series: new FormControl([]),
     exclusive: new FormControl([]),
     notReissue: new FormControl(false),
+    q: new FormControl('')
   });
 
   public characters$: Observable<string[]>;
@@ -29,7 +33,7 @@ export class CatalogFiltersComponent implements OnInit {
 
   public exclusives$: Observable<string[]>;
 
-  constructor(private dollsService: DollsService) {
+  constructor(private dollsService: DollsService, private route: ActivatedRoute) {
     this.characters$ = this.dollsService.getAvailable('character');
     this.years$ = this.dollsService.getAvailable('year');
     this.types$ = this.dollsService.getAvailable('type');
@@ -37,7 +41,21 @@ export class CatalogFiltersComponent implements OnInit {
     this.exclusives$ = this.dollsService.getAvailable('exclusive')
   }
 
-  public ngOnInit(): void {}
+  public ngOnInit() {
+    const searchString$ = this.route.queryParams.pipe(map(params => params['q'])).pipe(
+      tap((q) => {
+        this.filtersForm.patchValue({q});
+        this.dollsService.dollsSearchString = q || '';
+        this.onChange();
+      })
+    );
+
+    this.subscription.add(searchString$.subscribe());
+  }
+
+  public ngOnDestroy(): void {
+      this.subscription.unsubscribe();
+  }
 
   public onChange() {
     let filterParams: { [key: string]: string } = {};
@@ -46,7 +64,11 @@ export class CatalogFiltersComponent implements OnInit {
       let keyString: string;
       let valueString: string;
 
-      if (Array.isArray(value) && value.length > 0) {
+      if (typeof value === 'string') {
+        keyString = key;
+        valueString = value;
+        acc = {...acc, [keyString]: valueString};
+      } else if (Array.isArray(value) && value.length > 0) {
         keyString = `${key}_like`;
         valueString = value.reduce((acc, val, i) => i === 0 ? `(${val})`: `${acc}|(${val})`, '');
         acc = {...acc, [keyString]: valueString};

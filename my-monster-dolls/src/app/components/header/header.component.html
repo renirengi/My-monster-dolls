@@ -17,10 +17,19 @@
     </mat-icon>
   </div>
   <div class="input-container">
-    <input matInput placeholder="Search" class="input input-search input-input">
-    <button mat-stroked-button (click)="goToSearchPage()">Search</button>
+    <input matInput class="input input-search" placeholder="Search" [value]="dollsSearchString$ | async" (change)="onSearch($event)" />
+    <button mat-icon-button matSuffix (click)="onClean()" [attr.aria-label]="'Clean search string'">
+      <mat-icon>close</mat-icon>
+    </button>
   </div>
   <div class="user-container">
-    <button mat-stroked-button (click)="goToLoginPage()">User</button>
+    <ng-container *ngIf="currentUser$ | async as user; else loginOrRegister">
+      <a [routerLink]="['/user']">{{ user.name }}</a> | <a (click)="onLogout()">Logout</a>
+    </ng-container>
+
+    <ng-template #loginOrRegister>
+      <button mat-stroked-button (click)="showLoginModal()">Login</button> or
+      <button mat-stroked-button (click)="showRegisterModal()">Register</button>
+    </ng-template>
   </div>
 </header>

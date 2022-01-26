@@ -1,7 +1,8 @@
-<mat-card>
-  <mat-label>{{ result$ | async }}</mat-label>
+<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+  <h1 mat-dialog-title>Login</h1>
+  <div mat-dialog-content>
+    <mat-label>{{ result$ | async }}</mat-label>
 
-  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
     <mat-form-field>
       <mat-label>Email</mat-label>
       <input matInput placeholder="pat@example.com" formControlName="email" />
@@ -15,24 +16,16 @@
         formControlName="password"
       />
     </mat-form-field>
-
+  </div>
+  <div mat-dialog-actions>
     <button
       type="submit"
       mat-stroked-button
       color="primary"
       [disabled]="!loginForm.valid"
-      (click)="goToUserPage()"
     >
-      Check
+      Login
     </button>
-     <button
-     type="submit"
-     mat-stroked-button
-      color="primary"
-      [disabled]="!loginForm.valid"
-      (click)="goToRegisterPage()"
-    >
-      I want to register
-    </button>
-  </form>
-</mat-card>
+    <button mat-button (click)="onNoClick()">Cancel</button>
+  </div>
+</form>

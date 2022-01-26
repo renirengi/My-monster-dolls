@@ -1,14 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { MatDialogRef } from '@angular/material/dialog';
 import { firstValueFrom } from 'rxjs';
 import { UserRights } from 'src/app/models';
 import { UsersService } from 'src/app/services/users.service';
 
 @Component({
-  selector: 'app-register-page',
-  templateUrl: './register-page.component.html',
+  selector: 'register-modal',
+  templateUrl: './register-modal.component.html',
 })
-export class RegisterPageComponent implements OnInit {
+export class RegisterModalComponent implements OnInit {
 
   public showConfirmation = true;
   public passwordInput: string = '';
@@ -22,7 +23,10 @@ export class RegisterPageComponent implements OnInit {
     passwordConfirmation: new FormControl('', [Validators.minLength(3), Validators.maxLength(16)]),
   });
 
-  constructor(private usersService: UsersService) {}
+  constructor(
+    public dialogRef: MatDialogRef<RegisterModalComponent>,
+    private usersService: UsersService
+  ) {}
 
   ngOnInit() {}
 
@@ -36,6 +40,11 @@ export class RegisterPageComponent implements OnInit {
     const user = {id, email, name, password, rights, personalData};
 
     await firstValueFrom(this.usersService.addUser(user));
+    this.dialogRef.close();
+  }
+
+  onNoClick(): void {
+    this.dialogRef.close();
   }
 
   private getRightsFromDate(date: Date): UserRights {

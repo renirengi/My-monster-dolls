@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { MatDialog } from '@angular/material/dialog';
 import { UserPageComponent } from '../user-page/user-page.component';
-import { LoginPageComponent } from '../login-page/login-page.component';
+import { LoginModalComponent } from '../login-modal/login-modal.component';
 
 @Component({
   selector: 'app-start-page',
@@ -21,13 +21,8 @@ export class StartPageComponent implements OnInit {
     this.router.navigate(['/catalog']);
   }
 
-  public openSignupDialog(): void {
-    const dialogRef = this.dialog.open(UserPageComponent, {
-      width: '50vh',
-    });
-  }
   public openLoginDialog(): void {
-    const dialogRef = this.dialog.open(LoginPageComponent, {
+    const dialogRef = this.dialog.open(LoginModalComponent, {
       width: '50vh',
     });
   }

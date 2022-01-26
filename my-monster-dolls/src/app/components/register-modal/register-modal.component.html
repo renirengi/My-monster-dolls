@@ -1,27 +1,22 @@
-<mat-card>
-  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
-
+<form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+  <h1 mat-dialog-title>Register</h1>
+  <div mat-dialog-content>
     <mat-form-field>
       <mat-label>Enter your email</mat-label>
-      <input
-        matInput
-        placeholder="pat@example.com"
-        formControlName="email"
-      />
+      <input matInput placeholder="pat@example.com" formControlName="email" />
     </mat-form-field>
 
     <mat-form-field>
       <mat-label>Choose a birthday date</mat-label>
-      <input matInput [matDatepicker]="picker" formControlName="birthday">
+      <input matInput [matDatepicker]="picker" formControlName="birthday" />
       <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
       <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
 
     <mat-form-field>
-        <mat-label>Nickname</mat-label>
-        <input matInput autocomplete="off" formControlName="name"/>
-      </mat-form-field>
-
+      <mat-label>Nickname</mat-label>
+      <input matInput autocomplete="off" formControlName="name" />
+    </mat-form-field>
 
     <mat-form-field>
       <mat-label>Enter your password</mat-label>
@@ -42,14 +37,11 @@
 
     <mat-form-field *ngIf="showConfirmation">
       <mat-label>Password confirmation</mat-label>
-      <input
-        matInput
-        formControlName="passwordConfirmation"
-        type="password"
-      />
+      <input matInput formControlName="passwordConfirmation" type="password" />
     </mat-form-field>
-
-    <button type="submit" mat-stroked-button color="primary" [disabled]="!registerForm.valid">Register</button>
-
-  </form>
-</mat-card>
+  </div>
+  <div mat-dialog-actions>
+    <button mat-stroked-button type="submit" color="primary" [disabled]="!registerForm.valid">Register</button>
+    <button mat-button (click)="onNoClick()">Cancel</button>
+  </div>
+</form>
