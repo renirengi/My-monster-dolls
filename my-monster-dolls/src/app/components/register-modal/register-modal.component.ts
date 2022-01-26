@@ -6,8 +6,10 @@ import { UserRights } from 'src/app/models';
 import { UsersService } from 'src/app/services/users.service';
 
 @Component({
+
   selector: 'register-modal',
   templateUrl: './register-modal.component.html',
+
 })
 export class RegisterModalComponent implements OnInit {
 
