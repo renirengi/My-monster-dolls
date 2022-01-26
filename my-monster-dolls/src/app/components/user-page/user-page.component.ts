@@ -69,13 +69,14 @@ export class UserPageComponent implements OnInit {
     console.log(country);
     this.http.patch(`http://localhost:3000/users/${this.userID}`,
     {
-      "personalData": {
-        "realName": realName.realName,
-        "phone": phone.phone,
-        "about": about.about,
-        "country": country.country
-    },
-         "avatar": avatar.avatar,
+      "personalData":{
+    "realName": realName.realName,
+     "phone": phone.phone,
+     "about": about.about,
+     "country": country.country
+      },
+
+     "avatar": avatar.avatar,
 
     }).subscribe(
     data => {

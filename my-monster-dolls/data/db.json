@@ -7,8 +7,12 @@
       "password": "123456",
       "rights": 2,
       "personalData": {
-        "birthday": "1989-12-18T21:00:00.000Z"
+        "birthday": "1989-12-18T21:00:00.000Z",
+        "realName": "Olga",
+      "phone": "+375291125840",
+      "about": "Collector"
       },
+
       "avatar": "https://www.blast.hk/attachments/64803/"
     },
     {
@@ -59,10 +63,10 @@
       "rights": 2,
       "personalData": {
         "realName": "Anna",
-        "phone": "+9778787878",
         "about": "Collector",
-        "country": "AD"
+        "country": "BR"
       }
+
     }
   ],
   "dolls": [
