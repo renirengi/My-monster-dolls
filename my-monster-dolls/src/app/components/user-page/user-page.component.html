@@ -1,5 +1,5 @@
 <mat-card>
-  <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+  <form [formGroup]="userForm" (ngSubmit)="onSubmit()" >
     <mat-form-field>
       <mat-label>Real name</mat-label>
       <input matInput autocomplete="off" formControlName="realName" />
@@ -20,7 +20,7 @@
     <mat-form-field>
       <mat-label>Phone</mat-label>
       <input matInput formControlName="phone" type="tel" placeholder="+375256666666"/>
-      <mat-icon matSuffix>phone</mat-icon>
+      <mat-icon matSuffix>Phone</mat-icon>
       <mat-hint>Include area code</mat-hint>
     </mat-form-field>
 
@@ -31,8 +31,8 @@
 
     <mat-form-field appearance="fill">
       <mat-label>Country</mat-label>
-      <mat-select>
-        <mat-option *ngFor="let item of countries$ | async | keyvalue" [value]="item.key">{{item.value}}</mat-option>
+      <mat-select formControlName="country">
+        <mat-option  *ngFor="let item of countries$ | async | keyvalue" [value]="item.key">{{item.value}} </mat-option>
       </mat-select>
     </mat-form-field>
 
@@ -40,7 +40,6 @@
       type="submit"
       mat-stroked-button
       color="primary"
-      [disabled]="!userForm.valid"
     >
       Save
     </button>

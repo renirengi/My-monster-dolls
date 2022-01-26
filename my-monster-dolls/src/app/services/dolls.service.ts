@@ -1,14 +1,19 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { map, Observable, shareReplay } from 'rxjs';
+import { BehaviorSubject, map, Observable, shareReplay } from 'rxjs';
 import { IDoll } from '../models';
 
 @Injectable({
   providedIn: 'root',
 })
 export class DollsService {
-  [x: string]: any;
   private readonly baseUrl = 'http://localhost:3000/dolls';
+
+  public readonly dollsSearchString$ = new BehaviorSubject<string>('');
+
+  public set dollsSearchString(str: string) {
+    this.dollsSearchString$.next(str);
+  }
 
   constructor(private http: HttpClient) {}
 

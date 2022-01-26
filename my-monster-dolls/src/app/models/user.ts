@@ -6,6 +6,7 @@ export interface IUser {
   personalData: IUserPersonalData;
   password: string;
   rights: UserRights;
+  collection?: IUserCollection;
 }
 
 export interface IUserPersonalData {
