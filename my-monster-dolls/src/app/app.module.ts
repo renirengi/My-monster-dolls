@@ -26,12 +26,13 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
 import { HeaderComponent } from './components/header/header.component';
 import { CatalogFiltersComponent } from './components/catalog-filters/catalog-filters.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { LoginPageComponent } from './components/login-page/login-page.component';
 import { DollPageComponent } from './components/doll-page/doll-page.component';
 import { UsersService } from './services/users.service';
-import { RegisterPageComponent } from './components/register-page/register-page.component';
-import {MatDatepickerModule} from '@angular/material/datepicker';
+import { RegisterModalComponent } from './components/register-modal/register-modal.component';
+import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
+import { CookieService } from './services/cookie.service';
+import { LoginModalComponent } from './components/login-modal/login-modal.component';
 
 @NgModule({
   imports: [
@@ -52,7 +53,7 @@ import { MatNativeDateModule } from '@angular/material/core';
     MatCheckboxModule,
     MatDatepickerModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
   ],
   declarations: [
     AppComponent,
@@ -66,12 +67,11 @@ import { MatNativeDateModule } from '@angular/material/core';
     HeaderComponent,
     CatalogFiltersComponent,
     FooterComponent,
-    LoginPageComponent,
+    LoginModalComponent,
     DollPageComponent,
-    RegisterPageComponent,
-
+    RegisterModalComponent,
   ],
-  providers: [DollsService, UsersService],
+  providers: [DollsService, UsersService, CookieService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -3,18 +3,19 @@
     {
       "id": 1,
       "email": "TomieForever@gmail.com",
-      "name": "Reni",
-      "password": "860c854ed73480d8d17b10348ebf7923d72379692c1203f4e61808ca4cfc5927",
+      "name": "Renisenb",
+      "password": "123456",
       "rights": 2,
       "personalData": {
         "birthday": "1989-12-18T21:00:00.000Z"
-      }
+      },
+      "avatar": "https://www.blast.hk/attachments/64803/"
     },
     {
       "id": 2,
       "email": "p@p.com",
-      "name": "",
-      "password": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "name": "Pablo",
+      "password": "12345",
       "rights": 2,
       "personalData": {
         "birthday": ""
@@ -22,42 +23,45 @@
     },
     {
       "id": 3,
-      "email": "p@p.com",
-      "name": "",
-      "password": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-      "rights": 2,
+      "email": "terry@com",
+      "name": "Terry",
+      "password": "123456",
+      "rights": 3,
       "personalData": {
-        "birthday": ""
+        "birthday": "2021-10-18T21:00:00.000Z"
       }
     },
     {
       "id": 4,
-      "email": "p@p.com",
-      "name": "proto",
-      "password": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
-      "rights": 2,
+      "email": "terry@com",
+      "name": "Terry",
+      "password": "123456",
+      "rights": 3,
       "personalData": {
-        "birthday": "1984-01-22T21:00:00.000Z"
+        "birthday": "2021-10-18T21:00:00.000Z"
       }
     },
     {
       "id": 5,
-      "email": "p@p.com",
-      "name": "proto",
-      "password": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+      "email": "qwerty@com",
+      "name": "Qwerty",
+      "password": "Qwerty",
       "rights": 2,
       "personalData": {
-        "birthday": "1984-01-08T21:00:00.000Z"
+        "birthday": "1992-07-15T20:00:00.000Z"
       }
     },
     {
       "id": 6,
-      "email": "p@p.com",
-      "name": "proto",
-      "password": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+      "email": "Qwerty@com",
+      "name": "gvbgvb",
+      "password": "123456",
       "rights": 2,
       "personalData": {
-        "birthday": "1984-01-08T21:00:00.000Z"
+        "realName": "Anna",
+        "phone": "+9778787878",
+        "about": "Collector",
+        "country": "AD"
       }
     }
   ],

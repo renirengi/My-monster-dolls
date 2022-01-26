@@ -1,3 +1,4 @@
+@use 'styles/header.scss';
 @use 'styles/adv-search-page.scss';
 @use 'styles/catalog-page.scss';
 @use 'styles/doll-card.scss';
@@ -7,7 +8,6 @@
 @use 'styles/start-page.scss';
 @use 'styles/user-page.scss';
 @use 'styles/doll-page.scss';
-@use 'styles/register-page.scss';
 
 body {
   background-color: black;

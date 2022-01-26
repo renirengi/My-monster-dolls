@@ -8,7 +8,12 @@ import * as sha256 from 'crypto-js/sha256';
   providedIn: 'root',
 })
 export class UsersService {
-  [x: string]: any;
+
+  private _currentUser: IUser|null = null;
+
+  get currentUser(): IUser|null {
+    return this._currentUser;
+  }
 
   private readonly baseUrl = 'http://localhost:3000/users';
 
@@ -37,10 +42,15 @@ export class UsersService {
     return this.findUsersByEmail(email).pipe(
       map(([user]) => {
         if (user.password === sha256(password).toString()) {
+          this._currentUser = user;
           return user;
         }
         return null;
       })
     );
+  }
+
+  public logOutUser(): void {
+    this._currentUser = null;
   }
 }

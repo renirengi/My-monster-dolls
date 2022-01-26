@@ -1,0 +1,7 @@
+{
+    "bracketSpacing": true,
+    "printWidth": 120,
+    "proseWrap": "newer",
+    "singleQuote": true,
+    "tabWidth": 2 
+}
