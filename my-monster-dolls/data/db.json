@@ -9,10 +9,9 @@
       "personalData": {
         "birthday": "1989-12-18T21:00:00.000Z",
         "realName": "Olga",
-      "phone": "+375291125840",
-      "about": "Collector"
+        "phone": "+375291125840",
+        "about": "Collector"
       },
-
       "avatar": "https://www.blast.hk/attachments/64803/"
     },
     {
@@ -66,7 +65,16 @@
         "about": "Collector",
         "country": "BR"
       }
-
+    },
+    {
+      "id": 7,
+      "email": "",
+      "name": "",
+      "password": "",
+      "rights": 2,
+      "personalData": {
+        "birthday": ""
+      }
     }
   ],
   "dolls": [
@@ -106,7 +114,8 @@
       "description": "Cleo has her hair cut short and peppered with shiny tinsel streaks for the dance. It goes well with her stunning green, yellow, and copper ensemble.\nThe form-fitting shoulderless dress is a shiny green and yellow. It has a left sleeve that wraps around her hand and a teal wrap around the shoulders. Under the dress is copper bandage tights that only cover her right leg. Her shoes are a shiny green with bronze gems dangling from the heels.\nShe accessorizes the outfit with a bronze scarab necklace, bronze armband, bronze earrings, and a shiny copper pyramid purse. Also included with Cleo is an iCoffin phone, teal brush, doll stand, dance invitation, and party photos.",
       "id": 2,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=sR0COnd5NsU"
     },
     {
       "year": 2010,
@@ -125,7 +134,8 @@
       "description": "Frankie’s party attire features am electrifying black, white, and pink outfit. She highlights the wardrobe by having her long black & white hair pulled back into a pony tail.\nHer short black & white zigzag dress features a shiny blue sash held with a pair of white belts. Worn over the dress is a small pink jacket with short puffy sleeves and under the dress is pink fishnet tights. Each of Frankie’s shoes are unique with one being black with a gray sole and the other gray with a black sole.\nAccessories for her outfit include blue lightning bolt earrings, a black & white pearl bracelet, a black necklace with silver pendant, and a stitched pink and blue purse with a black & white zigzag flap. Also included with the doll is her iCoffin phone, a pink brush, doll stand, invitation, and party photos.",
       "id": 3,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=rWLXG7LKRwQ"
     },
     {
       "year": 2010,
@@ -147,6 +157,7 @@
       "id": 4,
       "type": "Doll",
       "reissue": false
+
     },
     {
       "year": 2010,
@@ -167,8 +178,9 @@
       "description": "Cleo looks magnificent even when going to the beach. Her black hair is pulled into a ponytail and is embellished with gold tinsel highlights. Her eyeshadow is turquoise and so is her lipstick.\n She is wearing a stunning monokini made of a black & gold wrappings. Over the suit is a turquoise sarong and on her feet are turquoise sandals.\nShe accessorizes the outfit with sea green sunglasses, gold pyramid hoop earrings, a black & gold arm wrap, a black & gold leg wrap, and a gold & turquoise fan. Also included with the doll is a black brush and a postcard of Cleo sunning at the beach.",
       "id": 5,
       "type": "Doll",
-      "reissue": false
-    },
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=3aGwPBygIa0"
+     },
     {
       "year": 2010,
       "character": "Draculaura",
@@ -188,7 +200,8 @@
       "description": "Draculauara looks beautiful with her long black hair and pink highlights. Her one piece bathing suit is black with pink heart stripes on top and yellow with pink polka dots on the bottom. It has yellow polka dot straps, white frills, and a pink bow. \nAround her waist is a yellow and pink polka dot sarong that is held with a pink and yellow polka dot bow. On her feet are black sandals with pink and yellow straps.\nAccessories for the outfit feature pink bow-shaped sunglasses and yellow bow earrings. Also included with the doll is a black brush, a postcard of Draculaura at the beach, and a bottle of SPF 500 sunscreen to use on her sensitive skin.",
       "id": 6,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=aPlFlE0bnuc"
     },
     {
       "year": 2010,
@@ -209,7 +222,8 @@
       "description": "Frankie is looking delightful with her eye-catching black & white hair and aqua blue eyeshadow and lipstick. Her one piece bathing suit is half yellow & aqua blue stripes and half black with a yellow & pink outlined lightning bolt.\nAround her waist is a black & blue checkers sarong with yellow stripes. Her sandals are black with yellow straps and blue buckles.\nAccessories for her outfit feature blue sunglasses, gray stud earrings, and a blue lightning bolt barrette. She also has a black beach bag with jagged yellow at the base and blue and pink jumper cables for handles. Also packaged with the doll is a black brush and a postcard of Frankie at the beach.",
       "id": 7,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=u9KppvX3xXg"
     },
     {
       "year": 2010,
@@ -380,7 +394,8 @@
       "id": 15,
       "exclusive": "Comic Con",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=bNotnnxd0vI"
     },
     {
       "year": 2010,
@@ -401,7 +416,10 @@
       "description": "Clawdeen boasts long brown hair with highlights, curls, and her wolf-like ears poking through. She is wearing a fearsome purple, black & peach ensemble that features a jacket, skirt, and boots.\nThe black jacket has purple cuffs and hem as well as a purple fur collar. It is worn over a peach and black tiger striped top. Her short skirt is purple with black stitching and black tulle at the hem. She has long open-toe peach socks to go with her knee-high black and purple-strapped sandal boots.\nShe accessorizes the outfit with a black belt with gold studs, a gold necklace, and two hoop earrings in each ear. Her purse is black with purple straps and gold buckles, zippers, and studs. Also included with the doll is an orange brush, orange doll stand, her diary, and Crescent, Clawdeen’s cat.",
       "id": 16,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=o8RD4V_ReGU",
+      "promo":"https://www.youtube.com/watch?v=jK1n_57kNhM"
+
     },
     {
       "year": 2010,
@@ -422,7 +440,9 @@
       "description": "Cleo looks stunning in her mummy themed ensemble. She has a turquoise & black top that is part sparkly and part sheer. Under the top is a sand-colored jumpsuit with the appearance of wrapped linen bandages. Her shoes are black wedges with sand-colored wrappings and one forearm is covered with bandages.\nShe accessorizes the outfit with gold earrings, bracelet, armband, belt, headband, and a golden cell phone strapped to her thigh. Her purse is also gold with black accents.\nDeuce is wearing a gray & white striped vest over a red sleeveless tee with a skull and cassette graphic. He has black pants with diamond scale patterns and black & white checkered slip-on shoes.\nAccessories include a black fingerless glove, a black wristband with gray skull, a gray chain necklace, and a gray-studded white belt with a red cassette tape buckle. He completes the outfit with a pair of red sunglasses.\nAlso included with the dolls is a gold brush, two doll stands, their diaries, and their pets. Hissette is Cleo’s cobra and Perseus is Deuce’s two-tailed rat.",
       "id": 17,
       "type": "Multipack",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=M8uRR31vv94",
+      "promo":"https://www.youtube.com/watch?v=jK1n_57kNhM"
     },
     {
       "year": 2010,
@@ -443,7 +463,9 @@
       "description": "Draculaura has black hair with pink highlights that is tied into long pigtails. She is wearing an adorable black, white, and pink outfit that includes a vest, skirt, and boots. \nThe pink vest has gray buttons, white stitching, a white lace jabot, and black fishnet sleeves with white lace cuffs. She has black fishnet tights under her short white skirt that features pink stitching and white tulle at the bottom. The knee high boots are pink with black laces and gray hearts at the top.\nThe outfit is accessorized with gray safety pin earrings, a pink flower necklace, and a parasol. The parasol is adorned with a skull tip, a black bat-shaped handle, and a black canopy held closed with a pink strap and heart-shaped buckle. Also included with the doll is Draculaura’s pet bat, Count Fabulous, a pink brush, pink doll stand, and her diary.",
       "id": 18,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=PSZK9JeriMc",
+      "promo":"https://www.youtube.com/watch?v=jK1n_57kNhM"
     },
     {
       "year": 2010,
@@ -464,7 +486,8 @@
       "description": "Frankie has long straight hair that is streaked white and black and is wearing a plaid outfit with electrifying accessories. The dress is black & blue plaid with red and white lines, has a white collar, short black fishnet sleeves, and black fishnet on the hem. She intensifies the dress with a black & white polka dot tie with skullette pin and a silver-studded black belt with lightning bolt buckle.\nFrankie’s purse is black & red with silver clasps, studs, and skullette. She completes the outfit with black & white striped shoes, blue skullette earrings, and blue and silver bracelets. Also included with the doll is Watzit, her dog-like pet, a gray brush, gray doll stand, and her diary.",
       "id": 19,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo":"https://www.youtube.com/watch?v=jK1n_57kNhM"
     },
     {
       "year": 2010,
@@ -487,7 +510,9 @@
       "description": "Ghoulia is wearing a black & red ensemble that looks amazing with her light blue hair. She is wearing a red & white tank top with a cherry pattern over a black, red & white shoulderless 3/4 sleeve shirt with black fishnet gloves. Her pants are red with small black polka dots and her knee-high boots are black & white with red heels and laces.\nShe accessorizes the outfit with a black & white piano key belt, a silver necklace with pink pendant, pink zipper earrings, a green headband, and white cat-eye glasses. Her cassette tape purse is black, red, and white with “Monster Mix” in blue. Also included with Ghoulia is her pet owl, Sir Hoots A Lot, her diary, a brush, and a doll stand.\nThere are two different styles of packaging for Ghoulia. The initial release has a box with a coffin shaped window. The later release has a wraparound window box. Both packages have the same model number.",
       "id": 20,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=CGXlk1Web28",
+      "promo":"https://www.youtube.com/watch?v=jK1n_57kNhM"
     },
     {
       "year": 2010,
@@ -510,7 +535,8 @@
       "description": "Holt is wearing a fire-themed outfit to go with his fiery hair and blue skin. He is wearing a half black & half white sleeveless shirt under a red pleather jacket with gold stitching and trim. His pinstripe pants are purple & black with yellow & orange flames at the bottom. The black high-top sneakers have yellow laces, yellow soles, and skulls on the toes.\nAccessories for his outfit include a yellow belt, black & orange headphones, orange shutter shades, and an orange turntable backpack with a black & white checkerboard flap. Also included with Holt is Crossfade, his pet chameleon, his diary, and a doll stand. \nThere are two different styles of packaging for Holt. The initial release has a box with a coffin shaped window. The later release has a wraparound window box. Both packages have the same model number.",
       "id": 21,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=5DJb4pl-gcM"
     },
     {
       "year": 2010,
@@ -531,7 +557,8 @@
       "description": "Lagoona’s aquatic themed outfit looks amazing with her long blonde locks and pale blue skin. She is wearing a pink scaled bathing suit with blue fishnet tights. Over the suit is a teal scaled hoodie with black sleeves, black hem, and teal cuffs. Her shorts are black & teal with pink and teal stitching.\nAccessories for the outfit include black & white striped flip-flops, a gold seahorse pendant, a golden pearl bracelet, gold earrings, and a pink flower barrette. Her purse is a blue fishbowl with a gold handle that holds Neptuna, Lagoona’s pet piranha. Also included with the doll is a white brush, a doll stand, and her diary.",
       "id": 22,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=QxBfRKBZGq8"
     },
     {
       "year": 2010,
@@ -808,7 +835,8 @@
       "description": "Ghoulia is wearing her gym clothes and is ready for some fun and exercise. Her white shirt has black sleeves, red trim, and features Monster High – Phys Dead – on the front. The shorts are black with a white waistband, black drawstring, and a pink hem. One leg has a skullette and the other has a pink & white zigzag. Under the shorts are a pair of red half tights.\nThe second outfit is a multicolored dress with red straps. It begins with black trim, red & white horizontal stripes on top, and black with white polka dots in the middle. The dress has a red stripe down the front and a red hem with white vertical stripes.\nHer accessories are red stud earrings, a red & white bracelet, black cat-eye sports goggles with a red strap, and a pair of white glasses. Her red  & black sneakers have white tops, red laces, and black & white zigzags on the sides.\nIncluded with the doll is Ghoulia’s Physical Deaducation book, a red pen, a red bottle, a black ball, stickers, a pink coffin-shaped locker with a skullette lock, a Physical Deaducation survival guide, and a brush.",
       "id": 35,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=Lzi3yc6_S0s"
     },
     {
       "year": 2011,
@@ -828,7 +856,8 @@
       ],
       "description": "Lagoona is on her way to class, ready to learn, and looks all scientific in her white lab coat. Under the coat she has a teal dress with black straps and a pattern of white bubbles and black anchors.\nShe also has a shirt and pants as a backup outfit. The top features a pattern of pink, white, and teal whorls. The pants are teal with a black waistband, pockets, and cuffs.\nHer accessories are a pink necklace, pink bracelet, and yellow dangle earrings with black anchors. The shoes are black & teal with yellow straps that wind up her legs.\nAlso included with the doll is Lagoona’s Mad Science book, a blue pen, a three-eyed frog, a jar, an egg, stickers, a pink coffin-shaped locker with a skullette lock, a Mad Science survival guide, and a brush.",
       "id": 36,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=8F3G-T5hEMs"
     },
     {
       "year": 2011,
@@ -849,7 +878,9 @@
       "description": "This reissue of Cleo is just like the previous doll. She is wearing the same amazing green & yellow dress, copper tights, and shiny green heels. She even has her fabulous bronze jewelry, copper pyramid purse, iCoffin phone, and teal brush.\nThe packaging for this release differs from the first and features a wraparound window box. It also includes a “New Ghoul @ School” DVD that was not found with the original doll.",
       "id": 37,
       "reissue": true,
-      "type": "Doll"
+      "type": "Doll",
+      "video": "https://www.youtube.com/watch?v=PEs3OOuRowM"
+
     },
     {
       "year": 2011,
@@ -872,7 +903,8 @@
       "description": "Deuce is looking fantastic with his shiny silver themed wardrobe and gloriously green snake hawk swept to the side. He is wearing a black, white, and silver argyle vest with purple hood, buttons, and zippered pockets. Under the vest is a green shirt with green squares and a black tie.\nHis pants are shiny silver & gray pinstripes held by a black belt with gold buckle and white straps. His shoes are white-scale slip-ons with gray soles.\nAccessories for the outfit are a black bracelet, gold-rimmed sunglasses, iCoffin phone, and a black rose. Deuce also comes with a doll stand and a “New Ghoul @ School” DVD.",
       "id": 38,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/results?search_query=dawn+of+the+dance+deuse"
     },
     {
       "year": 2011,
@@ -914,7 +946,8 @@
       "description": "Lagoona’s long blonde & aqua blue hair is styled into a fin-like mohawk. She is decked out in an alluring pink and blue ensemble.\nThe aqua blue dress is sleeveless and form-fitting with sheer pink ruffles at the top and a flowing pink sheer hem. Around her hips is a sand colored lace wrap held with a gold seashell clasp. Her heels are a translucent pink and blue that is utterly breathtaking.\nAccessories include a gold seaweed spiral band, pearl earrings, and a pearl necklace. Her pink seashell purse has blue stitching and a pearl strap. Lagoona also comes with her iCoffin phone, a yellow brush, doll stand, and a “New Ghoul @ School” DVD.",
       "id": 40,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=M52Kmvu-kuo"
     },
     {
       "year": 2011,
@@ -935,7 +968,9 @@
       "description": "Cleo is wearing a turquoise pajama set decorated with a bandage pattern and yellow & green highlights. The outfit has one arm warmer, a top with yellow stitching along the edges, and pants with a yellow waistband and drawstring.\nCleo’s striped yellow & turquoise sleep mask has the Eye of Horus, a powerful Egyptian symbol of protection, over each eye patch. Her fuzzy turquoise monster slippers each have a gold crown, yellow eyes, and a mouth with a pink tongue. Also included with the doll is a gold choker, gold pyramid nightlight, turquoise brush, doll stand, and a Cleo de Nile card.",
       "id": 41,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=PfPu31_PSQM",
+      "video": "https://www.youtube.com/watch?v=7egF6AlxPm4"
     },
     {
       "year": 2011,
@@ -956,7 +991,9 @@
       "description": "Draculaura is ready for a sleepover with her upright pigtails and pink & white PJs. Her top is pink with puffy white polka dot shoulders, a white lace jabot with black bow, and white mesh frills on the sleeves and the hem. The pink & white polka dot pants are knee length with a pink waistband and white mesh frills on the hems of the legs.\nShe accessorizes the outfit with a pink & white polka dot sleep mask and pink slippers. The slippers have fuzzy monster faces with eyes, fangs, and black bat wings.\nEntertainment for the night is a DVD of “Scary Human Movies Vol. 1” packaged in a coffin-shaped case with a gray disc. Also included with the doll is a brush, doll stand, and a Dead Tired Draculaura card with her checklist on the back.",
       "id": 42,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=PfPu31_PSQM",
+      "video": "https://www.youtube.com/watch?v=7egF6AlxPm4"
     },
     {
       "year": 2011,
@@ -977,7 +1014,9 @@
       "description": "Frankie looks as cute as ever with her hair in a ponytail and wearing PJs. The outfit has a white tank top with blue trim and a blue lightning bolt on the front. The black & white striped pants have a blue lightning bolt pattern, a plaid waistband with blue drawstring, and plaid cuffs.\nFrankie has a black & white striped sleep mask with blue trim. Her fuzzy monster slippers are blue with yellow eyes and silver neck bolts. She brings to the slumber party a iCoffin MP3 player with speaker dock. Also included with the doll is a blue brush, doll stand, and a Dead Tired Frankie Stein card.",
       "id": 43,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=PfPu31_PSQM",
+      "video": "https://www.youtube.com/watch?v=7egF6AlxPm4"
     },
     {
       "year": 2011,
@@ -998,7 +1037,9 @@
       "description": "For the sleepover, Ghoulia has her hair in a ponytail and is wearing a cute red & pink outfit. Her top is white with red spatter, two vertical black stripes in the front, and a pink bow by the neck. The pants are also white with red spatter and have red, black & white striped cuffs. Over the pants is a black miniskirt with a red, black & white striped waistband.\nGhoulia’s sleep mask has has the same red spatter as her pajamas. Her slippers are red fuzzy monsters with yellow eyes and black cat-eye glasses. Her treat for the night is a delicious box of red popcorn-like “Brain Puffs”. Also included with the doll is a red brush, doll stand, and a Ghoulia Yelps card.",
       "id": 44,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=PfPu31_PSQM",
+      "video": "https://www.youtube.com/watch?v=7egF6AlxPm4"
     },
     {
       "year": 2011,
@@ -1021,7 +1062,9 @@
       "description": "This playset features Lagoona Blue wearing cute aquatic-themed PJs. It also has her Hydration Station where she rests and rehydrates.\nLogoona has on a white tank top with blue stitched edges and a pattern of blue waves and pink flowers. Her pants are blue with a blue & white wave pattern, white stitching, and a white waistband with drawstring.\nLagoona’s sleep mask is white with a blue wave pattern and blue edges. Her pink fuzzy monster slippers each have yellow eyes, a mouth, and fins.\nThe Hydration Station is a tube with a transparent front, blue back door, and a black base with a blue seashell. The black top has a gray skullette, a blue scale roof, and a gray hand crank. The inside of the door has three bubble shelves to hold Lagoona’s essentials.\nThe station lights up with three different modes: flashing lights, extended flashing lights, and lights always on. When filled with water it can also creates streams of rising bubbles.\nThe playset includes Neptuna, Lagoona’s pet piranha, and many other items. There’s a blue bottle of H2O, a bottle of moisturizer, a journal & pen, a seashell compact, a doll stand, a brush, and a funnel.",
       "type": "Playsets",
       "id": 45,
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=PfPu31_PSQM",
+      "video": "https://www.youtube.com/watch?v=X3-QCV2t4hA"
     },
     {
       "year": 2011,
@@ -1089,7 +1132,8 @@
       "description": "Draculaura is wearing an adorable ensemble that boasts a multi-layered top, skirt, and tights. The v-neck shirt is primarily black with pink hearts, pink trim, and a white line with pink ruffles on the front. The sleeves and turtleneck are made of white fishnet. The skirt is double-layered with a light pink and a dark pink layer; both layers feature black mesh ruffles. Her tights are a combination of white fishnet and thigh high black stockings. Pink shoes with hearts on the heels and ankle strap bows complete the outfit.\nShe accessorizes with pink dangle skullette earrings. A doll stand, brush, and a keychain of her pet, Count Fabulous, are included with the doll.",
       "id": 48,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=gJSGyW8Eh2c"
     },
     {
       "year": 2011,
@@ -1110,7 +1154,8 @@
       "description": "Frankie has her hair in a ponytail and is wearing a casual outfit that features an extra-long light blue top with a red & white crisscross pattern. Over the shirt is a small silver vest with red stitching and a red lightning bolt. Under the shirt she has black tights with a crisscross pattern of silver stitches. Her shoes are black sneakers with silver laces and soles.\nFrankie accessorizes with black lightning bolt earrings. A doll stand, brush, and a keychain of her pet, Watzit, are included with the doll.",
       "id": 49,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=ucPBGS8e6SA"
     },
     {
       "year": 2011,
@@ -1182,7 +1227,8 @@
       "id": 52,
       "exclusive": "Comic Con",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video":"https://www.youtube.com/watch?v=uuUpXwFExc4"
     },
     {
       "year": 2011,
@@ -1205,7 +1251,9 @@
       "description": "This playset includes Clawdeen with purple PJs and her purple & gold bunk bed. Clawdeen’s hair is long, straight and highlighted purple. Her top is white with purple leopard print sleeves, purple scratches on the front, and a ripped waist. The black pants have purple leopard print pockets, a purple hem, and a purple waistband. Her sleep mask is white with purple tiger stripes and her purple fuzzy monster slippers each have yellow eyes, gold ears, and a fanged mouth.\nThe bunk bed has a gold frame with ornate posts that each have a skull on the top. The back of the bottom bunk features a gold skullette in the frame and strings of hanging translucent purple beads. The bottom bunk also has black swing-out mirror on one post and a sheer black curtain held with a purple bow.\nThe deep dish purple beds have gold along the edges and the bottom bed also has gold feet. The beds have black tufted mattresses held with purple buttons and each comes with a black & gold leopard print blanket.\nThere are a variety of accessories for the playset. It has a hair straightener, razor, black brush, and make-up kit. There is also a coffin-shaped mini fridge, a can of Full Moon Energy, and a black & white skullette pillow with pink bow. ",
       "type": "Playsets",
       "id": 53,
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=PfPu31_PSQM",
+      "video": "https://www.youtube.com/watch?v=7egF6AlxPm4"
     },
     {
       "year": 2011,
@@ -1302,7 +1350,8 @@
       "description": "Abbey outfit features a dress with white fur around the collar, white trim, and a mosaic pattern that is black, white, pink, and light blue. Under the dress is a pair of sheer pink tights. Her arms and legs have white fur warmers, on her head is a white fur headband, and she is wearing white hiking boots.\nAccessories for the outfit include a pink snowflake earring, a blue icicle earring, a blue crystal necklace, and a bluish gray pouch with a white skullette key & chain. Also included with the doll is Shiver, her pet wooly mammoth, a light blue brush, light blue doll stand, and Abbey’s diary.",
       "id": 58,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video":"https://www.youtube.com/watch?v=OdoRKE-qb-k&t=3s"
     },
     {
       "year": 2011,
@@ -1344,7 +1393,8 @@
       "description": "Cleo is wearing a turquoise strapless halter top with shiny green crisscrosses and a black & gold band across the top. Under her short gold & black skirt is a pair of black tights. Over the tights and on her arms are different length warmers with a pattern of black, yellow & white bandages. Her shoes are turquoise strappy cage sandals with gold studs on the front and gold hourglasses for heels.\nAccessories for her outfit include a studded gold belt with loincloth, a gold & turquoise choker, a gold rope headband, and gold earrings. Her black purse has a gold strap, turquoise frills, gold & turquoise embroidery, and features the Eye of Horus on the sides.\nAlso included with the doll is a binder with a bandage pattern, a yellow brush, yellow doll stand, and Cleo’s diary.",
       "id": 60,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video":"https://www.youtube.com/watch?v=xHgnagMpdJ4"
     },
     {
       "year": 2011,
@@ -1367,7 +1417,8 @@
       "description": "Draculaura looks fabulous in her multi-patterned dress. It has white with pink hearts on top, a pink bow, puffy white sleeves with pink cuffs, and black in front with yellow buttons and pink & yellow crisscrosses. The rest of the dress is pink with black mesh frills along the hems of the double-layered skirt. \nUnder the dress she wears yellow tights with pink polka dots. Her pink & black pumps have yellow soles and stacked pink buttons for heels.\nDraculaura accessorizes with yellow earrings that have dangling red & black bats. She also has an open parasol with a pink bow on top, a pink center canopy, and a black spiderweb outer canopy. Her purse is black, coffin-shaped, and has a pink heart on the side.\nClawd is wearing a white button-down shirt with gold buttons and gold crossbones under a gold vest with a white collar. His black jeans lead into a pair of scuffed gold work boots with black laces and soles.\nAccessories for the outfit include a teal cap, a teal scarf with black dots, a teal belt with gold buckle, a gold earring, and a gold watch. He also has his pet gargoyle bulldog, Rockseena.\nIncluded with the dolls is a teal doll stand, a pink doll stand, a pink brush, and the diaries of Draculaura and Clawd. This 2-pack is sometimes referred to as “Forbitten Love” because of a blurb on the box.",
       "id": 61,
       "type": "Multipack",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=Z-fp_qgtv3I"
     },
     {
       "year": 2011,
@@ -1388,7 +1439,8 @@
       "description": "Frankie is wearing a long blue shirt with pink vertical stripes, white crisscrosses, and white cuffs and collar. Over the shirt is a black sweater with blue trim and a blue & silver argyle pattern on the front. Under the shirt are tights with one long silver leg and one short black leg. Her black shoes have blue & silver crisscrosses on one half and silver bolts for heels.\nShe accessorizes the outfit with a silver triple-wrapped belt & lightning bolt buckle, a silver skullette hair clip, a silver & blue charm bracelet, and black earrings with silver lightning bolts. Her black hexagon purse has a silver strap and a blue & silver lightning bolt flap.\nAlso included with the doll is a blue brush, blue doll stand, and Frankie’s diary.",
       "id": 62,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=wtp--Wac-c4"
     },
     {
       "year": 2011,
@@ -1430,7 +1482,8 @@
       "description": "Spectra looks terrorific in her double layered dress that features a black top with purple and black straps and a sparkly purple front with three silver chains. To go with the bodice is a purple skirt with a black mesh overskirt. Her translucent purple shoes each have a silver ball for a heel that is connected to a chain that wraps around the shoe.\nAccessories for the outfit include a silver belt with rings, ball & chain earrings that may be all black or have silver chains, a silver shackle bracelet, and a silver double chain necklace. Her handbag is a translucent purple pouch with a silver chain handle.\nSpectra’s pet ferret, Rhuen, a purple brush, purple doll stand, and her diary are also included with the doll. ",
       "id": 64,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video":"https://www.youtube.com/watch?v=yLSHXHscAH4"
     },
     {
       "year": 2011,
@@ -1451,7 +1504,8 @@
       "description": "Toralei looks ferocious in her black leather jacket with red trim and gray studs on the collar. Under it she wears a red sleeveless top with jagged diagonal black & white stripes. The pants are black with with red showing through a variety of tears. Her black open-toe shoes have red red heels, red laces, and gray studs along the tops.\nShe accessorizes the outfit with an orange scarf, red fingerless gloves, and a gold grommeted belt with a silver skullette buckle. In each ear there is a silver stud and the left ear also has a silver hoop earring. Her purse is black & red with red scratches on the sides.\nExtras for the doll include Sweet Fang, her pet saber-toothed cub, a black brush, doll stand, and her diary.",
       "id": 65,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video":"https://www.youtube.com/watch?v=5Z_WcAMHB2w"
     },
     {
       "year": 2011,
@@ -1493,7 +1547,8 @@
       "description": "For the getaway, Ghoulia is wearing a black one-piece swimsuit with green spatter, green straps, a red waist, red around the top, and a white strip with red dots on the front. Over the suit she has a skirt made of red netting with patterns of white brain wrinkles. Her heeled sandals are translucent red with dripping ankle straps.\nAccessories for the outfit feature green sunglasses, a red flower-shaped brain barrette, a white lungs earring, a red brain earring, and a red dripping bracelet. Ghoulia’s drink is a red smoothie in a coconut skull cup with a white bone umbrella and red straw. Also included with the doll is a brush, doll stand, and a Ghoulia Yelps card with a map of Skull Shores.",
       "id": 67,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video":"https://www.youtube.com/watch?v=SR7eHj6V8Sc"
     },
     {
       "year": 2011,
@@ -1555,7 +1610,9 @@
       "id": 70,
       "exclusive": "Walmart",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video":"https://www.youtube.com/watch?v=pom3vX6fRfE&t=887s",
+      "promo":"https://www.youtube.com/watch?v=XBgLnXVppU8"
     },
     {
       "year": 2011,
@@ -1576,7 +1633,9 @@
       "description": "Clawd is dressed for the biggest birthday bash in the last thousand years. He’s wearing a black & teal patterned jacket with gold accents and collar over a black dress shirt and teal tie. His pants are black with gold stitching and his boots are gray. He accessorizes the outfit with sunglasses, a gold belt, and a gold earring in his left ear.\nClawd’s gifts for Draculaura are a pink necklace in a black jewelry box and a black & white dress with a pink bow. Also included with the doll is a coffin-shaped invitation with Skullette key, a black brush, and a black doll stand.",
       "id": 71,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo":"https://www.youtube.com/watch?v=XBgLnXVppU8",
+      "video":"https://www.youtube.com/watch?v=pom3vX6fRfE&t=887s"
     },
     {
       "year": 2011,
@@ -1597,7 +1656,9 @@
       "description": "Clawdeen is sporting a wild, yet fancy, outfit for her BFF’s birthday party. She’s wearing a black tuxedo jacket, white shirt with black buttons, a purple bowtie, and purple gloves. Her purple leopard print pants have black & gold accents and a black & gold belt with a gold crescent moon buckle. The shoes are black and gold with fanged teeth as heels. Her purse is black & white with black buttons and fur handles.\nClawdeen’s gift for Draculaura is a black puff-sleeved dress with red stripes and white lace around the collar. The doll also has a coffin-shaped invitation with Skullette key, a black brush, and a black doll stand.\nI can't believe Draculaura is finally turning 1600! It's been scary fun planning the party and it's definitely going to be a howling good time. Her dress is totally haunt couture and she'll definitely be the center of attention. I'm so excited for her that this may be the first time I'll ever want to walk into a party and not have all eyes on me. Now if I can just get Clawd to relax. You'd think he'd never escorted a ghoul to her sweet 1600th birthday before ;)",
       "id": 72,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo":"https://www.youtube.com/watch?v=XBgLnXVppU8",
+      "video":"https://www.youtube.com/watch?v=pom3vX6fRfE&t=887s"
     },
     {
       "year": 2011,
@@ -1618,7 +1679,9 @@
       "description": "Draculaura is turning 1600 and to celebrate she is having a party. Her birthday outfit features a black dress with pink hearts & bows, white lace accents, and a pink waistband with a bow. \nShe accessorizes with a white lace shawl, a pink heart tiara, and long pink earrings – one spells “sweet” and the other “1600”. Draculaura’s purse is sparkly pink lips with white fangs. Her frosting inspired shoes are black, white & pink with a bat-winged heart on each.\nThe doll also includes a coffin-shaped invitation with Skullette key, a Sweet 1600 birthday cake, a black brush, black doll stand, and an extra black skirt with a pink striped overskirt.",
       "id": 73,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo":"https://www.youtube.com/watch?v=XBgLnXVppU8",
+      "video":"https://www.youtube.com/watch?v=pom3vX6fRfE&t=887s"
     },
     {
       "year": 2011,
@@ -1637,7 +1700,9 @@
       "description": "The Roadster is a gift for Draculaura’s 1600th birthday. The black and pink convertible features raised cobweb filigree designs on the sides & hood, pink heart-shaped headlights & grill, a pink interior, a pink windshield, and a personalized license plate.",
       "type": "Playsets",
       "id": 74,
-      "reissue": false
+      "reissue": false,
+      "promo":"https://www.youtube.com/watch?v=XBgLnXVppU8",
+      "video":"https://www.youtube.com/watch?v=pom3vX6fRfE&t=887s"
     },
     {
       "year": 2011,
@@ -1658,7 +1723,9 @@
       "description": "Frankie Stein looks amazing for Draculaura’s birthday bash. Her outfit features a one-shoulder black & blue plaid dress with red & black lines and silver stitch accents. It has a puffy skirt with blue and black tulle underskirts.\nShe accessorizes the ensemble with stitched black bracelets, black stitches earrings, a silver lightning bolt purse, and black & blue patched & stitched shoes.\nFrankie’s birthday gift is a black and pink dress with a white diamond pattern and white bow. The doll also includes a coffin-shaped invitation with Skullette key, a black brush, and a black doll stand.",
       "id": 75,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo":"https://www.youtube.com/watch?v=XBgLnXVppU8",
+      "video":"https://www.youtube.com/watch?v=pom3vX6fRfE&t=887s"
     },
     {
       "year": 2011,
@@ -1679,7 +1746,8 @@
       "description": "This add-on lets you create an insect-like ghoul. It has black hands, black and yellow forearms, black and yellow calves, and translucent gray bug wings. Biceps, thighs, and a torso are not included. \nThe head has blue compound eyes with green, orange, and blue shadow and violet lips. Her hair is black with a yellow under layer and black and yellow bangs.\nShe has a form-fitting dress with yellow-gold and black diagonal lines accented by magenta dots. The shoulder and sleeves are black mesh. Accessories consist of gray bug glasses with antennae and black pumps.",
       "type": "Create-A-Monster",
       "id": 76,
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=GFXQotn2r08"
     },
     {
       "year": 2011,
@@ -1700,7 +1768,8 @@
       "description": "This add-on lets you create a skeletal ghoul. It has bone hands, forearms, and calves. Biceps, thighs, and a torso are not included.\nThe head is white with light purple eyes, blue and gray shadow, a gray nose, and blue lips with line accents. Her hair is a blend of blue and black.\nShe has a black turtleneck dress with elbow length sleeves, pink cuffs, and pink hem. It is decorated with a skeleton graphic that has a pink broken heart. Accessories consist of a bone hair bow and open-toe pumps with ankle straps and spines for heels.",
       "type": "Create-A-Monster",
       "id": 77,
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=GFXQotn2r08"
     },
     {
       "year": 2011,
@@ -1721,7 +1790,8 @@
       "description": "This add-on lets you create a three-eyed ghoul. It has light blue hands, forearms, and calves. The forearms are speckled blue and the calves have swirls of dots. Biceps, thighs, and a torso are not included.\nHer head has magenta eyes, purple and blue shadow, and slate blue lips. The hair is pink with streaks of light purple.\nThe outfit has a purple dress that is form-fitting and sleeveless. The waist is black with yellow dots and pink and purple helix stripes. Accessories include a purple beanie and strappy purple platform heels.",
       "type": "Create-A-Monster",
       "id": 78,
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=GFXQotn2r08"
     },
     {
       "year": 2011,
@@ -1744,7 +1814,8 @@
       "description": "Build your own Monster High doll. The starter pack includes two sets of body parts and two outfits.\nDoll Parts\nThe vampire is pale pink with parts for arms, legs, torso, and head. The head has long black hair with purple highlights, purple eyes with lavender shadow, and red fanged lips.\nThe sea monster is blue with arms, legs, and head. The forearms have squiggly tentacles, the calves have fins, and a torso is not included. The head has light green eyes, turquoise eyeshadow, and turquoise lips.\nClothing\nThe first outfit has a top with a purple halter neck, purple chest, and a gold bat wing accent. The bodice is black with purple helix stripes. The black skirt has sparkly black stripes and a ruffled purple hem.\nNext is a one-shoulder black top with yellow bubbles and blue and purple splatter. It is complemented by a dark turquoise skirt with a print of wavy pink lines and orange circles.\nFor accessories there is a red bat wing barrette and black open-toe pumps with black and purple ankle straps.",
       "type": "Create-A-Monster",
       "id": 79,
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=GFXQotn2r08"
     },
     {
       "year": 2011,
@@ -1767,7 +1838,9 @@
       "description": "This starter pack includes two sets of body parts and two outfits so you can build your own Monster High doll.\nDoll Parts\nThe werewolf is gray with arms, legs, ears, torso, and head. The head has crimson pink hair, blue eyes with pink shadow, and red fanged lips.\nThe dragon body is a scaly light pink with arms, legs, and small green wings. It does not have a torso. The head has bluish green eyes with green scale shadow and purple fanged lips.\nClothing\nThe first outfit is a dress with a black form-fitting bodice and a violet skirt decorated with an intricate black and lavender print. Over the top is a frilly and sheer black jacket with a pattern of violet crescent moons.\nThe second outfit has a matching halterneck top and skirt. They have black trim and feature a split print. One is green speckled with black and white and the other is a chartreuse scale print.\nThe last item is a pair of black peep-toe wedges with crescent moon accents.",
       "type": "Create-A-Monster",
       "id": 80,
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=GFXQotn2r08",
+      "video": "https://www.youtube.com/watch?v=IpWziN_8h0A"
     },
     {
       "year": 2011,
@@ -1945,7 +2018,8 @@
       "description": "This reissue of Ghoulia has the same outfits as the original but lacks some extras. The pink coffin-shaped locker and the survival guide are not included with this release.\nShe is still wearing a white tee with black sleeves and red trim that sports Monster High – Phys Dead – on the front. The shorts are black with a pink & white zigzag on one leg and a skullette on the other. Under the shorts is a pair of red half tights. Her shoes are red & black sneakers with red laces and white on top.\nGhoulia also has a dress that is a combination of black & white polka dots and red & white stripes. Her accessories include red earrings, a red & white bracelet, a red bottle, black sports goggles, and white glasses. \nExtras for the doll are a Physical Deaducation book, a red pen, a red bottle, a black ball, and a brush.",
       "id": 89,
       "reissue": true,
-      "type": "Doll"
+      "type": "Doll",
+      "video": "https://www.youtube.com/watch?v=Lzi3yc6_S0s"
     },
     {
       "year": 2012,
@@ -1964,7 +2038,8 @@
       "description": "This version of Lagoona is almost identical to the original but lacks a few of the extras. The pink coffin-shaped locker and the survival guide are missing from the reissue.\nLagoona still has her white lab coat and teal dress with the pattern of white bubbles and black anchors. She also comes with an extra shirt and pants. The shirt has teal, pink and white whorls and the pants are teal with black pockets, waistband, and cuffs.\nAccessories for the outfits are a pink necklace, pink bracelet, and yellow dangle earrings with black anchors. The shoes are teal & black with yellow winding straps.\nThe extras for the doll include a three-eyed frog, a jar, an egg, a Mad Science book, a blue pen, and a brush.",
       "id": 90,
       "reissue": true,
-      "type": "Doll"
+      "type": "Doll",
+      "video": "https://www.youtube.com/watch?v=8F3G-T5hEMs"
     },
     {
       "year": 2012,
@@ -1983,7 +2058,8 @@
       "description": "Howleen is a maniac on the floor. With her pink pompom hair and energetic leotard she can dance like a ghoul has never danced before.\nHer single-shoulder leotard is powder blue with pink trim and a colorful diagram of dance steps. The attached tights are black with a pattern of pink and powder blue paw prints.\nOn her feet are baby blue high tops with pink laces and skullettes on the sides. Around her waist is a pink safety pin belt with attached headphones. She accessorizes with a yellow safety pin earring and a black boombox purse with pink accents.",
       "id": 91,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=41HP2x3tJKw"
     },
     {
       "year": 2012,
@@ -2002,7 +2078,8 @@
       "description": "Lagoona is a majestic beauty when she dances in her aquatic themed wardrobe. Her black leotard has squiggly pink straps and a pattern of pink coral and white bubbles. Over the leotard is a turquoise mesh skirt with a pink waist and a pattern of pink tentacles and blue-green seaweed.\nHer shoes are pink with starfish on the front and seaweed winding up her calves. She has a pink bracelet and an aqua-blue purse that is a scuba tank covered with seaweed and seashells. The color of the purse matches the light blue highlights in her long blond hair.",
       "id": 92,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=41HP2x3tJKw"
     },
     {
       "year": 2012,
@@ -2021,7 +2098,8 @@
       "description": "Operetta is a cool cat on the dance floor with her rockabilly ensemble. She is wearing a black leotard with a pattern of white dice with red pips. It is held by a red halterneck and a black & white spiderweb skirt is worn over top.\nOn her feet are white shoes with black tips and piano key heels. Her red baguette bag is embellished with music notes and spiderwebs. Over one eye is a purple heart-shaped mask and holding her red & black hair is a white & purple mini check headscarf.",
       "id": 93,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=41HP2x3tJKw"
     },
     {
       "year": 2012,
@@ -2040,7 +2118,8 @@
       "description": "Robecca is a dancing machine with her amazing robot moves and outfit that goes perfectly with her lovely black & blue hair. She is wearing a collared blue & black leotard emblazoned with a pattern of steampunk filigree. Over the leotard is a purple & black waist cover-up that features a patchwork pattern of riveted sheet metal.\nShe wears bronze booties with purple bows at the tops and gears for heels. On her head is a small top hat attached to a bronze headband made up of gears. One wrist has a purple steampunk bracelet and she carries a purple steampunk purse. The tubular hinged purse is embellished with rivets, gauges, and gears.",
       "id": 94,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=41HP2x3tJKw"
     },
     {
       "year": 2012,
@@ -2059,7 +2138,8 @@
       "description": "For the sleepover, Abbey’s hair is long, straight and white with pink & blue highlights. She is wearing a blue sleeveless nightie covered in a pattern of white snowflakes. The nightie has black frills decorating the arm holes, a black hem, and around the neckline is a black bow with white pompoms on the ends.\nAbbey has a white fur sleep mask and her shoes are blue fuzzy monster slippers with black eyes and mouth. The doll also has a pink tub of “I Scream” ice scream.",
       "id": 95,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=RDORle5TUos"
     },
     {
       "year": 2012,
@@ -2078,7 +2158,8 @@
       "description": "Clawdeen is wearing a ferociously cute outfit to the sleepover. It features a black tank top with with yellow stitched edges and a yellow paw print on the front. The shorts are purple leopard print with a black stitched waistband, yellow stitching, and a black hem.\nClawdeen’s sleep mask has the same purple print as her shorts and her slippers are yellow fuzzy monsters with ears, black eyes, and black mouth. Also included with the doll is a purple makeup kit in the shape of a paw print.",
       "id": 96,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=RDORle5TUos"
     },
     {
       "year": 2012,
@@ -2097,7 +2178,8 @@
       "description": "Draculaura is back again with her hair pulled back in a ponytail and a brand new outfit. For the sleepover she is wearing a pink nightie with a pattern of black bat-wing hearts. It has white & pink mesh frills decorating the chest and the hem.\nHer slippers are pink fuzzy monsters with black eyes, a black fanged mouth, and pink bat-wings. She has a pink sleep mask with the same pattern as her nightie. Also included with the doll is a copy of “Monster Beat” magazine.",
       "id": 97,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video":"https://www.youtube.com/watch?v=JoiVpRG7h7k"
     },
     {
       "year": 2012,
@@ -2195,7 +2277,8 @@
       "id": 102,
       "type": "Multipack",
       "exclusive": "Walmart",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=IfU3zGjl53k"
     },
     {
       "year": 2012,
@@ -2216,7 +2299,8 @@
       "description": "Lagoona will be swimming in complements when she arrives at the polka dot dance. She is wearing a sleeveless aqua blue dress that is trimmed in black and covered in a pattern of beautiful bubbles with rows of blue kelp. \nSeparating the top of the dress from the skirt and its pink tulle overlay is a blue belt with a pink starfish buckle. Her translucent pink shell shoes each have a white pearl attached to the toe strap.\nAdditional trappings for the outfit feature a white pearl earring, a string of pearls earring, two pink necklaces, a blue necklace, a white charm bracelet, and a pink headband with an open clamshell containing a white pearl. On one arm is a blue mesh arm warmer and her purse is a translucent orange sand dollar with dangling kelp. She also has a black & teal iCoffin phone and a blue clamshell makeup case.\nIncluded with the doll is a silver brush, doll stand, and a trading card of Lagoona.",
       "id": 103,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=IVOVNVw_jnw"
     },
     {
       "year": 2012,
@@ -2258,7 +2342,8 @@
       "description": "Spectra looks stunning in her dots & chains ensemble for the polka dot dance. She is wearing a single shoulder sleeveless dress that is light purple with black polka dots. It features a pink tulle overlay that has a pattern of pink chains and large purple dots. Her purple shoes have cone heels and are covered in rows of chain links.\nAccessories begin with a silver chain hairband, a silver heart-shaped lock earring, a white skullette key earring, and a silver chain necklace with layers down to her waist. On each wrist is a black band with a pink & black polka dot bow and on each ankle is a silver shackle. Her black handbag is wrapped in chains and has a silver handle. She also has a black & purple iCoffin phone and a purple padlock-shaped makeup compact.\nIncluded with the doll is a silver brush, doll stand, and a trading card of Spectra.",
       "id": 105,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=d1GWREL17eY"
     },
     {
       "year": 2012,
@@ -2276,7 +2361,9 @@
       "description": "Clawdeen is wearing a shiny gold top featuring black tiger print and a ruffled neck. Over the top is a black vest with a wide purple hem and a white faux fur collar. Her a-line skirt is shimmery purple with a black tulle hem.\nOn her feet are knee-high black sandals with purple straps and gold buckles. Accessories consist of gold hoop earrings, a gold necklace with purple pendant, and a gold studded black belt. \nThis version is similar to the Signature doll, but also has the Ghoul’s Alive! feature. When a lever on her back is depressed Clawdeen tilts her head back ,closes her eyes, raises her arms, and howls. Also included with the doll is a stand.",
       "id": 106,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=itGjG4We9_Q&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=14",
+      "video": "https://www.youtube.com/watch?v=3nLsCZ7Ln8A"
     },
     {
       "year": 2012,
@@ -2295,7 +2382,9 @@
       "description": "Frankie is wearing an adorable dress with a white top that features black fishnet sleeves. Around her neck is a black bow tie held by a silver skullette pin. The plaid skirt is black and blue with red and silver crisscrossed lines. The hem of the skirt is detailed with black fishnet.\nShe accessorizes with translucent blue dangling skullette earrings and a black belt. The belts is embellished with silver studs, chains, and a silver lightning bolt buckle. On her feet are black & white striped ankle-strap pumps.\nFrankie is similar to the Signature doll, but also has the Ghoul’s Alive! feature. When her belly button is pressed she emits an electrifying buzz and her face and rib cage glow. Also included with the doll is a stand.",
       "id": 107,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=itGjG4We9_Q&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=14",
+      "video": "https://www.youtube.com/watch?v=3nLsCZ7Ln8A"
     },
     {
       "year": 2012,
@@ -2314,7 +2403,9 @@
       "description": "Spectra is wearing a lovely dress with black & purple straps. The bodice is black with a sparkly purple front detailed with three silver chains. The purple skirt has a shiny silver pattern of chains that form a chain link design. Over the skirt is a black mesh top layer.\nHer translucent purple boots each have a silver ball & chain heel with the chain wrapping around the boot. Accessories for the outfit include a silver double chain necklace, a silver shackle, and a silver belt with dangling hoops.\nSpectra is similar to the Signature doll, but also has the Ghoul’s Alive! feature. When her belly button is pressed she emits a ghostly wail and lights up with a spooky blue glow. Also included with the doll is a stand.",
       "id": 108,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=itGjG4We9_Q&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=14",
+      "video": "https://www.youtube.com/watch?v=3nLsCZ7Ln8A"
     },
     {
       "year": 2012,
@@ -2336,7 +2427,9 @@
       "id": 109,
       "exclusive": "Walmart",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo":"https://www.youtube.com/watch?v=03JTF83qZMk&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=10",
+      "video": "https://www.youtube.com/watch?v=l7GomCRsBUw"
     },
     {
       "year": 2012,
@@ -2357,7 +2450,9 @@
       "description": "Clawdeen has gone all out this Halloween with her werewolf inspired costume. She has even shaved the sides of her head and added animal print highlights.\nThe outfit features a purple & black honeycomb jumpsuit emblazoned with green leopard print and shiny gold zipper designs. To emphasize the werewolf motif the sleeves and leg warmers are covered in long black faux fur. On her feet are claw-heeled gold pumps covered in studded straps. \nThe outfit is accessorized by a gold chest plate made up of studded straps, a gold belt with two rows of studs, and gold studded ankle bracelets.  Her masquerade mask is black with purple highlights and is held by stiff gold chains that end in crescent moons. In each ear are two green studded hoop earrings and on her hands are green fingerless gloves. Her trick-or-treat pail is purple with a skullette and spikes on the sides.\nClawdeen comes with a small black coffin detailed with a skullette, filigree, and spiderwebs. Inside the coffin is creepy green goo candy. Also included with the doll is a black brush, doll stand, and a Ghouls Rule trading card of Clawdeen.",
       "id": 110,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo":"https://www.youtube.com/watch?v=03JTF83qZMk&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=10",
+      "video":"https://www.youtube.com/watch?v=dC1o0yrbcms"
     },
     {
       "year": 2012,
@@ -2378,7 +2473,10 @@
       "description": "Cleo has taken the mummy theme to a whole new level with her enchanting Halloween costume. The wardrobe begins with a dress that features a tan bandage-style top adorned with shiny turquoise lines. The skirt is long black mesh with a turquoise top layer that is much shorter and trimmed with a jagged edge. On her feet are translucent turquoise shoes with ouroboros ankle straps and platforms made of gold pyramids.\nGold accessories for the ensemble consist of a snake earring, a stud earring, an ouroboros bracelet, and a wide bracelet with triangles. Around her neck is a gold snake necklace holding multiple black mesh bandages embellished with shiny golden lines. Her masquerade mask is also gold and covered in mummy wrappings. For a purse she is using a turquoise trick-or-treat pail with a bandaged mummy skull.\nCleo comes with a turquoise punch bowl with gold snake legs, a gold ladle, and gold cup. The bowl and cup are filled with a pink bubbly concoction. Also included with the doll is a black brush, doll stand, and a Ghouls Rule trading card of Cleo.",
       "id": 111,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo":"https://www.youtube.com/watch?v=03JTF83qZMk&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=10",
+      "video":"https://www.youtube.com/watch?v=U3Zlw-mOLw8"
+
     },
     {
       "year": 2012,
@@ -2399,7 +2497,9 @@
       "description": "Draculaura embraces her vampire heritage with an elaborate Halloween costume. It begins with an off-the-shoulder dress incorporating a white bunched bodice, black mesh bell sleeves, and a triple-layered skirt. The top skirt is black mesh with a patter of batwing hearts, the next layer is sparkly pink, and the bottom layer is pink. Each jagged layer gets progressively longer and all three are under a black mesh train adorned with shiny pink filigree.\nUnder the skirt is are tights that flow from pink to black matching her translucent gray spiderweb boots. The boots have black fang heels and pink & black laces up the sides that end with bat wing hearts.\nAccessories consist of pink dripping heart-shaped earrings and a translucent pink spiderweb collar. Attached to her back are ornate spiderweb bat wings that are black on top and transition to pink on the bottom. Her masquerade mask is translucent pink with a filigree handle and black bat wing eyebrows. The trick-or-treat pail is pink with a skullette and bows.\nDraculaura comes with a white skullette skeleton with two pink attachable bows. Also included with the doll is a black brush, doll stand, and a Ghouls Rule trading card of Draculaura.",
       "id": 112,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo":"https://www.youtube.com/watch?v=03JTF83qZMk&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=10",
+      "video": "https://www.youtube.com/watch?v=JH2YGK_4Zvk"
     },
     {
       "year": 2012,
@@ -2420,7 +2520,9 @@
       "description": "Frankie is portraying the bride of Frankenstein for Halloween and she is mesmerizing with her big hair and stunning black & white ensemble. The costume begins with a sheer mesh dress featuring a blue bodice and a skirt that transitions from white to gray. The hem of the skirt has shimmery silver lightning bolts and the trim and waist of the dress are detailed with black stitches. \nUnder the dress is a black jumpsuit covered with strings of metallic blue nuts. Her black knee-high boots have stitches running down the sides and are glittery at the feet. Completing the outfit is a black cropped jacket with a shimmery silver pattern of interlinked nuts.\nAccessories entail silver earring with dangling strings of nuts and two silver cuffs made from nuts. She has a blue masquerade mask that only covers one eye and is held with a lightning bolt handle. Her purse is a blue trick-or-treat pail with a skullette and neck bolts.\nFrankie comes with a silver studded cauldron that is filled with a green brew. Also included with the doll is a black brush, doll stand, and a Ghouls Rule trading card of Frankie.",
       "id": 113,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo":"https://www.youtube.com/watch?v=03JTF83qZMk&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=10",
+      "video": "https://www.youtube.com/watch?v=SgkZ-H6qFH4"
     },
     {
       "year": 2012,
@@ -2444,7 +2546,8 @@
       "id": 114,
       "exclusive": "Toys”R”Us",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=R4-lu0Wcq6M"
     },
     {
       "year": 2012,
@@ -2468,7 +2571,8 @@
       "id": 115,
       "exclusive": "Toys”R”Us",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=R4-lu0Wcq6M"
     },
     {
       "year": 2012,
@@ -2488,7 +2592,8 @@
       "id": 116,
       "exclusive": "Kohls",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=m0HcLsUP2VY"
     },
     {
       "year": 2012,
@@ -2508,7 +2613,8 @@
       "id": 117,
       "exclusive": "Kohls",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=otnh64fb0fs"
     },
     {
       "year": 2012,
@@ -2698,12 +2804,13 @@
       "description": "This reissue of C.A. is almost identical to the original Sweet 1600 version. Her strapless dress has a pink top with a a black tulle shawl worn over it. The white skirt turns into pink at the bottom and is decorated with black hearts and black mesh along the hem. Her black soled pumps are made from a chain of pink and white hearts. One shoe has a bow for the heel and the other has an arrow.\nAccessories for the outfit include white bow & arrow earrings, a pin wrist cuff, and a pink & white bow & arrow ring. her white heart-shaped purse has pink handles and black, pink & gray designs. Extras for the doll consist of a pink doll stand and her diary.",
       "id": 127,
       "reissue": true,
-      "type": "Doll"
+      "type": "Doll",
+      "video":"https://www.youtube.com/watch?v=pom3vX6fRfE&t=887s"
     },
     {
       "year": 2012,
       "character": "Clawdeen Wolf",
-      "series": "Miscellaneous",
+      "series": "Coffin Bean",
       "gender": "Ghoul",
       "modelNumber": "X3721",
       "galleryImagesLinks": [
@@ -2722,7 +2829,7 @@
     {
       "year": 2012,
       "character": "Clawdeen Wolf & Draculaura",
-      "series": "Miscellaneous",
+      "series": "Coffin Bean",
       "gender": "Ghoul",
       "modelNumber": "X4517",
       "galleryImagesLinks": [
@@ -2756,7 +2863,8 @@
       "description": "The powder room has a vanity and bathtub where Draculaura can relax after a long night. The pink and black slipper tub features black claw feet and a white scalloped edge. The foot of the tub has a black faucet and a pink ribbon tied into a heart-shaped bow. The head has a heart and an animal head with big ears and a bow. The tub comes with a detachable pink shelf with claws and bat wings.\nThe black coffin-shaped vanity has ornate pink doors with white fang handles and white swirls. The pink spiderweb countertop has a white bowl sink with a pink faucet and bat wing handles. Black bat wings and swirls form the frame of the heart-shaped mirror. Since Draculaura doesn’t have a reflection the mirror only has an image of her clothes and earrings.\nAccessories for the powder room begin with a black & pink pink towel embroidered with Draculaura’s crest. A white toothbrush, a white tube of toothpaste, a pink heart-shaped bottle, and makeup are also included.",
       "type": "Playsets",
       "id": 130,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=1YdVgYxTc-Q&t=6s"
     },
     {
       "year": 2012,
@@ -2779,7 +2887,8 @@
       "description": "Frankie’s amazing vanity has three silver bolt legs and a blue shelves shaped like a lightning bolt. The black counter top has a silver sheet-metal drawer decorated with a pink lightning bolt and a white skull knob. The lightning bolt mirror is framed in pink and accentuated with pink bolts. Surrounding the mirror is a backdrop of black and blue stitched trellises with coffin-shaped pictures of Frankie’s friends.\nThe matching chair has a black base, a pink tufted seat cushion, and rests upon a single silver bolt. The blue armrests and back use the same stitched trellis pattern as the vanity. A white skull with bolts decorates the center of the chair back.\nAccessories for the playset consist of a black hair dryer with a pink cord, a perfume bottle, a lightning bolt makeup palette, a wrench applicator. and a battery train case. The case is blue with a black lid, pink lightning bolt handle, and a blue charging cable.",
       "type": "Playsets",
       "id": 131,
-      "reissue": false
+      "reissue": false,
+      "Video": "https://www.youtube.com/watch?v=ZfyFyQspof8"
     },
     {
       "year": 2012,
@@ -2796,7 +2905,8 @@
       "description": "Ghoulia’s red and black scooter has a cute skeletal theme. The front sports a white stripe with a skull wearing goggles and a gray rib cage basket. The black mirrors are held by skeletal hands and the foot rest has a white spinal column running down the center. The red seat is covered with brain wrinkles and the red splattered license plate is personalized with “BRAINS”. The sides of the scooter has a white section decorated by a pattern of cherries with green stems. Gray skeletal hands hold the pink rimmed wheels and a white bone kickstand keeps the scooter upright.\nAccessories include a cup, backpack, and two helmets. The cup is green, dripping, and has a white lid and straw. The gray tombstone backpack is detailed with a skull wearing goggles, a wrought iron gate design, and red straps. Ghoulia’s helmet is black with a white center stripe, red visor, black chin strap, and red goggles. The other helmet is black with red goggles. It is smaller and fits Sir Hoots A Lot, Ghoulia’s pet owl.",
       "type": "Playsets",
       "id": 132,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=6hHDAb1U13I&t=14s"
     },
     {
       "year": 2012,
@@ -2845,7 +2955,9 @@
       "type": "Playsets",
       "id": 134,
       "exclusive": "Toys”R”Us",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=1YdVgYxTc-Q&t=6s"
+
     },
     {
       "year": 2012,
@@ -2869,7 +2981,8 @@
       "type": "Playsets",
       "id": 135,
       "exclusive": "JCPenney",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=pom3vX6fRfE&t=887s"
     },
     {
       "year": 2012,
@@ -2897,7 +3010,8 @@
       "id": 136,
       "type": "Multipack",
       "exclusive": "Comic Con",
-      "reissue": false
+      "reissue": false,
+      "video":"https://www.youtube.com/watch?v=sWeDFe2tK54"
     },
     {
       "year": 2012,
@@ -2921,7 +3035,8 @@
       "type": "Playsets",
       "id": 137,
       "exclusive": "Toys”R”Us",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=6hHDAb1U13I&t=14s"
     },
     {
       "year": 2012,
@@ -2942,7 +3057,8 @@
       "description": "Abbey looks chillerific with her cool clothing and icy accoutrements. She is wearing a long light blue top tie-dyed with purple & pink triangles. Around the neck are shiny rounded icicles and over the shirt is a black fur shawl. The white leggings have a crystal pattern formed by black, light blue, pink, and purple triangles. Her boots are translucent gray with skullette buckles and ice crystal trim. \nThe outfit is accentuated with a pink crystal multi-finger ring, a single pink crystal earring, and an onyx crystal belt. Her translucent pink backpack has pink straps and a black key ring with skullette keys.\nExtras for the doll consist of a light blue binder, black brush, black doll stand, student pictures in the form of stickers, and Abbey’s Fearbook.",
       "id": 138,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=57L4cOAyVHU"
     },
     {
       "year": 2012,
@@ -2963,7 +3079,8 @@
       "description": "Cleo is magnificent in her Picture Day ensemble. She is wearing a long shirt with a pattern blue bandage wrappings highlighted with black, teal, and shiny gold. Under the top are black & shiny gold striped tights. On her feet are gold wedge sandals with multiple blue straps.\nThe outfit is made even more dazzling by a wide gold belt and gold bracelet; both featuring a black scarab emblem. Her translucent teal purse is embellished with the outline of a gold scarab.\nExtras for the doll consist of a gold binder, black brush, black doll stand, student pictures in the form of stickers, and Cleo’s Fearbook.",
       "id": 139,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=mBx60waQOSc"
     },
     {
       "year": 2012,
@@ -2984,7 +3101,8 @@
       "description": "Draculaura looks fangtastic in her black, white, and pink ensemble. Her white under black mesh top has a black collar with white frills and a large pink bow in the front. The pink skirt has a black waist, Victorian designs with bats & carriages at the bottom, and black tulle along the hem. Her black wedges have white skullette clasps and knee-high straps that are tied into a bow at the top.\nAccessories for the outfit feature pink & white skullette and crossbones earrings and a pink headband with a bow. Her pink heart-shaped purse has a black handle and is embellished with black bats.\nExtras for the doll consist of a pink binder, black brush, black doll stand, student pictures in the form of stickers, and Draculaura’s Fearbook.",
       "id": 140,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=fWyPqiCnHnY"
     },
     {
       "year": 2012,
@@ -3005,7 +3123,8 @@
       "description": "Spectra is unstoppable in her spooktacular chain-themed garb. Her shades of purple top features a chain-link pattern, black mesh sleeves, and an asymmetrical hem. Under the top is a black leather miniskirt and purple tights with a pattern of different sized chains. Her silver heels are held with ankle straps and chains.\nAccessories for the outfit consist of a white skullette key earring, a silver heart-shape lock earring, a black multi-chain necklace, and a black wrapped-chain bracelet. Her purse is a silver clutch wrapped with black chains.\nExtras for the doll consist of a pink chain binder, black brush, black doll stand, student pictures in the form of stickers, and Abbey’s Fearbook.",
       "id": 141,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=556NddPSCic"
     },
     {
       "year": 2012,
@@ -3029,7 +3148,8 @@
       "id": 142,
       "exclusive": "Target",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=BT1ec991OfY"
     },
     {
       "year": 2012,
@@ -3053,7 +3173,8 @@
       "id": 143,
       "exclusive": "Target",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=BT1ec991OfY"
     },
     {
       "year": 2012,
@@ -3077,7 +3198,8 @@
       "id": 144,
       "exclusive": "Target",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=BT1ec991OfY"
     },
     {
       "year": 2012,
@@ -3096,7 +3218,9 @@
       "description": "Abbey is dressed for an international adventure. She is wearing a single shoulder dress covered with a pattern of purple & pink shapes. The angular shapes are of various sizes and create an ice crystal appearance. The bottom of the dress is adorned with a white faux fur hem.\nHer white ice crystal wedges have crystal flowers on the toe and ankle straps. Translucent purple accessories consist of crystal earrings and a crystal necklace. Around her waist is a translucent blue belt made of icicles. Her handbag is made of translucent blue bricks with black handles.",
       "id": 145,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=HSNm4uVqNZA&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=16"
+
     },
     {
       "year": 2012,
@@ -3115,7 +3239,9 @@
       "description": "The rolling cafe cart is etched magenta outlined by black wrought iron and detailed with swirls and spiderwebs. On the side of the cart is a black sign with “Cafe” and the Eiffel Terror in white with skullettes and swirls in the background.\nThe wheels and posts are teal and on two of the posts are illegible menus. On top of the translucent teal canopy rests a black bat. The cart has a black & gray coffinccino maker and a purple shelf where pastries are displayed.\nA wrought iron table, chair, and bench is provided for ghouls to sit and enjoy their pastries and coffinccino. The purple table has a spiderweb design and a translucent pink umbrella with yellow dangling skulls. The chair is magenta with a spiderweb design and a skull seat. The teal bench has a skull on the back rest and a spiderweb design.\nAccessories include a translucent blue glass and bottle, a coffinccino cup, a black vase with yellow dripping flowers, and a variety of pastries.",
       "type": "Playsets",
       "id": 146,
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=HSNm4uVqNZA&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=16"
+
     },
     {
       "year": 2012,
@@ -3136,7 +3262,10 @@
       "description": "Clawdeen is ferociously fashionable for her visit to the City of Frights. She is wearing a sleeveless purple dress with black straps and an over-skirt. The dress is decorated with interconnected hexes and claw-like fleurs-de-lis. The skirt is black mesh with shiny gold leopard print and a black lace hem. Over the dress is a black faux fur vest.\nOn her feet are studded gold pumps with serrated claw heels. Gold accessories for the outfit include an Eiffel Terror earring, two studded hoop earrings, and a bracelet made up of four studded straps. Her gold triple-belt has a pyramid studded belt, a grommet belt, and a grommet belt with dangling crescent moons.\nClawdeen’s suitcase is purple with a gold serrated handle. The studded case is adorned with three straps held by gold crescent moons. Also included with the doll is a black brush, doll stand, Clawdeen’s travel journal, and a mini journal.",
       "id": 147,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=HSNm4uVqNZA&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=16",
+      "video": "https://www.youtube.com/watch?v=xy4wbAVEJiQ"
+
     },
     {
       "year": 2012,
@@ -3153,7 +3282,9 @@
       "description": "The ghouls of Monster High will look freak-tastic as they drive around in this ornate purple convertible. It’s body, headlights, silver windshield frame, and black styling bar are all detailed with filigree designs and cut-outs. The front of the car has a skull emblem and a gray spiderweb grill. The back features a Scaris license plate and silver werewolf taillights. Each of the tires is decorated by a skull surrounded by silver filigree.\nThe dark purple interior has a spiderweb design. The seat belts, steering wheel, gargoyle shifter, and console are light blue. Under the rear-facing back seat is a trunk detailed with a large skullette.",
       "type": "Playsets",
       "id": 148,
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=HSNm4uVqNZA&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=16"
+
     },
     {
       "year": 2012,
@@ -3172,7 +3303,9 @@
       "description": "Deuce has dressed for comfort during his travels abroad. He is wearing a green sleeveless hoodie with yellow scaly spots and black drawstrings. His argyle shorts are white with gray and green diamonds intersected by black diagonal lines.\nEach of his black loafers feature a graphic of a green skeletal snake looped around a skull. He accessorizes with green sport sunglasses and a travel bag. The black scale bag has a skullette on the side and is held by a green frame with handles.",
       "id": 149,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=HSNm4uVqNZA&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=16"
+
     },
     {
       "year": 2012,
@@ -3191,7 +3324,8 @@
       "description": "Draculaura is ready to experience the City of Frights. She is wearing an off-the-shoulder pink top covered in black printed chandeliers. The sleeves are black and the top is trimmed with pink. Her short skirt is light pink with pink & black zigzag stitching and a black tulle hem.\nShe accessorizes with black rounded-toe pumps and pink dripping heart earrings. Draculaura’s rounded travel bag is light pink and features a dark pink lid with a bow and skullette.",
       "id": 150,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=HSNm4uVqNZA&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=16"
     },
     {
       "year": 2012,
@@ -3212,7 +3346,10 @@
       "description": "Frankie is ready for a shockingly good trip with her flowing black & white hair and energizing wardrobe. She is wearing a blue puffy sleeve top with black cuffs, black waist, and pink trim. A pattern of black nuts, screws, and Eiffel Terrors cover the top. Her silver pencil skirt features diagonal  blue stitched stripes and a black hem.\nFor shoes she has black knee-high boots with lightning bolt heels and yellow lightning bolts down the sides. She accessorizes with yellow sunglasses, a yellow earring with dangling nuts, and a blue screw earring.\nFrankie’s suitcase is baby blue with a yellow lightning bolt handle. The case is covered with screws, gauges, lightning bolts, and a central pink rectangle with a baby blue lightning bolt. Also included with the doll is a black brush, doll stand, and Frankie’s travel journal.",
       "id": 151,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=HSNm4uVqNZA&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=16",
+      "video": "https://www.youtube.com/watch?v=wUSj-ObwUhM"
+
     },
     {
       "year": 2012,
@@ -3231,7 +3368,9 @@
       "description": "Ghoulia is dressed for comfort as she embarks on her trip abroad. She has on a black hoodie dress with an image of a blue skeletal rib cage on the front. The front also has deep red pockets with black brain wrinkles. The hood is shadow striped in red, white, and black and the hem of the dress is red.\nOn her feet are blue sneakers that feature high heels and white skullettes on the sides. She accessorizes with red horn-rimmed glasses and red zipper slider earrings. Her red box handbag is detailed with dripping goo, a skull with sunglasses, and has a black lid with handle.",
       "id": 152,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=HSNm4uVqNZA&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=16"
+
     },
     {
       "year": 2012,
@@ -3252,7 +3391,9 @@
       "description": "Jinafire is a creature of beauty with her long black & green hair, gold scale skin, and elegant wardrobe. She is wearing a purple dress covered with red flames and blue and black clouds. The collared dress has one long black mesh sleeve adorned with red scales. Around her waist is a gold belt that holds a black mesh cover-up with red scales.\nHer pumps are red with ankle straps and gold heels. The bottom of the shoes are gold claws holding orbs. Accessories consist of red dangle earrings, a red bracelet, and a black hairstick. The stick has red tassels on each end and a large gold flower in the middle.\nJinafire has a red suitcase detailed with lavish designs, gold flames at the top, and a retractable black handle. The front of the case is adorned with a magnificent Chinese dragon. Also included with the doll is a black brush, doll stand, and Jinafire’s travel journal.",
       "id": 153,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=HSNm4uVqNZA&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=16",
+      "video": "https://www.youtube.com/watch?v=LmgDiG4BU-4"
     },
     {
       "year": 2012,
@@ -3273,7 +3414,9 @@
       "description": "Rochelle’s pink & blue hair is pulled back into a ponytail for her exciting excursion. She is wearing a pink & black dress with black straps. The bodice is covered with a decorative scroll pattern and pink lace circles that run down the front. A black waist separates the bodice from the splotchy pink skirt which features a large image of the Eiffel Terror.\nLight and dark gray striped tights lead into pink shoes. The shoes and their heels are made up of ornamental scrolls. On her head is a gray beret with a pink bow. She accessorizes the outfit with two black and two blue bangles.\nRochelle’s suitcase is gray with a pink handle made of decorative scrolls. The case is adorned with chains, fleurs-de-lis, and ornamental scrolls giving it a wrought iron appearance. Also included with the doll is a black brush, doll stand, and Rochelle’s travel journal.",
       "id": 154,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=HSNm4uVqNZA&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=16",
+      "video": "https://www.youtube.com/watch?v=2JqUDbs47xM"
     },
     {
       "year": 2012,
@@ -3294,7 +3437,9 @@
       "description": "Skelita is as lovely as ever with her long black hair, brown highlights, and colorful wardrobe. She is wearing a black halterneck top with purple and pink piping along the top trim. It is covered with a pattern of gray flowers and curled designs. The triple-layered skirt has jagged trim and multiple sections featuring different colors and prints. The prints include graphics of bats, spiders, safety pins, flowers, moons, hearts, and more.\nOn her feet are green wedge sandals with brown heels. Accessories consist of an ornate orange necklace, a brown etched belt, and a brown etched bracelet.\nFor travel she has a pink tombstone-shaped suitcase with a spinal column handle. The case is covered with elaborate curling patterns with a white skull in the center. Also included with the doll is a black brush, doll stand, and Skelita’s travel journal.",
       "id": 155,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=HSNm4uVqNZA&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=16",
+      "video": "https://www.youtube.com/watch?v=KTVzUcsVGBo&t=671s"
     },
     {
       "year": 2012,
@@ -3318,7 +3463,8 @@
       "id": 156,
       "type": "Multipack",
       "exclusive": "Target",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=8WxSpWEwRng"
     },
     {
       "year": 2012,
@@ -3361,7 +3507,8 @@
       "description": "Nefera looks absolutely stunning in her single-sleeved top and layered skirt. The top features a pattern of mummy bandages with pink and turquoise highlights. The skirt has a combination of ruffle strips that are black or have the bandage pattern. Attached to the skirt is a turquoise mesh sash that drapes over one shoulder. \nAround each ankle are leg warmers with the same wrappings pattern as her top. Her gold sandals each have black on the sides, pink & turquoise on the band, and a turquoise cobra for the heel.\nShe enriches her wardrobe with a translucent blue ring, a gold bracelet, and a gold snake necklace with a red disc pendant. One gold earring is a triangle and the other is a snake. Around her waist is a wide gold belt encircled by a golden snake and on her head is a gold head piece. Her gold wedge purse has turquoise on the sides and a gold snake handle.\nExtras for the doll include a black brush, doll stand, her diary, and Azura, her pet scarab beetle.",
       "id": 158,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=sj3aaHpShgo"
     },
     {
       "year": 2012,
@@ -3382,7 +3529,8 @@
       "description": "Operetta resonates a creative beauty with her white jacket that features black spiderwebs, puffy sleeves and keyboard cuffs, a black collar, and a skullette button. Under the jacket is a black & purple patterned sleeveless top with white buttons. Her pants are blue jeans with red stitching and wide folded cuffs. The black & white shoes have white laces, a spiderweb pattern, and black treble clefs for heels.\nHer outfit is accentuated with a variety of black & white accessories. She has a black die ring and a keyboard bracelet. Her white belt has black musical notes and black chains with even more notes. There are two different dice earrings: a white die earring with five black dots and a black die earring with six white dots. Over one eye she has a translucent black heart-shaped mask.\nExtras for the doll include a black brush, doll stand, her diary, and Memphis “Daddy O” Longlegs, her pet spider. She also has a black & red guitar case adorned with white spiderwebs and black treble clefs.",
       "id": 159,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=sWfFClP6yLE"
     },
     {
       "year": 2012,
@@ -3403,7 +3551,8 @@
       "description": "Jackson looks knowledgeable and handsome in his academic attire. He is wearing a yellow dress shirt with a blue bow tie and over the shirt is a black, gray & green sweater vest with a black hem. His gray pants with white stitching lead to his blue & green sneakers with white laces and soles.\nHe carries a green satchel with a peace symbol on the flap. His glasses are black and he has a silver piercing in his left eyebrow. Jackson’s hair is short and black with yellow bangs.\nExtras for the doll consist of a doll stand, his diary, and Crossfade, his pet chameleon. ",
       "id": 160,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=Nqycj9I_-bE"
     },
     {
       "year": 2012,
@@ -3424,7 +3573,8 @@
       "description": "Robecca looks technologically beautiful in her retro-futuristic ensemble. She is wearing a black pleather power shoulder jacket with gold trim along the edges of the short sleeves. Under the jacket is a a half pleather and half fabric sleeveless dress.\nThe top of the dress has blue straps and blue fabric with a pattern of tan & copper dots and diamonds. The rest of the dress is black pleather with blue horizontal stripes and a pattern of gears and mechanical parts in the middle. Over the skirt is a riveted blue cage. On her feet are copper knee-high rocket boots with laces up the front, tubing on the sides, and small wings. \nAccessories encompass copper goggles, dangling copper gears for earrings, and a blue & yellow vambrace on one forearm. Her round blue purse has a hinged clock face with a skull in the center. Robecca’s long wavy hair is black with blue highlights.\nExtras for the doll consist of a brush, doll stand, her diary, and Captain Penny, her robotic penguin.",
       "id": 161,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=spWwNVHTVu4"
     },
     {
       "year": 2012,
@@ -3445,7 +3595,8 @@
       "description": "Rochelle looks delightful in her black & white striped top with crossed shoulder straps. Complementing the top is a black & silver puffy skirt with a pattern of fleurs-de-lis, lines, ribbons, and other images. She is wearing pink mesh socks and open-toed ankle strap heels that are gray stone with spiral designs.\nAccessories for the outfit consist of a black tiara, necklace, earrings, and armband. Her gray stone purse has various carvings, a pink fleur-de-lis clasp on the flap, and a stone chain handle. Rochelle’s long lovely hair is pink with streaks of blue.\nExtras for the doll consist of a brush, doll stand, her diary, and Roux, her pet gargoyle griffin.",
       "id": 162,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=tW20BjdabwY"
     },
     {
       "year": 2012,
@@ -3466,7 +3617,8 @@
       "description": "Venus is sporting a black t-shirt with a yellow & pink collage that includes skullettes, hearts, “eco punk”, and other designs. Over the tee is a sleeveless jean jacket with yellow stitching and a pink & yellow image of a skullette with “eco punk”. Under the short black skirt are pink, black & yellow capri leggings. Each of her pink boots have green ivy laces and a large mouth full of green teeth.\nAccessories include three hook-like earrings in one ear, a dangling green vine in the other, and a variety of green vine adornments. Around her neck is a vine necklace, vines on each forearm, and vines wrapped around her calves. Her canvas tote bag has a pattern of three images: “I”, a heart, and a skullette shaped Earth. Venus’s very long and straight hair is pink with green streaks.\nExtras for the doll consist of a brush, doll stand, her diary, and Chewlian, her pet venus flytrap.",
       "id": 163,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=gYMf2KyBCPc"
     },
     {
       "year": 2012,
@@ -3488,7 +3640,8 @@
       "id": 164,
       "reissue": true,
       "type": "Multipack",
-      "exclusive": "Target"
+      "exclusive": "Target",
+      "video": "https://www.youtube.com/watch?v=jKKDZTiRrGY"
     },
     {
       "year": 2012,
@@ -3507,7 +3660,8 @@
       "description": "This grayscale edition of Frankie may lack color, but not style. Her hair is cut into an adorable bob and she is wearing a fabulous black and shiny silver monokini. It has a pattern of clouds & lightning on top, silver on the bottom, and black straps. Around her waist she has a black cover up with the same cloud & lightning pattern. Her translucent gray sandals feature nuts for the heels and the straps.\nFrankie accessorizes her outfit with a translucent gray nut-shaped bracelet and earrings. A doll stand is also included with the doll.",
       "id": 165,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=jqHuI2vYDMA"
     },
     {
       "year": 2012,
@@ -3528,7 +3682,8 @@
       "description": "Draculaura is ready to sail away in her nautical themed outfit. Her pink & white striped one-piece swimsuit has boy leg style bottoms, a black mesh collar with white trim, and a pink bow in the front. Around her waist she wears a black mesh cover up with a pattern of pink anchors and other colorful images. Her pink sandals are adorned with anchor shaped heels.\nAccessories for the outfit features a white sailor cap with black strap, a pink anchor bracelet, and pink anchor earrings. Her beverage is kept in a red flower glass with a white pistil and straw. Also included with the doll is a brush, doll stand, and a Draculaura card with a map of Skull Shores.",
       "id": 166,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=jKKDZTiRrGY"
     },
     {
       "year": 2012,
@@ -3569,7 +3724,8 @@
       "id": 168,
       "type": "Multipack",
       "exclusive": "KMart",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=2tbKXjDZ5I4"
     },
     {
       "year": 2012,
@@ -3588,7 +3744,8 @@
       "description": "Clawdeen looks ferocious wearing her wild Roller Maze outfit. It features a dress where half is black with two purple stripes down the front. The rest is green with black leopard print that is emphasized be a neon green mesh sleeve.\nSkating accessories comprise neon green knee pads with helmeted skulls, a neon green helmet with leopard print and spikes, and purple skates. The skates also have leopard print and spikes as well as green soles with black and green wheels.\nIncluded with the doll is a green stand and a trading card of Clawdeen.",
       "id": 169,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=2tbKXjDZ5I4"
     },
     {
       "year": 2012,
@@ -3607,7 +3764,8 @@
       "description": "For her Roller Maze debut, Frankie is sporting an amazing black dress embellished with a pattern of colorful neon nuts and one shoulder made of light blue mesh. A neon pink stripe runs down one side of the dress and a neon green stripe down the other. \nHer skater gear entails light blue knee pads with skulls, a light blue helmet etched with lightning bolts, and roller skates. The skates are light blue with lightning bolts, have black soles, and feature translucent green and yellow wheels.\nIncluded with the doll is a neon green stand and a trading card of Frankie.",
       "id": 170,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=2tbKXjDZ5I4"
     },
     {
       "year": 2012,
@@ -3626,7 +3784,8 @@
       "description": "Ghoulia looks simply sweet in her black, white, and green striped dress. It features a jagged black collar, pink mesh sleeves, and pink and black splotches all over the dress.\nSkating accessories consist of a yellow dripping bracelet, translucent green glasses, pink knee pads with skulls, a pink brain-shaped helmet, and roller skates. The black skates have pink soles with green and blue translucent wheels.\nIncluded with the doll is a neon green stand and a trading card of Ghoulia.",
       "id": 171,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=2tbKXjDZ5I4"
     },
     {
       "year": 2012,
@@ -3645,7 +3804,8 @@
       "description": "Lagoona is ready to roll in her adorable Roller Maze ensemble. She is wearing a black dress with one teal strap, a pink stripe along the bottom, and an attached crop top. The single sleeve yellow top has a jagged hem and a pattern of pink and black piranha.\nHer teal skating gear consists of knee pads with helmeted skulls, a fish scale helmet with dorsal fin, and skates. The fish scale skates are teal with black tail fins and pink and yellow translucent wheels.\nIncluded with the doll is a teal stand and a trading card of Lagoona.",
       "id": 172,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=2tbKXjDZ5I4"
     },
     {
       "year": 2012,
@@ -3664,7 +3824,8 @@
       "description": "Operetta looks spectacular in her black & white halterneck dress. It features a pattern of colorful records, a black collar, and a black strip down the front with pink dots. Around her waist is a black belt with a record buckle.\nSkater accessories include black knee pads with helmeted skulls, a black helmet with music notes, and a white heart-shaped eye mask attached to the helmet. Her white spiderweb skates have purple music note heels with translucent red and green wheels.\nIncluded with the doll is a neon green stand and a trading card of Operetta.",
       "id": 173,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=2tbKXjDZ5I4"
     },
     {
       "year": 2012,
@@ -3846,7 +4007,8 @@
       "description": "This add-on creates a mermaid-like ghoul. It has light blue forearms with pink fins and hands with pink webbing. Instead of legs there is a turquoise fish tail with pink side and tail fins.\nThe head has purple eyes with turquoise shadow, purple eyeliner, teal eyebrows, and pink lips. Her hair is a curly blue with yellow streaks.\nShe has a black string halterneck top with a pink, black, blue, and light blue print. It is accessorized with two rope and scale belts. The blue belt has an anchor accent and the pink belt is decorated with a starfish and seashell.",
       "type": "Create-A-Monster",
       "id": 182,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=Eo3FEH7qbRI"
     },
     {
       "year": 2012,
@@ -3906,7 +4068,8 @@
       "description": "Lab\nThe lab has a black base adorned with strings of gray chains. The pink lid has ornate embossed designs, a black Monster High crest, and is trimmed with pyramid studs. It has a Skullette and chain handle and is held shut by a pink Skullette padlock.\nThe inside of the lab has a blue work area with spiderweb etchings and cutouts for various doll parts. Attached to the lid is a black tattoo device with a water tube. When water is pumped and the lever is pressed a tattoo is transferred to the doll. A pink Skullette applicator is included for touch-ups.\nOver 100 face and body tattoos come with the playset. Tattoos can be removed from the doll with warm soapy water. \nDoll\nThere are limbs, torso, and a head to create a light green ghoul. Her purple hair is long with blunt bangs. She does not have any facial features. \nHer short dress features wide black and gray stripes and pink sleeves with wavy black stripes. It is complemented by black pumps with Skullette ankle straps and pink stripes on the platforms and heels.",
       "type": "Create-A-Monster",
       "id": 185,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=ZkRpLEfFm0A"
     },
     {
       "year": 2012,
@@ -3971,7 +4134,8 @@
       "description": "This starter pack lets you build two Monster High dolls. It includes two sets of body parts and outfits.\nBody Parts\nThe Ice ghoul has translucent blue arms, legs, and torso. The blue head has crystal-like eyes with light purple shadow and pink lips. Her long pink and blue hair is straight with blunt bangs.\nThe Blob has translucent pink and sparkly arms, legs, and torso. The sparkly pink head has orange eyes with pink and lavender shadow, blue eyeliner, and red lips. Her molded short pink hair has a drippy style with curled ends.\nClothing\nThe halterneck dress is black with a decorative print. It has pink icicle stripes, blue diamond stripes with Skullette snowflakes, and pink details.\nNext is a form-fitting light blue dress with short sleeves. It has a print made up of pink drips and splatter. \nThe last item is a pair of translucent pink pumps. They have ankle straps, gooey accents, and dripping heels.",
       "type": "Create-A-Monster",
       "id": 188,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=yHcyErNtHQU&t=3s"
     },
     {
       "year": 2012,
@@ -3994,7 +4158,8 @@
       "description": "This starter pack lets you build two Monster High dolls. It includes two sets of body parts and two outfits.\nBody Parts\nThe mummy has gray colored arms, legs, torso, and a head. Most of the body parts are bandage wrapped with golden highlights. Her head has turquoise eyes with copper shadow, Eye of Horus eyeliner, and red lips. Her straight hair is purple and black with blunt bangs.\nThe gorgon is light green with scaly arms, legs, torso, and a head. Her head has yellow eyes with vertical pupils, orange eyeshadow, purple eyeliner, and red lips. Her green molded hair is scaly with a green mass of writhing snakes.\nClothing\nThe Egyptian-themed dress is pink with a single shoulder strap and a black waist. It features a print with a variety of pink and turquoise hieroglyphs.\nThe second dress has a purple diamond scale print, a black halterneck strap, and a jagged green hem.\nOne pair of shoes are included. They are gold peep-toe pumps decorated with brick-like rows and straps.",
       "type": "Create-A-Monster",
       "id": 189,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=1edZHN9QCsg"
     },
     {
       "year": 2012,
@@ -4015,7 +4180,8 @@
       "description": "The starter pack includes two sets of body parts and two outfits. It is an updated version of Vampire & Sea Monster that includes a torso for the sea monster.\nDoll Parts\nTo create a vampire there are pale pink arms, legs, torso, and head. The head has long black hair with purple highlights, purple eyes with lavender shadow, and red fanged lips.\nThe sea monster is blue with arms, legs, torso, and head. Squiggly tentacles are on the forearms and the calves have fins. The head has light green eyes, turquoise eyeshadow, and turquoise lips.\nClothing\nThe first outfit has a top with a purple halter neck, purple chest, and a gold bat wing accent. The bodice is black with purple helix stripes. The black skirt has sparkly black stripes and a ruffled purple hem.\nNext is a one-shoulder black top with yellow bubbles and blue and purple splatter. It is complemented by a dark turquoise skirt with a print of wavy pink lines and orange circles.\nFor accessories there is a red bat wing barrette and black open-toe pumps with black and purple ankle straps.",
       "type": "Create-A-Monster",
       "id": 190,
-      "reissue": true
+      "reissue": true,
+      "video": "https://www.youtube.com/watch?v=Y8VCVFNXMXQ"
     },
     {
       "year": 2012,
@@ -4040,7 +4206,8 @@
       "description": "This starter pack includes two sets of body parts and two outfits so you can build your own Monster High doll. It is a reissue of Werewolf & Dragon with an added torso for the dragon body.\nDoll Parts\nThe werewolf is gray with arms, legs, ears, torso, and head. The head has crimson pink hair, blue eyes with pink shadow, and red fanged lips.\nThe dragon body is a scaly light pink with arms, legs, torso, and small green wings. The head has bluish green eyes with green scale shadow and purple fanged lips.\nClothing\nThe first dress has a black form-fitting bodice and a violet skirt decorated with an intricate black and lavender print. Over the top is sheer black jacket. It is frilly with a pattern of violet crescent moons.\nThe second outfit has a matching halterneck top and skirt. They have black trim and feature a split print. One is green speckled with black and white and the other is a chartreuse scale print.\nFinally, there is a pair of black peep-toe wedges with crescent moon accents.",
       "type": "Create-A-Monster",
       "id": 191,
-      "reissue": true
+      "reissue": true,
+      "video": "https://www.youtube.com/watch?v=IpWziN_8h0A"
     },
     {
       "year": 2013,
@@ -4062,7 +4229,9 @@
       "id": 192,
       "exclusive": "Walmart",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=ZWjTKhMn0cM&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=18",
+      "video": "https://www.youtube.com/watch?v=ATcvoXPPApQ"
     },
     {
       "year": 2013,
@@ -4083,7 +4252,9 @@
       "description": "Clawdeen looks magnificent with her long brown hair and stunning black mini dress. The dress features a pattern of gold crescent moons, a gold mesh halterneck, and a triple-layered open over-skirt. The skirt’s sheer purple top layer is embellished with gold crescent moons and zipper-like accents. The middle layer is white with black leopard print and the last layer is black holed-mesh.\nAccessories consist of a dangling gold crescent moon earring, a gold zippered headband, a gold belt, and wrapped around each forearm is a gold zippered armband. On her feet are translucent purple wedges with purple zipper straps and gold platforms. Also included with the doll is a black brush, doll stand, and an ornate translucent purple lantern.",
       "id": 193,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=ZWjTKhMn0cM&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=18",
+      "video": "https://www.youtube.com/watch?v=TMoL3MQjyZQ"
     },
     {
       "year": 2013,
@@ -4104,7 +4275,9 @@
       "description": "This playset includes Cleo de Nile sporting a ponytail full of long black hair and blue highlights. She’s wearing a one-piece swimsuit with a gold halter strap and intricate designs using black, gold, pink, and turquoise. Around her waist is a blue wrap with black & pink mummy bandage pattern.  Accessories for the outfit consist of a gold hair clip, gold dangle earrings, and gold ankle-strapped pumps.\nThe oasis features a hot tub, cabana, two lounge chairs, and a fire pit. The black skullette-shaped hot tub has two gold cut-out palm trees with turquoise leaves. An ornate gold shelf rests on the edge of the tub for delicious snacks. Snacks include a pink bat wing cocktail, a purple frozen beverage, and a bowl of peach colored fruit.\nThe cabana has a black wrought iron frame with ornate spider web designs. The cut-out roof is pink with translucent blue trim. A gold skull with a genie ponytail decorates the peak.\nThe gold lounge chairs feature similar cut-out patterns as the cabana and hot tub shelf. The black fire pit has spiderweb designs and rests upon spider-like legs. Covering the red flame is a removable light blue dome with decorative cut-outs and a spider resting on the top.",
       "type": "Playsets",
       "id": 194,
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=ZWjTKhMn0cM&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=18",
+      "video": "https://www.youtube.com/watch?v=yV2JvQvmkdc"
     },
     {
       "year": 2013,
@@ -4127,7 +4300,9 @@
       "description": "Draculaura is dazzling with her pink & black hair, pointed bangs, and golden strands. She is wearing a high-low dress that has a black bodice embellished with pink polka dots, pink trim, and gold string laced up the front. The triple-layered skirt begins with a sheer black layer decorated with spiderwebs and bat wing hearts. The middle layer is black holed-mesh with a serrated hem and the innermost layer is solid pink.\nGolden accessories feature a spiderweb and bat wing circlet with matching necklace. Other golden accessories include two flared spiderweb bracelets and fanged heart earrings. On her feet are gold diamond-patterned wedges with translucent pink spiderweb straps. Also included with the doll is a black brush, doll stand, and an ornate translucent pink lantern.",
       "id": 195,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=ZWjTKhMn0cM&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=18",
+      "video": "https://www.youtube.com/watch?v=89qPAyCWyX4"
     },
     {
       "year": 2013,
@@ -4148,7 +4323,9 @@
       "description": "Frankie looks priceless with her black, white & blue hair that is long and straight with sparkly gold streaks. She is wearing a sleeveless dress held by a turquoise tulle strap attached to a black tulle choker. The bodice is a split of dotted white cloth and black leatherette. The open-front dress has a triple tulle skirt with a layer of turquoise and two layers of black. The long double overlay features black holed-mesh over turquoise cloth decorated with a pattern of golden hex nuts and lightning.\nGolden accessories for the ensemble include hex nut dangle earrings, two hex nut bracelets, a hex nut headband, and a lightning bolt chest piece. On her feet are gold wedges with translucent turquoise straps. Also included with the doll is a black brush, doll stand, and an ornate translucent blue lantern.",
       "id": 196,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=ZWjTKhMn0cM&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=18",
+      "video": "https://www.youtube.com/watch?v=aQIKO42mTkY"
     },
     {
       "year": 2013,
@@ -4169,7 +4346,9 @@
       "description": "Gigi looks magical with pink & orange hair pulled into a high multi-banded ponytail. She’s wearing a lovely jumpsuit with a shiny top that is half blue, half pink, and detailed with black strips. The glittery black cummerbund-like waist leads into black knee-length harem pants. The pants are decorated with shimmery gold swirls and scorpion styled patterns.\nThe outfit is accessorized with gold scorpion earrings, a gold scorpion bracelet, and an ornate gold lantern that is held by a hook. On her feet are pink gravity wedges with curled tips and gold buckles. Also included with the doll is a black brush, doll stand, Gigi’s diary, and Sultan Sting, her pet scorpion.",
       "id": 197,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=ZWjTKhMn0cM&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=18",
+      "video": "https://www.youtube.com/watch?v=T1Xra3h_f7s"
     },
     {
       "year": 2013,
@@ -4190,7 +4369,10 @@
       "description": "Howleen is adorable with her pointy ears poking through her black beanie. Her hair is long, straight and pink with blunt bangs. She is wearing a black dress covered with pink and blue paw prints, a yellow ladder-like zigzag, and a wide neon green hem. Over the dress is a dark purple leatherette jacket with silver accents. Hot pink fishnet tights are worn under the dress.\nShe accessorizes the outfit with a gold stud earring, black bangle, purple bangle, and a light blue belt with gold pyramid studs. On one hand is a black fishnet glove and on her feet are black lace-up knee-high boots with a double row of gold pyramid studs along the tops.  Her gold purse features light blue accent straps and a gold chain handle.\nAlso included with the doll is a black brush, doll stand, Howleen’s diary, and Cushion, her pet hedgehog.",
       "id": 198,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=ZWjTKhMn0cM&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=18",
+      "video": "https://www.youtube.com/watch?v=Qw7zjFpJdSw&t=275s"
+
     },
     {
       "year": 2013,
@@ -4211,7 +4393,9 @@
       "description": "Lagoona looks remarkable with her yellow hair, cute bangs, banded ponytail, and pink flower barrette. She’s wearing a strapless magenta dress with a serrated hem and pattern of black scale-like lines. The single sleeve and top layer of the dress are sheer turquoise. The sleeve is decorated with black trim and black frills along the neckline.\nTranslucent accessories for the outfit consist of pink dragonfly earrings, a green sea turtle pendant, and a green sea turtle bracelet. On her feet are translucent turquoise wedges with green seaweed straps and heels. She also has green seaweed goggles and a translucent blue fishbowl purse that holds Neptuna, her pet piranha.\nAlso included with the doll is a black brush, doll stand, and Lagoona’s diary.",
       "id": 199,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=ZWjTKhMn0cM&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=18",
+      "video": "https://www.youtube.com/watch?v=nlaJP23VkzQ"
     },
     {
       "year": 2013,
@@ -4234,7 +4418,9 @@
       "description": "Spectra is ready to party in her sleeveless purple mini dress that matches her hair. The dress is worn under a purple tulle cover-up that features a black & gold neckline, bell sleeves, and a pattern of gold chains. It is held around her waist by a gold chain belt. On her feet are gold wedges wrapped in gold chains.\nThe party lounge has a light blue base and a center black backdrop that features an image of ghouls dancing under a skullette disco ball. Gold spiderweb ornaments with bat wings hang from the top. On each side of the backdrop are pink walls with decorative cut-outs and fold-out shelves. Further out are larger black walls decorated with spiderweb designs, cut-outs, and fold-out shelves that can hold the two translucent blue cocktails.\nFor music there is an ornate gold DJ table decorated with spiderweb and filigree designs. The table has black turntables, gold headphones, and white skeleton hands to hold the black coffin-shaped laptop. A matching gold pedestal chair accompanies the DJ table. Two pink coffins with black speakers and spiderweb accents are also included.\nThis playset folds into a carrying case with the black parts forming a decorative skullette with a pink cut-out bow on the front. The back of the case has an image of an oasis at night. An MP3 player can be connected to the built-in speakers in the base to play music.",
       "type": "Playsets",
       "id": 200,
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=ZWjTKhMn0cM&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=18",
+      "video": "https://www.youtube.com/watch?v=X6WWR1V3BjY"
     },
     {
       "year": 2013,
@@ -4255,7 +4441,9 @@
       "description": "Twyla is wearing a lovely ensemble that complements her wavy pastel green hair with blue stripes. She has on a 3/4 sleeve top that is dark purple with black vertical stripes dotted with spiders. The top’s black collar is accentuated by a black bow. \nContinuing the outfit is a black triple-tiered skirt decorated with seafoam green squiggles & swirls. Each tier of the skirt is trimmed with purple tulle.\nAccessories consist of silver doorknob earrings, two lavender bangles, a black bangle, and a seafoam green bracelet with a dangling spiderweb dreamcatcher in the shape of a Skullette. Around her waist is a seafoam green belt with a skullette buckle and dangling spider. \nHer rounded blue bag has a black handle and features a seafoam green spiderweb dreamcatcher on the side. On her feet are purple Oxford pumps with seafoam green laces, black platforms, and swirling heels.\nAlso included with the doll is a black brush, doll stand, Twyla’s diary, and Dustin, her pet dust bunny.",
       "id": 201,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=ZWjTKhMn0cM&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=18",
+      "video": "https://www.youtube.com/watch?v=SKaJcRWYxnc&t=1s"
     },
     {
       "year": 2013,
@@ -4276,7 +4464,8 @@
       "description": "Abbey is artistic and beautiful with her long white hair, pink & blue highlights, and silvery strands. She is wearing a short sleeve  black dress covered in a pattern of white ice crystals with blue or pink outer glows. The collar and hem are trimmed with blue faux fur.\nAccessories consist of translucent blue skullette earrings, pink ski goggles, and a white icicle belt. On her feet are blue lace-up boots with dripping ice platforms and white frosted icy cuffs.\nTo create her white ice castle sculpture, Abbey has a blue chainsaw decorated with snowflakes. Also included with the doll is a brush, doll stand, and her art class journal.",
       "id": 202,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=mwhNTqLKNbs&t=273s"
     },
     {
       "year": 2013,
@@ -4297,7 +4486,8 @@
       "description": "Draculaura has a pink and yellow streak in her black hair that is styled into a ponytail with bangs. She is wearing a yellow top with horizontal stripes of dripping pink. The neck has a pink bow and the sleeves are trimmed with pink tulle. The skirt is black with yellow and pink splatter and decorated with a yellow tulle hem. Tied around her waist is a pink apron with black crisscrossed lines and a serrated hem.\nAccessories consist of pink skullette earrings and a yellow headband with bows. On her feet are white waffle textured booties adorned with studs. A pink skullette with crossed pink-tipped paintbrushes decorate the tops. The heels are pink paint tubes that squirt out the swirled pink platforms.\nTo paint, Draculaura has a pink heart-shaped palette and a white brush with a pink tip. Her artwork is a Picasso styled self portrait that is in an ornate pink frame bedecked with spiderwebs, hearts, a bat, and fangs. Also included with the doll is a brush, doll stand, and her art class journal.",
       "id": 203,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=mwhNTqLKNbs&t=273s"
     },
     {
       "year": 2013,
@@ -4318,7 +4508,8 @@
       "description": "Robecca’s hair is black & blue with streaks of purple. She’s wearing a purple striped shirt with short puffy sleeves and two buttons on the front. Her black high-waist suspender skirt is decorated with a shimmery print of interconnected purple, blue, and silver wires, gears, and skullette sprockets. The suspenders are shiny blue and the hem is adorned with purple tulle.\nAccessories consist of dangling copper clock earrings and copper welding goggles with a bow on top. On her feet are blue knee high boots with many rows of studded straps, copper platforms, and copper heels.\nTo create a metalworking masterpiece, Robecca has an old copper blowlamp. She has designed a robotic clock with a copper face. The mismatched creation has a copper leg, silver leg, silver arm, gold arm, and a gold crank. Also included with the doll is a brush, doll stand, and her art class journal.",
       "id": 204,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=mHmYxP61Z88"
     },
     {
       "year": 2013,
@@ -4339,7 +4530,8 @@
       "description": "Skelita’s dress features a purple bodice with a swirly white rib cage print. The wraparound skirt is black and covered with a pattern of skullette flowers that are pink, purple, turquoise, or orange. The hem is trimmed with a scalloped pink lace. Over the dress she has on a black & turquoise striped vest.\nAccessories begin with an orange-brown belt with a skullette flower. A matching headband with a turquoise skullette flower is worn in her black hair with streaks of brown and turquoise. On her feet are orange-brown sandals adorned skullette flowers, skullette pedestal heels, and turquoise skullette flowers on the foot straps.\nSkelita is a talented sculptor who has created an ornate skull shaped urn. It is pink with three orange skullette flowers and sits upon a turquoise spiderweb-styled pottery wheel. Also included with the doll is a brush, doll stand, and her art class journal.",
       "id": 205,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=61DUWBVOXjE"
     },
     {
       "year": 2013,
@@ -4381,7 +4573,8 @@
       "description": "Abbey Bominable\nAbbey and Heath make a great team while learning how to cook. Together they make devilishly good foods that can be eaten hot or cold.\nAbbey is wearing a short black dress with a black fur collar with black bow, short fur sleeves, a colorful pattern of crystal lines, and a pink mesh overskirt. To protect the dress she has on a blue apron with the Monster High logo and black mesh frills.\nShe accessorizes with a pink earring made of measuring spoons, a blue spatula earring, and a pink bead bracelet. Her shoes are translucent purple heels with bluish-white spots.\nHeath Burns\nHeath is wearing a black jacket with pink & white on the collar, shoulders, hem, and cuffs. The sleeves also have orange & yellow flames rising from the cuffs. Under the coat is a gray tee with an image of orange & yellow flames. \nOver his blue jeans he has a red apron with the Monster High logo. His shoes are black with red & orange flames on top and white soles. He protects his hand with a red spiderweb oven mitt.\nExtras for the dolls include a pink bone spoon, black bone tongs, a measuring cup with green liquid, a half blue & half red plate, a purple canister with a green lid and an eyeball, a plate of yak cheese, a Home Ick notebook, and a brush.",
       "id": 207,
       "type": "Multipack",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=03_ETSCpRAE"
     },
     {
       "year": 2013,
@@ -4426,7 +4619,8 @@
       "id": 209,
       "type": "Multipack",
       "exclusive": "Target",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=JijgLj4IOAs"
     },
     {
       "year": 2013,
@@ -4445,7 +4639,8 @@
       "description": "For the sleepover, Lagoona has straightened her long blonde hair with light blue highlights. She is wearing a black top with pink stitching on the edges. On the front, it is decorated with an image of a skullette wearing a sleep mask. Her shorts are aqua blue scales with a pink hem, pink waistband, and pink drawstring.\nLagoona’s sleep mask is aqua blue with pink and white outlined bubbles. Her turquoise fuzzy monster slippers each have yellow eyes, a fanged mouth, and pink fins. She also has a pink cup filled with a white drink, marshmallows, and seaweed hanging over the sides.",
       "id": 210,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=z_2jPuf565k"
     },
     {
       "year": 2013,
@@ -4464,7 +4659,8 @@
       "description": "Robecca looks relaxed wearing her pajamas and her hair in a ponytail. She has on a light blue tank top with black straps, black frills, and images of gears on the front. Her blue shorts have a black & blue gear pattern, black frill accents, and a black bow at the waist.\nRobecca’s brown sleep mask is designed to resemble steampunk goggles. Her copper monster slippers each have eyes, a mouth, and Victorian welding glasses. For the slumber party she has her iCoffin phone and gramophone dock so everyone can listen to music.",
       "id": 211,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=XK5nf24g_Zc"
     },
     {
       "year": 2013,
@@ -4505,7 +4701,8 @@
       "id": 213,
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=R1voLJRI3Fg"
     },
     {
       "year": 2013,
@@ -4530,7 +4727,9 @@
       "description": "The Dressing Room playset includes a vanity, room divider, and two director’s chairs.\nVanity\nThe double vanity is black with a spider-embossed top, a spiderweb cutout back, and red and silver spiderweb accents. The front is turquoise with hanging strands and a red Skullette.\nAbove the countertop is a double mirror framed in black with silver bulbs. Outlining the frame are studded silver embellishments with magenta webbing. The mirrors can be removed and used as a coffin-shaped compact.\nVanity accessories consist of a turquoise perfume bottle, silver brush, a three-pack of hair rollers, and a red coffin-shaped compact.\nRoom Divider\nThe room divider has three turquoise panels. The panels are decorated with Skullettes, wings, and web-like cutouts along the tops.\nDirector’s Chairs\nThe chair frames are white and made up of bones with hands on the armrests. The rest of the chairs are red and the backs are shaped like bats. ",
       "type": "Playsets",
       "id": 214,
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=pwJ3ZH7Jx1E&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=22",
+      "video": "https://www.youtube.com/watch?v=BUMqnt2bBfU"
     },
     {
       "year": 2013,
@@ -4553,7 +4752,8 @@
       "description": "The Premiere Party playset has a display case & photo backdrop, podium, settee, tall table, and stanchions & ropes.\nDisplay Case & Photo Backdrop\nThe display case is pink with spiderweb etching and is trimmed with pyramid studs. The case is attached to a black wrought iron divider adorned with strings of turquoise beads and pink Skullette motifs.\nThe back of the case has a photo backdrop surrounded by pink Skullette motifs. The black backdrop has a pattern with the Monster High emblem, a coffin bean, “Monster High” and a smiling vampire.\nPodium\nThe turquoise podium has a wrought iron design made up of beaded strings and spiderweb shapes. The front is decorated with a pink Skullette motif.\nSettee\nThe seat is black with Skullette feet and ornate designs made up of studs and cutouts. The pink cushion has a scalloped edge and spiderweb tufts.\nTall Table\nThe tabletop is black with a studded edge and spiderweb cutouts. It rests on a turquoise pedestal with winding beads and web-like feet.\nStanchions & Ropes\nThe three stanchions are silver with spiderweb bases and black Skullette tops. They are connected by pink snake-like ropes.\nAccessories\nAccessories include a black microphone, a coffin-camera with a pink web bulb, and a “VIM” (Very Important Monster) badge and lanyard. Refreshments are in a tall batty glass, a silver cup with icy drips, and ridged sippy cups. Creepy snacks consist of a spidery treat and a bowl of monstrous goop.",
       "type": "Playsets",
       "id": 215,
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=pwJ3ZH7Jx1E&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=22"
     },
     {
       "year": 2013,
@@ -4572,7 +4772,9 @@
       "description": "Clawdeen hair is purple & brown and pulled to the side. She is wearing a form-fitting black dress with a pattern of purple claw marks, crescent moons, and gold star-like dots. The top of the dress and 3/4 sleeves are purple & black leopard print. The angled hem is adorned with layers of frilled purple mesh.\nAccessories begin with a spiked crescent moon gold earring and an intricate gold necklace. The necklace is a choker connected to rows of beads with crescent moon charms that hang on her shoulders. Around her waist is a studded gold belt with additional rows of beads and a variety of charms. \nOn her feet are gold peep-toe pumps decorated with wide ankle straps, rows of beads, studs, and a black crescent moon on each foot strap. Clawdeen’s light purple purse is a crescent moon with rows of dangling beads that end in little crescent moons.\nIt has been 400 years since the last vampire queen ran away rather than rule. Now Draculaura has been declared the new heir to the vampire throne but is she really the true queen or just a stand-in? The ghouls will have to exit stage fright and go on location to Londoom, New Gorleans and finally Hauntlywood to find the real star and to see how the final scene ends.",
       "id": 216,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=pwJ3ZH7Jx1E&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=22",
+      "video": "https://www.youtube.com/watch?v=z95a6nWHHXE"
     },
     {
       "year": 2013,
@@ -4591,7 +4793,8 @@
       "description": "Cleo’s hair is black with turquoise streaks. She is wearing a stunning off-the-shoulder dress that features a pattern of black & turquoise streaked strips highlighted by gold dots. Gold-flecked black tulle graces the top of the dress and trims the hem of the draped skirt.\nAccessories start with a gold headpiece with three studded rows and snake and scarab accents. Around her waist is an ornate gold belt with rising snakes and hanging beaded strands adorned with Egyptian charms. \nOn her feet are gold peep-toe pumps with studded platforms and heels. Each foot strap is enhanced by a black gem and the ankle straps are formed by intertwined snakes. Cleo’s gold purse features a scarab, intricate detailing, a beaded handle, and strings of dangling beads.\nIt has been 400 years since the last vampire queen ran away rather than rule. Now Draculaura has been declared the new heir to the vampire throne but is she really the true queen or just a stand-in? The ghouls will have to exit stage fright and go on location to Londoom, New Gorleans and finally Hauntlywood to find the real star and to see how the final scene ends.",
       "id": 217,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=pwJ3ZH7Jx1E&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=22"
     },
     {
       "year": 2013,
@@ -4610,7 +4813,9 @@
       "description": "Draculaura’s hair is pink & black and worn in a high ponytail. She is wearing a black dress with a pattern of pink bats with white dotted wings. The sleeveless dress has pink bow straps, a serrated diagonal hem, and a shimmery pink underlayer with a serrated hem. \nAccessories begin with dangling black beaded earrings and a beaded necklace with rows of dangling beads. Around her waist is an elaborate pink belt with a row of pink beads with diamonds, a beaded middle row, and bottom chain with hanging beads and charms. \nOn her feet are pink peep-toe heels decorated with strings of beads, a row of lips, and a black heart with bat wings on each foot strap.  Her pink beaded purse is in the shape of lips with fangs and is accentuated by strings of hanging beads.\nIt has been 400 years since the last vampire queen ran away rather than rule. Now Draculaura has been declared the new heir to the vampire throne but is she really the true queen or just a stand-in? The ghouls will have to exit stage fright and go on location to Londoom, New Gorleans and finally Hauntlywood to find the real star and to see how the final scene ends.",
       "id": 218,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=pwJ3ZH7Jx1E&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=22",
+      "video": "https://www.youtube.com/watch?v=5VEkLuA8Zik"
     },
     {
       "year": 2013,
@@ -4629,7 +4834,9 @@
       "description": "Lagoona’s hair is long and blonde with pronounced blue streaks. She is wearing a lovely dress with a swirled pattern of black, pink, and turquoise. The sleeveless dress has wide silver straps and a black waist band. The tiered skirt features scalloped hems with a shimmery pink middle layer and a black bottom tier.\nAccessories begin with a black beaded headband adorned with a nautilus and its wiggling tentacles. Around her neck is a beaded turquoise necklace with multiple strands and a variety of aquatic charms. On her feet are pink peep-toe seashell heels with strings of beads, a black pearl on each foot strap, and spiral seashell heels. Lagoona’s purse is a black jellyfish decorated with a beaded strap and tentacles.\nIt has been 400 years since the last vampire queen ran away rather than rule. Now Draculaura has been declared the new heir to the vampire throne but is she really the true queen or just a stand-in? The ghouls will have to exit stage fright and go on location to Londoom, New Gorleans and finally Hauntlywood to find the real star and to see how the final scene ends.",
       "id": 219,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=pwJ3ZH7Jx1E&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=22",
+      "video": "https://www.youtube.com/watch?v=QcCnhe_d3Cc"
     },
     {
       "year": 2013,
@@ -4650,7 +4857,9 @@
       "description": "Clawdia is adorable with her wavy yellow hair and golden ensemble. She is wearing a metallic gold dress with patterns of black stripes, moons, and stars. Over the sleeveless dress is a red suit jacket held by two black buttons and trimmed in black.\nAccessories consist of two black hoop earrings, a black crossbones earring, black glasses, a black studded bracelet, and a gold necklace with a cutout circle. On her feet are red knee high socks accentuated by golden pumps covered with pyramid studs.\nIncluded with the doll is a red iCoffin tablet, a red notebook, and black skullette pen. There is also a black brush, doll stand, and Clawdia’s diary.\nAge: 19\n\nMonster Parents: The Werewolf\n\nKiller Style: Tribal Prep: I love to mix graphic tribal prints with some scholarly flair, and because Londoom is fangsolutely undead with fashion and literary history, both my brain and my wardrobe benefit. To paraphrase Spookspheare, \"this is the stuff as screams are made on.\"\n\nFreaky Flaw: Whenever I think, I chew. Pencils, pens, paper clips, gum... the corner of my iCoffin. One year Clawdeen got me a manicure for my birthday, but on the way home from the nail salon I got an idea for a story and well - let's just say little sis was not happy with what I chewed on that day.",
       "id": 220,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=pwJ3ZH7Jx1E&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=22",
+      "video": "https://www.youtube.com/watch?v=JRADIrblFPo&t=920s"
     },
     {
       "year": 2013,
@@ -4671,7 +4880,9 @@
       "description": "Elissabat has lovely straight black hair with purple highlights. She is wearing a corseted dress with a purple top and a purple-laced black bodice. The ruffled skirt has a purple top layer and black mesh under layers. Over the sleeveless dress is a cropped top that is black & purple with sleeves that end in purple bell cuffs.\nAccessories consist of one short and one long pair of purple dangling earrings and a translucent purple bat wing heart bracelet. On her feet are black knee-high lace-up boots with platform heels and rows of ruffled bands.\nIncluded with the doll is coffin-shaped case with a DVD of her latest feature and a clawesome award. The gray trophy is a hand reaching from a movie reel. There is also a black brush, doll stand, and Elissabat’s diary.\nAge: 1,601\n\nMonster Parents: A Vampire\n\nKiller Style: I am fangsolutely in love with lace, ruffles, silk and satin, as long as it's frilly and it's black or deep purple.\n\nFreaky Flaw: I have terrible stage fright, so I must be completely prepared before I ever stand in front of an audience. I've been told I'm a natural on stage and in front of a camera, but that's only because I spend hours making sure I have my lines down. It's the only way I can do what I do.",
       "id": 221,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=pwJ3ZH7Jx1E&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=22",
+      "video": "https://www.youtube.com/watch?v=TqyPVXywWFI&t=334s"
     },
     {
       "year": 2013,
@@ -4692,7 +4903,9 @@
       "description": "Honey is awesome with her big & beautiful teal & light green spiral curl afro. She is wearing a lovely dress with a purple top, black lace collar, and black accents. Her teal & white skirt features a pink & purple floral print, a shredded hem, and a shredded black under layer.\nAccessories consist of a black headband with an attached pink hat, pearl white stud earrings, a pearl bracelet, and a pink swamp moss belt. On her feet are pink ankle-strap pumps. Each scaled pump has eyes, nostrils, a snaggle toothed mouth, and a spiked tail for a heel giving them a gator-like appearance.\nIncluded with the doll is a gray dual reel camera with spiderweb accents and a black clapperboard with “Monster High”, coffin outlines, and other designs in white. There is also a black brush, doll stand, and Honey’s diary.\nAge: 115 in swamp monster years\n\nMonster Parents: The Honey Island Swamp Monster\n\nKiller Style: I am sweet in disposition, polite in manners, feminine in appearance and sociable in company. In short, I epitomize the modern southern ghoul. I am also strong, independent and capable - don't y'all forget it.\n\nFreaky Flaw: I am a perfectionist. I believe there is always time to do something the right way and yes, I realize this can be tiresome for other monsters.",
       "id": 222,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=pwJ3ZH7Jx1E&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=22",
+      "video": "https://www.youtube.com/watch?v=BUMqnt2bBfU"
     },
     {
       "year": 2013,
@@ -4713,7 +4926,9 @@
       "description": "Viperine is fangtastic with her long pink & blond hair accentuated by the pink snakes that sprout from the back of her head. She is wearing a busy dress with a light blue top that features a black & pink floral & paisley print. The skirt is black with a pink, blue, and off-white print of Gorgon heads, flowers, and other designs. The bottom of the skirt has pink trim with a light blue ruffled hem.\nAccessories consist of a pink snake headband, translucent pink snake glasses, and a pink necklace formed by a writhing ball of snakes. On her feet are pink knee-high lace-up boots decorated with waffle-like platforms, white fangs on the toes, and wiggling snakes at the tops.\nIncluded with the doll is a light blue scaled case adorned with white fangs and a kissing snakes handle. There is also a pink makeup brush, a black makeup palette with eight skullette-shaped colors, a black brush, doll stand, and Viperine’s diary.\nAge: 17\n\nMonster Parents: Stheno [steth-an-uh] - Sister of Medusa\n\nKiller Style: Hippie Boho Chic. I like to be comfortable AND I never like scaling back when it comes to mixing different colors, patterns and fabrics together.\n\nFreaky Flaw: Some people are huggers. I'm a biter. I just can't help myself - it's the way I show affection. I try to remember to just shake hands, but sometimes I forget.",
       "id": 223,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=pwJ3ZH7Jx1E&list=PL8wnyUk-h37NGZcnpiCrEnM6KLnrEnunI&index=22",
+      "video": "https://www.youtube.com/watch?v=pE1Ya2UiTuU&t=311s"
     },
     {
       "year": 2013,
@@ -4732,7 +4947,8 @@
       "description": "Frankie’s hair is long, straight, and worn in a ponytail. The bangs and front are streaked black & white while the rest of her hair is white with a big blue streak. She is wearing a black shirt with the Monster High crest surrounded by white stitches. It is trimmed with yellow and sleeves are blue with black and white crisscrossed lines and stitches. Her miniskirt features the same pattern as her sleeves.\nAccessories for the outfit consist of black lightning bolt earrings, black and blue skullette-shaped bangles, and inverse gravity shoes. One shoe is black with a blue platform and the other is blue with a black platform. Frankie shows off her school spirit with an over-sized black & white hand. It has pink fingernails, the Monster High logo on the palm, and “#1” on the pointing index finger.",
       "id": 224,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=_TCJqfEH-zg"
     },
     {
       "year": 2013,
@@ -4753,7 +4969,8 @@
       "description": "Slo Mo’s hair features blue spikes on top and the sides shaved short.He is wearing a purple t-shirt with the Monster High crest surrounded by black dripping goo. His shorts are blue and stitched with white. \nOn his feet are black high-top sneakers with white toe caps and soles. Slo Mo cheers for his school by waving a pennant. It is black & pink with white zigzag lines and the Monster High crest.",
       "id": 225,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=EsUiXQQL4XM"
     },
     {
       "year": 2013,
@@ -4772,7 +4989,8 @@
       "description": "Spectra’s long straight hair is made up of varying streaks of purple and is held back with a blue headband. She is wearing a black top with pink trim that sports the Monster High crest wrapped in a pink chain. Her blended skirt is pink & purple with a reverse scalloped hem and a pattern of overlapping chains. \nShe accessorizes with dangling black skullette earrings, two blue skullette-shaped bangles, and two black ankle shackles. On her feet are pink pumps that are decorated with a chain link texture. A pink & white pompom helps Spectra cheer for her school.",
       "id": 226,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=EsUiXQQL4XM"
     },
     {
       "year": 2013,
@@ -4791,7 +5009,8 @@
       "description": "Venus has very long and lovely pink hair that is streaked with green and shaved on one side. She is wearing a black tee decorated with the Monster High crest and a green vine. The collar is pink and the sleeves and hem are serrated. The front of the shirt has a pocket with a green & pink floral vine print. Her miniskirt is trimmed in pink and has the same print as the shirt pocket.\nAccessories consist of a black ivy earring, a green ivy earring, and green ivy arm wraps. On her feet are pink peep-toe boots with studded straps and wedge heels decorated with ivy. Venus cheers for her school with a blue skullette-shaped megaphone.",
       "id": 227,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=EsUiXQQL4XM"
     },
     {
       "year": 2013,
@@ -4811,7 +5030,8 @@
       "id": 228,
       "type": "Multipack",
       "exclusive": "Walmart",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=uGtFLY1mSog"
     },
     {
       "year": 2013,
@@ -4832,7 +5052,8 @@
       "description": "Lagoona’s long hair is blonde with blue streaks and pulled into a ponytail. She is wearing an adorable black dress decorated with pink sharks and shiny pink & blue bubbles. Over the dress is a shiny blue tie-front crop top with pink accents. Around her waist is a pink scale belt with a silver shark buckle and on each wrist is a shimmery pink & blue cuff. Her turquoise wedges have seaweed accents, shark bite heels, and three pink fish scale straps with seashell buckles.\nOther accessories consist of silver shark earrings, a turquoise seashell necklace, a silver compact, a black & turquoise iCoffin phone, and a silver & pink shark perfume bottle. Her black purse has a turquoise shoulder strap and is decorated with turquoise seaweed. The white & pink mouth-like flap features a black fish. Also included with the doll is a black brush, doll stand, and Lagoona’s diary.",
       "id": 229,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=-i5UYDA3cts"
     },
     {
       "year": 2013,
@@ -4853,7 +5074,8 @@
       "description": "Rochelle is beautiful wearing her one-shoulder party dress that is black decorated with a white filigree print and shiny purple designs. The folded neck has pink ribbon trim and the three irregular ruffles are pink leatherette.\nAround her neck is a black & white striped scarf and on each arm is a shimmery pink arm warmer with black trim. On her feet are pink peep-toe pumps that feature fleur-de-lis accents and silver fleur-de-lis heels.\nThe pink & black wrought iron styled purse has double handles held by silver fleurs-de-lis. Other accessories consists of a pink fleur-de-lis bracelet, a pink compact, and a pink & black iCoffin phone. Silver fleur-de-lis clips keep her long pink hair with teal streaks out of her face. Also included with the doll is a black brush, doll stand, and Rochelle’s diary.",
       "id": 230,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=uGtFLY1mSog"
     },
     {
       "year": 2013,
@@ -4874,7 +5096,8 @@
       "description": "Spectra is gorgeous with her long purple hair, magenta streaks, and adorable top hat. The small black hat is decorated with a bow that is purple with black chain links.\nShe is wearing a black sleeveless dress covered in a pattern of shiny silver and purple chains. Around her waist is a purple ribbon belt with silver buckle. Over the dress is a sleeveless trench coat that is translucent purple. On her hands are purple keyhole gloves and on her feet are silver pumps that feature purple platforms, multi-chain ankle straps, and chain link heels.\nAccessories consist of silver chain & padlock earrings, a multi-layered silver chain necklace, a silver compact, and a black & purple iCoffin phone. Her silver purse has a purple stripe on the sides, double ring handles, and is wrapped in silver chains. Also included with the doll is a black brush, doll stand, and Spectra’s diary.",
       "id": 231,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=nSPwRX_azq0"
     },
     {
       "year": 2013,
@@ -4922,7 +5145,8 @@
       "id": 233,
       "exclusive": "Toys”R”Us",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=HOdlSh5C9Ec&t=472s"
     },
     {
       "year": 2013,
@@ -4943,7 +5167,8 @@
       "description": "Cleo is lovely with her black bob cut hair and turquoise streaks. She’s wearing a sleeveless turquoise leotard covered with yellow and darker turquoise squiggly lines. Gold ribbons wrap around the top and one forms a single shoulder strap. Complwmenting the leotard are teal knee-length harem pants with the same squiggly line pattern.\nAccessories consist of dark gray sunglasses, turquoise triangle earrings, purple wing earrings, a purple studded choker,  a black ouroboros bracelet, and a purple cuff. Around her waist is a pyramid studded gold belt with a pointed front piece. \nAs the name suggests, Cleo has multiple pairs of shoes. The first pair are gold cage sandals with hourglass heels. The next are gold wedges with turquoise bandage wraps. The final pair are black wedge sandals with multiple purple straps. \nTo carry all her extras, Cleo has a turquoise tote decorated with black stars, yellow diamonds, and yellow bandage wrapped hearts. Also included with the doll is a black brush and doll stand.",
       "id": 234,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video" : "https://www.youtube.com/watch?v=-gBIKpEBZRI"
     },
     {
       "year": 2013,
@@ -4964,7 +5189,8 @@
       "description": "Draculaura’s beautiful black has pink streaks and is worn in a side ponytail. Her outfit begins with a yellow spaghetti strap top and a pink damask print pencil skirt with four black buttons at the waist. Over the top is a black, pink, & yellow plaid capelet with white lace trim and a black ribbon fastener.\nAccessories consist of black sunglasses, yellow skullette earrings with bow cut-outs, pink skullete & crossbones earrings, and a black bracelet.\nMultiple pairs of shoes are included with the outfit. The first are black wedges with ankle straps and heart cut-outs in the heels. Next up are pink pumps with black platforms and heart shaped heels. The last pair are yellow wedges adorned with pink hearts.\nFor all her accessories, Draculaura has a a pink & black striped tote decorated with fanged hearts and lips. The center of the bag has a black & white bat wing heart inside a white circle with pink polka dot hearts. Also included with the doll is a black brush and doll stand.",
       "id": 235,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=-gBIKpEBZRI"
     },
     {
       "year": 2013,
@@ -4985,7 +5211,8 @@
       "description": "Catty looks glamorous wearing her elegant ensemble inspired by her Friday the 13th debut. Her single shoulder dress has a silver bodice held by a black tulle strap. The shimmery bodice is adorned with a black crack pattern and “13” in pink. \nThe long and shredded double-layered skirt is embellished with silvery white mesh around the waist. The solid pink layer of skirt complements the pink tulle over-layer that is enriched by shiny silver speckles.\nAccessories for the dress consist of two translucent pink hoop earrings, a translucent pink “13” earring, and an elaborate shiny magenta necklace. On her wrists are three studded magenta bracelets and one silver bracelet. For shoes she wears shiny silver knee-high boots etched with a cracked pattern. \nAlso included with the doll is a brush, doll stand, magenta microphone, and Catty’s diary.",
       "id": 236,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=PBrzmdsTkPE&t=49s"
     },
     {
       "year": 2013,
@@ -5026,7 +5253,8 @@
       "type": "Playsets",
       "id": 238,
       "exclusive": "Walmart",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=GtdCeuUg6KY"
     },
     {
       "year": 2013,
@@ -5052,7 +5280,8 @@
       "id": 239,
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=teXfjUKWXUE"
     },
     {
       "year": 2013,
@@ -5073,7 +5302,8 @@
       "description": "The Home Ick classroom is where monsters learn how to make the most terrifying recipes. The classroom has a refrigerator, work station, stools, and lots of accessories.\nThe purple refrigerator is coffin-shaped with four storage shelves. The clear door has a pale green bone handle and features etchings of the Monster High crest and spiderweb trim.\nThe work station has a magenta counter top with black spiderweb burners, a black shelf, and a sink with a black dragon faucet. The counter top rests upon black legs and a purple oven. The oven has skullette-shaped knobs and a windowed black door with a pale green bone handle and spiderweb etchings.\nTwo stools accompany the work station. The pink seats and tall black pedestals are decorated with spiderweb designs.\nFood and ingredients consist of a clear canister with teal eyeballs, a beaker with peach goo, a pot with bubbly green goop, a light green egg carton, and a bundt cake on a black stand. Cooking supplies include a bundt cake pan, a blue mixing bowl, a purple hand utensil, a light green spoon, and a lavender stand with a recipe book.",
       "type": "Playsets",
       "id": 240,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=8K2doQmMhnM"
     },
     {
       "year": 2013,
@@ -5092,7 +5322,8 @@
       "description": "Jane looks magnificent with her black hair, pink highlights, and wild wardrobe. Her hair is pulled into a pony tail with a hair bump and is held by a red hairband adorned with a skullette surrounded by feathers.\nShe is wearing a purple & blue leaf print top with black faux fur shoulders and an asymmetrical hem. Beneath the top is a dress that features a pink bodice with diagonal stripes and a light blue mesh skirt. Under the skirt are black capri leggings with a serrated hem. Completing the outfit are mismatched blue wedges; the right is a gladiator sandal and the left is a winding snake-strap sandal.\nJane loves to accessorize. She has a light blue bone with feathers in one ear and a light blue claw in the other. Around her neck is a red three ring choker attached to a statement necklace with claws. On one arm is a dark blue bracelet and the other has a black fishnet sleeve, pink bangle, and light blue bangle. Around her waist is a dark blue belt decorated with three skullettes; the center one is larger with a red bow and hanging feathers. \nShe carries a dark blue purse and walking stick. The quilted handbag has a red handle, feather, and skullette clasp. Inside the bag are three pieces of paper. The walking stick features blue feathers around a skullette knob with pink bow. The stick is also a working pen. Also included with the doll is a black brush, doll stand, Jane’s diary, and Needles, her pet sloth.\nAge: 15 or 16\n\nMonster Parents: Doctor Boolittle\n\nKiller Style: I suppose one would call my style jungle chic. I simply adore faux fur, animal prints and feathers. I also have an absolutely smashing walking stick I cannot stand to be without.\n\nFreaky Flaw: Spending my formative fears on a jungle island with only the companionship of animals did little to prepare me for the company of other monsters in large groups. When I find myself in that situation my pulse races, I breathe very fast and I start looking for places to hide.\n\nPet: Needles is my pet voodoo sloth. I love him dearly but he is always getting stuck so I constantly must make a point of telling him to be scareful.\n\nFavorite Activity: I love a good trek. There's nothing quite as peaceful and invigorating as exploring the wilderness and meeting the creatures that live there.",
       "id": 241,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=kiQAsIbaGXI"
     },
     {
       "year": 2013,
@@ -5111,7 +5342,8 @@
       "description": "This playset combines two previously released items: Dead Tired Draculaura and the Jewelry Box Coffin. Draculaura is wearing a cute polka dot pajama set. The shirt is pink with white polka dots on the shoulders, a white jabot with black bow, and white frills on the hem and sleeves. Her knee length pants are pink with white polka dots and white frills. She also has pink monster slippers with black wings.\nThe black coffin has black & pink filigree, pink tufting on the lid, and pink rails. When opened by the hinge there is a pink jewelry compartment where trinkets can be stored. When the lid is raised vertically it forms a four-poster bed with a pink tufted interior. The bed comes with a pink pillow, a pink & black blanket with white, a white heart-shaped tray, a pink cup & saucer, and a journal with a white pen.",
       "type": "Playsets",
       "id": 242,
-      "reissue": true
+      "reissue": true,
+      "video": "https://www.youtube.com/watch?v=1YdVgYxTc-Q&t=6s"
     },
     {
       "year": 2013,
@@ -5128,7 +5360,8 @@
       "description": "This playset includes a vanity, chair, and shower. Everything a ghoul needs to help make herself beautiful.\nVanity\nThe vanity has three black squirmy tentacle legs that hold a translucent blue shelf and a coral pink sink. The faucet and handles on the sink are silver seahorses.\nAbove the sink is a mirror outlined by an aqua blue octopus. Hanging from two of the tentacles are translucent purple jellyfish accents.\nChair\nThe chair has three legs made up of intertwined aqua blue tentacles. The seat is black coral with a pink Skullette emblem on the back.\nShower\nThe stand-up shower has a coral pink seashell tub with a light blue doll stand and a black tentacle pipe. The pipe has a translucent blue basket, silver knobs, and a translucent purple jellyfish shower head.\nA round rod is at the top of the pipe and it holds a translucent blue curtain. The curtain is decorated with a print of seahorses and seashells.\nAccessories\nBathroom accessories include a blue fish bottle, a pink seahorse bottle, and a purple loofah.",
       "type": "Playsets",
       "id": 243,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=1HNcCXlm3dg"
     },
     {
       "year": 2013,
@@ -5147,7 +5380,8 @@
       "description": "The playset includes Spectra’s bed and a bed for her pet ferret, Rhuen.\nBed\nThe floating bed has a magenta mattress decorated with crisscrossed chains and a Skullette. The jagged hem is trimmed with translucent lavender chains and the bed “floats” with the help of translucent pedestals.\nThe headboard and footboard are black wrought iron with skull topped posts. The footboard has a built-in magenta TV with an image of a spooky house.\nTranslucent lavender chains hang from the headboard and a magenta skull rests at the top. A small candle also sits on the headboard.\nAccessories\nCovering the bed is a blanket that has shades of pink and purple with a hoop and chain link print. The pillow has diagonal stripes of black and pink outlined in white.\nBed time accessories consist of a pink tombstone tablet, a purple sippy cup, and Spectra’s journal. Everything fits on a fuchsia breakfast tray with wrought iron designs.\nPet Bed\nRhuen’s bed is a basket formed by translucent lavender chains. The inside of the basket is magenta with a quilted bottom.",
       "type": "Playsets",
       "id": 244,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=arZHdAdndqo"
     },
     {
       "year": 2013,
@@ -5168,7 +5402,8 @@
       "description": "Abbey is ready to have fun at the festival with her hip sixties style. It begins with her straight white hair, pink and blue streaks, and blunt bangs. Wrapped around head is a black headband scarf decorated with beaded lines. Her groovy getup features a peasant top with a purple & light blue gradient, bell sleeves, and a serrated hem. Completing the outfit is a purple & light blue splattered miniskirt with a frayed hem.\nTranslucent accessories consist of a blue snowflake earring, a purple ice crystal earring, and a blue icicle belt. On her feet are translucent blue knee-high boots made of dripping ice. Purple diamond-studded straps adorn the insteps and ankles. Around Abbey’s neck is a V.I.M. pass that gives her backstage access and pre-concert seating to the Monster High Music Festival.",
       "id": 245,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=mYw_KjHVFMY"
     },
     {
       "year": 2013,
@@ -5187,7 +5422,8 @@
       "description": "Clawdeen is ready to boogie in her fabulous purple jumpsuit. The sleeveless suit features black trimmed armholes, a black collar, and a yellow design outlined in orange running down one side. The design is made up of skullettes, dots, diamonds, and crescent moons. The ensemble is completed by a pair of gold knee-high boots decorated with zippers, cut-outs, and black claw heels.\nAccessories for the outfit begin with four earrings: two gold hoops, a gold oval earring, and a gold hoop with three dangling chains. Two gold and one black bangle are on one wrist and a fingerless black glove is on the opposite hand. Around her waist is a black triple wrapped grommet belt. A V.I.M. badge hangs from a lanyard around her neck which gives Clawdeen backstage access and pre-concert seating to the Monster High Music Festival.",
       "id": 246,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=rAAb26Yq8-w"
     },
     {
       "year": 2013,
@@ -5209,7 +5445,8 @@
       "id": 247,
       "type": "Multipack",
       "exclusive": "KMart",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=d5IDMEe-2wo"
     },
     {
       "year": 2013,
@@ -5228,7 +5465,8 @@
       "description": "Venus is punk perfection in a concert outfit that accentuates her long pink hair and unique style. She’s wearing a black one-shoulder dress decorated with irregular wedges of pink, purple, and green patterns. The hem is adorned with a black mesh frill. Over the dress is a pink crop top with a jagged hem and a print of light pink skullettes.\nThe outfit is accessorized with a translucent green ivy earring, a translucent green spiked belt, and a pink studded bracelet. Wrapped around her forearms and calves are green ivy wraps. On her feet are black lace-up booties with folded cuffs and ornate pink soles and heels. Around her neck is a V.I.M. pass that gives Venus backstage access and pre-concert seating to the Monster High Music Festival.",
       "id": 248,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=JjP6i8Fg688"
     },
     {
       "year": 2013,
@@ -5249,7 +5487,9 @@
       "description": "Catrine looks purr-fect in her back-to-school outfit that complements her light purple hair with pink and purple streaks. She is wearing a sleeveless dress that features irregular black stripes separated by pink, blue, or shimmery purple. \nAround the pink waist and along the hem are black scalloped ruffles detailed with shimmery purple. The dress’s blue ribbon straps are hidden by a black sweater shrug.\nAccessories consist of a black bracelet, lavender bracelet, a light blue tulle scarf around her neck, and a black bow on her tail. Her pink bag is adorned with black bows, side pockets, and two black handles secured by skullettes. On her feet are lavender peep-toe platform heels made up of a filigree of swirls.\nAlso included with the doll is a brush, doll stand, Catrine’s Scaremester diary, and a lavender coffin-shaped compact. Inside the compact are four ring pastels of different colors: aqua, pink, black, and white.",
       "id": 249,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "promo": "https://www.youtube.com/watch?v=qa2hj1ALF58",
+      "video": "https://www.youtube.com/watch?v=PeBXdgAuQRk"
     },
     {
       "year": 2013,

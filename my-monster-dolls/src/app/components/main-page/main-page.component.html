@@ -1,18 +1,14 @@
-<ng-container *ngFor="let doll of dolls | async">
-  <div class="doll-page-container" (click)="clickDoll(doll.id)">
-    <h3>{{doll.character}}</h3>
-    <div class="doll-page-information">
-      <img [src]="doll.galleryImagesLinks[0]" />
-      <div class="doll-page-text">
-        <p><span class="span-title">Series:</span> {{doll.series}}</p>
-        <p><span class="span-title">Year:</span> {{doll.year}}</p>
-        <p><span class="span-title">Type:</span> {{doll.type}}</p>
-        <p><span class="span-title">Gender:</span> {{doll.gender}}</p>
-        <p><span class="span-title">Number:</span> {{doll.modelNumber}}</p>
-        <p><span class="span-title">Reissue:</span> {{doll.reissue}}</p>
+<ng-container>
+  <div class = "main-page">
+    <div class = "news-container">
+      <div class = "skullector-container">
+        <div class="slider-image">
+          <div class="slider-text">
+            <h3>Skullector dolls</h3>
+            <h4> Greta Gremlin (2021)</h4>
+          </div>
+        </div>
       </div>
-
     </div>
-    <p class="doll-text"><span class="span-title">Description:<br></span> {{doll.description}}</p>
   </div>
 </ng-container>

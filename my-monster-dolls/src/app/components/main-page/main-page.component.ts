@@ -14,10 +14,9 @@ export class MainPageComponent implements OnInit {
     ) {}
 
   public ngOnInit(): void {
-    this.dolls = this.dollsService.getDollsPage();
+
   }
 
-  public clickDoll(id: number) {
-    console.log(id);
-  }
+
 }
+

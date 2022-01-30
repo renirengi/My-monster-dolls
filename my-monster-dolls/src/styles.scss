@@ -59,6 +59,7 @@ body {
   }
 }
 .main,
+.main-page,
 .catalog-filter-main,
 .cards-container,
 .doll-page-container {
@@ -86,4 +87,10 @@ body {
 .main {
   height: 80vh;
 }
+
+.main-page{
+  height: auto;
+  border: none;
+}
+
 
