@@ -1,0 +1,25 @@
+.info-block {
+    background-color: white;
+    color           : black;
+    padding-top: 2%;
+    &_text {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    &_cards {
+        display    : flex;
+        align-items: center;
+        margin-left: 3%;
+
+        &_img {
+            width: 80%;
+        };
+
+
+    }
+
+    p {
+        text-align: center;
+    }
+}

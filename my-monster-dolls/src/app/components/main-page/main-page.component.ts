@@ -5,7 +5,8 @@ import { DollsService } from 'src/app/services/dolls.service';
 
 @Component({
   selector: 'app-main-page',
-  templateUrl: './main-page.component.html'
+  templateUrl: './main-page.component.html',
+  styleUrls: ['./main-page.scss'],
 })
 export class MainPageComponent implements OnInit {
   public dolls: Observable<IDoll[]>;

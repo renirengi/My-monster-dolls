@@ -1,0 +1,23 @@
+.image{
+    width: 100%;
+}
+.picsum-img-wrapper{
+    height: 80vh;
+}
+::ng-deep .carousel-indicators li {
+    width: 40px ;
+    height: 40px ;
+    margin-right: 100px ;
+    border-radius: 50% ;
+    background-color: #A0AF65;
+}
+
+::ng-deep .carousel-indicators .active{
+    background-color:#AF6565;
+}
+::ng-deep .carousel-control-next{
+    display: none;
+}
+::ng-deep .carousel-control-prev{
+    display: none;
+}
