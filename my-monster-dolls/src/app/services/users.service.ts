@@ -43,7 +43,13 @@ export class UsersService {
     return this.http.get<IUser[]>(`${this.baseUrl}?email=${email}`);
   }
 
-  public updateUser() {}
+  public updateUser(user: IUser) {
+    const url = `${this.baseUrl}/${user.id}`;
+
+    return this.http.patch<IUser>(url, user).pipe(
+      tap((user)=> this._currentUser$.next(user))
+    );
+  }
 
   public loginUser(email: string, password: string): Observable<IUser|null> {
     if (email === '' || password === '') {

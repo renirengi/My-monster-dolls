@@ -37,7 +37,7 @@ export class UserPageComponent implements OnInit {
 
 
   constructor(private usersService: UsersService, private http: HttpClient,) {
-    this.countries$ = this.http.get('../../../assets/contries.json');
+    this.countries$ = this.http.get('../../../assets/countries.json');
     this.userID = " ";
   }
 
@@ -61,12 +61,12 @@ export class UserPageComponent implements OnInit {
 
 
   public onSubmit() {
-    const country = { country: this.userForm.value['country']}
+    const country = { country: this.userForm.value['country']};
     const phone = { phone: this.userForm.value['phone'] };
     const realName = { realName: this.userForm.value['realName'] };
     const about = { about: this.userForm.value['about'] };
     const avatar = { avatar: this.userForm.value['avatar'] };
-    console.log(country);
+
     this.http.patch(`http://localhost:3000/users/${this.userID}`,
     {
       "personalData":{

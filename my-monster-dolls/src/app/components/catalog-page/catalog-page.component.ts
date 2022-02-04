@@ -20,6 +20,7 @@ export class CatalogPageComponent implements OnInit {
 
   async ngOnInit(): Promise<void> {
     this.dolls = await lastValueFrom(this.dollsService.getDollsPage(this.lastPage));
+    console.log(this.dolls)
   }
 
   public async onLoadMore() {

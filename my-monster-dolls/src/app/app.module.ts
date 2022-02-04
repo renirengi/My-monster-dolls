@@ -35,6 +35,8 @@ import { CookieService } from './services/cookie.service';
 import { LoginModalComponent } from './components/login-modal/login-modal.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { OwnPageComponent } from './components/own-page/own-page.component';
+
 
 @NgModule({
   imports: [
@@ -74,6 +76,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     DollPageComponent,
     RegisterModalComponent,
     SliderComponent,
+    OwnPageComponent,
+
   ],
   providers: [DollsService, UsersService, CookieService,],
   bootstrap: [AppComponent],

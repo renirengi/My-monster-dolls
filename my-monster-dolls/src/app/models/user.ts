@@ -18,9 +18,9 @@ export interface IUserPersonalData {
 }
 
 export interface IUserCollection {
-  wanted: number[];
-  own: number[];
-  sell: IUserLotData[];
+  wanted?: number[];
+  own?: number[];
+  sell?: IUserLotData[];
 }
 
 export interface IUserLotData {
