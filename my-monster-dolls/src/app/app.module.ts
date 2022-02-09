@@ -36,6 +36,10 @@ import { LoginModalComponent } from './components/login-modal/login-modal.compon
 import { SliderComponent } from './components/slider/slider.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { OwnPageComponent } from './components/own-page/own-page.component';
+import { WantedComponent } from './components/wanted/wanted.component';
+import { SellModalComponent } from './components/sell-modal/sell-modal.component';
+import { SellComponent } from './components/sell/sell.component';
+import { UserAboutComponent } from './components/user-about/user-about.component';
 
 
 @NgModule({
@@ -77,6 +81,10 @@ import { OwnPageComponent } from './components/own-page/own-page.component';
     RegisterModalComponent,
     SliderComponent,
     OwnPageComponent,
+    WantedComponent,
+    SellModalComponent,
+    SellComponent,
+    UserAboutComponent
 
   ],
   providers: [DollsService, UsersService, CookieService,],

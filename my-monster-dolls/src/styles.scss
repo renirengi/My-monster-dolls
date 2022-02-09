@@ -9,6 +9,10 @@
 @use 'styles/user-page.scss';
 @use 'styles/doll-page.scss';
 @use 'styles/own-page.scss';
+@use 'styles/wanted.scss';
+@use 'styles/sell.scss';
+@use 'styles/user-about.scss';
+
 
 body {
   background-color: black !important;
@@ -93,6 +97,63 @@ body {
   height: auto;
   border: none;
 }
+
+
+.wanted-container,
+.own-container,
+.sell-container{
+  background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: black;
+    width: 80%;
+    margin: 0 auto;
+
+    .own-title,
+    .wanted-title,
+    .sell-title{
+      display: block;
+      margin: 3vh auto;
+      font-size: 52px;
+         
+    }
+   
+    .wanted-doll-container,
+    .own-doll-container,
+    .sell-doll-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 90%;
+        margin: 2vh auto;
+
+        .wanted-information-container,
+        .own-information-container,
+        .sell-information-container{
+          display: flex;
+          flex-direction: column;
+          max-width: 320px;
+          justify-content: flex-end;       
+
+        img {
+          max-height: 50vh;
+          padding: 1em;
+          right: 0;
+          top: 0;
+         }
+
+         .information-container-p {
+           text-align: center;
+         }
+
+
+    }
+
+}
+}
+
 
 
 

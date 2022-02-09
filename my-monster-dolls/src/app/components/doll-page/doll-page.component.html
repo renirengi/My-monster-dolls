@@ -1,5 +1,5 @@
 <ng-container *ngIf="doll$ | async as doll;">
-  <div class="doll-page-container">
+    <div class="doll-page-container">
     <h3>{{doll.character}}</h3>
     <div class="doll-page-information">
     <img [src]="doll.galleryImagesLinks[0]"/>
@@ -21,10 +21,9 @@
       <button mat-stroked-button (click)="onIHave(doll.id)">I have it</button>
     </ng-template>
 
-    <button mat-stroked-button (click)="onIWantToSell(doll.id)">I want to sell it</button>
-
   </div>
   </div>
     <p class="doll-text"><span class="span-title">Description:<br></span> {{doll.description}}</p>
   </div>
+
 </ng-container>

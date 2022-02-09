@@ -1,13 +1,14 @@
+
 .image{
     width: 100%;
 }
 .picsum-img-wrapper{
-    height: 80vh;
+    height: auto;
 }
 ::ng-deep .carousel-indicators li {
     width: 20px ;
     height: 20px ;
-    margin-right: 100px ;
+    margin:0 auto;
     border-radius: 50% ;
     background-color: #A0AF65;
 }

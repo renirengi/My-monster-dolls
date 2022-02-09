@@ -1,50 +1,58 @@
-<mat-card>
-  <form [formGroup]="userForm" (ngSubmit)="onSubmit()" >
-    <mat-form-field>
-      <mat-label>Real name</mat-label>
-      <input matInput autocomplete="off" formControlName="realName" />
-    </mat-form-field>
+<ng-container *ngIf="user$ | async as user;">
+  <mat-card>
+    <form [formGroup]="userForm" (ngSubmit)="onSubmit(user)" >
+      <mat-form-field>
+        <mat-label>Real name</mat-label>
+        <input matInput autocomplete="off" formControlName="realName" />
+      </mat-form-field>
 
-    <mat-form-field>
-      <mat-label>About me</mat-label>
-      <textarea
-        matInput
-        formControlName="about"
-        cdkTextareaAutosize
-        #autosize="cdkTextareaAutosize"
-        cdkAutosizeMinRows="1"
-        cdkAutosizeMaxRows="5"
-      ></textarea>
-    </mat-form-field>
+      <mat-form-field>
+        <mat-label>About me</mat-label>
+        <textarea
+          matInput
+          formControlName="about"
+          cdkTextareaAutosize
+          #autosize="cdkTextareaAutosize"
+          cdkAutosizeMinRows="1"
+          cdkAutosizeMaxRows="5"
+        ></textarea>
+      </mat-form-field>
 
-    <mat-form-field>
-      <mat-label>Phone</mat-label>
-      <input matInput formControlName="phone" type="tel" placeholder="+375256666666"/>
-      <mat-icon matSuffix>Phone</mat-icon>
-      <mat-hint>Include area code</mat-hint>
-    </mat-form-field>
+      <mat-form-field>
+        <mat-label>Phone</mat-label>
+        <input matInput formControlName="phone" type="tel" placeholder="+375256666666"/>
+        <mat-icon matSuffix>Phone</mat-icon>
+        <mat-hint>Include area code</mat-hint>
+      </mat-form-field>
 
-    <mat-form-field>
-      <mat-label>Add avatar</mat-label>
-      <input matInput autocomplete="off" formControlName="avatar" />
-    </mat-form-field>
+      <mat-form-field>
+        <mat-label>Add avatar</mat-label>
+        <input matInput autocomplete="off" formControlName="avatar" />
+      </mat-form-field>
 
-    <mat-form-field appearance="fill">
-      <mat-label>Country</mat-label>
-      <mat-select formControlName="country">
-        <mat-option  *ngFor="let item of countries$ | async | keyvalue" [value]="item.key">{{item.value}} </mat-option>
-      </mat-select>
-    </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Country</mat-label>
+        <mat-select formControlName="country">
+          <mat-option  *ngFor="let item of countries$ | async | keyvalue" [value]="item.key">{{item.value}} </mat-option>
+        </mat-select>
+      </mat-form-field>
 
-    <button
-      type="submit"
-      mat-stroked-button
-      color="primary"
-    >
-      Save
-    </button>
-  </form>
-</mat-card>
-<div class="own-shell">
-<own-page></own-page>
-</div>
+      <button
+        type="submit"
+        mat-stroked-button
+        color="primary"
+      >
+        Save
+      </button>
+    </form>
+  </mat-card>
+  <div class="own-shelf">
+  <own [user]="user"></own>
+  </div>
+  <div class="wanted-shelf">
+    <wanted [user]="user"></wanted>
+  </div>
+  <div class="wanted-shelf">
+    <sell [user]="user"></sell>
+  </div>
+</ng-container>

@@ -1,0 +1,20 @@
+<div class="sell-container">
+  <h3 class="sell-title" > I am a seller</h3>
+  <div class="sell-doll-container">
+<ng-container *ngFor="let doll of dolls$ | async">
+  <div class="sell-information-container">
+  <img [src]="doll.galleryImagesLinks[0]" routerLink="/catalog/{{doll.id}}" />
+  <div>
+  <img [src]="photo">
+  <p class="information-container-p">{{ doll.character }}</p>
+  <p class="information-container-p">{{ doll.series }}</p>
+  <p class="information-container-p">{{ doll.year }}</p>
+  <p class="information-container-p">{{description}}<p>
+  <p class="information-container-p">{{price}}<p>
+  </div>
+
+  <button mat-raise-button (click)="onRevert(doll.id)">Revert</button>
+  <button mat-raise-button (click)="onDelete(doll.id)">Delete</button>
+   </div>
+</ng-container>
+</div>

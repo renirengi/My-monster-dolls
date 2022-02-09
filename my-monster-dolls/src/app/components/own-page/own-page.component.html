@@ -1,4 +1,15 @@
-<ng-container *ngFor="let doll of dolls$|async;">
-  <img [src]="doll.galleryImagesLinks[0]"/>
-</ng-container>
 
+<div class="own-container">
+  <h3 class="own-title" >My monster dolls</h3>
+  <div class="own-doll-container">
+<ng-container *ngFor="let doll of dolls$ | async">
+  <div class="own-information-container">
+  <img [src]="doll.galleryImagesLinks[0]" routerLink="/catalog/{{doll.id}}"/>
+  <p class="information-container-p">{{ doll.character }}</p>
+  <p class="information-container-p">{{ doll.series }}</p>
+  <p class="information-container-p">{{ doll.year }}</p>
+  <button mat-raise-button (click)="showSellModal(doll)">I want to sell</button>
+  <button mat-raise-button (click)="onDelete(doll.id)">Delete</button>
+  </div>
+</ng-container>
+</div>

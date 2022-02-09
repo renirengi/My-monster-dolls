@@ -7,7 +7,7 @@
       "password": "123456",
       "rights": 2,
       "personalData": {
-        "realName": "Olga",
+        "realName": "Оля,  иди спать",
         "phone": "+375291125840",
         "about": "Collector",
         "country": "BY"
@@ -15,16 +15,6 @@
       "avatar": "https://www.blast.hk/attachments/64803/",
       "collection": {
         "own": [
-          2,
-          9,
-          16,
-          17,
-          18,
-          19,
-          22,
-          41,
-          368,
-          111,
           44,
           65,
           157,
@@ -33,7 +23,6 @@
           162,
           163,
           172,
-          231,
           340,
           198,
           201,
@@ -47,10 +36,33 @@
           476,
           390,
           366,
-          7
+          231
         ],
-        "wanted": [],
-        "sell": []
+        "wanted": [
+          42,
+          20,
+          21,
+          43,
+          45,
+          58,
+          64,
+          95,
+          96,
+          97,
+          109,
+          127,
+          241
+        ],
+        "sell": [
+          {
+            "itemId": 111,
+            "price": "50$",
+            "description": "Новая кукла, в коробке. Не вскрывалась. Коробка целая не выгорела. Без торга",
+            "photos": [
+              "https://images.ua.prom.st/145997798_w640_h640_kukla-monster-high.jpg"
+            ]
+          }
+        ]
       }
     },
     {
@@ -6400,7 +6412,7 @@
       "type": "Plush",
       "id": 290,
       "reissue": false,
-      "video":"https://www.youtube.com/watch?v=2ETuu7oTub4"
+      "video": "https://www.youtube.com/watch?v=2ETuu7oTub4"
     },
     {
       "year": 2013,
@@ -6443,7 +6455,7 @@
       "type": "Plush",
       "id": 292,
       "reissue": false,
-      "video":"https://www.youtube.com/watch?v=zA7C1XhW43s"
+      "video": "https://www.youtube.com/watch?v=zA7C1XhW43s"
     },
     {
       "year": 2013,
@@ -6465,7 +6477,6 @@
       "exclusive": "Toys”R”Us",
       "reissue": false,
       "video": "https://www.youtube.com/watch?v=8TzVaU7-pXE"
-
     },
     {
       "year": 2013,
@@ -6912,7 +6923,6 @@
       "reissue": true,
       "type": "Doll",
       "video": "https://www.youtube.com/watch?v=Wz7_-J6rknM"
-
     },
     {
       "year": 2014,
@@ -7121,7 +7131,6 @@
       "type": "Doll",
       "reissue": false,
       "video": "https://www.youtube.com/watch?v=StnEbl_YJtQ"
-
     },
     {
       "year": 2014,
@@ -7145,7 +7154,6 @@
       "type": "Doll",
       "reissue": false,
       "video": "https://www.youtube.com/watch?v=h0YW7nRqJNw"
-
     },
     {
       "year": 2014,
@@ -7238,7 +7246,6 @@
       "type": "Doll",
       "reissue": false,
       "video": "https://www.youtube.com/watch?v=QkDAVtE_DjA"
-
     },
     {
       "year": 2014,
@@ -7534,7 +7541,6 @@
       "type": "Doll",
       "reissue": false,
       "video": "https://www.youtube.com/watch?v=3nLsCZ7Ln8A"
-
     },
     {
       "year": 2014,
@@ -7695,7 +7701,7 @@
       "exclusive": "Target",
       "type": "Doll",
       "reissue": false,
-      "video":"https://www.youtube.com/watch?v=-aJkJBFLfwc"
+      "video": "https://www.youtube.com/watch?v=-aJkJBFLfwc"
     },
     {
       "year": 2014,
@@ -7803,7 +7809,7 @@
       "id": 354,
       "type": "Doll",
       "reissue": false,
-      "video":"https://www.youtube.com/watch?v=YsJfbPNAUP0"
+      "video": "https://www.youtube.com/watch?v=YsJfbPNAUP0"
     },
     {
       "year": 2014,
@@ -8121,7 +8127,7 @@
     },
     {
       "year": 2014,
-      "character": "Cleo de Nile, Gilda Goldstag, Lagoona Blue, Scarah Screams & Sloman Slo Mo Mortavitch",
+      "character": "Cleo de Nile,\n Gilda Goldstag,\n Lagoona Blue,\n Scarah Screams\n & Sloman Slo Mo Mortavitch",
       "series": "Miscellaneous",
       "gender": "Ghoul",
       "modelNumber": "CBX43",
@@ -10023,7 +10029,7 @@
       "id": 451,
       "type": "Doll",
       "reissue": false,
-      "video":"https://www.youtube.com/watch?v=q-DrHbY427M"
+      "video": "https://www.youtube.com/watch?v=q-DrHbY427M"
     },
     {
       "year": 2015,
@@ -10045,7 +10051,7 @@
       "id": 452,
       "type": "Doll",
       "reissue": false,
-      "video":"https://www.youtube.com/watch?v=q-DrHbY427M"
+      "video": "https://www.youtube.com/watch?v=q-DrHbY427M"
     },
     {
       "year": 2015,
@@ -10069,7 +10075,7 @@
       "id": 453,
       "type": "Doll",
       "reissue": false,
-      "video":"https://www.youtube.com/watch?v=q-DrHbY427M"
+      "video": "https://www.youtube.com/watch?v=q-DrHbY427M"
     },
     {
       "year": 2015,
@@ -11083,7 +11089,8 @@
       "description": "Design amazing outfits for Frankie with dresses, stencils, stickers, and markers.\nFrankie has straight black & white streaked hair that is pulled back on top. Makeup features purple eyeshadow and pink lipstick. She has stitches on one cheek, grayish-white skin, raised stitches on her arms, legs and neck, silver neck bolts, and lacks articulation at the elbow and wrist.\nShe is wearing a cute dress with a blue sleeveless top and an asymmetrical skirt. A black & white houndstooth print with skullette accents decorate the skirt. Around her waist is a silver double belt adorned with rivets and a lightning bolt buckle. On her feet are black Mary Jane platform pumps with double straps.\nFrankie comes with four additional dresses. The first two are simple sleeveless dresses. One is light blue with a yellow neckline and a shredded hem. The other is yellow with a light blue neckline and a v-hem. The third is a pink one-shoulder dress with an asymmetrical hem. Completing the collection is a one-shoulder dress with pink trim and a black & white print filled with cogs, gears, and skullettes.\nIncluded with the doll is a brush, 4 cardboard hangar forms, 2 stencils, 1 sticker sheet, and 3 fabric markers; the markers are pink, blue, and black.\nUse stencils or draw freehand to create dress patterns!\n\nApply stickers for a clawesome finishing touch!\n\nFrankie looks Voltageous in dresses you designed!",
       "type": "Budget",
       "id": 498,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=OExUgngQItw"
     },
     {
       "year": 2015,
@@ -11117,7 +11124,8 @@
       "id": 499,
       "exclusive": "Amazon",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -11149,7 +11157,8 @@
       "id": 500,
       "exclusive": "Mattel Shop",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=1JjTeiQNpUQ"
     },
     {
       "year": 2015,
@@ -11175,7 +11184,8 @@
       "id": 501,
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=fdfjSbBO-S8"
     },
     {
       "year": 2015,
@@ -11207,7 +11217,8 @@
       "id": 502,
       "type": "Multipack",
       "exclusive": "Comic Con",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=qIOr5YS4cwU"
     },
     {
       "year": 2015,
@@ -11233,7 +11244,8 @@
       "id": 503,
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=LUA1JhutAqg"
     },
     {
       "year": 2015,
@@ -11257,7 +11269,8 @@
       "id": 504,
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=ZFdHTrRB8_Q"
     },
     {
       "year": 2015,
@@ -11281,7 +11294,8 @@
       "id": 505,
       "type": "Multipack",
       "exclusive": "Target",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=vixxo6XZItg"
     },
     {
       "year": 2015,
@@ -11307,7 +11321,8 @@
       "id": 506,
       "type": "Multipack",
       "exclusive": "KMart",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -11330,7 +11345,8 @@
       "description": "It’s the anniversary of Lagoona and Gil’s first date and they are celebrating with a night at the roller rink.\nLagoona Blue\nLagoon has curly blond hair with a streak of pink that is pulled into a puffy ponytail. Makeup entails blue and pink eyeshadow and pink lipstick.\nShe is wearing a black romper with a ruffled halterneck and a shimmery teal print of dots and seashells. Accessories consist of gold pearl bracelets and a pink rope belt. Her golden skater gear includes a scaled helmet with dorsal fin, Skullette knee & elbow pads, and skates with turquoise tail fins. \nGillington “Gil” Webber\nGil is wearing a shirt with black mesh sleeves and neckline. The rest of the shirt is a blue and turquoise design of swirled watery waves. Complementing the top are dark blue scale shorts. \nInstead of a domed helmet he wears turquoise goggles with a breathing tube and a translucent bluish-purple helmet with an opening for his translucent turquoise head fin. Skating accessories also include black Skullette elbow and knee pads. On his feet are black scaled skates with turquoise bottoms and triple wheels. \nThe 2-pack comes with two black doll stands.",
       "id": 507,
       "type": "Multipack",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -11356,7 +11372,8 @@
       "type": "Playsets",
       "id": 508,
       "exclusive": "Walmart",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -11374,7 +11391,8 @@
       "description": "This multi-pack includes six dolls wearing their signature outfits. The characters include Clawdeen Wolf, Cleo de Nile, Draculaura, Frankie Stein,  Ghoulia Yelps, and Lagoona Blue. They were all previously released as part of the Signature series.",
       "id": 509,
       "type": "Multipack",
-      "reissue": true
+      "reissue": true,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -11397,7 +11415,8 @@
       "description": "Clawd has soft and velvety brown hair that is shaved short. Covering his hair is a turquoise cap with holes where his ears poke out.\nHe is wearing a sleeveless yellow top with faded black lines and dashed white lines. His plaid shorts are teal with bright green lines, black claw marks, and black suspenders. On his feet are brown slip-on loafers.\nHis carnival fundraiser is the strongman game. The mini high striker is red with a winged bell at the top and the lever is struck with a star etched turquoise mallet. The prize for ringing the bell is a pink flower with a translucent yellow stem.\nClawd does not come with a brush or doll stand.\nStep fright up, Boos and Ghouls!\n\nThe school dance has been cancelled, so the student body is putting on a spooktacular fair to raise money. The costumes will be clawesome, the games freaky-fun, and the prizes to die for - but the beast prize will be saving the dance.",
       "id": 510,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -11420,7 +11439,8 @@
       "description": "Draculaura has lovely straight black hair blended with lots of pink highlights. She is wearing a sleeveless dress that features a top with black, white, and light blue irregular stripes. The pink skirt is decorated with an intricate black print of filigree hearts and bats.\nShe accessorizes with a big bow around her neck that matches the print of her skirt. On her feet are pink pumps with light blue platforms and cutout hearts for heels.\nHer carnival fundraiser is a balloon pop game. It has a black dart board and four balloons; two pink, one magenta, and one light blue. To pop the balloons she has a pink heart-adorned dart. For a prize there is a fuzzy pink stuffed-bat with black wings, a black face, and pink button eyes.\nDraculaura does not come with a brush or doll stand.\nStep fright up, Boos and Ghouls!\n\nThe school dance has been cancelled, so the student body is putting on a spooktacular fair to raise money. The costumes will be clawesome, the games freaky-fun, and the prizes to die for - but the beast prize will be saving the dance.",
       "id": 511,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -11443,7 +11463,8 @@
       "description": "Skelita has wavy black hair with a streak of turquoise. She is wearing a sleeveless dress that complements her skeletal figure. The bodice is orange with a white rose print and a ruffled striped layer that is turquoise, orange, red, black, and white. \nThe skirt is striped like the ruffles, but also has an orange & white floral print as well as a intermittent flowers and turquoise skullettes. On her feet are red sandal wedges with woven straps.\nHer carnival fundraiser is a down-a-clown game with three colorful targets; one orange, one red, and one blue. The targets are knocked over with a masked red ball and the prize is a fuzzy turquoise pinata.\nSkelita does not come with a brush or doll stand.\nStep fright up, Boos and Ghouls!\n\nThe school dance has been cancelled, so the student body is putting on a spooktacular fair to raise money. The costumes will be clawesome, the games freaky-fun, and the prizes to die for - but the beast prize will be saving the dance.",
       "id": 512,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -11466,7 +11487,8 @@
       "description": "The teal green gore-geous ghoul has long red hair with streaks of black and teal. Her makeup features lots of gold eyeshadow, glittery eyeliner, and red lipstick. She stands 28 inches tall and has a button on the back of her head that when pressed will change the color and look of her eyes.\nShe is wearing a lovely dress with a black bodice decorated by dark red lines. The bodice has a black and red lapel-like strap that is held at the waist by a yellow ribbon belt. The shiny black skirt has a subtle heart print and a red tulle hem.\nHer accessories consist of a cat ear headband with gold hoop earrings, dangling red Skullette earrings, and pink glasses. She also has a yellow  heart-shaped eye mask and hair extensions that are yellow & green. For her legs there are green ivy wraps and gray wrought iron wraps. Her shoes are coral wedges with swirly designs that have optional gray covers with studs and chains. She carries a clear case that holds a beige face mask. The mask has purple eyebrows, red eye makeup, and dark plum lips.\nPurple wings can be attached to her back and purple webbed hands can replace her regular teal hands. She comes with a variety of tattoo-like stickers and pink and yellow markers. Designs can be drawn on her arms, legs, and face and can be removed with a damp cloth.\nGore-geous Ghoul\nBeast Freaky Friend\n\nGive your Beast Freaky Friend a complete spook-over! She's always got her eye on the newest trends - watch her transform her look, and eye color, with just a wink. Style your ghoul with plug & play accessories and doodle deadly designs using creeptastic chalk pens.",
       "id": 513,
       "exclusive": "Walmart",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -11492,7 +11514,8 @@
       "id": 514,
       "exclusive": "Walmart",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -11516,7 +11539,8 @@
       "description": "Aery is a skeleton hybrid with long hair that is half pink and half black. She has horns poking out of her hair, bluish skin, and white bone wings on her back. Her face features blue eyes with pink and blue eyeshadow, thorny lavender eyebrows, and hot pink lips. \nShe is wearing a strapless blue top that has a sweetheart neckline and a fiery pink design on the front. Around her waist is a white skeletal belt. Her equine body is purple with a lavender tail and a starry constellation pattern is on her back leg. Covering her front legs are lace-up hot pink warmers with fiery accents.\nThe darkest nights bring out the brightest stars, and there's nothing better than to watch the twinkling herd galloping across a midnight sky.",
       "type": "Fright-Mares",
       "id": 515,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -11540,7 +11564,8 @@
       "description": "Bay is a sea monster hybrid with long teal hair and a turquoise fin on the top of her head. Her skin is seafoam green and her wings are fin-like and transition from coral pink to aquamarine. She has teal eyebrows, aquamarine eyes, coral pink eyeshadow, blue eyeliner, blue lips, and blue dots that run down the bridge of her nose.\nShe is wearing a coral pink strappy top with a teal seahorse graphic. Around her waist is a gold multi-strand belt with coral charms. Her horse body is blue with an aquamarine fin-like tail. A coral pink aquatic design decorates her back leg and golden wraps with seaweed accents cover her front legs.\nI unlive for the ocean wind in my mane and the waves on my hoofs. I mean, is there anything better than to gallop on the beach at dawn?",
       "type": "Fright-Mares",
       "id": 516,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -11560,7 +11585,8 @@
       "description": "Caprice is a dragonfly hybrid with magenta hair that has a teal streak, purple highlights, curled bangs, and is pulled high into a puffy bunch. Curled black antennae poke through her hair. She has light blue skin with magenta eyebrows, blue eyes, teal and purple eyeshadow, magenta lips, and a treble clef on her left cheek. Her translucent purple dragonfly wings are embossed with music notes and black sheet music.\nShe is wearing a blue strapless top with a black print on the front. Covering her eyes are teal glasses and around her neck is a magenta collar with music notes and a scalloped hem. Her horse body is pearlescent green with a bushy magenta tail.  Blue violet leg wraps with musical accents cover her front legs and black sheet music with lavender dragonflies decorate her back leg.\nI travel to the flap of my own wings, always humming the tune in my heart. Unlife is filled with whimsy and music, and I want to enjoy every note!",
       "type": "Fright-Mares",
       "id": 517,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=BG1qCDF2psk"
     },
     {
       "year": 2015,
@@ -11578,7 +11604,8 @@
       "description": "Fawntine is a deer hybrid with long white blonde hair with a streak of green. Large antlers are on top of her head and they are decorated with pink flowers, bird skulls, and two skeletal birds. Her beige skin is complemented by antler-like eyebrows, green eyes with mint green and pink eyeshadow, pink lips, and mint green freckles on her cheeks.\nShe is wearing a pink tank top with an image of green leafy ivy. Around her waist is a green ivy belt with multiple strands that connect to a bird skull in the front. Her deer body is brown with leafy green spots at the back and a white tail. Green ivy is printed on her left legs and green wraps with leafy vines cover her front legs.\nMy friends say I'm a little bit quiet and a little bit shy, and I suppose they're a little bit right. Although I prefer to think of myself as gentle, which suits me right down to the ground.",
       "type": "Fright-Mares",
       "id": 518,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -11600,7 +11627,8 @@
       "description": "Flara is a phoenix hybrid with coral pink hair that has orange highlights and a wild purple mohawk. She has yellow skin with purple eyebrows and violet eyes. Her makeup entails orange streaked eyeshadow, purple eyeshadow, and purple lipstick.\nShe is wearing a violet top with an orange feather print. Over the top are feathery purple epaulettes and on her back are golden feathered wings. Her equine body is a shiny violet red with a fiery orange tail. Feathery orange wraps cover her front legs and fiery orange feathers decorate her back leg.\nEven though I've often been accused of fanning the flames of chaos, I like to think what I really do is provide the sparks of transformation that turn old sticks in the mud into Roman candles of celebration.",
       "type": "Fright-Mares",
       "id": 519,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -11624,7 +11652,8 @@
       "description": "Frets is a gargoyle hybrid with long reddish pink hair with streaks of black. She has small horns, gray skin, and bony gargoyle wings. Facial features include dark eyebrows, blue twinkly eyes, gray eyeshadow, pink eyeliner, dots under her eyes, and salmon pink lips.\nHer outfit is a pink tank top with black horizontal stripes and a shimmery silver peplum belt. Her horse-like body is a dark speckled gray with a pink fan-like tail. Wavy pink stripes are on her back leg and a black flower corsage decorates her tail. Black leg warmers with chains, stars, horsehoes, and pyramid studs are on her front legs.\nIt's all about the hoofbeats for me. I'm always trotting out the latest tunes and I love it when one of my friends yells, \"Hay, I know that song!\"",
       "type": "Fright-Mares",
       "id": 520,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=6o7mJi8Vmak&t=3s"
     },
     {
       "year": 2015,
@@ -11644,7 +11673,8 @@
       "description": "Olympia is a vampire bat hybrid with deep purple hair that is streaked with black and features a black spiderweb mohawk. Her pale white skin is complemented by purple eyebrows, purple eyes, lavender eyeshadow, yellow eyeliner, and purple lips with fangs. On her back are yellow bat-like wings.\nShe is wearing a sleeveless blue top with an angular soccer ball heart. Around her waist is a black skirt-like belt with a flared hem. Her equine body is lavender with a bushy black tail streaked with blue. Purple wraps with drippy yellow stripes cover her front legs and decorating her back leg are a variety of black bats and hearts.\nI'm batty about team sports - I love the \"we're all in this together\" spirit of being part of the herd. I also love wearing black, so my beasties have nicknamed me \"Gothlete.\"",
       "type": "Fright-Mares",
       "id": 521,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=BG1qCDF2psk"
     },
     {
       "year": 2015,
@@ -11664,7 +11694,8 @@
       "description": "Penepole is a butterfly hybrid with magenta hair that has purple highlights and blunt bangs. She has pale pink skin, deep purple lips, and magenta eyebrows with swirls and dots. Her eyes are green with purple eyeshadow and she wears chartreuse glasses. On the top of her head is a spiral horn and on her back are bronze mechanical wings with lots of gears, cogs, and pistons.\nShe is wearing a dark turquoise corset with front straps, swirls, and green gear accents. Around her waist is a green multi-strand chain belt embellished with gears and a horsehoe charm. Her horse body is burgundy with a wavy purple tail. Dark turquoise wraps that match her corset cover her front legs and a yellow-green design with swirls, gears, and cogs decorates her back leg.\nI'm a finely tuned Fright-Mare who's geared to trot like a top. I believe precision makes the world go 'round and that includes getting my name right. It's P-E-N-E-P-O-L-E! Please pronounce it precisely.",
       "type": "Fright-Mares",
       "id": 522,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=hFrQNLdZMHM"
     },
     {
       "year": 2015,
@@ -11688,7 +11719,8 @@
       "description": "Pyxis is a Pegasus hybrid with deep pink and dark purple hair that is pulled into a ponytail. Small horns poke through her hair and on her head is a small blue jockey hat with chin strap. She has soft pink skin with blue eyes, light blue eyeshadow, pink lips, and a lavender laurel branch on her left cheek.\nShe is wearing a sleeveless pink polo shirt with a centaur emblem. On her back are feathery silver wings and around her waist is a black triple belt with rosette ribbon accents. Her horse body is blue with a pink tail. Decorating her back leg is a horseshoe plaque and silvery dots. On her front legs are silver wraps with a horsehoe on one and a rosette ribbon on the other.\nI'm a classically trained trotter and I love precision mixed with artistry. Watching me go through my paces is like spending a night at the ballet.",
       "type": "Fright-Mares",
       "id": 523,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=6o7mJi8Vmak&t=3s"
     },
     {
       "year": 2015,
@@ -11710,7 +11742,8 @@
       "description": "Skyra is a ghost hybrid with blue and purple streaked hair that is worn in long pigtails. Poking through her hair are two small horns. She has pale blue skin, violet eyebrows, and light blue eyes with light blue eyeshadow and lavender eyeliner. Her lips are aqua blue and lavender freckles decorate her cheeks. \nShe is wearing a cheerleading outfit with a white top that has a blue collar, a turquoise & blue v-stripe, and a horseshoe emblem. The peplum skirt is blue and her silver chain belt has floating chains that end with a horseshoe and balls. \nHer equine body is pearl white, has a purple shimmer, and transitions to silver as it nears her hoofs. Light blue lace-up leg warmers with pompoms cover her front legs and her shimmery blue tail is tied with a light blue bow. A light blue megaphone graphic is on Skyra’s back leg and purple stars and confetti shapes decorate her leg and back.\nI've been accused of being \"perky\" but I prefer to think of myself as energetic, and it's a good thing too, because it takes a lot of energy to cheer on the herd and encourage them to... Go! Fight! Win!",
       "type": "Fright-Mares",
       "id": 524,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=R8wNQjGm32o"
     },
     {
       "year": 2015,
@@ -11731,7 +11764,8 @@
       "description": "Clawdeen has long wavy brown hair with light brown highlights. Her brown complexion is complemented by yellow eyes with purple shadow and red fanged lips.\nShe is wearing a black cropped vest over a sleeveless purple top with a leopard print. A golden belt and a short black skirt complete the outfit.\nAccessories consist of a gold multi-bangle bracelet, black peep-toe wedges, and a purple iCoffin phone. \nThe figure has 9 pieces and stands about 3 inches tall.",
       "type": "Mega Bloks",
       "id": 525,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=zlltoNyPAig"
     },
     {
       "year": 2015,
@@ -11754,7 +11788,8 @@
       "description": "Draculaura has long black hair with streaks of violet that is worn in pigtails. Her pale complexion is complemented by light purple eyes with pink shadow, red fanged lips, and a pink heart on her cheek.\nShe is wearing a sleeveless black top with violet polka dots on the front. Her layered skirt has a split black layer and a longer pink layer.\nAccessories consist of a pink statement necklace, white bracelet, and a pink iCoffin phone. Plum colored tights lead to pink wedges with a black bat wing trim.\nThe figure stands about 3 inches tall and has 9 pieces.",
       "type": "Mega Bloks",
       "id": 526,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=zlltoNyPAig"
     },
     {
       "year": 2015,
@@ -11777,7 +11812,8 @@
       "description": "Frankie has long white hair with streaks of black. She has pale green skin, one blue and one green eye, pink eyeshadow, deep pink lips, and stitches under one eye.\nHer outfit features a white polo shirt accented by a black tie with blue zigzag stripes. A gray mini skirt covers her knee length black shorts.\nShe accessorizes with a blue multi-bangle bracelet, black wedge pumps, and a blue iCoffin phone. \nThe figure has 9 pieces and stands about 3 inches tall.",
       "type": "Mega Bloks",
       "id": 527,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=zlltoNyPAig"
     },
     {
       "year": 2015,
@@ -11798,7 +11834,8 @@
       "description": "Ghoulia has long light blue hair with streaks of blue. It is pulled to the back with a black headband. She has pale gray skin, light blue eyes, and red lips.\nHer outfit begins with a cropped black vest over a sleeveless red top with a brain wrinkle print. Ghoulia’s skirt has a red layer with a front split and a longer black layer with a reverse scalloped hem.\nShe accessorizes with white cat-eye glasses, red wedge pumps, and a black iCoffin phone.\nThe figure has 9 pieces and stands about 3 inches tall.",
       "type": "Mega Bloks",
       "id": 528,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=zlltoNyPAig"
     },
     {
       "year": 2015,
@@ -11819,7 +11856,8 @@
       "description": "Lagoona has light salmon hair with turquoise streaks and pink accents. She has pale blue skin, green eyes with purple eyebrows, pink lips, and freckles. On her calves are turquoise fins.\nShe is wearing a cropped blue vest over a pink top with black sleeves. They are complemented by a black skirt over blue shorts.\nAccessories consist of a beaded bracelet, black peep-toe wedges, and a blue iCoffin phone. \nThe figure has 9 pieces and stands about 3 inches tall.",
       "type": "Mega Bloks",
       "id": 529,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=zlltoNyPAig"
     },
     {
       "year": 2015,
@@ -11840,7 +11878,8 @@
       "description": "Meowlody has white hair with a striped black streak and gray skin with a patch of white on her face. Her yellow cat eyes have blue eyeshadow and her lips are red.\nShe is wearing a black cropped vest over a sleeveless black top with jagged white claw mark stripes. She completes the outfit with an orange jean skirt.\nAccessories consist of a pink multi-bangle bracelet, black knee highs, pink wedge pumps, and a pink iCoffin phone.\nThe figure has 9 pieces and stands about 3 inches tall.",
       "type": "Mega Bloks",
       "id": 530,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=zlltoNyPAig"
     },
     {
       "year": 2015,
@@ -11863,7 +11902,8 @@
       "description": "Purrsephone has black hair with a striped streak of white. Her gray skin is complemented by a patch of white on her face, yellow cat eyes with blue shadow, and red lips.\nShe is wearing a cropped orange vest over a white sleeveless top with black claw mark stripes. A pink jean skirt completes the outfit.\nAccessories consist of black knee highs, pink wedge pumps, and a pink iCoffin phone.\nThe figure has 9 pieces and stands about 3 inches tall.",
       "type": "Mega Bloks",
       "id": 531,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=zlltoNyPAig"
     },
     {
       "year": 2015,
@@ -11884,7 +11924,8 @@
       "description": "Spectra has long and wavy purple hair with lavender highlights. She has blue & purple eyes, blue eyeshadow, purple lips, and pale skin that becomes translucent on her arms.\nHer outfit features a sleeveless black top with a purple stripe down the front. It is complemented by a layered black skirt with an irregular hem.\nShe accessorizes with a large gray statement necklace, a gray multi-bangled bracelet, purple lace-up shoes, and a purple iCoffin phone. \nThe figure has 9 pieces and stands about 3 inches tall.",
       "type": "Mega Bloks",
       "id": 532,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=zlltoNyPAig"
     },
     {
       "year": 2015,
@@ -11907,7 +11948,8 @@
       "description": "Venus  has long hot pink hair with a streak of green in the front. Her pale green skin is complemented by big blue eyes with pink shadow and red prickly lips.\nShe is wearing a cropped baby blue vest over a black top decorated with green Skullettes, hearts, and squiggles. A black skirt over hot pink shorts complete the outfit.\nAccessories consist of a yellow bracelet and a black iCoffin phone. On her feet are pink wedges with green vine laces that grow up her legs. \nThe figure has 9 pieces and stands about 3 inches tall.",
       "type": "Mega Bloks",
       "id": 533,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=zlltoNyPAig"
     },
     {
       "year": 2015,
@@ -11928,7 +11970,8 @@
       "description": "Catty has long pink hair that is pulled into a high ponytail. She has black skin, pink cat eyes with silvery shadow, and pink lips.\nHer outfit features a strapless silver top decorated with a spiderweb and a pink “13”. The pink skirt has a silver peplum and a long pink train.\nShe accessorizes with two pink bracelets and a white iCoffin phone. On her feet are silver knee highs with silver wedge pumps. \nThe figure has 9 pieces and stands about 3 inches tall.",
       "type": "Mega Bloks",
       "id": 534,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=qZ-1mN2PbUE"
     },
     {
       "year": 2015,
@@ -11951,7 +11994,8 @@
       "description": "Cleo has long black hair with streaks of gold that is pulled to the back with a gold headband. She has a tan complexion, light blue eyes with purple shadow, red lips, and a gem on her cheek.\nHer pale turquoise top is sleeveless with a teal zigzag graphic on the front. Around her waist is a golden belt with a black skirt over gold shorts.\nAccessories consist of a gold beaded statement necklace, a blue multi-bangle bracelet, and a gold iCoffin phone. On her feet are pale turquoise wedges that complement the cobra tattoos on her feet. \nThe figure stands about 3 inches tall and has 9 pieces.",
       "type": "Mega Bloks",
       "id": 535,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=qZ-1mN2PbUE"
     },
     {
       "year": 2015,
@@ -11974,7 +12018,8 @@
       "description": "Elissabat has long deep purple hair and a pale pink complexion. She has reddish orange eyes, purple shadow, and purple fanged lips.\nHer outfit features a black 3/4 sleeve top with a purple chest and a purple laced corset. A layered black skirt with a purple peplum completes the look.\nAccessories consist of purple cuff bracelets, a purple iCoffin phone, and black knee highs that lead to black wedge pumps.\nThe figure stands about 3 inches tall and has 9 pieces.",
       "type": "Mega Bloks",
       "id": 536,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=qZ-1mN2PbUE"
     },
     {
       "year": 2015,
@@ -11997,7 +12042,8 @@
       "description": "Operetta has long curly red hair with a black band that ends with a heart-shaped eye mask. She has pale lavender skin, lavender eyes with orange shadow, and red lips. \nHer cropped white vest covers a violet top with white sleeves and a spiderweb graphic. Blue knee-length shorts complete the outfit.\nShe accessorizes with black bracelets, a red iCoffin phone, and white wedge pumps with black accents.\nThe figure stands about 3 inches tall and has 9 pieces.",
       "type": "Mega Bloks",
       "id": 537,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=qZ-1mN2PbUE"
     },
     {
       "year": 2015,
@@ -12018,7 +12064,8 @@
       "description": "Toralei has short red hair with jagged black stripes on one side. She has light beige skin with an orange patch on her face, green eyes, red lips, and whiskers.\nHer outfit begins with a cropped black jacket over a red shirt with black sleeves and claw marks on the chest. They are complemented by a red jean skirt and black tights with a jagged hem.\nShe accessorizes with a red multi-bangle bracelet and an orange iCoffin phone. On her feet are red and black sneakers with red laces.\nThe figure stands about 3 inches tall and has 9 pieces.",
       "type": "Mega Bloks",
       "id": 538,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=qZ-1mN2PbUE"
     },
     {
       "year": 2015,
@@ -12041,7 +12088,8 @@
       "description": "Twyla has turquoise hair with blunt bangs and streaks of purple. She has pale skin, purple eyes with lavender shadow, and pink lips.\nHer outfit has a sleeveless purple top and a layered skirt. The layers are black and purple with jagged irregular hems.\nShe accessorizes with a black statement necklace, a black multi-bangle bracelet, and a turquoise iCoffin phone. On her feet are blue wedge pumps that lead to gray wispy tendrils that rise up her legs.\nThe figure stands about 3 inches tall and has 9 pieces.",
       "type": "Mega Bloks",
       "id": 539,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=qZ-1mN2PbUE"
     },
     {
       "year": 2015,
@@ -12062,7 +12110,8 @@
       "description": "Viperine has whitish pink hair with wiggly pink snakes and a pink headband. She has yellow skin with pink scale accents, snake-like eyes behind pink glasses, and fanged pink lips.\nHer turtleneck dress is black with a light blue chest and elbow length sleeves. Around her waist is a light blue belt with a Skullette buckle and the skirt has a light blue ruffled hem.\nShe accessorizes with a pink iCoffin phone. On her feet are pink wedges with pink knee highs.\nThe figure stands about 3 inches tall and has 9 pieces.",
       "type": "Mega Bloks",
       "id": 540,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=qZ-1mN2PbUE"
     },
     {
       "year": 2015,
@@ -12094,7 +12143,8 @@
       "description": "Biteology Class has 194 pieces that creates a classroom, locker, and a Lagoona Blue figure.\nClassroom\nThe classroom is black and gray with pink and blue accents. It has gray wrought iron windows, countertops, and an image of a bookcase. \nOne wall rotates to reveal either a chalkboard or beakers and tubing. Another area has shelves with burning candles, spiderwebs, and an open book.\nClassroom accessories include beakers, flasks, and a pink laptop. There is also a black and blue school desk.\nLocker\nThe pink locker is coffin-shaped with a Skullette handle and is framed in black. It rotates and is able to open and close.\nLagoona Blue\nLagoona has yellow hair with turquoise highlights and a pink starfish. She has pale blue skin, green eyes with pink shadow, pink lips, and freckles. On her calves are turquoise fins.\nHer outfit has a cropped gray vest over a violet top with a white scale print and black sleeves. A turquoise Skullette belt and a black skirt over magenta shorts complete the look.\nShe accessorizes with a white bracelet, magenta iCoffin, and a blue purse. On her feet are light pink pumps.",
       "type": "Mega Bloks",
       "id": 541,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=cFHpP_QAHj4"
     },
     {
       "year": 2015,
@@ -12132,7 +12182,8 @@
       "description": "The playset has 280 pieces that create a Creepateria with a tower, a picnic table, and figures of Cleo and Frankie.\nCreepateria\nThe Creepateria is black, gray, and purple with wrought iron windows, spiderweb accents, and a tower full of golden trophies. Decorating the walls are a Monster High banner, a kitchen clock, torches, and a creepy tree with pink flowers.\nInside there is a bench, countertop, an image of a lunch lady, and a rotating pillar with a vending machine and coffin lockers. The lockers have Skullette handles and can open and close. A laptop, various food items, cups, and other cafeteria accessories are also included.\nPicnic Table\nThe picnic table is black with gray seats and a pink top. It can flip up and be used as a launcher in case of monstrous food fights.\nCleo de Nile\nCleo has long black hair with streaks of gold that is pulled to the back with a gold headband. She has a tan complexion, light blue eyes with purple shadow, red lips, and a gem on her cheek.\nHer fearleading outfit has a sleeveless black top with a pink neckline, pink trim, and a Monster High emblem on the chest. The matching black skirt has a white waist and hem.\nAccessories consist of white pompoms, a gold multi-bangle bracelet, and a purple purse. On her feet are white sneakers with black laces.\nFrankie Stein\nFrankie has long white hair with streaks of black. She has pale green skin, one blue and one green eye, pink eyeshadow, dark pink lips, and stitches under one eye.\nHer fearleading outfit is the same as Cleo’s except she has pink pompoms. She accessorizes with a turquoise purse and a pink iCoffin.",
       "type": "Mega Bloks",
       "id": 542,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=LD0etoWNUno"
     },
     {
       "year": 2015,
@@ -12163,7 +12214,8 @@
       "description": "The playset has 86 pieces that creates a lab and a Ghoulia Yelps figure.\nCreeperific Lab\nThe lab is black and gray with  blue accents, pink tubing, and a pink countertop. The wall of the lab has a spiderweb Skullette and a chalkboard with formulas. A portion of the wall rotates to reveal hidden potions.\nAccessories for the lab include beakers, flasks, a green skull candle, and a black candelabra. There is also a laptop and a red purse.\nGhoulia Yelps\nGhoulia has light blue hair with streaks of blue that is pulled to the back with a green headband. She has pale gray skin, light blue eyes, and red lips.\nHer cropped red vest covers a white top with long gray sleeves. A black and white keyboard belt with red pants complete the outfit.\nShe accessorizes with white cat-eye glasses and a black iCoffin phone. On her feet are black and white knee high boots with red laces.",
       "type": "Mega Bloks",
       "id": 543,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=3fZE9TVE1hE"
     },
     {
       "year": 2015,
@@ -12194,7 +12246,8 @@
       "description": "The Electrifying Room has 147 pieces that create a bedroom with a bed, desk, mirrored stand, and a Frankie Stein figure.\nBedroom\nThe rotating bed is a silver operating table with blue sides and pink padding. The top is decorated with a yellow lightning bolt and translucent pink Skullette vacuum tubes.\nThe desk is black and gray with a blue desktop that has a power level and a laptop. The angled backboard has translucent yellow tubing, spiderwebs with a Skullette, and a rotating compartment that reveals a picture of Frankie’s pet, Watzit.\nThe mirrored stand is black, gray, and blue with a burning skull candle. The mirror rotates to reveal storage for a turquoise purse.\nFrankie Stein\nFrankie has long white hair with streaks of black. She has pale green skin, one blue and one green eye, pink eyeshadow, dark red lips, and stitches under one eye.\nHer outfit begins with a sleeveless black top with white shoulders and crisscrossed lines. Around her neck is a bolted white collar with a black and white polka dot tie. A black skirt completes the look.\nShe accessorizes with a blue iCoffin phone. On her feet are black pumps.",
       "type": "Mega Bloks",
       "id": 544,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=b2Jvrki0vCQ"
     },
     {
       "year": 2015,
@@ -12224,7 +12277,8 @@
       "description": "Fear Squad has 73 pieces that create bleachers, a scoreboard, and a Clawdeen wolf figure.\nPlayset\nThe playset is gray and chartreuse with purple accents. It has two bleacher seats, a rotating scoreboard, and a purple flag with “MH Monsters!!!”.\nThe coffin-shaped scoreboard has a score of 12 to 03 and rotates to reveal cheerleading accessories. The accessories are two pink pompoms and a chartreuse megaphone.\nClawdeen Wolf\nClawdeen has long brown hair with yellow-green highlights. She has brown skin, yellow eyes with purple shadow, and fanged red lips.\nHer fearleading outfit has a sleeveless black top with a pink neckline, pink trim, and a Monster High emblem on the chest. The matching black skirt has a white waist and hem.\nShe accessorizes with a purple scarf, a white multi-bangle bracelet, and a pink iCoffin phone. On her feet are white sneakers with black laces.",
       "type": "Mega Bloks",
       "id": 545,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=eFF2d5J5Tyo"
     },
     {
       "year": 2015,
@@ -12254,7 +12308,8 @@
       "description": "The playset has 84 pieces that creates a newspaper club office and a Spectra figure.\nOffice\nThe office is a smoky black with lavender skull candles, a pink picture, and a turquoise desk lamp. The wall has a clip that allows Spectra to “float” while in the office.\nThe lavender desk has translucent legs and chain accents. It opens to reveal some of Spectra’s articles. Office accessories include a purple laptop and a pink camera.\nSpectra Vondergeist\nSpectra has long purple hair with lavender highlights. She has blue eyes, blue eyeshadow, purple lips, pale skin, and translucent hands and forearms.\nHer outfit has a cropped purple vest over a plum colored top with chain graphics. The matching skirt has a plum layer and a longer black layer.\nShe accessorizes with a silver bracelet and a pink iCoffin. On her feet are violet pumps.",
       "type": "Mega Bloks",
       "id": 546,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=wX_mD3YcuzA"
     },
     {
       "year": 2015,
@@ -12277,7 +12332,8 @@
       "description": "The Gore-Geous Vanity playset has 87 pieces that creates a vanity, throne, and a Cleo de Nile figure.\nVanity\nThe vanity has a black coffin-shaped base, gold cobra legs, and a gray countertop. The rotating mirror is framed in black and topped with magenta and a Skullette. Accents include burning candles, lipstick, and other makeup.\nThrone\nThe long throne has a gold headboard and footboard with with a turquoise mattress and black legs. The black sideboard has a clip that holds a long fan.\nThe Egyptian fan has a gold pole with a turquoise end. The curved top is gold and decorated with turquoise graphics.\nCleo de Nile\nCleo has black hair with golden streaks that is pulled back with a gold headband. She has tan skin, blue eyes with purple shadow, deep red lips, and a gem on her cheek.\nHer outfit has a blue and beige top with straps. The matching skirt has a blue top layer and a longer light blue layer. Under the skirt is beige shorts.\nGolden accessorizes include a snake necklace, two multi-bangle bracelets, and an iCoffin phone. On her feet are black sandals with beige bandage straps.",
       "type": "Mega Bloks",
       "id": 547,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=IWfHffA_mck"
     },
     {
       "year": 2015,
@@ -12312,7 +12368,8 @@
       "description": "The playset has 371 pieces that creates a graveyard with a dance floor, DJ table, lights and speakers. Cleo de Nile and Lagoona Blue figures are also included.\nGraveyard\nThe graveyard has a central mausoleum with purple wrought iron doors, party lights, and a glow in the dark dance floor that folds out. The building is surrounded by pillars with green skull tops, spooky branches with translucent green accents, purple wrought iron fencing, and tombstone speakers. \nThe top of the mausoleum has an irregular purple roof, spiderwebs, and a winged Skullette at the peak. The Skullette has a speaker that plays three songs.\nOn each side are black and gray tables. Complementing them are two magenta chairs with wrought iron backs, a blue candelabra, and glasses.\nThe DJ stand has two turntables and a purple laptop. It is topped by a skeletal arm and a burning candle.\nCleo de Nile\nCleo has long black hair with streaks of gold that is pulled to the back with a gold headband. She has a tan complexion, light blue eyes with purple shadow, red lips, and a gem on her cheek.\nHer black top is sleeveless and features wavy yellow lines. A gold belt with a short black skirt covers knee length yellow shorts.\nShe accessorizes with a blue snake necklace, blue multi-bangle bracelets, a gold iCoffin phone, and a gold purse. On her feet are black peep toe wedges.\nLagoona Blue\nLagoona has yellow blonde hair with turquoise streaks and a pink starfish. She has pale blue skin, green eyes with purple eyebrows, pink lips, and freckles. On her calves are turquoise fins.\nHer sleeveless black top has a white scale print and is covered by a cropped magenta vest. The ensemble is completed by a layered turquoise skirt with jagged hems.\nAccessories consist of a turquoise bracelet, a magenta iCoffin phone, and a yellow purse. Her deep pink shoes are peep toe wedges.",
       "type": "Mega Bloks",
       "id": 548,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=W70bKZu_ORI"
     },
     {
       "year": 2015,
@@ -12347,7 +12404,8 @@
       "description": "The playset has 301 pieces that create a Monster Moviemobile and a Clawdeen Wolf figure.\nMonster Moviemobile\nThe luxury vehicle is black and purple with a wrought iron cutout roof, lime green windshield, batty webbed grill, orange lights, and wheels with pink filigree rims. Additional accents include burning candles, translucent spiderwebs, a green skull hood ornament, and purple skeletal arms. The roof opens to create a movie screen that can display two different scenes.\nThe interior has magenta front seats, a purple coffin-shaped table, and pink and magenta back seats. Party accessories include tall blue glasses and a green skull candle.\nClawdeen Wolf\nClawdeen has long brown hair with light brown highlights. She has brown skin, yellow eyes with purple shadow, and fanged red lips.\nHer outfit features a peach tiger striped top with black sleeves. Complementing the top is a layered purple skirt with irregular hems.\nShe accessorizes with a pink scarf, a black iCoffin phone, and a red and black purse. On her feet are black knee high peep toe boots.",
       "type": "Mega Bloks",
       "id": 549,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=b2Jvrki0vCQ"
     },
     {
       "year": 2015,
@@ -12376,7 +12434,8 @@
       "description": "The Vamptastic Room playset has 128 pieces that creates a bedroom with a coffin, shelves, desk, makeup chair, and a Draculaura figure.\nBedroom\nThe black bedroom has a central coffin that folds open to reveal a place for Draculaura to hang and sleep. The coffin is topped with pink accents, a candle, and a Skullette.\nOn the left are shelves with gray bricks and translucent webs. The shelves hold a variety of colored bottles.\nTo the right is a white desktop with translucent webs and a gray wrought iron back. On the desk is a laptop, skull candle, a heart mirror, and makeup. The chair is black, sits on a pedestal, and has a wrought iron back and a magenta cushion.\nDraculaura\nDraculaura has black hair worn in pigtails with streaks of pink. She has a pale pink complexion with lavender eyes, pink shadow, fanged red lips, and a heart on her cheek.\nHer red turtleneck has white stitching, white buttons, and purple sleeves. The outfit is completed by a white skirt over purple shorts.\nShe accessorizes with a white scarf, white wrist cuffs, and a black iCoffin phone. On her feet are pink knee high boots with silver heels and black laces.\nCount Fabulous, Draculaura’s pet bat, is also included. His is black with a pink bow on his head and pink hearts on his chest.",
       "type": "Mega Bloks",
       "id": 550,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=_bjpkcxqkmI"
     },
     {
       "year": 2015,
@@ -12549,7 +12608,8 @@
       "description": "Abbey features super-long and gorgeous white hair with streaks of blue, purple, and pink. Her skin is a lovely light blue with silver sparkles. Complementing her appearance is an outfit inspired by her signature wardrobe.\nThe figure is wearing a black, white, pink, and purple dress with a fractured print. The dress has a furry collar, a white striped hem, and is wrapped with a string that holds a blue pouch. On her legs are pink & blue gradient leggings.\nShe accessories with a blue crystal necklace and furry white arm warmers with jagged blue trim. On her feet are furry white knee-high boots with jagged blue collars.",
       "type": "Vinyl",
       "id": 558,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=30typZMY8qQ"
     },
     {
       "year": 2015,
@@ -12567,7 +12627,8 @@
       "description": "Clawdeen has long curly purple hair with her ears poking out the top. She is all black and lacks facial features. Her body is decorated with a pattern of green paws, crescent moons, crossbone outlines, safety pins, and golden zippers. Unzipped portions reveal gold leopard print.\nShe is a chase figure and a variant of the regular Clawdeen. She has the same pose, but a different appearance. A chase figure is an intentional variation that is produced in smaller quantities.",
       "type": "Vinyl",
       "id": 559,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=30typZMY8qQ"
     },
     {
       "year": 2015,
@@ -12587,7 +12648,8 @@
       "description": "Deuce has light green scaly hair with a snake mohawk that transitions from light to dark green. His wardrobe is based upon his signature outfit.\nHe is wearing a black & white striped vest over a red t-shirt. The shirt features a skull and cassette graphic. Around his waist is a white belt with a red cassette tape buckle and a dangling silver chain. His black pants are decorated with white outlined scales.\nHe accessorizes with a black & white skull wrist band and red framed glasses. The glasses may have tinted or clear lenses. On his feet are black & white checkered loafers with white soles.",
       "type": "Vinyl",
       "id": 560,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=30typZMY8qQ"
     },
     {
       "year": 2015,
@@ -12604,7 +12666,8 @@
       "description": "Draculaura has pink hair and lacks standard features like eyes, a mouth, and clothes. She is all black with a pink & white pattern that consists of bats, lips with fangs, “X”s, spiderwebs, and the words “Scary Cute”.\nThis chase figure is a variant of the regular Draculaura. She has the same pose, but a different appearance. A chase figure is an intentional variation that is produced in smaller quantities.",
       "type": "Vinyl",
       "id": 561,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=NcdM8O4AKK0"
     },
     {
       "year": 2015,
@@ -12621,7 +12684,8 @@
       "description": "Frankie has silver hair and lacks standard features like eyes, a mouth, and clothes. The all black figure is embellished with yellow stitches and a blue pattern that consists of nuts, lightning bolts, “Monster High”, “Totally Voltage”, and more stitches.\nThe chase figure is a variant of the regular Frankie Stein. She has the same pose, but a different appearance. A chase figure is an intentional variation that is produced in smaller quantities.",
       "type": "Vinyl",
       "id": 562,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=NcdM8O4AKK0"
     },
     {
       "year": 2015,
@@ -12639,7 +12703,8 @@
       "description": "Ghoulia has metallic blue hair that hangs to the ground and is held back by a metallic green headband. Her white form is decorated with squiggly brains, dripping twin cherries, and blue brain wrinkled hearts. On her torso is “Ghoul Genius” written in dripping pink and outlined in black. On her feet are black shoes with drippy tops.\nShe is a chase figure and a variant of the regular Ghoulia Yelops. She has the same pose, but a different appearance. A chase figure is an intentional variation that is produced in smaller quantities.",
       "type": "Vinyl",
       "id": 563,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=iTeWRQ0bl38"
     },
     {
       "year": 2015,
@@ -12658,7 +12723,8 @@
       "type": "Vinyl",
       "id": 564,
       "exclusive": "Comic Con",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=bHCmghOkqZg"
     },
     {
       "year": 2015,
@@ -12676,7 +12742,8 @@
       "description": "Rochelle has long pink hair with blunt bangs and streaks of light blue. She has pink eyes, speckled skin, and small wings on her back. Her clothes are inspired by her signature outfit.\nShe is wearing a black & white striped sleeveless top and a black & purple skirt. The skirt is decorated with fleur-de-lis, mesh patterns, and wrought iron designs.\nWrought iron accessories consist of a black headband with stony wings and a black bracelet. On her feet are pink socks with peep-toe pumps. The strappy pumps are adorned with fleur-de-lys, swirls, and black trim.",
       "type": "Vinyl",
       "id": 565,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=30typZMY8qQ"
     },
     {
       "year": 2015,
@@ -12694,7 +12761,8 @@
       "description": "Skelita’s long black hair reaches all the way to the ground and is accentuated with orange highlights. She is bone white with brown eyes and face paint reminiscent of a sugar skull. Her colorful dress is inspired by her Scaris: City of Frights outfit.\nThe figure is wearing a sleeveless black top decorated with purple and pink piping, gray skull flowers, and ivy designs. The skirt features a layer of colorful patches with patterns of spiderwebs, bats, flowers, and more.\nShe accessorizes with a brown statement necklace, a double stitched brown belt, and brown wedge sandals. The sandals have green straps with skulls and floral accents on the soles.",
       "type": "Vinyl",
       "id": 566,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=yzB2ctLAHEE"
     },
     {
       "year": 2015,
@@ -12712,7 +12780,8 @@
       "description": "Spectra has beautiful lavender hair decorated with pink and light purple highlights. The figure rests upon her hair giving her a floating appearance. Her skin is ghostly pale and becomes translucent near her hands and feet. She is wearing her lovely signature outfit.\nThe ensemble begins with a black sleeveless top that features a purple & blue strip with three silver chains down the front. Around her waist is a silver belt with a row of dangling rings which lead to her serrated hem skirt. The skirt is pink with a black fishnet design. On her feet are magenta boots with black laces and silver chain accents.",
       "type": "Vinyl",
       "id": 567,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=yzB2ctLAHEE"
     },
     {
       "year": 2015,
@@ -12730,7 +12799,8 @@
       "description": "Toralei’s orange hair features a bob cut with black stripes on one side. She has green eyes, a tan complexion, pointy ears, and an exceptionally long tail. Her fearsome clothing is inspired by her signature outfit.\nThe figure is wearing an orange top under a black & red jacket with diagonal slash marks. Around her waist is a gold belt with black dots and a skullette buckle. Her pants are black with red tears and jagged cuffs.\nShe accessorizes with red fingerless gloves trimmed in black and peep-toe wedges. The black wedges are decorated with silver dots, red laces, and red soles.",
       "type": "Vinyl",
       "id": 568,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=yzB2ctLAHEE"
     },
     {
       "year": 2015,
@@ -12748,7 +12818,8 @@
       "description": "Twyla has lovely lavender skin and amazingly long and wavy pastel green hair with streaks of light purple. Her clothing is based upon her 13 Wishes outfit.\nThe figure is wearing a blue top with black bug stripes and a black & light green bow by the neck. Her black skirt is decorated with light green filigree, a blue speckled stripe, and a light green belt with dots and a skull buckle.\nShe accessorizes with two bangles: one is light green and the other is black. On her feet are blue boots with black soles, black trim, light green laces, and spider accents. Rising up her legs are black tendrils.",
       "type": "Vinyl",
       "id": 569,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=yzB2ctLAHEE"
     },
     {
       "year": 2015,
@@ -12765,7 +12836,8 @@
       "description": "This candy themed Twyla has pastel green hair with colorful speckles. In her hair is a pink & white peppermint barrette. She is all black and lacks facial features. Her body is decorated with a pattern pink and pastel green swirls, dots, and candy-like designs.\nShe is a chase figure and a variant of the regular Twyla. She has the same pose, but a different appearance. A chase figure is an intentional variation that is produced in smaller quantities.",
       "type": "Vinyl",
       "id": 570,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=awRJiuLkKlc"
     },
     {
       "year": 2015,
@@ -12783,7 +12855,8 @@
       "description": "Venus has super long light green hair with pink highlights. One side is shaved short and colored pink. Her skin is also light green with green ivy tattoos on her forearms and legs. Her clothes are inspired by her signature outfit.\nShe is wearing a blue vest over a black shirt with a pink & green print that features “eco punk”, skullettes, and more. Her skirt is black the her leggings are decorated with black, pink, and green designs. On her feet are pink boots with green laces, black trim, and green flytrap mouths.",
       "type": "Vinyl",
       "id": 571,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=30typZMY8qQ"
     },
     {
       "year": 2015,
@@ -12800,7 +12873,8 @@
       "description": "Venus has long green hair with one side shaved short and colored pink. She is all black and lacks eyes and a mouth. Her body is decorated with pink, blue, and teal graphics of ivy, flytraps, flowered faces, skullettes, and leaves.\nShe is a chase figure and a variant of the regular Venus. She has the same pose, but a different appearance. A chase figure is an intentional variation that is produced in smaller quantities.",
       "type": "Vinyl",
       "id": 572,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=30typZMY8qQ"
     },
     {
       "year": 2015,
@@ -12817,7 +12891,8 @@
       "description": "Count Fabulous is Draculaura’s pet bat. He is all black with yellow eyes and small white fangs. On his head is a pink bow and he is wearing a white shirt with pink hearts and trim. The figure is standing with his right wing outstretched and the left wing turned inward.",
       "type": "Vinyl",
       "id": 573,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -12836,7 +12911,8 @@
       "description": "Crescent is a cute kitty and Clawdeen Wolf’s pet. She is purple with lavender ears and a tuft of fur on the top of her head. Her eyes are yellow with green irises and have black lashes with lavender highlights. The figure is in a laying pose with her head resting upon her front paws.",
       "type": "Vinyl",
       "id": 574,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -12855,7 +12931,8 @@
       "description": "Sir Hoots A Lot is a wise owl and Ghoulia Yelp’s pet. He is light blue with a white chest and white feathers on his wings. His beak and claws are yellow and his big yellow eyes are outlined in blue. The figure is in a flying pose and rests upon his tail feathers.",
       "type": "Vinyl",
       "id": 575,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2015,
@@ -12874,7 +12951,8 @@
       "description": "Watzit is the adorable dog-like pet of Frankie Stein. He is tan with one floppy brown ear and stitched brown patches on his legs and around his left eye. Silver spikes protrude from his head and silver wings are on his back. His right eye is blue and the left is green. The figure is in a sitting pose with sprawled out legs.  ",
       "type": "Vinyl",
       "id": 576,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2016,
@@ -13066,7 +13144,8 @@
       "description": "Draculaura has long straight hair that is dark pink with black highlights. Her makeup features light pink eyeshadow and dark red lipstick. A dark red heart decorates her left cheek. Draculaura is a budget doll and lacks articulation in her elbows, wrists, and knees.\nShe is wearing a pink molded tank top with spiderweb details. A white strip with black hearts runs down the front. Over the tank she wears a short white & black polka dot cape with a pink bow, pink hearts, and a serrated hem. Her pencil skirt is black with shimmery vertical stripes. On top of the skirt is a shorter overskirt that is sheer pink with a spiderweb print.\nAccessories begin with pink sunglasses, a black bat wing & spiderweb headband, and a black bat wing & spiderweb statement necklace. On her feet are pink shoes with black wedges and straps that weave up her legs. Her second pair of shoes are pink wedges with ankle strap bows and cutout hearts in the heels. Her light blue handbag is coffin-shaped with heart accents. Completing the ensemble is a parasol with a silver shaft, batty handle, skullette cap, and a pink canopy held shut by a heart-buckle strap.",
       "type": "Budget",
       "id": 588,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=InNlHYSObs0"
     },
     {
       "year": 2016,
@@ -13089,7 +13168,8 @@
       "description": "Frankie has long and straight hair that is streaked black & white. Her makeup features soft pink eyeshadow and pink lipstick. On her right cheek are gray stitches. Frankie is a budget doll and lacks articulation in her elbows, wrists, and knees.\nShe is wearing a molded black tank top decorated with a silver lightning bolt and a string of light blue hex nuts. Over the top is a cropped silver vest. Her blue skirt has a zigzag print and over it is an asymmetrical skirt. The overskirt is sheer blue with a pattern of yellow lightning stripes.\nAccessories consist of blue sunglasses, a blue hex nut headband, and a yellow hex nut pendant. On her feet are yellow wedges with stitched together cutouts. Her second pair of shoes are blue high tops with studded silver toe boxes and bolted silver heels. She has a yellow stitched skullette binder and a silver six-sided purse adorned with screws, electrical outlets, and a lightning handle.",
       "type": "Budget",
       "id": 589,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=lgzX-Qsicxs"
     },
     {
       "year": 2016,
@@ -13110,7 +13190,8 @@
       "description": "Ari has long straight purple hair with pink highlights. She has pale translucent skin, pink eyeshadow, and violet lips.\nHer off-the-shoulder dress is purple with a pink trimmed neckline and a ruffled hem with black trim. The printed front is decorated with gray chains, magenta cakes, and swirled lollipops. \nShe accessorizes with a pink chain headband adorned with a layered cake topped with lavender frosting. On her feet are pink waffle pumps with ankle strap bows, heart accents, and gooey heels.\nAri is a budget doll and lacks articulation at the elbows, wrists, and knees.",
       "type": "Budget",
       "id": 590,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=kCHILMdenro"
     },
     {
       "year": 2016,
@@ -13131,7 +13212,8 @@
       "description": "Catrine has long lavender hair with blue highlights and streaks of magenta. She has a pale complexion, pink eyeshadow, blue eyeliner, lavender lips and a lavender nose. A black birthmark decorates her left cheek.\nHer outfit is a blue sleeveless dress with red trim, red straps, and a blue ruffled hem. The front of the dress is gray and features a print of donuts, cartons of milk, paint palettes, brushes, and colorful splatter.\nShe accessorizes with an orange headband with two red-frosted donuts with sprinkles. On her feet are adorable blue booties with cat-faced toe boxes and yarn soles.\nCatrine is a budget doll and lacks articulation at the elbows, wrists, and knees.",
       "type": "Budget",
       "id": 591,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=GdBtXuctPNs"
     },
     {
       "year": 2016,
@@ -13173,7 +13255,8 @@
       "description": "Ari has long crimped hair that is purple with streaks of bright blue. She has a translucent complexion with pink eyeshadow, pink and blue eyeliner, and deep pink lips.\nHer off-the-shoulder dress is black with a blue trimmed neckline and a colorful print. The print features sheet music, music notes, and chains. Completing the dress is a shiny blue hem.\nShe accessorizes with a pink chain headband adorned with a treble clef and a pink keyboard belt with dangling chains. On her feet are translucent magenta pumps that have chains, lots of straps, sheet music accents, and music note cutouts in the heels.\nWhen Clawdeen dreams of opening a salon for monsters AND normies, Frankie gets a charge out of fixing up the old power station. But then Moanica plots to ruin their plans, so Twyla lends a shadowy hand to stop her. Now the ghouls have to save the normie town and open their salon... all while getting a voltageously ELECTRIFIED makeover!",
       "id": 593,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=9_bFVBU670s"
     },
     {
       "year": 2016,
@@ -13196,7 +13279,8 @@
       "description": "Draculaura has long crimped hair with pink streaks and blunt bangs. It is pulled into a high ponytail with the help of a pink winged-heart bow. She has turquoise eyeshadow, yellow and turquoise eyeliner, dark pink lipstick, and a dark pink heart outlined in turquoise.\nHer black dress has a sweetheart neckline, clear blue shoulders, a pink tulle hem, and a colorful print. The print features pink, blue, and yellow outlines of bats and hearts.\nShe accessorizes with a translucent yellow belt with a bat wing bow and spiderweb etchings. On her feet are translucent pink wedges with studded straps, drippy accents, and bat cutouts in the heels.\nWhen Clawdeen dreams of opening a salon for monsters AND normies, Frankie gets a charge out of fixing up the old power station. But then Moanica plots to ruin their plans, so Twyla lends a shadowy hand to stop her. Now the ghouls have to save the normie town and open their salon... all while getting a voltageously ELECTRIFIED makeover!",
       "id": 594,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=UiQt10cUCL0"
     },
     {
       "year": 2016,
@@ -13217,7 +13301,8 @@
       "description": "Silva has crimped light blue hair with a streak of yellow in the front and a streak of pink with yellow on the side. Most of her hair is pulled into a high ponytail with a spiked black band. Her gray skin tone is complemented by blue eyes with purple accents, blue eyeshadow, pink lips with fangs, and a little black nose.\nShe is wearing a unique dress with a shiny light blue bodice that has a shredded trim. The rest of the dress is black decorated with neon colored wolves. Finally, there is a ruffled yellow hem on the asymmetrical skirt.\nAccessorizes consist of bright pink earrings and a translucent pink fur-like shawl. On her feet are translucent yellow pumps embellished with cutouts, studs, and wild clawed heels.\nWhen Clawdeen dreams of opening a salon for monsters AND normies, Frankie gets a charge out of fixing up the old power station. But then Moanica plots to ruin their plans, so Twyla lends a shadowy hand to stop her. Now the ghouls have to save the normie town and open their salon... all while getting a voltageously ELECTRIFIED makeover!",
       "id": 595,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=UiQt10cUCL0"
     },
     {
       "year": 2016,
@@ -13240,7 +13325,8 @@
       "description": "Frankie has long crimped hair that is white with streaks of black, yellow, and blue. It is held in a high ponytail with a lightning encrusted band that is translucent pink. She has yellow eyeshadow, pink eyeliner, and hot pink lips.\nHer sleeveless dress has a black bodice with multicolored lightning stripes. The skirt is black with colorful crisscrossed lines embellished with lightning bolts. At the waist is a translucent pink peplum and the hem is trimmed with a neon yellow tulle.\nShe accessorizes with one yellow and one neon pink lightning bolt earring. Around her neck is a translucent yellow lightning scarf. Wrapped around her left forearm is a blue lightning wrap amd on her feet are translucent yellow wedges. The shoes have hex nut accents and lightning straps that wind up her legs.\nSitting in her right hand is a translucent yellow Znap figure. When Frankie’s right arm is raised she emits one of four types of lights and sounds.\nWhen Clawdeen dreams of opening a salon for monsters AND normies, Frankie gets a charge out of fixing up the old power station. But then Moanica plots to ruin their plans, so Twyla lends a shadowy hand to stop her. Now the ghouls have to save the normie town and open their salon... all while getting a voltageously ELECTRIFIED makeover!",
       "id": 596,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=UiQt10cUCL0"
     },
     {
       "year": 2016,
@@ -13265,7 +13351,8 @@
       "description": "Clawdeen has crimped voluminous hair that is purple with streaks of black. She has pink eyeshadow, green eyeliner, and deep pink lips.\nHer one-shoulder dress is black and features multicolored irregular stripes. It has a clear yellow ruffle along the neckline and long pink tulle decorates the asymmetrical hem.\nShe accessorizes with yellow spiked crescent moon cutout earrings and a translucent orange belt with studded strands and spikes. On her feet are translucent purple peep-toe pumps with studs, wide ankle straps, and jagged edges.\nAdditional items include a translucent purple beastie friend and six hair accessories. Clawdeen can wear a translucent pink crescent moon hair comb, a green crescent moon cutout headband, a green fanged-lip hair clip, or a translucent green spiral clip with a wolf accent. There are two hair extensions: one is green with a Skullette clip and the other is orange with a black bow-paw clip.\nWhen Clawdeen dreams of opening a salon for monsters AND normies, Frankie gets a charge out of fixing up the old power station. But then Moanica plots to ruin their plans, so Twyla lends a shadowy hand to stop her. Now the ghouls have to save the normie town and open their salon... all while getting a voltageously ELECTRIFIED makeover!",
       "id": 597,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=UiQt10cUCL0"
     },
     {
       "year": 2016,
@@ -13290,7 +13377,8 @@
       "description": "Twyla has full and crimped aquamarine hair with purple streaks and highlights. She has a ghostly lavender complexion with purple eyeshadow, yellow eyeliner, and deep pink lips. Her right hand are forearm are gray with wispy tendrils rising up her arm.\nShe is wearing a black dress that features a geometric spiral print accentuated by pink and green bugs. The dress has green straps and a shiny pink peplum with a tulle trim.\nAccessories consist of translucent pink bug earrings and a pink spiderweb-bow statement necklace. On her feet are translucent turquoise wedges with lots of studded straps and cutout heels.\nAdditional items include a translucent pink beastie friend and six hair accessories. Twyla can wear a translucent purple bow-ear headband, a translucent yellow bug comb, a translucent blue dust ball & bow clip, or a black spiral clip with a Skullette key accent. There are two hair extensions: one is teal with a pink skull clip and the other is salmon pink with a dust bunny clip.\nWhen Clawdeen dreams of opening a salon for monsters AND normies, Frankie gets a charge out of fixing up the old power station. But then Moanica plots to ruin their plans, so Twyla lends a shadowy hand to stop her. Now the ghouls have to save the normie town and open their salon... all while getting a voltageously ELECTRIFIED makeover!",
       "id": 598,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=UiQt10cUCL0"
     },
     {
       "year": 2016,
@@ -13311,7 +13399,8 @@
       "description": "Clawdeen has wavy brown hair with streaks of pink. Her brown complexion is complemented by fanged deep pink lips.\nShe is wearing a purple sleeveless dress that has a green choker and a purple mesh neckline and waist. The front has a lavender animal print decorated with crescent moons, zippers, paw prints, and green emojis.\nShe accessorizes with a pink baseball hat adorned with crossbones and emoji emblems. On her feet are purple booties with furry cuffs and emoji accents.\nClawdeen is a budget doll and lacks articulation at her wrists, elbows, and knees.",
       "type": "Budget",
       "id": 599,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=xZMQ1T3XkRg"
     },
     {
       "year": 2016,
@@ -13330,7 +13419,8 @@
       "description": "Draculaura has long straight black hair with streaks of pink. She has pale pink skin, pink eyeshadow, fanged red lips, and a red heart on her cheek.\nHer blue strapless dress has pink bow straps and a black tulle hem. The front of the dress features a print with little black hearts, safety pins, bats, pink bows, and dark pink emojis.\nShe accessorizes with a big red headband bow decorated with bats, hearts, and emoji bats. On her feet are translucent pink strappy pumps with cutout heels adorned with hearts.\nDraculaura is a budget doll and lacks articulation at her wrists, elbows, and knees.",
       "type": "Budget",
       "id": 600,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=-127isA1nGo"
     },
     {
       "year": 2016,
@@ -13351,7 +13441,8 @@
       "description": "Frankie has long straight hair that is streaked black and white. She has pale bluish skin, pink eyeshadow, red lips, and a gray scar on her cheek.\nHer sleeveless black dress has a blue collar and a black tulle hem. The front features a print with wavy lines, eyeballs, hex nuts, blue lightning bolts, and yellow Frankie emojis.\nShe accessorizes with gray sunglasses that have an emoji accent. On her feet are blue boots with studs, straps on her calves, emoji emblems, and screw heels.\nFrankie is a budget doll and lacks articulation at her wrists, elbows, and knees.",
       "type": "Budget",
       "id": 601,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=p3bNCpPqAt8"
     },
     {
       "year": 2016,
@@ -13371,7 +13462,8 @@
       "description": "Lagoona has long wavy yellow hair with streaks of turquoise. She has pale turquoise skin, pink eyeshadow, and deep pink lips.\nHer pink sleeveless dress has a turquoise ribbon waist and an aqua blue hem. The front of the dress has a print with bubbles, sunglasses, seashells,  blue seahorses and fishy emojis.\nShe accessorizes with coral pink emoji dangle earrings. On her feet are translucent turquoise wedge sandals.\nLagoona is a budget doll and lacks articulation at her wrists, elbows, and knees.",
       "type": "Budget",
       "id": 602,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=2NnXWyxpgU0"
     },
     {
       "year": 2016,
@@ -13393,7 +13485,8 @@
       "id": 603,
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=jwat2PnmqVE"
     },
     {
       "year": 2016,
@@ -13419,7 +13512,8 @@
       "id": 604,
       "type": "Multipack",
       "exclusive": "Toys”R”Us",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=jwat2PnmqVE"
     },
     {
       "year": 2016,
@@ -13443,7 +13537,8 @@
       "description": "This playset features Frankie working at the Pet Salon. The salon has a washing table, display cabinet & counter, stool, accessories, and a wolf pup. \nClawdeen Wolf\nClawdeen has long silky brown hair with a streak of purple underneath. Her makeup includes purple eyeshadow and pink lipstick. She is a budget doll and lacks articulation at the elbows and wrists.\nHer form-fitting dress is sleeveless, purple, and features a green & purple paw print pattern on the front. Around her neck is a gold necklace with a dog bone pendant. On her feet are purple pumps with spiked claw heels and furry trim.\nPet Salon\nThe washing table has a green coffin-shaped top with an embossed Skullette and spiderweb etchings. The legs are purple and connected by spider-like Skullettes. On top of the table is a silver claw foot bathtub with drips, a paw print emblem, and translucent blue bubbles along the rim.\nThe cabinet has pink shelves with spiderweb etched sides and a black counter with a spiderweb corner leg. On top of the shelves is a purple swirled frame topped with a coffin-shaped picture of a dog bone and paw prints. The cabinet backdrop is reversible and features supplies and pet toys. With the cabinet is a purple stool on a silver spiderweb etched pedestal.\nAccessories that can be stored in the cabinet begin with a pink pet bowl and a white bone. There is also a purple bag in the shape of a paw print, a purple pet brush, a blue milk carton, and a translucent blue shampoo bottle.\nLast, but not least, is an adorable purple & lavender wolf pup that fits perfectly into the bathtub. Accessories for the pup include a pink towel, a green bandana, and a golden leash.",
       "type": "Playsets",
       "id": 605,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=y7bkK2dN8yY"
     },
     {
       "year": 2016,
@@ -13466,7 +13561,8 @@
       "description": "Cleo has long black hair with gold highlights and blunt bangs. Her makeup features light blue eyeshadow and plum lipstick.\nShe is wearing a sleeveless dress that is turquoise blue with a gold cross strap, gold trim, and decorative gold strips. It features a lavender print with lines and zigzags accentuated by black dots and Egyptian cats. She accessorizes with a wide gold bracelet and gold platform pumps with Anubis heels.\nCleo’s pet is an adorable kitten with black stripes, big blue eyes, and cute little fangs. The kitten wears an elaborate gold collar and comes with a golden milk dish.",
       "id": 606,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=YRfwH4WTQ5c"
     },
     {
       "year": 2016,
@@ -13491,7 +13587,8 @@
       "description": "Draculaura has long black hair with pink highlights. Her makeup includes pink eyeshadow, reddish pink lipstick, light pink blush, and a light blue heart on her left cheek.\nShe is wearing a sleeveless dress that has a pink top adorned with magenta hearts. Separating the top from the ruffled skirt is a pink strip with a bow. The wine colored skirt is decorated with a pink heart and spiderweb print. Light blue accessories consist of a beaded bracelet and drippy wedges with wavy edges and straps.\nDraculaura’s pet is a sweet pink poodle with blue eyes, a purple face, and purple wings. She has a light blue collar and two purple winged heart barrettes. To carry the fluffy pooch there is a quilted pink carrier with winged heart accents.",
       "id": 607,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=BYYvKZ9PoWc"
     },
     {
       "year": 2016,
@@ -13516,7 +13613,8 @@
       "description": "Frankie has long swept back hair that is streaked black and white. Her makeup features light blue eyeshadow and red lipstick.\nShe is wearing a sleeveless blue plaid dress. It has black straps, red lines, yellow lightning bolts, and white button designs. On her feet are red pumps with stacked heels and button accents.\nFrankie’s pet is a patchwork teddy bear that is stitched together with different shades of blue. He has a red nose & tongue, silver head bolts, a stitched lightning bolt on his chest, and stuffing leaking out. Frankie carries a light blue spool-shaped bag with a silver medical symbol in case her bear needs emergency repairs.",
       "id": 608,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=5iuQ9Wt3FIY"
     },
     {
       "year": 2016,
@@ -13537,7 +13635,8 @@
       "description": "Lagoona has long wavy yellow hair with a streak of turquoise. Her makeup features pink eyeshadow, coral pink lipstick, and soft pink blush.\nShe is wearing a lovely sleeveless dress with a coral pink hem and trim. It has a wavy turquoise print with pink flowers, spiral seashells, and sea turtle shadows that are pink or blue. Coral pink accessories include a seashell bracelet and strappy fish scale wedges.\nLagoona’s pet is a remarkably cute sea turtle. She is pink with a turquoise shell and has a coral pink bow on her head. For a toy, the turtle has a small turquoise ball.",
       "id": 609,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=YRfwH4WTQ5c"
     },
     {
       "year": 2016,
@@ -13558,7 +13657,8 @@
       "description": "Clawdeen has wavy brown hair with streaks of purple. Her light brown complexion is complemented by lavender eyeshadow and purple lipstick.\nShe is wearing a cute sleeveless dress with a dark purple back, a section of black bodice, and a patchwork zipper print. The print has purple and lavender patches decorated with skullettes, crossbones, paw prints, and crescent moons.\nLime green accessories consist of a double buckle wrist cuff and a double buckle belt with two rows of pyramid studs. On her feet are tall strappy purple wedges with seven buckled straps. Clawdeen does not include a doll stand or brush and lacks articulation at the elbow and wrist.",
       "type": "Budget",
       "id": 610,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=Ot5lBRVFfFs"
     },
     {
       "year": 2016,
@@ -13578,7 +13678,8 @@
       "description": "Cleo has straight black hair with blunt bangs and a blue under layer. Portions of her skin has a mummy-like appearance and her makeup includes blue eyeshadow, plum lipstick, and a light blue gem mark on her right cheek.\nShe is wearing a halterneck dress with a blue back, black chest, and a gold neckline strap. The front of the dress is blue decorated with turquoise bandage-like lines, yellow designs, mummy skullettes, gems, and black hieroglyphics.\nGolden accessories consist of draped pyramid earrings, a banded wrist cuff, and ornate Egyptian sandals. Cleo does not include a doll stand or brush and lacks articulation at the elbow and wrist.",
       "type": "Budget",
       "id": 611,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=rSFdq1HG5F8"
     },
     {
       "year": 2016,
@@ -13599,7 +13700,8 @@
       "description": "Draculaura has long straight black hair with blunt bangs and pink streaks. Her skin is pale pink with soft pink eyeshadow, pink lipstick, and a pink heart on her left cheek.\nShe is wearing a one-shoulder dress with a wide pink waist, pink back, and a black front with a skullette & heart print. The print features vampire skullettes accompanied by big pink polka dot hearts, drippy pink heart outlines, small white hearts, and bat-wing hearts that are green or blue.\nPink accessories include a bat-wing heart headband, bracelet, and pumps with bat-wing heart ankle straps. Draculaura does not include a doll stand or brush and lacks articulation at the elbow and wrist.",
       "type": "Budget",
       "id": 612,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=rSFdq1HG5F8"
     },
     {
       "year": 2016,
@@ -13620,7 +13722,8 @@
       "description": "Frankie has black & white streaked hair with a stripe of blue that is pulled into a high ponytail. She has pale bluish skin, blue eyeshadow, pink lipstick, and a gray stitched scar on her right cheek.\nHer sleeveless dress has a black back, a thin black waist, and one black shoulder. The front features a print of blue, white, and gray stitched patches embellished with skullettes, hex nuts, and blue or yellow lightning bolts.\nShe accessorizes with one blue and one yellow hex nut lightning bolt earring, a yellow bracelet, and yellow booties with lightning bolt heels. Frankie does not include a doll stand or brush and lacks articulation at the elbow and wrist.",
       "type": "Budget",
       "id": 613,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=rSFdq1HG5F8"
     },
     {
       "year": 2016,
@@ -13645,7 +13748,8 @@
       "description": "Ari can’t wait for her first day of school. She has long pink, purple, and lavender hair that is held back with braids. Complementing her translucent skin is pink eyeshadow, blue eyeliner, and purple lipstick.\nShe is wearing a beautiful dress with a black & blue piano key ruffle around the neck. The body is lavender with a print of silver chains and magenta diamonds surrounded by lined sheet music. The hem is purple with a black tulle ruffle.\nAccessories consist of a translucent pink bracelet and a silver belt with music notes and hanging chains. On her feet are translucent pink boots with chains on the toes and tassels on the sides. Her translucent pink bag has a chain handle, chain accents, and a long fringe.\nAri does not come with a brush or doll stand.\nHow do I boo? I rock! I use music to inspire monsters to be themselves! And if it makes them want to dance too, even better!\n\nPersonal Style: Boohemian Rocker. When I'm belting out pop ballads under hot stage frights, I like to wear cool, gauzy fabrics that float around me, while still looking shriek and modern.\n\nMonster Quirk: I can turn solid, but not for long. When I try to blend in with normies, there's always a ghost of a chance that I'll spook out and be discovered.\n\nThere was a time when monsters unlived in hiding because they feared being \"different.\" But then the ghouls met, and they understood that it's clawesome to be different! So they created a school where all monsters are welcome, all uniqueness is celebrated... and where everyone can boo!",
       "id": 614,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=F9M1xnLq0Wk"
     },
     {
       "year": 2016,
@@ -13670,7 +13774,8 @@
       "description": "For her first day of school, Draculaura has straight black hair with pink streaks. It is pulled back into pigtails and has blunt bangs. She has subtle pink eyeshadow, red lipstick, and a red heart on her left cheek.\nHer adorable dress features a pink & black polka dot bodice with batty accents and short white sleeves. Around the waist is a black peplum with a reverse scalloped hem. The pink skirt has a black net print decorated with a pattern of blue hearts and black bows.\nHer first accessory is a pair of blue heart earrings; each with a single wing. Around her neck is a blue and black molded cravat and on her feet are hot pink booties with blue laces and bat wing heels. Her pink knobby handbag is shaped like a bat wing bow.\nDraculaura does not come with a brush or doll stand.\nHow do I boo? I soar! I can fly, so I have a bat's eye view of everything. I think that's why I always see the good in the world.\n\nPersonal Style: I love to contrast edgy black with cheerful pink. My taste in fashion is sweet... with just a little bite.\n\nMonster Quirk: I can't seem my reflection in a mirror, so I always risk looking a little batty. But thanks to centuries of practice, I'm scary-good at applying lip gloss.\n\nThere was a time when monsters unlived in hiding because they feared being \"different.\" But then the ghouls met, and they understood that it's clawesome to be different! So they created a school where all monsters are welcome, all uniqueness is celebrated... and where everyone can boo!",
       "id": 615,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=3gXs_VmqIEg"
     },
     {
       "year": 2016,
@@ -13693,7 +13798,8 @@
       "description": "Frankie looks fantastic for her first day of school. She has black and white streaked hair with bangs that are pulled back. Her makeup includes pink eyeshadow, light pink blush, and red lipstick.\nShe is wearing a white collared shirt with pinstripe stitches under a blue vest with a yellow “F”. Her black & blue argyle skirt has white stitched lines and yellow lightning bolt accents.\nShe accessorizes with yellow nut & bolt earrings and a black lightning bolt necktie. Around her waist is a silver triple-wrap belt with a hanging chain and screw head buckle. On her feet are stitched black shoes with yellow laces and nut & bolt heels. Her stitched yellow purse is decorated with lightning, hex nuts, and Skullettes.\nFrankie  does not come with a brush or doll stand.\nHow do I Boo? I try! I mean I try everything! I like to explore and experience and live everything the world has to offer.\n\nPersonal Style: Now that I have a school where I belong, I love my outfits to be a little preppy... and a lot stylish. I think electric blue plaids are especially voltageous!\n\nMonster Quirk: Sometimes my stitches come loose and it's like my limbs have a brain of their own. When I offer you a hand, don't be shocked if I mean it literally.\n\nThere was a time when monsters unlived in hiding because they feared being \"different.\" But then the ghouls met, and they understood that it's clawesome to be different! So they created a school where all monsters are welcome, all uniqueness is celebrated... and where everyone can boo!",
       "id": 616,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=v6cxRF7f2cI"
     },
     {
       "year": 2016,
@@ -13718,7 +13824,8 @@
       "description": "Draculaura has long black hair with pink highlights and pale pink skin. Her makeup features pink eyeshadow, red fanged lips, and a red heart on her left cheek.\nShe is wearing a molded black tank top sporting a pink skullette. Her pink skirt has a light blue stitched waist and a serrated hem. On her feet are pink high tops with bat wing accents.\nDraculaura does not include a doll stand or brush. She is a budget doll and therefor has less articulation.\nHow do I boo? I soar! I can fly, so I have a bat's eye view of everything. I think that's why I always see the good in the world.\n\nPersonal Style: I love to contrast edgy black with cheerful pink. My taste in fashion is sweet... with just a little bite.\n\nMonster Quirk: I can't seem my reflection in a mirror, so I always risk looking a little batty. But thanks to centuries of practice, I'm scary-good at applying lip gloss.",
       "type": "Budget",
       "id": 617,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=MHVlp4bk-Wk"
     },
     {
       "year": 2016,
@@ -13739,7 +13846,8 @@
       "description": "Draculaura’s hair is long and black with pink highlights. She has pale pink skin, pink eyeshadow, red lips, fangs, and a red heart on her left cheek.\nHer cheerleading outfit has a molded black tank top decorated with a pink skullette. The pink skirt has a light blue stitched waist and a serrated hem. Her molded high tops are pink with bat wing accents.\nDraculaura comes with a black & pink pennant with the Monster High crest and a black & white cheer hand. The hand features pink fingernails, the Monster High logo on the palm, and “#1” on the pointing index finger. A doll stand or brush is not included. She is a budget doll and therefor has less articulation.",
       "type": "Budget",
       "id": 618,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=H9wx5_m5Ccg"
     },
     {
       "year": 2016,
@@ -13764,7 +13872,8 @@
       "description": "Frankie has long black & white streaked hair and pale green skin. Her makeup consists of pink eyeshadow, light pink blush, and dark pink lipstick. On her right cheek is a stitched scar.\nShe is wearing a molded cerise tank top with a blue outline of the Monster High crest. Her black skirt has a blue stitched waist and a serrated hem. On her feet are molded blue high tops with jagged heels and embossed lightning bolts.\nFrankie does not include a doll stand or brush. She is a budget doll and therefor has less articulation.\nHow do I Boo? I try! I mean I try everything! I like to explore and experience and live everything the world has to offer.\n\nPersonal Style: Now that I have a school where I belong, I love my outfits to be a little preppy... and a lot stylish. I think electric blue plaids are especially voltageous!\n\nMonster Quirk: Sometimes my stitches come loose and it's like my limbs have a brain of their own. When I offer you a hand, don't be shocked if I mean it literally.",
       "type": "Budget",
       "id": 619,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=MHVlp4bk-Wk"
     },
     {
       "year": 2016,
@@ -13785,7 +13894,8 @@
       "description": "Frankie’s straight hair is streaked black and white. She has pale green skin, pink eyeshadow, pink blush, and dark pink lipstick.\nHer cheerleading outfit features a molded cerise tank top with a blue outline of the Monster High crest. The black skirt has a blue stitched waist and a serrated hem. Her molded blue high tops have jagged heels and embossed lightning bolts.\nFrankie comes with a blue skullette-shaped megaphone and a black & pink pennant with the Monster High crest. A doll stand or brush is not included. She is a budget doll and therefor has less articulation.",
       "type": "Budget",
       "id": 620,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=H9wx5_m5Ccg"
     },
     {
       "year": 2016,
@@ -13811,7 +13921,8 @@
       "id": 621,
       "exclusive": "Toys”R”Us",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=SnZ143Lvn2I"
     },
     {
       "year": 2016,
@@ -13836,7 +13947,8 @@
       "description": "Frankie has long straight hair that is streaked black and white. Her makeup features red lipstick and pink eyeshadow. On her head is a blue bike helmet adorned with studs, bolts, hex nuts, and raised lightning bolt designs.\nShe is wearing an adorable black romper covered with a pattern of blue and yellow lightning bolts. It has two sets of shoulder straps: two blue and two narrower black straps. On her feet are black sneakers with lightning and hex bolt accents.\nBicycle\nFrankie rides a stylish blue cruiser with fenders, a yellow chain guard, a silver kickstand, and a black seat with a clear waist support. Decorating one side of the top tube is a black sticker with stitches, yellow lightning bolts, a blue stitched heart, and a skullette. The silver lightning bolt handlebars are held by a stem in the shape of a hand. The wheels have black tires and silver rims with lightning bolt spokes.\nFrankie is a budget doll that lacks articulation at the wrists.\nOne of the ways Frankie likes to boo is to just get on her bike and see where it takes her. She can ride lightning fast when she wants to, but sometimes she likes to just cruise around the park, enjoying the fresh air and waving hello to other monsters. She says riding a bicycle feels so natural to her, it's almost like her father built her with pedals attached to her feet!",
       "type": "Playsets",
       "id": 622,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=kjGAC--X1SE"
     },
     {
       "year": 2016,
@@ -13859,7 +13971,8 @@
       "description": "The Deluxe High School is an updated version of the Deadluxe High School. Most of the changes are color variations. It still has three stories, eight rooms, doll clips, and multiple accessories. When completely opened, it is five feet wide and four feet tall.\nOutside\nThe outside of the school is purple, lavender, and violet with lots of wrought iron designs and bricks overgrown with ivy. Leading to the tall entrance doors are lavender steps and pillars guarded by gargoyles.\nFirst Floor\nOn the first floor is the event area, library, and Creepateria. The event area and entrance way has blue stairs on each side, lavender pillars, and purple and magenta coffin lockers. It is furnished with a tall Skullette table with and a clawfoot couch that is black with a tufted pink seat.\nThe library is small and decorated with images of ornate shelves full of books. The outer wall is a secret door that rotates to the outside.\nThe Creepateria has a lavender pillar and big coffin-shaped windows. It is furnished with a green lunch counter and a pink picnic table with a swirled silver frame.\nSecond Floor\nThe second floor has the bathroom, radio station, vampire lounge, and classroom. The bathroom is at the top of the stairs and has a sink and mirror.\nThe second staircase leads to the radio station. It has a pink DJ table adorned with a blue Monster High crest. On the table is a laptop and microphone.\nEverything is upside down in the vampire lounge. There is even an upside down black and pink throne that can seat a doll.\nThe classroom is decorated with purple bookshelves and has a hanging chalkboard. It is furnished with pink pedestal chairs and a pink and silver school desk.\nThird Floor\nAt the top is a clock tower with purple bricks and a green clock. It folds open to create an office with an ornate black desk.",
       "type": "Playsets",
       "id": 623,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=NV_8a_3Nm38"
     },
     {
       "year": 2016,
@@ -13885,7 +13998,8 @@
       "type": "Playsets",
       "id": 624,
       "exclusive": "Costco",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=9l5oFHEzdXs"
     },
     {
       "year": 2016,
@@ -13910,7 +14024,8 @@
       "type": "Playsets",
       "id": 625,
       "exclusive": "Costco",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=qfzjPLsZiNM"
     },
     {
       "year": 2016,
@@ -13931,7 +14046,8 @@
       "description": "The Fright Roast Coffee playset features a cafe counter, two stools, and lots of delicious accessories.\nThe purple cafe counter is trimmed with studs and has dripping edges. It sits upon a pink cart decorated with dripping zigzag cutouts. On the front is a menu blackboard framed in blue and embellished with Skullettes.\nA blue canopy with studs, cutouts, and a webbed “Cafe” sign covers the counter. It is held aloft by four bony black poles.\nThe three-legged stools have black curled bases held by a spiderweb support. The seats are light turquoise with dripping edges and small backrests.\nCafe accessories begin with two cups filled with a Skullette-topped brew. They can be placed on the silver espresso machine etched with spiderwebs and drippy goo. For ghouls on the run, there is a blue travel cup and a brown to-go box.\nSnacks include a pink batty cupcake and a sprinkled donut that are displayed on a spinning stand. The turquoise stand has spiderweb designs and is topped by a winged Skullette.",
       "type": "Playsets",
       "id": 626,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=NT_8xH_uD4I"
     },
     {
       "year": 2016,
@@ -13961,7 +14077,8 @@
       "description": "Frankie has black & white streaked hair that is pulled into a high ponytail. She is wearing khaki coveralls with orange lightning bolt stripes and a name tag with “Stein” on the chest. On the right shoulder is a Ghostbusters logo patch. The legs have real cargo pockets and a sheer yellow cloth is tied around her left leg.\nShe accessorizes with yellow lightning glasses, blue lightning hoop earrings, and a silver dog tag. Around her waist are two belts. The first is silver with a lightning bolt buckle and the second one is a blue utility belt with a Skullette carabiner. She wears black wrist cuffs and black molded fingerless gloves. On her feet are high black boots with orange lightning down the fronts, zippers on the sides, and jagged lightning platforms.\nGhostbusting accessories feature an iconic black proton pack with a translucent yellow cable that connects to the gun. The proton pack opens and can store the translucent green slimer figure. Frankie’s last item is a black clip-on walkie-talkie.\nWho Ya Gonna Call?\nFrankie Stein!\n\nIt's not every day that there are ghosts at Monster High! Oh, wait, yes it is. But, paranormally, there aren't trespassing ghosts who zip around the howlways and classrooms leaving a trail of... ewww... slime!\n\nClawdeen found the little green slimer in her locker next to her ruined shoes. Then Ghoulia spied him wreaking havoc on the computer lab. Drac tried to catch him, but have you ever tried to fly when you've got slime on your wings? And Cleo - let's just say she took one look at the mess and felt royally ill.\n\nSo supernaturally, they called Frankie! She's a ghoul who doesn't mind lending a hand - sometimes literally - and a little ectoplasm dripping off her stitches isn't going to spoil her school spirit.\n\nFrankie got to work! She strapped on a proton pack and fired neutralizing particles like a pro... until it was hard to tell who caused more mayhem - Frankie or Slimer.\n\nFrankie chased down the howl, past the clawditorium and into the creepateria...\n\nEvery monster who had lunch that period was treated to a spooktacular show! Slimer bounced from tray to tray, gobbling down tater tots, chomping pizza slices, tossing Shriek salads, and wow, can he guzzle milk! All the while, Frankie was hot on his oozy tail, doing flips, somersaults, even the occasional pirouette!\n\nBut then Frankie had a voltageous idea! \"Hey Slimer,\" she called out to the happily munching ghost, \"why don't you join us? Grab a bite and fang out!\" Slimer stopped. No one had ever asked him to eat with them before! So Slimer joined the ghouls and had a grave time! And he ate every last bite... off everyone else's trays. But the ghouls didn't mind - he's really kind of cute once you get to know him... after he stops sliming you.\n\n",
       "id": 627,
       "exclusive": "Comic Con",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=0CQ013TZ7dM"
     },
     {
       "year": 2016,
@@ -13986,7 +14103,8 @@
       "description": "Clawdeen has long wavy brown hair with purple streaks. Her makeup features pink eyeshadow and burgundy lipstick. She is a budget doll and lacks articulation at the elbows and wrists.\nHer sleeveless dress has a wide green strip over one shoulder and the neckline. Attached to the strip and over the other shoulder are two thin purple straps. The black dress is decorated with a purple, green, and lavender pattern of paw prints and splatter marks. Around her waist is a wide gold belt with a row of spikes and a crescent moon. On her feet are unzipped purple booties with crescent moon accents.\nLocker\nThe pink coffin-shaped locker is kept secure with a gold Skullette padlock. Inside the locker, on the door, is a coffin-shaped mirror outlined with intricate designs. The back of the locker has a black calender that displays the phases of the moon. Hanging from the top is a green chandelier with dangling crescent moons. The bottom of the locker has a purple storage compartment embossed with designs and a crescent moon.\nSchool supplies can be stored on the shelves of the locker. Included with the playset is a green binder and a green Skullette & crescent moon notebook. There is also an extra pair of shoes for Clawdeen. The gold peep-toe wedges have spikes alond the sides, front, and up the back of the heels.\nHow Do I Boo? I create! I love designing fashion, hairstyles and makeup. For me, it's an expression of how I feel on the inside.\n\nPersonal Style: I'm a fierce fashionista and was born to design. I love to sink my claws into the latest trends and put my own spin on them... for my outfits as well as my ghoulfriends'.\n\nMonster Quirk: My hair grows furrrociously fast so I can change up my look whenever the mood strikes... which is typically several times each lunar cycle.\n\nClawdeen loves school. She gets to learn new things and fang out with friends, all while showing off her latest fashion designs. Of course her locker has to be as clawesome as she is! It's her home-closet away from home, where she can stash clothes and accessories with her books. It even has a hidden compartment.",
       "type": "Playsets",
       "id": 628,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=DXfdWCxKoS8"
     },
     {
       "year": 2016,
@@ -14009,7 +14127,8 @@
       "description": "Frankie, Drac, Cleo, and Clawdeen are wearing ice cream themed outfits and snacking on delicious ice cream treats. The ghouls are budget dolls and lack articulation at the elbows and wrists.\nFrankie Stein\nFrankie has long black & white striped hair pulled into a high ponytail. She is wearing blue eyeshadow and pink lipstick. Her cute sleeveless dress features a bodice with a black & white geometric print. The blue splattered skirt is decorated with colorful candy dots and eyeballs. \nAround her neck is a yellow ice cream cone pendant and on her feet are dripping blue booties. Her red hexagon purse has a chain shoulder strap and crystal designs. She is eating a cone with blue ice cream.\nDraculaura\nDraculaura has black hair with pink stripes that is worn in a high ponytail. She is wearing soft pink eyeshadow and pink lipstick. Her pink strapless dress is adorned with blue and white dots, red ice cream cones, and fanged treats. \nAround her neck is a stiff yellow ruff with a waffle pattern and on her feet are pink lace-up booties with waffle accents. She has a lip-shaped handbag with fangs and dangles. Her waffle cone is topped with pink ice cream.\nCleo de Nile\nCleo has black & teal streaked hair styled into a bob cut with blunt bangs. She wears sparkly eyeshadow and red lipstick. Her yummy white off-the-shoulder top is decorated with colorful candy sprinkles, dripping yellow toppings, and monstrous treats. Complementing the top is a turquoise skirt with a waffle print. \nOn her head is a gold waffle etched headband and on her feet are drippy yellow pumps with ankle straps and ice scream scoop heels. Her golden purse is adorned with rows of dangling beads and a large scarab emblem. She is snacking on a cone with purple ice cream. \nClawdeen Wolf\nClawdeen has wavy brown hair with purple highlights. She wears lavender eyeshadow and purple lipstick. Her dress has a cropped lime green bodice with a drippy print and a purple skirt. The skirt has a pattern of wavy lavender lines and ice cream bars with double claw sticks. \nOn her feet are drippy green pumps with ice cream bar heels. She carries a purple crescent moon purse that features lots of studs and dangling beads with crescent moons. Her chilly treat is a drippy green ice cream bar with double claw sticks.",
       "type": "Multipack",
       "id": 629,
-      "reissue": false
+      "reissue": false,
+      "Video": "https://www.youtube.com/watch?v=UHq_DDSFNF4"
     },
     {
       "year": 2016,
@@ -14034,7 +14153,8 @@
       "description": "Draculaura has extra long straight black hair with thin streaks of pink. She has a pale pink complexion, dark eyeshadow, dark red lips, and a dark red heart on her cheek.\nHer sleeveless dress has pink and light blue stripes embellished with a black bat print. The skirt has a black waist and two tiers trimmed with a black tulle hem.\nOn her feet are light bluee knee-high socks and black booties. The booties have pink laces and drippy wedge heels.\nThirty hair accessories accompany Draculaura. There are clips, combs and hair ties that are black, blue, or pink. She also has three hair extensions; one pink, one light pink, and one light blue. \nThere are hair pieces with flowers, bats, hearts, webs, and wings. They can be combined with other hair accessories to create elaborate hairdos.\nDraculaura lacks articulation in her elbows and wrists.",
       "type": "Budget",
       "id": 630,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=ugjXlfoIUiU"
     },
     {
       "year": 2016,
@@ -14066,7 +14186,8 @@
       "id": 631,
       "type": "Multipack",
       "exclusive": "Comic Con",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=WzY2JTAe8XM"
     },
     {
       "year": 2016,
@@ -14094,7 +14215,8 @@
       "id": 632,
       "exclusive": "Amazon",
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=-Y1PeYpBrPM"
     },
     {
       "year": 2016,
@@ -14117,7 +14239,8 @@
       "description": "The playset includes Frankie in her Science Class with a school desk, whiteboard, a lab frame & cabinet, and a lab bench with experiments.\nFrankie Stein\nFrankie has black & white streaked hair that is straight with choppy ends. Her makeup features pink eyeshadow and pink lipstick. She is a budget doll and lacks articulation at the elbows and wrists.\nHer outfit is a white dress decorated to look like a lab coat. It is printed with a yellow “F” , a shirt & tie image at the neckline, a seam with silver Skullette buttons, blue splatter, and a magnifying glass in a pocket with an atomic symbol. To protect her eyes she has studded blue safety goggles. On her feet are blue studded wedges with lightning bolt cutouts and lightning bolt embossed heels.\nScience Class\nThe school desk has blue claw legs, a black spiderweb seat, and a drippy back with zigzags and Skullettes. The blue desktop is etched with a pencil, paper, and spiderwebs.\nNext is the whiteboard which has a dark blue frame with a Skullette accent and a black studded stand. To write on the whiteboard get the blue Skullette marker wet. An extra beaker is included to dip the marker.\nThe lab frame has black pillars with lightning bolt designs, Skullette toppers, and spiderweb accents. One pillar has a pink shelf with a back image of beakers, test tubes, plants, and spiderwebs. The pink top of the frame is decorated with scientific images and symbols and a blue clock in the center. The clock has a green face with an angular swirl, pink Skullette hands, and “13” at the top. \nThe lab bench has a blue claw-legged frame with a shelf, wrought iron spiderwebs, and a Skullette emblem. The black top has the Monster High logo and a dropper holder. The clear dropper has a pink bulb with a Skullette.\nOn top of the bench is a pink & blue Skullette funnel with a chartreuse goo base and two removable beakers; one with bubbles and the other with a green critter. Cold water can be poured down the funnel and into a beaker to change the color of the critter or bubbles.\nAdditionally, there is a three-eyed frog inside a container with a green bubbly goo top. The container’s black base has a pink button that when pressed makes the frog hop. There is also a pink plant in a light green pot. When water is added the plant rises.",
       "type": "Playsets",
       "id": 633,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=qaPzsuFwdGE"
     },
     {
       "year": 2016,
@@ -14142,7 +14265,8 @@
       "description": "Lagoona has lovely blonde hair with turquoise highlights. It is long and wavy and pulled into a side ponytail. Her makeup features pink eyeshadow and pink lipstick. She is a budget doll and lacks articulation at the elbows and wrists.\nHer outfit is a sleeveless black romper with a turquoise scale print on the front. Around her waist is a pink twisted rope with a seahorse accent. On her feet are coral pink wedges with double straps, seashells on the fronts, and spiral seashells etched on the heels. Safety equipment includes turquoise seashell elbow and knee pads and a pink helmet. The helmet is decorated with a Skullette on the front, wave designs, and a dorsal fin.\nScooter/Surf Board\nThe surf board is pink with a Skullette emblem, bubbles, and a turquoise outline. At the back is a turquoise fin and a cutout bite mark. \nTo convert the board into a scooter there are three turquoise tentacle wheels with silver Skullette brackets that clip to the bottom. The handlebars are pink tentacles with a white starfish attached to a silver retractable stem that clips to the top of the board.\nLastly, Lagoona has a pink coral backback. It is oversized and designed to store all the pieces of the scooter when it is used as a surf board.\nHow Do I Boo? I float! I'm very chill in and out of the water. I try not to sweat things, but when I do I just swim it off.\n\nPersonal Style: I keep it casual, from sporty cute to surfer chic, so I'm always up for whatever's going on that sounds fun.\n\nMonster Quirk: When I'm out of water too long, I develop frightfully dry skin. I slather on so much skin cream, sometimes I'm as slippery as an eel-monster.\n\nLagoona is always a ghoul on the go... whether shes hanging 10 on her trusty surfboard, or zipping around on her speedy scooter. So leave it to Lagoona to sport a 2-in-1 combo: Her surfboard transforms into a scooter, and the extra parts are stored in her shell-shaped backpack.",
       "type": "Playsets",
       "id": 634,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=1PyR6pnOZpg&t=143s"
     },
     {
       "year": 2016,
@@ -14165,7 +14289,8 @@
       "description": "Frankie has long thick hair that is mostly black with a section of white on the right and a yellow streak in the front. Two yellow plugs attach to her hair and connect to her hair extensions. One extension is pink and the other is blue. Her makeup includes pink eyeshadow and pink lipstick.\nShe is wearing a cute sleeveless dress that features a tartan pattern. The blue, turquoise, and white pattern features black hex nuts interconnected with blue stitched lines. On her feet are blue lace-up booties with striped platforms, stitch accents, and a row of hex nuts up each heel.\nAccessories consist of a silver brush, a silver electronic hair tool, and 6 light-activated stencils: 3 blue and 3 yellow. The hair tool has a UV light that activates when the tool is closed. The stencils slide into the hair tool which can be used to create designs in Frankie’s hair and extensions.\nFrankie lacks articulation at her elbows and wrists. A doll stand is not included.",
       "type": "Budget",
       "id": 635,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=lCfAXkj9bOs"
     },
     {
       "year": 2016,
@@ -14194,7 +14319,9 @@
       "description": "Zomby Gaga has long wavy hair that is pink with soft purple highlights and tied into a high ponytail. Her undead complexion is complemented by sparkly purple and silver eyeshadow. Veiny lines extend down from her hairline, her nose is colored black, and her pink lips are striped and extended with stitches. A bony tattoo decorates her neck and on her hands are bones, spiderwebs, and “Lady Gaga” spelled out on her fingers.\nShe is wearing a black tuxedo with a white collared shirt and black bow tie. The jacket has flared sleeves and the pants have bell bottoms. On her feet are black lace-up booties with high platforms and stiletto heels. She accessorizes with black sunglasses and a bubblegum bubble.\nZomby Gaga’s second outfit is much more casual. The sleeveless flannel shirt dress is red and black plaid embellished with “Born This Way” and irregular double white lines. Underneath the dress are black fishnet tights.\nThe doll is inspired by Zombie Boy (Rick Genest) and the ensemble worn by Lady Gaga in the Born This Way music video.\nLady Gaga is Zomby Gaga!\n\nAge: Like my love, my age is infinite.\n\nKiller Style: I believe in staying true to myself! What I wear is an expression of my thoughts, loves, hopes and dreams. My fashion changes from day to day, just like my mood and tastes!\n\nMonster Quirk: Even when I feel sad and alone I can't hide who I truly am and I wouldn't have it any other way, because - like the real you - the real me is brave, strong, and BORN THIS WAY.\n\nFavorite Activity: I want to inspire every monster to join me in a worldwide kindness movement! Let's all spread love, bravery and acceptance.\n\nInspired by the artistry of Zombie Boy!",
       "id": 636,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=cMQgAk9Ic30",
+      "promo": "https://www.youtube.com/watch?v=rkC_QCNa0Ag"
     },
     {
       "year": 2016,
@@ -14219,7 +14346,8 @@
       "description": "Ari has long wavy purple hair with highlights. She has pale and translucent skin, pink and magenta eyeshadow, and purple lips.\nShe is wearing a sleeveless lavender dress with light purple trim. The front features a keyboard neckline and a sheet music and chain print. The bottom of the dress has a white stripe with pink music notes above a violet keyboard.\nAccessories begin with a keyboard-brimmed purple hat with chain accents. On her wrists are wide bracelets with chains; one is lavender an the other is magenta. Her tall boots are translucent pink and embellished with chains, piano keys, and treble clef heels.\nShe plays a pink piano on a silver chain stand with a purple chain stool. The piano has chain accents, a purple microphone, and magenta sheet music on a black Skullette stand. The piano can be transformed into a keytar.\nAri lacks articulation at her elbows and wrists.\nAri has monster skills on the piano, but when she really wants to impress, she converts it into a keytar and jams!\n\nPersonal Monstra: I rock! I use my music to inspire monsters to be themselves! And if it makes them want to dance too, even better!\n\nKiller Style: Boohemian Rocker. When I'm belting out pop ballads under hot stage frights, I like to wear cool, gauzy fabrics that float around me, while still looking shriek and modern.\n\nMonster Quirk: I can turn solid, but not for long. When I try to blend in with normies, there's always a ghost of a chance that I'll spook-out and be discovered.",
       "type": "Budget",
       "id": 637,
-      "reissue": false
+      "reissue": false,
+      "video": "https://www.youtube.com/watch?v=K9jPPLlS2vA"
     },
     {
       "year": 2016,
@@ -18959,7 +19087,7 @@
       "id": 851,
       "type": "Doll",
       "reissue": false,
-      "video":"https://www.youtube.com/watch?v=wlmJreaiFrI"
+      "video": "https://www.youtube.com/watch?v=wlmJreaiFrI"
     },
     {
       "year": 2017,
@@ -18981,7 +19109,7 @@
       "id": 852,
       "type": "Doll",
       "reissue": false,
-      "video":"https://www.youtube.com/watch?v=wlmJreaiFrI"
+      "video": "https://www.youtube.com/watch?v=wlmJreaiFrI"
     },
     {
       "year": 2017,
@@ -18999,7 +19127,7 @@
       "id": 853,
       "type": "Doll",
       "reissue": false,
-      "video":"https://www.youtube.com/watch?v=wlmJreaiFrI"
+      "video": "https://www.youtube.com/watch?v=wlmJreaiFrI"
     },
     {
       "year": 2017,
@@ -20392,7 +20520,7 @@
       "type": "Budget",
       "id": 924,
       "reissue": false,
-      "video":"https://www.youtube.com/watch?v=kfgLCHLHPiQ"
+      "video": "https://www.youtube.com/watch?v=kfgLCHLHPiQ"
     },
     {
       "year": 2018,
@@ -20412,7 +20540,7 @@
       "type": "Budget",
       "id": 925,
       "reissue": false,
-      "video":"https://www.youtube.com/watch?v=kfgLCHLHPiQ"
+      "video": "https://www.youtube.com/watch?v=kfgLCHLHPiQ"
     },
     {
       "year": 2018,
@@ -20432,7 +20560,7 @@
       "type": "Budget",
       "id": 926,
       "reissue": false,
-      "video":"https://www.youtube.com/watch?v=kfgLCHLHPiQ"
+      "video": "https://www.youtube.com/watch?v=kfgLCHLHPiQ"
     },
     {
       "year": 2018,
@@ -20451,7 +20579,7 @@
       "type": "Budget",
       "id": 927,
       "reissue": false,
-      "video":"https://www.youtube.com/watch?v=kfgLCHLHPiQ"
+      "video": "https://www.youtube.com/watch?v=kfgLCHLHPiQ"
     },
     {
       "year": 2018,

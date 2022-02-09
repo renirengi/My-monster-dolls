@@ -1,16 +1,17 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { firstValueFrom, Observable, Subscription } from 'rxjs';
+import {  Observable, Subscription } from 'rxjs';
 import { UsersService } from 'src/app/services/users.service';
 import { IUser } from 'src/app/models';
-import { lastValueFrom } from 'rxjs';
+
+
 
 @Component({
-  selector: 'app-user-page',
-  templateUrl: './user-page.component.html',
+  selector: 'app-user-about',
+  templateUrl: './user-about.component.html'
 })
-export class UserPageComponent implements OnInit, OnDestroy {
+export class UserAboutComponent implements OnInit, OnDestroy {
   public user$: Observable<IUser | null>;
 
   private subscription: Subscription = new Subscription();
@@ -28,10 +29,10 @@ export class UserPageComponent implements OnInit, OnDestroy {
     country: new FormControl(''),
   });
 
-  constructor(private usersService: UsersService, private http: HttpClient) {
+  constructor(private usersService: UsersService, private http: HttpClient, ) {
     this.countries$ = this.http.get('../../../assets/countries.json');
     this.user$ = this.usersService.currentUser$;
-
+    
     this.subscription.add(this.user$.subscribe((user) => this.updateProfile(user)));
   }
 

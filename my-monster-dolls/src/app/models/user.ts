@@ -25,7 +25,7 @@ export interface IUserCollection {
 
 export interface IUserLotData {
   itemId: number;
-  price?: number;
+  price: string;
   description: string;
   photos: string[];
 }

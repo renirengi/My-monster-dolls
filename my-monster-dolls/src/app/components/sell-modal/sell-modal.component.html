@@ -1,0 +1,33 @@
+<form [formGroup]="sellForm">
+  <h2 mat-dialog-title>{{ doll.character }}</h2>
+  <p>{{ doll.series }}</p>
+  <p>{{ doll.year }}</p>
+  <div mat-dialog-content>
+    <mat-form-field>
+      <mat-label>Description</mat-label>
+      <textarea matInput formControlName="description"></textarea>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Enter your price</mat-label>
+      <input matInput formControlName="price" />
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-label>Add photo</mat-label>
+      <input matInput formControlName="photo1" />
+    </mat-form-field>
+
+    <div mat-dialog-actions>
+      <button
+        mat-stroked-button
+        type="button"
+        color="primary"
+        [disabled]="!sellForm.valid"
+        [mat-dialog-close]="sellForm.value"
+      >
+        Add
+      </button>
+    </div>
+  </div>
+</form>
