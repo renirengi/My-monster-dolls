@@ -1,83 +1,44 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnDestroy, OnInit } from '@angular/core';
-import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { firstValueFrom, Observable, Subscription } from 'rxjs';
+import { Component } from '@angular/core';
+import { Observable, firstValueFrom, } from 'rxjs';
 import { UsersService } from 'src/app/services/users.service';
-import { IUser } from 'src/app/models';
-import { lastValueFrom } from 'rxjs';
+import { IUser, IUserPersonalData } from 'src/app/models';
+import { MatDialog } from '@angular/material/dialog';
+import { UserAboutComponent } from '../user-about/user-about.component';
 
 @Component({
   selector: 'app-user-page',
   templateUrl: './user-page.component.html',
 })
-export class UserPageComponent implements OnInit, OnDestroy {
+export class UserPageComponent {
   public user$: Observable<IUser | null>;
 
-  private subscription: Subscription = new Subscription();
-
-  public countries$: Observable<Object>;
-  public showConfirmation = true;
-  public passwordInput: string = '';
-  public passwordConfirmInput: string = '';
-
-  public userForm = new FormGroup({
-    avatar: new FormControl(''),
-    phone: new FormControl('', [Validators.pattern(/^(\+\d{1,3}[- ]?)?\d{9}$/)]),
-    realName: new FormControl('', [Validators.minLength(3), Validators.maxLength(25)]),
-    about: new FormControl('', [Validators.minLength(25), Validators.maxLength(100)]),
-    country: new FormControl(''),
-  });
-
-  constructor(private usersService: UsersService, private http: HttpClient) {
-    this.countries$ = this.http.get('../../../assets/countries.json');
+  constructor(private usersService: UsersService, private http: HttpClient, public dialog: MatDialog) {
     this.user$ = this.usersService.currentUser$;
-
-    this.subscription.add(this.user$.subscribe((user) => this.updateProfile(user)));
   }
 
-  async ngOnInit() {}
+  async showUserAbout(user: IUser) {
+    const modalConfig = { width: '50vw', data: { user } };
+    this.dialog.open(UserAboutComponent, modalConfig);
 
-  public updateProfile(user: IUser | null) {
-    if (user) {
-      this.userForm.patchValue({
-        realName: user.personalData.realName,
-        avatar: user.avatar,
-        phone: user.personalData.phone,
-        about: user.personalData.about,
-        country: user.personalData.country,
-      });
+    const dialogRef = this.dialog.open(UserAboutComponent, modalConfig);
+
+    const result: {avatar: string, realName: string, country: string, phone: string, about:string} = await firstValueFrom(dialogRef.afterClosed());
+    const newValue: IUser = {
+      avatar: result.avatar,
+      id: user.id,
+      email: user.email,
+      name: user.name,
+      password: user.password,
+      rights: user.rights,
+      personalData: {
+        realName: result.realName,
+        country: result.country,
+        about: result.about,
+        phone: result.phone,
+        birthday: user.personalData.birthday,
+      }
     }
-  }
-
-  public onSubmit(user: IUser) {
-    const country = { country: this.userForm.value['country'] };
-    const phone = { phone: this.userForm.value['phone'] };
-    const realName = { realName: this.userForm.value['realName'] };
-    const about = { about: this.userForm.value['about'] };
-    const avatar = { avatar: this.userForm.value['avatar'] };
-
-    this.http
-      .patch(`http://localhost:3000/users/${user.id}`, {
-        personalData: {
-          realName: realName.realName,
-          phone: phone.phone,
-          about: about.about,
-          country: country.country,
-        },
-
-        avatar: avatar.avatar,
-      })
-      .subscribe(
-        (data) => {
-          console.log('PUT Request is successful ', data);
-        },
-        (error) => {
-          console.log('Error', error);
-        }
-      );
-  }
-
-  ngOnDestroy(): void {
-    this.subscription.unsubscribe();
+    
   }
 }
