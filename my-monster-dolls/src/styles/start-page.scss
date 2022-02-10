@@ -1,20 +1,47 @@
-.start-page{
-   height: 80vh;
-   width: 100%;
-   background-image: url("https://img2.goodfon.ru/wallpaper/nbig/4/dc/gotika-zamok-vorony-noch.jpg");
-   background-size: cover;
-   display: flex;
-   flex-direction: column;
-   justify-content: flex-end;
-   align-items: center;
 
-   h1 {
+   .start-page {
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    margin: 0;
+    height: 80vh;
+    background-image: url("https://krot.info/uploads/posts/2021-02/1613821730_15-p-fon-temnii-zamok-16.jpg");
+    background-size: cover;
+    color: white;
+
+     &.rain{
+      position: relative;
+      animation: lightning 3s ease-out infinite;
+      width: 1920px;
+     }
+
+     &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background-image: url("https://assets.codepen.io/1984204/rain.png");
+      opacity: 0.4;
+      animation: rain 0.5s linear infinite;
+    }
+
+    .content {
+      height: 100%;
+      width: 100%;
+      display:flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+
+       h1 {
      font-size: 50px;
      text-transform: uppercase;
      font-family: 'Comforter Brush', cursive;
-   }
 
-li{
+    }
+
+     li{
     cursor: pointer;
     list-style: none;
     margin: 4vh 0;
@@ -31,4 +58,41 @@ button{
   font-size: 20px;
 
 }
-}
+    }
+
+    @keyframes lightning {
+      0% {
+        filter: brightness(1);
+      }
+      86% {
+        filter: brightness(1);
+      }
+      87.75% {
+        filter: brightness(1.8);
+      }
+      89.5% {
+        filter: brightness(1.3);
+      }
+      93% {
+        filter: brightness(3);
+      }
+      100% {
+        filter: brightness(1);
+      }
+    }
+
+    @keyframes rain {
+      0% {
+        background-position: 0 0;
+      }
+      100% {
+        background-position: 10% 100%;
+      }
+    }
+
+  }
+
+
+
+
+
