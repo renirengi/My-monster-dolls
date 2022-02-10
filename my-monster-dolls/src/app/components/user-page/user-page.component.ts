@@ -1,10 +1,17 @@
-import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
-import { Observable, firstValueFrom, } from 'rxjs';
+import { Observable, firstValueFrom } from 'rxjs';
 import { UsersService } from 'src/app/services/users.service';
-import { IUser, IUserPersonalData } from 'src/app/models';
+import { IUser } from 'src/app/models';
 import { MatDialog } from '@angular/material/dialog';
 import { UserAboutComponent } from '../user-about/user-about.component';
+
+interface UserFormData {
+  avatar: string;
+  realName: string;
+  country: string;
+  phone: string;
+  about: string;
+}
 
 @Component({
   selector: 'app-user-page',
@@ -13,32 +20,22 @@ import { UserAboutComponent } from '../user-about/user-about.component';
 export class UserPageComponent {
   public user$: Observable<IUser | null>;
 
-  constructor(private usersService: UsersService, private http: HttpClient, public dialog: MatDialog) {
+  constructor(private usersService: UsersService, public dialog: MatDialog) {
     this.user$ = this.usersService.currentUser$;
   }
 
-  async showUserAbout(user: IUser) {
+  public async showUserAbout(user: IUser) {
     const modalConfig = { width: '50vw', data: { user } };
-    this.dialog.open(UserAboutComponent, modalConfig);
-
     const dialogRef = this.dialog.open(UserAboutComponent, modalConfig);
+    const result = (await firstValueFrom(dialogRef.afterClosed())) as UserFormData;
 
-    const result: {avatar: string, realName: string, country: string, phone: string, about:string} = await firstValueFrom(dialogRef.afterClosed());
-    const newValue: IUser = {
-      avatar: result.avatar,
-      id: user.id,
-      email: user.email,
-      name: user.name,
-      password: user.password,
-      rights: user.rights,
-      personalData: {
-        realName: result.realName,
-        country: result.country,
-        about: result.about,
-        phone: result.phone,
-        birthday: user.personalData.birthday,
-      }
-    }
-    
+    await firstValueFrom(this.usersService.updateUser(this.getUpdatedUser(user, result)));
+  }
+
+  public getUpdatedUser(user: IUser, userFormValues: UserFormData): IUser {
+    const { avatar, realName, country, phone, about } = userFormValues;
+    const personalData = { ...user.personalData, realName, country, phone, about };
+
+    return { ...user, personalData, avatar };
   }
 }
