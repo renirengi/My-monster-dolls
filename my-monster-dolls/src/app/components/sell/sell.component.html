@@ -1,20 +1,21 @@
 <div class="sell-container">
-  <h3 class="sell-title" > I am a seller</h3>
+  <h3 class="sell-title">I am a seller</h3>
   <div class="sell-doll-container">
-<ng-container *ngFor="let doll of dolls$ | async">
-  <div class="sell-information-container">
-  <img [src]="doll.galleryImagesLinks[0]" routerLink="/catalog/{{doll.id}}" />
-  <div>
-  <img [src]="photo">
-  <p class="information-container-p">{{ doll.character }}</p>
-  <p class="information-container-p">{{ doll.series }}</p>
-  <p class="information-container-p">{{ doll.year }}</p>
-  <p class="information-container-p">{{description}}<p>
-  <p class="information-container-p">{{price}}<p>
-  </div>
+    <ng-container *ngFor="let dollData of dollsData$ | async">
+      <div class="sell-information-container">
+        <img [src]="dollData.galleryImagesLinks[0]" routerLink="/catalog/{{ dollData.id }}" />
+        <div>
+          <img *ngFor="let photo of dollData.photos" [src]="photo" /> 
+          <p class="information-container-p">{{ dollData.character }}</p>
+          <p class="information-container-p">{{ dollData.series }}</p>
+          <p class="information-container-p">{{ dollData.year }}</p>
+          <p class="information-container-p">{{ dollData.description }}</p>
+          <p class="information-container-p">{{ dollData.price }}</p>
+        </div>
 
-  <button mat-raise-button (click)="onRevert(doll.id)">Revert</button>
-  <button mat-raise-button (click)="onDelete(doll.id)">Delete</button>
-   </div>
-</ng-container>
+        <button mat-raise-button (click)="onRevert(dollData.id)">Revert</button>
+        <button mat-raise-button (click)="onDelete(dollData.id)">Delete</button>
+      </div>
+    </ng-container>
+  </div>
 </div>

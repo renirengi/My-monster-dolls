@@ -1,58 +1,25 @@
-<ng-container *ngIf="user$ | async as user;">
-  <mat-card>
-    <form [formGroup]="userForm" (ngSubmit)="onSubmit(user)" >
-      <mat-form-field>
-        <mat-label>Real name</mat-label>
-        <input matInput autocomplete="off" formControlName="realName" />
-      </mat-form-field>
+<ng-container *ngIf="user$ | async as user">
+  <div class="user-page-information">
+    <h2 class="title-user-page-information">Hello, {{ user.name }}!</h2>
+    <div class="all-user-page-information">
+      <img class="img-user-page-information" [src]="user.avatar" />
 
-      <mat-form-field>
-        <mat-label>About me</mat-label>
-        <textarea
-          matInput
-          formControlName="about"
-          cdkTextareaAutosize
-          #autosize="cdkTextareaAutosize"
-          cdkAutosizeMinRows="1"
-          cdkAutosizeMaxRows="5"
-        ></textarea>
-      </mat-form-field>
-
-      <mat-form-field>
-        <mat-label>Phone</mat-label>
-        <input matInput formControlName="phone" type="tel" placeholder="+375256666666"/>
-        <mat-icon matSuffix>Phone</mat-icon>
-        <mat-hint>Include area code</mat-hint>
-      </mat-form-field>
-
-      <mat-form-field>
-        <mat-label>Add avatar</mat-label>
-        <input matInput autocomplete="off" formControlName="avatar" />
-      </mat-form-field>
-
-      <mat-form-field appearance="fill">
-        <mat-label>Country</mat-label>
-        <mat-select formControlName="country">
-          <mat-option  *ngFor="let item of countries$ | async | keyvalue" [value]="item.key">{{item.value}} </mat-option>
-        </mat-select>
-      </mat-form-field>
-
-      <button
-        type="submit"
-        mat-stroked-button
-        color="primary"
-      >
-        Save
-      </button>
-    </form>
-  </mat-card>
+      <div class="aboutMe-user-page-information">
+        <p><span>Real name: </span>{{ user.personalData.realName }}</p>
+        <p><span>About me: </span>{{ user.personalData.about }}</p>
+        <p><span>Phone: </span>{{ user.personalData.phone }}</p>
+        <p><span>Country: </span>{{ user.personalData.country }}</p>
+        <button mat-raise-button (click)="showUserAbout(user)">Change</button>
+      </div>
+    </div>
+  </div>
   <div class="own-shelf">
-  <own [user]="user"></own>
+    <own [user]="user"></own>
   </div>
   <div class="wanted-shelf">
     <wanted [user]="user"></wanted>
   </div>
-  <div class="wanted-shelf">
+  <div class="wanted-shelf" *ngIf="user.collection?.sell">
     <sell [user]="user"></sell>
   </div>
 </ng-container>

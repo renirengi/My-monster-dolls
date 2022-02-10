@@ -1,6 +1,6 @@
 <ng-container *ngIf="user$ | async as user;">
     <mat-card>
-      <form [formGroup]="userForm" (ngSubmit)="onSubmit(user)" >
+      <form [formGroup]="userForm">
         <mat-form-field>
           <mat-label>Real name</mat-label>
           <input matInput autocomplete="off" formControlName="realName" />
@@ -38,9 +38,11 @@
         </mat-form-field>
   
         <button
-          type="submit"
-          mat-stroked-button
-          color="primary"
+        mat-stroked-button
+        type="button"
+        color="primary"
+        [disabled]="!userForm.valid"
+        [mat-dialog-close]="userForm.value"
         >
           Save
         </button>

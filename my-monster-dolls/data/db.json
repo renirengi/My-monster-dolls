@@ -7,17 +7,14 @@
       "password": "123456",
       "rights": 2,
       "personalData": {
-        "realName": "Оля,  иди спать",
-        "phone": "+375291125840",
+        "realName": "Хрень",
+        "phone": "+375291714557",
         "about": "Collector",
-        "country": "BY"
+        "country": "BV"
       },
-      "avatar": "https://www.blast.hk/attachments/64803/",
+      "avatar": "https://99px.ru/sstorage/1/2016/09/image_1060916232919859946.jpg",
       "collection": {
         "own": [
-          44,
-          65,
-          157,
           158,
           161,
           162,
@@ -43,7 +40,6 @@
           20,
           21,
           43,
-          45,
           58,
           64,
           95,
@@ -51,7 +47,8 @@
           97,
           109,
           127,
-          241
+          241,
+          193
         ],
         "sell": [
           {
@@ -60,6 +57,14 @@
             "description": "Новая кукла, в коробке. Не вскрывалась. Коробка целая не выгорела. Без торга",
             "photos": [
               "https://images.ua.prom.st/145997798_w640_h640_kukla-monster-high.jpg"
+            ]
+          },
+          {
+            "itemId": 45,
+            "price": "666",
+            "description": "Хрэнь",
+            "photos": [
+              ""
             ]
           }
         ]
