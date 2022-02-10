@@ -1,7 +1,7 @@
 
 <catalog-filters (filtersChanged)="applyFilters($event)"></catalog-filters>
 
-<section class="catalog-main">
+<div class="catalog-main">
 <div class="pages">
   <dolls-list
     *ngIf="dolls; else loading"
@@ -14,7 +14,7 @@
 
 <ng-template #loading>Loading...</ng-template>
 
-</section>
+</div>
 
 
 

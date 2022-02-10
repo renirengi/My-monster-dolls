@@ -12,7 +12,7 @@
      &.rain{
       position: relative;
       animation: lightning 3s ease-out infinite;
-      width: 1920px;
+      width: 100%;
      }
 
      &:before {
@@ -56,6 +56,7 @@ button{
   height: 6vh;
   border-radius: 30px;
   font-size: 20px;
+  z-index: 100;
 
 }
     }

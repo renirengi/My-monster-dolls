@@ -1,36 +1,50 @@
-<section class="catalog-filter-main">
-  <p>Sort by character:</p>
+<section class="catalog-filter">
   <form [formGroup]="filtersForm" (change)="onChange()">
+    <div class= "catalog-filter-container">
+    <div class="character">
+    <h3>Sort by character</h3>
     <select multiple name="characters" formControlName="character">
       <option *ngFor="let character of characters$ | async">
         {{ character }}
       </option>
     </select>
-    <p>Sort by year:</p>
+    </div>
+    <div class="year">
+    <h3>Sort by year</h3>
     <select multiple name="years" formControlName="year">
       <option *ngFor="let year of years$ | async">
         {{ year }}
       </option>
     </select>
-    <p>Sort by type:</p>
+  </div>
+  <div class = "type">
+    <h3>Sort by type</h3>
     <select multiple name="types" formControlName="type">
       <option *ngFor="let type of types$ | async">
         {{ type }}
       </option>
     </select>
-    <p>Sort by series:</p>
+  </div>
+  <div class = "series">
+    <h3>Sort by series</h3>
     <select multiple name="series" formControlName="series">
       <option *ngFor="let series of serieses$ | async">
         {{ series }}
       </option>
     </select>
-    <p>Sort by exclusive:</p>
+  </div>
+  <div class = "exclusive">
+    <h3>Sort by exclusive</h3>
     <select multiple name="exclusives" formControlName="exclusive">
       <option *ngFor="let exclusive of exclusives$ | async">
         {{ exclusive }}
       </option>
     </select>
-    <mat-checkbox class="example-margin" formControlName="notReissue" (click)="onChange()"
+  </div>
+  <div class = "checkbox">   
+  <mat-checkbox class="example-margin" formControlName="notReissue" (click)="onChange()"
       >Don't use reissue</mat-checkbox>
+  </div>
+  </div>
   </form>
 </section>

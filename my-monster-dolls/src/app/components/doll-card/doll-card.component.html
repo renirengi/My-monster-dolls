@@ -1,8 +1,8 @@
 <ng-container *ngIf="doll" >
-  <img [src]="doll.galleryImagesLinks[0]"/>
-  <h3>{{doll.character}}</h3>
-  <p>Series: {{doll.series}}</p>
-  <p>Year: {{doll.year}}</p>
-  <p>Type: {{doll.type}}</p>
-  <button mat-stroked-button (click)="goToDollPage(doll)">Read more</button>
+  <img [src]="doll.galleryImagesLinks[0]" routerLink="/catalog/{{doll.id}}"/>
+  <div class="title-container">
+    <h3 class="doll-character-title">{{doll.character}}</h3>
+  </div>
+  <p>{{doll.series}}</p>
+  <p>{{doll.year}}</p>
 </ng-container>

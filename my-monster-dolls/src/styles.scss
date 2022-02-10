@@ -1,5 +1,4 @@
 @use 'styles/header.scss';
-@use 'styles/adv-search-page.scss';
 @use 'styles/catalog-page.scss';
 @use 'styles/doll-card.scss';
 @use 'styles/dolls-list.scss';
@@ -12,6 +11,18 @@
 @use 'styles/wanted.scss';
 @use 'styles/sell.scss';
 @use 'styles/user-about.scss';
+@use 'styles/catalog-filters.component.scss';
+
+:root {
+  --lime: rgba(207, 194, 80, 1);
+  --pink-rusberry: rgba(233, 30, 99, 1);
+  --font-gold: #9d8665;
+  --font-white: #ffff;
+  --Forum: 'Forum', sans-serif;
+  --Roboto: 'Roboto', sans-serif;
+  --Comforter: 'Comforter Brush', cursive;
+  --Josefin: 'Josefin Sans', sans-serif;
+  }
 
 
 
@@ -28,7 +39,8 @@ body {
 }
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
+  
+
 }
 .header {
   height: 10vh;
@@ -66,12 +78,8 @@ body {
   }
 }
 
-
-.main,
-.main-page,
-.catalog-filter-main,
-.cards-container,
-.doll-page-container {
+.doll-page-container
+{
   color: black;
   width: 90%;
   margin: 0 auto;
@@ -80,28 +88,6 @@ body {
   background-color: white;
 
 }
-
-.catalog-filter-main {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: auto;
-}
-
-.cards-container {
-  background-color:black;
-  border: none;
-}
-
-.main {
-  height: 80vh;
-}
-
-.main-page{
-  height: auto;
-  border: none;
-}
-
 
 .wanted-container,
 .own-container,

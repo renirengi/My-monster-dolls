@@ -1,23 +1,42 @@
 doll-card {
   box-sizing: border-box;
   margin: 3em 0;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: 2px solid black;
   border-radius: 30px;
-  width: 40%;
-  height: 34vh;
+  width: 280px;
   overflow: hidden;
-  padding: 1em 15% 1em 1em;
   position: relative;
   background-color: white;
+  margin: 2%;
 
-  h3 {
-    margin-top: 0;
+  .title-container{
+    width: 80%;
+
+    .doll-character-title {
+    margin: 0 auto;
+    font-size: 26px;
+    font-family: var(--Forum);
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--pink-rusberry);
+    text-align: center;
+
+    .title-container p{
+      font-family: var(--Josefin);
+    }
+
+  }
   }
 
+  
+
   img {
-    height: 30vh;
-    position: absolute;
+    max-height: 30vh;
+    max-width: 200px;
     padding: 1em;
     right: 0;
     top: 0;
