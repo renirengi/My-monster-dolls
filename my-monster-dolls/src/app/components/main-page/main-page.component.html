@@ -3,8 +3,9 @@
   <div class="info-block">
     <div class="info-block_text">
       <p>Monster High is an American fashion doll franchise created by Mattel and launched on June 11, 2010.
-        The characters are inspired by monster movies, sci-fi horror, thriller <br/>
-        fiction, and various other creatures. Monster High was created by Garrett Sander, with illustrations by Kellee Riley and illustrator Glen Hanson. The franchise includes <br/>
+        The characters are inspired by monster movies, sci-fi horror, thriller <br />
+        fiction, and various other creatures. Monster High was created by Garrett Sander, with illustrations by Kellee
+        Riley and illustrator Glen Hanson. The franchise includes <br />
         consumer products such as stationery dolls, bags, key chains, various toys, play sets and print/book series.
 
         Just months after launch, an animated web series was developed and released on YouTube. It resulted in the
@@ -40,4 +41,64 @@
       </div>
     </div>
   </div>
+    <iframe [src]="rightVideo" title="YouTube video player" showinfo="0" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe>
+  <div class="video-block-btns">
+    <button class="video-block-btns_prev" mat-stroked-button (click)="videoSwitchPrev()">Prev</button>
+    <a [href]="rightVideo" target="_blank" title="play video">
+      <button mat-stroked-button>Go to youtube</button>
+    </a>
+    <button class="video-block-btns_next" mat-stroked-button (click)="videoSwitchNext()">Next</button>
+  </div>
+  
+
+  <!-- <div class="video-block" id="player">
+    <iframe src="https://www.youtube.com/embed/os1_jmyjr8s" title="YouTube video player" showinfo = "0" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+    <iframe src="https://www.youtube.com/embed/QCAD2LSECis" title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/1cR5r_-fqWM" title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/8O3q_qrIv-U" title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/xgFVFha0cbk" title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/y0Xuhvm0E-o" title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/giE8sN0XwKU" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div> -->
+  <!-- <div>
+    <a href="https://www.youtube.com/embed/os1_jmyjr8s" target="_blank" title="play video">
+      <img class="video-youtube" src="http://img.youtube.com/vi/os1_jmyjr8s/hqdefault.jpg">
+    </a>
+    <a href="https://www.youtube.com/embed/QCAD2LSECis" target="_blank" title="play video">
+      <img class="video-youtube" src="http://img.youtube.com/vi/QCAD2LSECis/hqdefault.jpg">
+    </a>
+    <a href="https://www.youtube.com/embed/1cR5r_-fqWM" target="_blank" title="play video">
+      <img class="video-youtube" src="http://img.youtube.com/vi/1cR5r_-fqWM/hqdefault.jpg">
+    </a>
+    <a href="https://www.youtube.com/embed/8O3q_qrIv-U" target="_blank" title="play video">
+      <img class="video-youtube" src="http://img.youtube.com/vi/8O3q_qrIv-U/hqdefault.jpg">
+    </a>
+    <a href="https://www.youtube.com/embed/xgFVFha0cbk" target="_blank" title="play video">
+      <img class="video-youtube" src="http://img.youtube.com/vi/xgFVFha0cbk/hqdefault.jpg">
+    </a>
+    <a href="https://www.youtube.com/embed/y0Xuhvm0E-o" target="_blank" title="play video">
+      <img class="video-youtube" src="http://img.youtube.com/vi/y0Xuhvm0E-o/hqdefault.jpg">
+    </a>
+    <a href="https://www.youtube.com/embed/giE8sN0XwKU" target="_blank" title="play video">
+      <img class="video-youtube" src="http://img.youtube.com/vi/giE8sN0XwKU/hqdefault.jpg">
+    </a>
+  </div> -->
+
 </ng-container>

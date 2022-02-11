@@ -5,7 +5,7 @@
         language
       </span>
     </mat-icon>
-    <mat-icon aria-hidden="false" aria-label="Example home icon">
+    <mat-icon (click)="playMusic()" aria-hidden="false" aria-label="Example home icon" [ngClass]="{'color': audioPlays === true}">
       <span class="material-icons">
         music_note
       </span>

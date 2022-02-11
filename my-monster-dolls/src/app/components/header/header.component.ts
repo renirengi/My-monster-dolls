@@ -14,11 +14,12 @@ import { RegisterModalComponent } from '../register-modal/register-modal.compone
   styleUrls: ['./header.scss'],
 })
 export class HeaderComponent {
-
-  private readonly headerModalConfig = {width: '30vw', data: {}};
+  public audioPlays: boolean = false;
+  public audio: HTMLAudioElement = new Audio("../../../assets/audio.mp3");
+  private readonly headerModalConfig = { width: '30vw', data: {} };
 
   public searchString: string = '';
-  public currentUser$: BehaviorSubject<IUser|null>;
+  public currentUser$: BehaviorSubject<IUser | null>;
   public dollsSearchString$: BehaviorSubject<string>;
 
   constructor(
@@ -28,10 +29,10 @@ export class HeaderComponent {
     public dialog: MatDialog
   ) {
     this.currentUser$ = this.usersService.currentUser$;
-    this.dollsSearchString$ =this.dolls.dollsSearchString$;
+    this.dollsSearchString$ = this.dolls.dollsSearchString$;
   }
 
-  public onSearch({target}: Event) {
+  public onSearch({ target }: Event) {
     const str = (target as HTMLInputElement).value;
     const q = str !== '' ? str : undefined;
 
@@ -53,6 +54,16 @@ export class HeaderComponent {
 
   public showRegisterModal() {
     this.dialog.open(RegisterModalComponent, this.headerModalConfig);
+  }
+  public playMusic() {
+    if (this.audioPlays) {
+      this.audio.pause();
+      this.audioPlays = false;
+    } else {
+      this.audio.load();
+      this.audio.play();
+      this.audioPlays = true;
+    }
   }
 
 }
