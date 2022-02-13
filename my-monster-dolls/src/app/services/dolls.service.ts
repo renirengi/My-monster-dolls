@@ -40,29 +40,29 @@ export class DollsService {
   }
 
   private sanitiseGetParam(str: string): string {
-    return str.replace(/[^a-z0-9áéíóúñü \.,_-]/gim,"").trim().replace(/ +/g, '%20');
+    return str
+      .replace(/[^a-z0-9áéíóúñü \.,_-]/gim, '')
+      .trim()
+      .replace(/ +/g, '%20');
   }
 
-  public findDollsByParams(params: {[key: string]: string}): Observable<IDoll[]> {
+  public findDollsByParams(params: { [key: string]: string }): Observable<IDoll[]> {
     return this.http.get<IDoll[]>(this.baseUrl, { params });
   }
 
-  public getAvailable(value:string): Observable<string[]> {
+  public getAvailable(value: string): Observable<string[]> {
     return this.http.get<IDoll[]>('http://localhost:3000/dolls').pipe(
       map((dolls) => {
         const years = new Set();
-        if (value==='year') {
-        dolls.forEach((doll) => years.add(doll.year));}
-        else if (value==='type') {
+        if (value === 'year') {
+          dolls.forEach((doll) => years.add(doll.year));
+        } else if (value === 'type') {
           dolls.forEach((doll) => years.add(doll.type));
-        }
-        else if (value==='series') {
+        } else if (value === 'series') {
           dolls.forEach((doll) => years.add(doll.series));
-        }
-        else if (value==='exclusive') {
+        } else if (value === 'exclusive') {
           dolls.forEach((doll) => years.add(doll.exclusive));
-        }
-        else if (value==='character') {
+        } else if (value === 'character') {
           dolls.forEach((doll) => years.add(doll.character));
         }
         return Array.from(years) as string[];
@@ -70,6 +70,16 @@ export class DollsService {
     );
   }
 
+  public updateDoll(doll: IDoll): Observable<IDoll> {
+    return this.http.patch<IDoll>(`${this.baseUrl}/${doll.id}`, doll);
+  }
+
+  public updateDollStartRating(doll: IDoll, userId: string, rating: number): Observable<IDoll> {
+    const oldRatingObj = doll.feedback?.starRating || {};
+    const starRating = { ...oldRatingObj, [userId]: rating };
+    const feedback = { ...(doll.feedback || {}), starRating };
+    const updatedDoll = { ...doll, feedback };
+
+    return this.updateDoll(updatedDoll);
+  }
 }
-
-

@@ -1,4 +1,4 @@
-<ng-container class="main-container">
+<div class="main-container">
   <app-slider></app-slider>
   <div class="info-block">
     <div class="info-block_text">
@@ -20,85 +20,10 @@
         for the following year. Its television division announced a new animated series and a live-action film based on
         the franchise. Both projects will air on Nickelodeon in the United States in 2022.</p>
     </div>
-    <div class="info-block_cards">
-      <div>
-        <img class="info-block_cards_img" src="../../../assets/Group1.png">
-      </div>
-      <div>
-        <img class="info-block_cards_img" src="../../../assets/Group2.png">
-      </div>
-      <div>
-        <img class="info-block_cards_img" src="../../../assets/Group3.png">
-      </div>
-      <div>
-        <img class="info-block_cards_img" src="../../../assets/Group4.png">
-      </div>
-      <div>
-        <img class="info-block_cards_img" src="../../../assets/Group5.png">
-      </div>
-      <div>
-        <img class="info-block_cards_img" src="../../../assets/Group6.png">
-      </div>
+    <div class = "slider-container">
+          <main-video-slider></main-video-slider>
+    </div>
+    <div class = "something">
     </div>
   </div>
-    <iframe [src]="rightVideo" title="YouTube video player" showinfo="0" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-  </iframe>
-  <div class="video-block-btns">
-    <button class="video-block-btns_prev" mat-stroked-button (click)="videoSwitchPrev()">Prev</button>
-    <a [href]="rightVideo" target="_blank" title="play video">
-      <button mat-stroked-button>Go to youtube</button>
-    </a>
-    <button class="video-block-btns_next" mat-stroked-button (click)="videoSwitchNext()">Next</button>
-  </div>
-  
 
-  <!-- <div class="video-block" id="player">
-    <iframe src="https://www.youtube.com/embed/os1_jmyjr8s" title="YouTube video player" showinfo = "0" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen>
-    </iframe>
-    <iframe src="https://www.youtube.com/embed/QCAD2LSECis" title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/1cR5r_-fqWM" title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/8O3q_qrIv-U" title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/xgFVFha0cbk" title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/y0Xuhvm0E-o" title="YouTube video player" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-    <iframe src="https://www.youtube.com/embed/giE8sN0XwKU" title="YouTube video player"
-      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
-  </div> -->
-  <!-- <div>
-    <a href="https://www.youtube.com/embed/os1_jmyjr8s" target="_blank" title="play video">
-      <img class="video-youtube" src="http://img.youtube.com/vi/os1_jmyjr8s/hqdefault.jpg">
-    </a>
-    <a href="https://www.youtube.com/embed/QCAD2LSECis" target="_blank" title="play video">
-      <img class="video-youtube" src="http://img.youtube.com/vi/QCAD2LSECis/hqdefault.jpg">
-    </a>
-    <a href="https://www.youtube.com/embed/1cR5r_-fqWM" target="_blank" title="play video">
-      <img class="video-youtube" src="http://img.youtube.com/vi/1cR5r_-fqWM/hqdefault.jpg">
-    </a>
-    <a href="https://www.youtube.com/embed/8O3q_qrIv-U" target="_blank" title="play video">
-      <img class="video-youtube" src="http://img.youtube.com/vi/8O3q_qrIv-U/hqdefault.jpg">
-    </a>
-    <a href="https://www.youtube.com/embed/xgFVFha0cbk" target="_blank" title="play video">
-      <img class="video-youtube" src="http://img.youtube.com/vi/xgFVFha0cbk/hqdefault.jpg">
-    </a>
-    <a href="https://www.youtube.com/embed/y0Xuhvm0E-o" target="_blank" title="play video">
-      <img class="video-youtube" src="http://img.youtube.com/vi/y0Xuhvm0E-o/hqdefault.jpg">
-    </a>
-    <a href="https://www.youtube.com/embed/giE8sN0XwKU" target="_blank" title="play video">
-      <img class="video-youtube" src="http://img.youtube.com/vi/giE8sN0XwKU/hqdefault.jpg">
-    </a>
-  </div> -->
-
-</ng-container>

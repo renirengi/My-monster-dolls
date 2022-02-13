@@ -1,93 +1,108 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { StartPageComponent } from './components/start-page/start-page.component';
-import { MainPageComponent } from './components/main-page/main-page.component';
-import { UserPageComponent } from './components/user-page/user-page.component';
-import { CatalogPageComponent } from './components/catalog-page/catalog-page.component';
+import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ModalFormComponent } from './components/modal-form/modal-form.component';
+import { CatalogFiltersComponent } from './components/catalog-filters/catalog-filters.component';
+import { CatalogPageComponent } from './components/catalog-page/catalog-page.component';
+import { CookieService } from './services/cookie.service';
+import { DollCardComponent } from './components/doll-card/doll-card.component';
+import { DollPageComponent } from './components/doll-page/doll-page.component';
+import { DollRatingComponent } from './components/doll-rating/doll-rating.component';
+import { DollSliderComponent } from './components/doll-slider/doll-slider.component';
+import { DollsListComponent } from './components/dolls-list/dolls-list.component';
+import { DollsService } from './services/dolls.service';
+import { FooterComponent } from './components/footer/footer.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HeaderComponent } from './components/header/header.component';
+import { HttpClientModule } from '@angular/common/http';
+import { LoginModalComponent } from './components/login-modal/login-modal.component';
+import { MainPageComponent } from './components/main-page/main-page.component';
+import { MainVideoSliderComponent } from './components/main-video-slider/main-video-slider.component';
+import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatInputModule } from '@angular/material/input';
-import { HttpClientModule } from '@angular/common/http';
-import { DollsService } from './services/dolls.service';
-import { MatButtonModule } from '@angular/material/button';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
-import { DollCardComponent } from './components/doll-card/doll-card.component';
-import { DollsListComponent } from './components/dolls-list/dolls-list.component';
-import { MatSelectModule } from '@angular/material/select';
+import { MatInputModule } from '@angular/material/input';
 import { MatListModule } from '@angular/material/list';
-import { MatCheckboxModule } from '@angular/material/checkbox';
-import { HeaderComponent } from './components/header/header.component';
-import { CatalogFiltersComponent } from './components/catalog-filters/catalog-filters.component';
-import { FooterComponent } from './components/footer/footer.component';
-import { DollPageComponent } from './components/doll-page/doll-page.component';
-import { UsersService } from './services/users.service';
-import { RegisterModalComponent } from './components/register-modal/register-modal.component';
-import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
-import { CookieService } from './services/cookie.service';
-import { LoginModalComponent } from './components/login-modal/login-modal.component';
-import { SliderComponent } from './components/slider/slider.component';
+import { MatRadioModule } from '@angular/material/radio';
+import { MatSelectModule } from '@angular/material/select';
+import { ModalFormComponent } from './components/modal-form/modal-form.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { NgImageSliderModule } from 'ng-image-slider';
 import { OwnPageComponent } from './components/own-page/own-page.component';
-import { WantedComponent } from './components/wanted/wanted.component';
-import { SellModalComponent } from './components/sell-modal/sell-modal.component';
+import { RegisterModalComponent } from './components/register-modal/register-modal.component';
 import { SellComponent } from './components/sell/sell.component';
+import { SellModalComponent } from './components/sell-modal/sell-modal.component';
+import { SliderComponent } from './components/slider/slider.component';
+import { StarRatingComponent } from './components/star-rating/star-rating.component';
+import { StartPageComponent } from './components/start-page/start-page.component';
 import { UserAboutComponent } from './components/user-about/user-about.component';
-
+import { UserPageComponent } from './components/user-page/user-page.component';
+import { UsersService } from './services/users.service';
+import { WantedComponent } from './components/wanted/wanted.component';
+import { CommentModalComponent } from './components/comment-modal/comment-modal.component';
+import { DollCommentComponent } from './components/doll-comment/doll-comment.component';
 
 @NgModule({
   imports: [
-    BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatCardModule,
-    MatDialogModule,
-    MatFormFieldModule,
+    BrowserModule,
+    FormsModule,
     HttpClientModule,
     MatButtonModule,
-    FormsModule,
-    ReactiveFormsModule,
-    MatInputModule,
-    MatIconModule,
-    MatSelectModule,
-    MatListModule,
+    MatCardModule,
     MatCheckboxModule,
     MatDatepickerModule,
     MatDatepickerModule,
+    MatDialogModule,
+    MatFormFieldModule,
+    MatIconModule,
+    MatInputModule,
+    MatListModule,
     MatNativeDateModule,
+    MatRadioModule,
+    MatSelectModule,
     NgbModule,
+    NgImageSliderModule,
+    ReactiveFormsModule,
   ],
   declarations: [
     AppComponent,
-    StartPageComponent,
-    MainPageComponent,
-    UserPageComponent,
-    CatalogPageComponent,
-    ModalFormComponent,
-    DollCardComponent,
-    DollsListComponent,
-    HeaderComponent,
     CatalogFiltersComponent,
-    FooterComponent,
-    LoginModalComponent,
+    CatalogPageComponent,
+    DollCardComponent,
     DollPageComponent,
-    RegisterModalComponent,
-    SliderComponent,
+    DollRatingComponent,
+    DollSliderComponent,
+    DollsListComponent,
+    FooterComponent,
+    HeaderComponent,
+    LoginModalComponent,
+    MainPageComponent,
+    MainVideoSliderComponent,
+    ModalFormComponent,
     OwnPageComponent,
-    WantedComponent,
-    SellModalComponent,
+    RegisterModalComponent,
     SellComponent,
-    UserAboutComponent
-
+    SellModalComponent,
+    SliderComponent,
+    StarRatingComponent,
+    StartPageComponent,
+    UserAboutComponent,
+    UserPageComponent,
+    WantedComponent,
+    CommentModalComponent,
+    DollCommentComponent,
+   
   ],
-  providers: [DollsService, UsersService, CookieService,],
+  providers: [DollsService, UsersService, CookieService],
   bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

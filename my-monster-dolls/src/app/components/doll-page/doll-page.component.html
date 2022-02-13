@@ -1,29 +1,34 @@
-<ng-container *ngIf="doll$ | async as doll;">
-    <div class="doll-page-container">
-    <h3>{{doll.character}}</h3>
+<ng-container *ngIf="doll$ | async as doll">
+  <div class="doll-page-container">
+    <h3 class="doll-page-title">{{ doll.character }}</h3>
+    <h4 class="doll-page-series">{{ doll.series }}</h4>
     <div class="doll-page-information">
-    <img [src]="doll.galleryImagesLinks[0]"/>
-    <div class="doll-page-text">
-    <p><span class="span-title">Series:</span> {{doll.series}}</p>
-    <p><span class="span-title">Year:</span> {{doll.year}}</p>
-    <p><span class="span-title">Type:</span> {{doll.type}}</p>
-    <p><span class="span-title">Gender:</span> {{doll.gender}}</p>
-    <p><span class="span-title">Number:</span> {{doll.modelNumber}}</p>
-    <p><span class="span-title">Reissue:</span> {{doll.reissue}}</p>
+      <img class="doll-page-information-img" [src]="doll.galleryImagesLinks[0]" />
+      <div class="doll-page-text">
+        <p><span class="span-title">Year:</span> {{ doll.year }}</p>
+        <p><span class="span-title">Type:</span> {{ doll.type }}</p>
+        <p><span class="span-title">Gender:</span> {{ doll.gender }}</p>
+        <p><span class="span-title">Number:</span> {{ doll.modelNumber }}</p>
+        <p><span class="span-title">Reissue:</span> {{ doll.reissue }}</p>
 
-    <span *ngIf="inOwnList$(doll.id) | async; else wantButton">I want to buy it!</span>
-    <ng-template #wantButton>
-    <button mat-stroked-button (click)="onIWant(doll.id)">I want to buy it</button>
-    </ng-template>
-
-    <span *ngIf="inOwnList$(doll.id) | async; else haveButton">I have it!</span>
-    <ng-template #haveButton>
-      <button mat-stroked-button (click)="onIHave(doll.id)">I have it</button>
-    </ng-template>
-
+        <span *ngIf="inOwnList$(doll.id) | async; else wantButton">I want to buy it!</span>
+        <ng-template #wantButton>
+          <button class="doll-button" mat-stroked-button (click)="onIWant(doll.id)">I want to buy it</button>
+        </ng-template>
+        <span *ngIf="inOwnList$(doll.id) | async; else haveButton">I have it!</span>
+        <ng-template #haveButton>
+          <button class="doll-button" mat-stroked-button (click)="onIHave(doll.id)">I have it</button>
+        </ng-template>
+      </div>
+      <div class="doll-page-content">
+        <doll-slider [doll]="doll"></doll-slider>
+      </div>
+    </div>
+    <div>
+      <star-rating [rating]="getStarRatingFromDoll(doll)" (update)="onRatingUpdate(doll, $event)"></star-rating>
+      <doll-rating [doll]="doll"></doll-rating>
+    </div>
+    <p class="doll-text">{{ doll.description }}</p>
+    <doll-comment [doll]="doll"> </doll-comment>
   </div>
-  </div>
-    <p class="doll-text"><span class="span-title">Description:<br></span> {{doll.description}}</p>
-  </div>
-
 </ng-container>

@@ -1,13 +1,18 @@
-.info-block {
-  background-color: white;
-  color           : black;
-  padding-top: 2%;
-  &_text {
+    .main-container{
+        max-width: 80%;
+        margin: 4vh auto;
+        height: auto;
+
+    .info-block {
+       background-color: white;
+       color: black;
+       padding-top: 2%;
+       &_text {
       width: 80%;
       margin-left: 10%;
-  }
+    }
 
-  &_cards {
+     &_cards {
       display    : flex;
       align-items: center;
       margin-left: 3%;
@@ -15,14 +20,20 @@
       &_img {
           width: 80%;
       };
-
-
-  }
+    }
 
   p {
       text-align: center;
   }
-}
+    }
+
+    .slider-container{
+        background-color: black;
+        height: 15vh;
+
+    }
+
+  }
 
 iframe{
     height: 42%;

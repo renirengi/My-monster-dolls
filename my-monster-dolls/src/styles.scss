@@ -12,12 +12,20 @@
 @use 'styles/sell.scss';
 @use 'styles/user-about.scss';
 @use 'styles/catalog-filters.component.scss';
+@use 'styles/main-video-slider.scss';
+@use 'styles/doll-rating.scss';
+@use 'styles/star-rating.component.scss';
+@use 'styles/doll-comment.component.scss';
+
+@use 'styles/comment-modal.scss';
+
+
 
 :root {
   --lime: rgba(207, 194, 80, 1);
   --pink-rusberry: rgba(233, 30, 99, 1);
   --font-gold: #9d8665;
-  --font-white: #ffff;
+  --cream-pink: #EEC5C5;
   --Forum: 'Forum', sans-serif;
   --Roboto: 'Roboto', sans-serif;
   --Comforter: 'Comforter Brush', cursive;
@@ -28,7 +36,8 @@
 
 
 body {
-  background-color: black !important;
+  background-image: url("https://art-nto.ru/800/600/https/abload.de/img/background-texturesykpl.jpg") !important;
+  background-size: cover;
   color: white !important;
 }
 
@@ -39,7 +48,7 @@ body {
 }
 body {
   margin: 0;
-  
+
 
 }
 .header {
@@ -48,6 +57,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: black;
 
   .icons-settings {
     width: 20%;
@@ -72,6 +82,7 @@ body {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  background-color: black;
   height: 9%;
   &_image{
     width: 150px;
@@ -92,7 +103,6 @@ body {
 .wanted-container,
 .own-container,
 .sell-container{
-  background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -106,30 +116,36 @@ body {
     .sell-title{
       display: block;
       margin: 3vh auto;
-      font-size: 58px;
-      font-family: 'Comforter Brush', cursive;
-         
+      font-size: 70px;
+      font-family: var(--Comforter);
+      color: white;
+
+
     }
-   
+
     .wanted-doll-container,
     .own-doll-container,
     .sell-doll-container{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        width: 90%;
+        border: 2px solid white;
+        width: 100%;
+        background-color: white;
+        border-radius: 30px;
         margin: 2vh auto;
 
         .wanted-information-container,
         .own-information-container,
         .sell-information-container{
           display: flex;
+          margin: 4vh 2%;
           flex-direction: column;
-          max-width: 280px;
-          justify-content: flex-end;       
+          width: 280px;
+          justify-content: flex-end;
 
         img {
-          max-height: 50vh;
+          max-height: 55vh;
           padding: 1em;
           right: 0;
           top: 0;
@@ -137,11 +153,18 @@ body {
 
          .information-container-p {
            text-align: center;
+           font-family: var(--Josefin);
+           font-size: 28px;
          }
 
+         button {
+           width: 250px;
+           height: 4vh;
+           margin: 1vh auto;
 
+
+         }
     }
-
 }
 }
 

@@ -12,6 +12,19 @@ export interface IDoll {
   year: number;
   exclusive?: string;
   reissue?: boolean;
-  video?:string;
-  promo?:string;
+  video?: string;
+  promo?: string;
+  feedback?: IFeedback;
+  textComment?: ITextComment;
+}
+
+export interface IFeedback {
+  starRating?: {[userId: string]: number};
+  hair?: {[userId: string]: number};
+  body?: {[userId: string]: number};
+  accessories?: {[userId: string]: number};
+}
+
+export interface ITextComment {
+  textFeedback?: string[];
 }

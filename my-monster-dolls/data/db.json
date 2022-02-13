@@ -33,7 +33,8 @@
           476,
           390,
           366,
-          231
+          231,
+          42
         ],
         "wanted": [
           42,
@@ -68,7 +69,8 @@
             ]
           }
         ]
-      }
+      },
+      "feedback": {}
     },
     {
       "id": 2,
@@ -156,7 +158,8 @@
       "description": "Clawdeen’s is wearing a fabulous purple and green outfit to the dance. It goes perfectly with her party persona that boasts short neon green hair and purple lipstick.\nThe dress is purple with a scaly animal pattern as well as a variety of gold & black zippers. She accentuates the dress with a neon green ribbon belt and a black belt with gold rings. Her mesh tights are neon yellow and lead to her shiny gold heels.\nClawdeen’s accessories feature two shiny gold hoops in each ear, molded black gloves, and a neon green clutch with gold & black accents. Also included with the doll is an iCoffin phone, dance invitation, doll stand, and party photos.",
       "id": 1,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "feedback": {}
     },
     {
       "year": 2010,
@@ -176,7 +179,8 @@
       "id": 2,
       "type": "Doll",
       "reissue": false,
-      "video": "https://www.youtube.com/watch?v=sR0COnd5NsU"
+      "video": "https://www.youtube.com/watch?v=sR0COnd5NsU",
+      "feedback": {}
     },
     {
       "year": 2010,
@@ -196,7 +200,8 @@
       "id": 3,
       "type": "Doll",
       "reissue": false,
-      "video": "https://www.youtube.com/watch?v=rWLXG7LKRwQ"
+      "video": "https://www.youtube.com/watch?v=rWLXG7LKRwQ",
+      "feedback": {}
     },
     {
       "year": 2010,
@@ -426,7 +431,12 @@
       "description": "Lagoona will look absolutely divine in her swim team uniform. The outfit features a low-cut black one piece suit with a collar. It has the Monster High logo, pink along the edges, and pink & white lines around the leg holes. Under the suit is a turquoise scaled bikini top with pink straps.\nAccessories for the outfit are white skullette earrings and a turquoise armband with a pink zigzag. The shoes are white platform sandals with turquoise straps. \nAlso included is a pink & black boogie board with turquoise bubbles, “Monster High” down the center, and a missing bite in the corner.  The outfit comes with a trading card of Lagoona wearing her suit.",
       "type": "Fashion Packs",
       "id": 14,
-      "reissue": false
+      "reissue": false,
+      "collectionDoll": {
+        "feedbackDoll": [
+          4
+        ]
+      }
     },
     {
       "year": 2010,
@@ -752,7 +762,8 @@
       "description": "Clawdeen Wolf\nThe Clawdeen rag doll is light brown with brown yarn hair with strands of brick red highlights. She has two yellow earrings in each ear, yellow button eyes with the left eye surrounded by a purple saw blade outline, and a stitched mouth with white fangs.\nHer peach top with black tiger print is under a black jacket with a furry white collar and purple trim. The shimmery purple skirt is complemented by a black belt with gold dots. On her feet are black peep-toe boots with buckled purple straps.\nCrescent\nCrescent is a purple cat and Clawdeen’s pet. The plush figure has lavender features, green button eyes, and a stitched mouth with white fangs.",
       "type": "Plush",
       "id": 28,
-      "reissue": false
+      "reissue": false,
+      "feedback": {}
     },
     {
       "year": 2010,
@@ -983,7 +994,8 @@
       "description": "Ghoulia is wearing an adorable outfit that goes wonderfully with her beautiful blue wavy hair. Her v-neck dress features white on top that flows into a sparkly pink skirt with a shredded hem. At the waist is a black & white belt with skullette buckle. Her white lace tights then flow into shiny red, black and silver open-toe shoes with bone-like heels. \nAccessories include earrings with red and white skulls, a yellow bracelet, a white choker, and red cat-eye glasses. Her evening bag is red with black accents and strap as well as three bone-like stripes on the flap. Ghoulia also comes with a yellow brush, doll stand, and a “New Ghoul @ School” DVD.",
       "id": 39,
       "type": "Doll",
-      "reissue": false
+      "reissue": false,
+      "feedback": {}
     },
     {
       "year": 2011,
@@ -3623,7 +3635,12 @@
       "id": 161,
       "type": "Doll",
       "reissue": false,
-      "video": "https://www.youtube.com/watch?v=spWwNVHTVu4"
+      "video": "https://www.youtube.com/watch?v=spWwNVHTVu4",
+      "feedback": {
+        "starRating": {
+          "1": 2
+        }
+      }
     },
     {
       "year": 2012,
@@ -20417,7 +20434,8 @@
       "description": "Mini Jinafire has green bangs with a streak of black. She has golden skin, big green eyes with diamond accents, a crooked smile, and a fan on her cheek.\nHer teddy bear costume is a patchwork of crimson and pink. It has gold buttons and a fan graphic on the chest.",
       "type": "Minis",
       "id": 919,
-      "reissue": false
+      "reissue": false,
+      "feedback": {}
     },
     {
       "year": 2017,

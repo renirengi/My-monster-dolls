@@ -5,7 +5,7 @@ import { IDoll } from 'src/app/models';
 import { DollsService } from 'src/app/services/dolls.service';
 
 @Component({
-  selector: 'app-main-page',
+  selector: 'main-page',
   templateUrl: './main-page.component.html'
 })
 export class MainPageComponent implements OnInit {

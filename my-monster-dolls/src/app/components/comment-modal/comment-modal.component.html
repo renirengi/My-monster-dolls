@@ -1,0 +1,24 @@
+<ng-container *ngIf="user$ | async as user">
+    <div class="user-comment-information">
+       <img [src]="user.avatar"/>
+       <h3>{{user.name}}</h3>
+    </div>
+    <form [formGroup]="commentForm">
+        <div mat-dialog-content>
+            <mat-form-field>
+              <mat-label>Comment:</mat-label>
+              <textarea matInput formControlName="textComment"></textarea>
+            </mat-form-field>
+            <div mat-dialog-actions>
+                <button
+                  mat-stroked-button
+                  type="button"
+                  color="primary"
+                  [mat-dialog-close]="commentForm.value"
+                >
+                  Add
+                </button>
+              </div>
+        </div>        
+    </form>
+</ng-container>

@@ -1,38 +1,132 @@
-$font-color:  #f8caf8;
+.doll-page-container {
+  background-color: white;
 
-.doll-page-container h3{
-  padding: 1em;
+  .doll-page-title,
+  .doll-page-series{
+  padding-top: 1em;
   text-align: center;
   width: 100%;
-  color: gold;
+  color: var(--lime);
+  font-family: var(--Forum);
+  letter-spacing:10px;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 52px;
+  font-weight: bold;
+}
+
+.doll-page-series {
+  text-transform: none;
+  font-size: 48px;
+  padding: 0;
+  letter-spacing:5px;
 }
 
 .doll-page-information {
-  display: flex;
-}
+ width: 80%;
+ margin: 4vh auto;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ font-family: var(--Josefin);
 
-.doll-page-information img {
-  padding: 1em 3em;
+
+.doll-page-information-img {
+  max-width: 400px;
+  width: 100%;
 }
 
 p {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .span-title {
-  color: gold;
-  font-size: 25px;
+  color: var(--font-gold);
+  font-size: 30px;
 }
 
-.doll-text  {
-  padding: 1em 3em;
-  font-size: 25px;
+.doll-page-text  {
+  margin: auto 0;
+  font-size: 36px;
+  min-width: 280px;
 }
 
-.doll-page{
-  background-color: white;
+  .doll-button {
+    font-family: var(--Forum);
+    font-size: 30px;
+    border: 2px solid var(--font-gold);
+    background-color: var(--font-gold);
+    width: 260px;
+    height: 5vh;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 1vh 2%;
+  }
+
+ .doll-button:hover{
+     opacity: 1;
+     background-color: var(--lime);
+ }
+ .doll-button:active{
+     opacity: 1;
+     background-color: var(--pink-rusberry);
+}
+}
+
+.rating-area {
+	overflow: hidden;
+	width: 280px;
+	margin: 0 auto;
+}
+
+.rating-area:not(:checked) > input {
+	display: none;
+}
+
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 50px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+
+.rate-area > label:active {
+	position: relative;
 }
 
 
+.doll-text{
+  width: 80%;
+  margin: 4vh auto;
+  font-family: var(--Josefin);
+  font-size: 30px;
+  text-align: justify;
+}
+}
