@@ -26,5 +26,5 @@ export interface IFeedback {
 }
 
 export interface ITextComment {
-  textFeedback?: string[];
+  textFeedback?: {[userId: string]: string};
 }

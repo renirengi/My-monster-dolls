@@ -49,7 +49,8 @@
           109,
           127,
           241,
-          193
+          193,
+          52
         ],
         "sell": [
           {
@@ -138,6 +139,16 @@
       "personalData": {
         "birthday": ""
       }
+    },
+    {
+      "id": 8,
+      "email": "",
+      "name": "",
+      "password": "",
+      "rights": 2,
+      "personalData": {
+        "birthday": ""
+      }
     }
   ],
   "dolls": [
@@ -180,7 +191,11 @@
       "type": "Doll",
       "reissue": false,
       "video": "https://www.youtube.com/watch?v=sR0COnd5NsU",
-      "feedback": {}
+      "feedback": {
+        "starRating": {
+          "1": 4
+        }
+      }
     },
     {
       "year": 2010,
@@ -1298,7 +1313,12 @@
       "exclusive": "Comic Con",
       "type": "Doll",
       "reissue": false,
-      "video": "https://www.youtube.com/watch?v=uuUpXwFExc4"
+      "video": "https://www.youtube.com/watch?v=uuUpXwFExc4",
+      "feedback": {
+        "starRating": {
+          "1": 5
+        }
+      }
     },
     {
       "year": 2011,

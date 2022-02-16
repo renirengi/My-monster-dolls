@@ -23,6 +23,8 @@
     "@angular/platform-browser-dynamic": "~13.1.0",
     "@angular/router": "~13.1.0",
     "@ng-bootstrap/ng-bootstrap": "^11.0.0",
+    "@vime/angular": "^5.3.1",
+    "@vime/core": "^5.3.1",
     "bootstrap": "^4.6.0",
     "crypto-js": "^4.1.1",
     "ng-image-slider": "^2.8.0",

@@ -1,5 +1,29 @@
 h3 {
     margin: 2vh auto;
     font-size: 72px;
+  }
+
+  .own-button {
+    font-family: var(--Forum);
+    font-size: 30px;
+    border: 2px solid var(--font-gold);
+    background-color: var(--font-gold);
+    border-radius: 30px;
+    width: 260px;
+    height: 5vh;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 1vh 2%;
+    padding-bottom: 15%;
 
   }
+
+ .own-button:hover{
+     opacity: 1;
+     background-color: var(--lime);
+ }
+ .own-button:active{
+     opacity: 1;
+     background-color: var(--pink-rusberry);
+}

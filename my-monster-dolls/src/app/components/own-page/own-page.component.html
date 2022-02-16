@@ -8,8 +8,8 @@
   <p class="information-container-p">{{ doll.character }}</p>
   <p class="information-container-p">{{ doll.series }}</p>
   <p class="information-container-p">{{ doll.year }}</p>
-  <button mat-raise-button (click)="showSellModal(doll)">I want to sell</button>
-  <button mat-raise-button (click)="onDelete(doll.id)">Delete</button>
+  <button class="own-button" mat-raise-button (click)="showSellModal(doll)">I want to sell</button>
+  <button class="own-button" mat-raise-button (click)="onDelete(doll.id)">Delete</button>
   </div>
 </ng-container>
 </div>

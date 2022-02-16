@@ -9,7 +9,7 @@
         <p><span class="span-title">Type:</span> {{ doll.type }}</p>
         <p><span class="span-title">Gender:</span> {{ doll.gender }}</p>
         <p><span class="span-title">Number:</span> {{ doll.modelNumber }}</p>
-        <p><span class="span-title">Reissue:</span> {{ doll.reissue }}</p>
+        <!--<p><span class="span-title">Reissue:</span> {{ doll.reissue }}</p>-->
 
         <span *ngIf="inOwnList$(doll.id) | async; else wantButton">I want to buy it!</span>
         <ng-template #wantButton>
@@ -22,6 +22,7 @@
       </div>
       <div class="doll-page-content">
         <doll-slider [doll]="doll"></doll-slider>
+        <doll-video [doll]="doll"></doll-video>
       </div>
     </div>
     <div>

@@ -1,6 +1,22 @@
 
 .image{
     width: 100%;
+    display: block;
+    position: relative;
+}
+
+.slider-title {
+  position: absolute;
+  z-index: 100;
+  top: 40%;
+  left: 8%;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--lime);
+  font-family: var(--Comforter);
+  font-size: 60px;
+  letter-spacing: 5px;
+  text-shadow: black;
 }
 .picsum-img-wrapper{
     height: auto;

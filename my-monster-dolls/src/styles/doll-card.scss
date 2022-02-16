@@ -15,7 +15,7 @@ doll-card {
 
   .title-container{
     width: 80%;
-
+    
     .doll-character-title {
     margin: 0 auto;
     font-size: 26px;
@@ -24,15 +24,8 @@ doll-card {
     font-weight: bold;
     color: var(--pink-rusberry);
     text-align: center;
-
-    .title-container p{
-      font-family: var(--Josefin);
-    }
-
+   }
   }
-  }
-
-  
 
   img {
     max-height: 30vh;

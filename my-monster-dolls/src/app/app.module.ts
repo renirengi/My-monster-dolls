@@ -48,6 +48,10 @@ import { UsersService } from './services/users.service';
 import { WantedComponent } from './components/wanted/wanted.component';
 import { CommentModalComponent } from './components/comment-modal/comment-modal.component';
 import { DollCommentComponent } from './components/doll-comment/doll-comment.component';
+import { VimeModule } from '@vime/angular';
+import { DollVideoComponent } from './components/doll-video/doll-video.component';
+
+
 
 @NgModule({
   imports: [
@@ -72,6 +76,7 @@ import { DollCommentComponent } from './components/doll-comment/doll-comment.com
     NgbModule,
     NgImageSliderModule,
     ReactiveFormsModule,
+    VimeModule,
   ],
   declarations: [
     AppComponent,
@@ -100,7 +105,8 @@ import { DollCommentComponent } from './components/doll-comment/doll-comment.com
     WantedComponent,
     CommentModalComponent,
     DollCommentComponent,
-   
+    DollVideoComponent,
+
   ],
   providers: [DollsService, UsersService, CookieService],
   bootstrap: [AppComponent],
