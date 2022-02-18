@@ -1,0 +1,28 @@
+<ng-container *ngIf="user$ | async as user">
+  <div class="user-page-information">
+    <h2 class="title-user-page-information">Hello, {{ user.name }}!</h2>
+    <div class="all-user-page-information">
+      <img class="img-user-page-information" [src]="user.avatar" />
+
+      <div class="aboutMe-user-page-information">
+        <p><span class = "about-span">Real name: </span><br>{{ user.personalData.realName }}</p>
+        <p><span class = "about-span">About me: </span><br>{{ user.personalData.about }}</p>
+        <p><span class = "about-span">Phone: </span><br>{{ user.personalData.phone }}</p>
+        <p><span class = "about-span">Country: </span><br>{{ user.personalData.country }}</p>
+
+      </div>
+      <div class = "user-page-buttons">
+        <button mat-raise-button (click)="showUserAbout(user)">Change user information</button>
+      </div>
+    </div>
+  </div>
+  <div class="own-shelf">
+    <own [user]="user"></own>
+  </div>
+  <div class="wanted-shelf">
+    <wanted [user]="user"></wanted>
+  </div>
+  <div class="sell-shelf" *ngIf="user.collection?.sell">
+    <sell [user]="user"></sell>
+  </div>
+</ng-container>

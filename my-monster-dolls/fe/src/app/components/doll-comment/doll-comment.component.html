@@ -1,0 +1,11 @@
+<button mat-raise-button (click)="showCommentModal(doll)">Add comment</button>
+<div class="comment-container">
+    <ng-container *ngIf="user$ | async as user">
+      <img class="comment-img" [src]="user.avatar" />
+      <span>{{user.name}}</span>
+      <ng-template *ngIf="feedback$ | async as feedback">
+
+      </ng-template>
+    </ng-container>
+
+</div>
