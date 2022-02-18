@@ -11,26 +11,33 @@
         <p><span class="span-title">Number:</span> {{ doll.modelNumber }}</p>
         <p><span class="span-title">Reissue:</span> {{ doll.reissue }}</p>
 
-        <span *ngIf="inOwnList$(doll.id) | async; else wantButton">I want to buy it!</span>
+        <button class="disabled-button" mat-stroked-button *ngIf="inOwnList$(doll.id) | async; else wantButton">I want
+          to buy it!</button>
         <ng-template #wantButton>
           <button class="doll-button" mat-stroked-button (click)="onIWant(doll.id)">I want to buy it</button>
         </ng-template>
-        <span *ngIf="inOwnList$(doll.id) | async; else haveButton">I have it!</span>
+        <button class="disabled-button" mat-stroked-button *ngIf="inOwnList$(doll.id) | async; else haveButton">I have
+          it!</button>
         <ng-template #haveButton>
           <button class="doll-button" mat-stroked-button (click)="onIHave(doll.id)">I have it</button>
         </ng-template>
       </div>
       <div class="doll-page-content">
-       <doll-slider [doll]="doll"></doll-slider>
+        <doll-slider [doll]="doll"></doll-slider>
       </div>
+
     </div>
     <div>
       <star-rating [rating]="getStarRatingFromDoll(doll)" (update)="onRatingUpdate(doll, $event)"></star-rating>
-      <details-rating [ratingName]="'Hair'" [rating]="dollHairRatingMock" (update)="onHairRatingUpdate(doll,$event)"></details-rating>
-      <details-rating [ratingName]="'Body'" [rating]="dollBodyRatingMock" (update)="onBodyRatingUpdate(doll,$event)"></details-rating>
-      <details-rating [ratingName]="'Accessories'" [rating]="dollAccessoriesRatingMock" (update)="onAccessoriesRatingUpdate(doll,$event)"></details-rating>
+      <details-rating [ratingName]="'Hair'" [rating]="dollHairRatingMock" (update)="onHairRatingUpdate(doll,$event)">
+      </details-rating>
+      <details-rating [ratingName]="'Body'" [rating]="dollBodyRatingMock" (update)="onBodyRatingUpdate(doll,$event)">
+      </details-rating>
+      <details-rating [ratingName]="'Accessories'" [rating]="dollAccessoriesRatingMock"
+        (update)="onAccessoriesRatingUpdate(doll,$event)"></details-rating>
     </div>
     <p class="doll-text">{{ doll.description }}</p>
-    <doll-comment [text]="getDollTextComment(doll)" [doll]="doll" (update)="onCommentUpdate(doll, $event)"> </doll-comment>
+    <doll-comment [text]="getDollTextComment(doll)" [doll]="doll" (update)="onCommentUpdate(doll, $event)">
+    </doll-comment>
   </div>
 </ng-container>

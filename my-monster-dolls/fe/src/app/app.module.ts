@@ -53,6 +53,7 @@ import { DetailsRatingComponent } from './components/details-rating/details-rati
 
 
 
+
 @NgModule({
   imports: [
     AppRoutingModule,
@@ -76,6 +77,7 @@ import { DetailsRatingComponent } from './components/details-rating/details-rati
     NgbModule,
     NgImageSliderModule,
     ReactiveFormsModule,
+
   ],
   declarations: [
     AppComponent,

@@ -78,7 +78,8 @@
           390,
           366,
           231,
-          42
+          42,
+          3
         ],
         "wanted": [
           42,
@@ -94,7 +95,10 @@
           127,
           241,
           193,
-          1
+          1,
+          1,
+          1,
+          3
         ],
         "sell": [
           {
@@ -166,7 +170,7 @@
           "1": 5
         }
       },
-      "video": "https://www.youtube.com/watch?v=Pwj262x22y4&t=22s"
+      "video": "https://youtube.com/embed/Pwj262x22y4"
     },
     {
       "year": 2010,
@@ -186,7 +190,7 @@
       "id": 2,
       "type": "Doll",
       "reissue": false,
-      "video": "https://www.youtube.com/watch?v=sR0COnd5NsU",
+      "video": "https://www.youtube.com/embed/sR0COnd5NsU",
       "feedback": {}
     },
     {
@@ -207,7 +211,7 @@
       "id": 3,
       "type": "Doll",
       "reissue": false,
-      "video": "https://www.youtube.com/watch?v=rWLXG7LKRwQ",
+      "video": "https://www.youtube.com/rWLXG7LKRwQ",
       "feedback": {}
     },
     {

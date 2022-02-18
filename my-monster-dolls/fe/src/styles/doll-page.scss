@@ -7,7 +7,7 @@
   text-align: center;
   width: 100%;
   color: var(--lime);
-  font-family: var(--Forum);
+  font-family: var(--Quintessential);
   letter-spacing:10px;
   text-transform: uppercase;
   font-size: 52px;
@@ -40,7 +40,7 @@ p {
 }
 
 .span-title {
-  color: var(--font-gold);
+  color: var(--lime);
   font-size: 30px;
 }
 
@@ -51,11 +51,11 @@ p {
 }
 
   .doll-button {
-    font-family: var(--Forum);
+    font-family: var(--Risque);
     font-size: 30px;
-    border: 2px solid var(--font-gold);
+    border: 2px solid var(--lime);
     border-radius: 30px;
-    background-color: var(--font-gold);
+    background-color: var(--lime);
     width: 260px;
     height: 5vh;
     opacity: 0.8;
@@ -66,11 +66,19 @@ p {
 
  .doll-button:hover{
      opacity: 1;
-     background-color: var(--lime);
+     background-color: var(--font-gold);
  }
  .doll-button:active{
      opacity: 1;
      background-color: var(--pink-rusberry);
+}
+
+.disabled-button {
+  border: 2px solid var(--lime);
+  width: 260px;
+  height: 5vh;
+  margin: 1vh 2%;
+  border-radius: 30px;
 }
 }
 
@@ -126,7 +134,7 @@ p {
 .doll-text{
   width: 80%;
   margin: 4vh auto;
-  font-family: var(--Josefin);
+  font-family: var(--Risque);
   font-size: 30px;
   text-align: justify;
 }
