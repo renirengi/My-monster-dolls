@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { first, firstValueFrom, map, Observable, switchMap } from 'rxjs';
-import { IDoll} from 'src/app/models';
+import { IDoll } from 'src/app/models';
 import { IUser } from 'src/app/models';
 import { DollsService } from 'src/app/services/dolls.service';
 import { UsersService } from 'src/app/services/users.service';
 import { MatDialog } from '@angular/material/dialog';
-
-
 
 @Component({
   selector: 'app-doll-page',
@@ -18,28 +16,28 @@ export class DollPageComponent {
   public user$: Observable<IUser | null>;
   public textComment: any;
 
-  public dollHairRatingMock = {
-    'poor stitching quality': false,
-    'too many styling aids': false,
-    'poor material quality': false,
-    'oily hair': false,
-    'none of the above': false
-  };
-
-  public dollBodyRatingMock = {
-    'poor plastic quality': false,
-    'coating wear': false,
-    'scuff marks': false,
-    'paintwork defect': false,
-    'none of the above': false
-  };
-
-  public dollAccessoriesRatingMock = {
-    'poor fabric quality': false,
-    'fabric fading': false,
-    'worn off sequins': false,
-    'low waist pants': false,
-    'none of the above': false
+  private readonly dollFeedbackRatingDefaut = {
+    hair: {
+      'poor stitching quality': false,
+      'too many styling aids': false,
+      'poor material quality': false,
+      'oily hair': false,
+      'none of the above': false,
+    },
+    body: {
+      'poor plastic quality': false,
+      'coating wear': false,
+      'scuff marks': false,
+      'paintwork defect': false,
+      'none of the above': false,
+    },
+    accessories: {
+      'poor fabric quality': false,
+      'fabric fading': false,
+      'worn off sequins': false,
+      'low waist pants': false,
+      'none of the above': false,
+    },
   };
 
   constructor(
@@ -101,28 +99,24 @@ export class DollPageComponent {
     );
   }
 
-  public async onRatingUpdate(doll: IDoll, starRating: number) {
-    const user = (await firstValueFrom(this.user$)) as IUser;
-
-    this.doll$ = this.dollsService.updateDollFeedback(doll, user.id, {starRating}).pipe(first());
+  public async onStarRatingUpdate(doll: IDoll, user: IUser, starRating: number) {
+    this.doll$ = this.dollsService.updateDollFeedback(doll, user.id, { starRating }).pipe(first());
   }
 
-  public async onHairRatingUpdate(doll: IDoll, rating: {[key: string]: boolean}) {
-    const user = (await firstValueFrom(this.user$)) as IUser;
-    const hair = rating;
-    this.doll$ = this.dollsService.updateDollFeedback(doll, user.id, hair).pipe(first());
+  public async onRatingUpdate(
+    doll: IDoll,
+    user: IUser,
+    type: 'hair' | 'body' | 'accessories',
+    rating: { [key: string]: boolean }[]
+  ) {
+    this.doll$ = this.dollsService.updateDollFeedback(doll, user.id, { [type]: rating }).pipe(first());
   }
 
-  public async onBodyRatingUpdate(doll: IDoll, rating: {[key: string]: boolean}) {
-    const user = (await firstValueFrom(this.user$)) as IUser;
-    const body = rating;
-    this.doll$ = this.dollsService.updateDollFeedback(doll, user.id, body).pipe(first());
-  }
+  public getUserRatingByType(doll: IDoll, user: IUser, type: 'hair' | 'body' | 'accessories'): {[key: string]: boolean} {
+    const feedback = doll.feedback?.find((fb) => fb.userId === user.id);
+    const typedRating = (feedback && feedback[type]) || this.dollFeedbackRatingDefaut[type];
 
-  public async onAccessoriesRatingUpdate(doll: IDoll, rating: {[key: string]: boolean}) {
-    const user = (await firstValueFrom(this.user$)) as IUser;
-    const accessories = rating;
-    this.doll$ = this.dollsService.updateDollFeedback(doll, user.id, accessories).pipe(first());
+    return typedRating as {[key: string]: boolean};
   }
 
   public getStarRatingFromDoll(doll: IDoll): number {
@@ -131,17 +125,12 @@ export class DollPageComponent {
     return Math.round(average(starRating as number[]));
   }
 
-  public getHairRatingFromDoll(doll: IDoll) {
-    const hairRating = doll.feedback?.map((feedback) => feedback.text).filter((val) => !!val) || [];
-    return hairRating;
-  }
-
-   public async onCommentUpdate(doll: IDoll, text: string) {
+  public async onCommentUpdate(doll: IDoll, text: string) {
     const user = (await firstValueFrom(this.user$)) as IUser;
-    this.doll$ = this.dollsService.updateDollFeedback(doll, user.id, {text}).pipe(first());
+    this.doll$ = this.dollsService.updateDollFeedback(doll, user.id, { text }).pipe(first());
   }
 
-   public getDollTextComment(doll: IDoll): Observable<string> {
+  public getDollTextComment(doll: IDoll): Observable<string> {
     return this.user$.pipe(
       map((user) => {
         const userFeedback = doll.feedback?.find((fb) => (user as IUser).id === fb.userId);

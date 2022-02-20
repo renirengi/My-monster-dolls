@@ -20,12 +20,12 @@ interface UserFormData {
 export class UserPageComponent {
   public user$: Observable<IUser | null>;
 
-  constructor(private usersService: UsersService, public dialog: MatDialog) {
+   constructor(private usersService: UsersService, public dialog: MatDialog) {
     this.user$ = this.usersService.currentUser$;
   }
 
   public async showUserAbout(user: IUser) {
-    const modalConfig = { width: '100vw', height: "50vh", data: { user } };
+    const modalConfig = { width: '30vw', data: { user } };
     const dialogRef = this.dialog.open(UserAboutComponent, modalConfig);
     const result = (await firstValueFrom(dialogRef.afterClosed())) as UserFormData;
 

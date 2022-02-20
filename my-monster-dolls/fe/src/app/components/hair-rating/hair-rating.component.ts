@@ -3,14 +3,16 @@ import { FormGroup, FormBuilder, FormArray, FormControl, Validators } from '@ang
 
 @Component({
   selector: 'details-rating',
-  templateUrl: './details-rating.component.html'
+  templateUrl: './hair-rating.component.html'
 })
 export class DetailsRatingComponent {
   @Input() ratingName: string;
   @Input() rating: {[key: string]: boolean};
   @Output() update = new EventEmitter<any>();
 
-  constructor() {}
+  constructor() {
+
+  }
 
   valueClick(key: string, value: boolean) {
     this.rating[key] = value;

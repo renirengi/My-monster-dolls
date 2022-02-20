@@ -5,9 +5,9 @@
     border-radius: 30px;
     color: black;
     margin: 4vh auto;
-    font-family: var(--Forum);
-   
-   
+    font-family: var(--Risque);
+
+
     .catalog-filter-container {
         display: flex;
         flex-wrap: wrap;
@@ -34,14 +34,12 @@
             font-size: 22px;
         }
 
-        
 
-        
         .exclusive select {
             width: 150px;
             font-size: 22px;
         }
-        
+
 
         .year select {
             width: 100px;
@@ -51,15 +49,17 @@
         .checkbox{
             justify-content: flex-end;
             color: var(--lime);
-            font-family: var(--Forum);
+            font-family: var(--Risque);
+
+            
         }
 
         .character h3,
         .year h3,
         .type h3,
         .series h3,
-        .exclusive h3,
-        {
+        .exclusive h3{
+
             color: var(--lime);
             font-size: 32px;
             text-transform: uppercase;
@@ -83,5 +83,5 @@
         }
 
      }
-    
+
 }

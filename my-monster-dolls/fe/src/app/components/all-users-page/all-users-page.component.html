@@ -1,0 +1,14 @@
+<ng-container *ngIf="users$ | async as user" class="comment-container">
+  <div class="all-user-page-information">
+    <img class="img-user-page-information" [src]="user.avatar" />
+
+    <div class="aboutMe-user-page-information">
+      <p><span class = "about-span">Real name: </span><br>{{ user.personalData.realName }}</p>
+      <p><span class = "about-span">About me: </span><br>{{ user.personalData.about }}</p>
+      <p><span class = "about-span">Phone: </span><br>{{ user.personalData.phone }}</p>
+      <p><span class = "about-span">Country: </span><br>{{ user.personalData.country }}</p>
+
+    </div>
+
+  </div>
+</ng-container>

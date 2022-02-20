@@ -21,9 +21,7 @@
       "userId": 1,
       "dollId": 2,
       "starRating": 3,
-      "text": {
-        "text": "hjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj"
-      },
+      "text": "Выгялит лучше чем моя бывшая. Но не сильно.",
       "poor stitching quality": false,
       "too many styling aids": false,
       "poor material quality": false,
@@ -41,6 +39,18 @@
       "userId": 1,
       "dollId": 4,
       "starRating": 5
+    },
+    {
+      "id": 5,
+      "userId": 2,
+      "dollId": 2,
+      "starRating": 5,
+      "text": "Кукла сына маминой подруги.",
+      "poor stitching quality": false,
+      "too many styling aids": false,
+      "poor material quality": false,
+      "oily hair": false,
+      "none of the above": true
     }
   ],
   "users": [
@@ -108,14 +118,6 @@
             "photos": [
               "https://images.ua.prom.st/145997798_w640_h640_kukla-monster-high.jpg"
             ]
-          },
-          {
-            "itemId": 45,
-            "price": "666",
-            "description": "Хрэнь",
-            "photos": [
-              ""
-            ]
           }
         ]
       }
@@ -134,17 +136,8 @@
           1
         ]
       }
-    },
-    {
-      "id": 3,
-      "email": "terry@com",
-      "name": "Terry",
-      "password": "123456",
-      "rights": 3,
-      "personalData": {
-        "birthday": "2021-10-18T21:00:00.000Z"
-      }
     }
+
   ],
   "dolls": [
     {

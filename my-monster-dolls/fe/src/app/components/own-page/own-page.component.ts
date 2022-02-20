@@ -33,7 +33,7 @@ export class OwnPageComponent {
 
   async showSellModal(doll: IDoll) {
     const { collection } = this.user;
-    const modalConfig = { width: '50vw', data: { doll } };
+    const modalConfig = { width: '30vw', data: { doll } };
     const dialogRef = this.dialog.open(SellModalComponent, modalConfig);
     const result: {description: string, price: string, photo1: string} = await firstValueFrom(dialogRef.afterClosed());
     const {price, description, photo1} = result;

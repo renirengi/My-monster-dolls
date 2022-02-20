@@ -21,13 +21,19 @@ export class FeedbackService {
     );
   }
 
+  public addFeedbackItem(dollId: number, userId: number, feedback: Partial<IFeedback>) {
+    return this.http.post<IFeedback>(`${this.baseUrl}`, {...feedback, dollId, userId});
+  }
+
   public updateFeedbackItem(id: number, feedback: Partial<IFeedback>) {
     return this.http.patch<IFeedback>(`${this.baseUrl}/${id}`, feedback);
   }
 
   public updateDollFeedback(doll: IDoll, userId: number, feedback: Partial<IFeedback>): Observable<IFeedback> {
     return this.findFeedbackItem(doll.id, userId).pipe(
-      switchMap(({id}) => this.updateFeedbackItem(id, feedback))
+      switchMap((fb) => {
+        return fb ? this.updateFeedbackItem(fb.id, feedback) : this.addFeedbackItem(doll.id, userId, feedback);
+      })
     );
   }
 
