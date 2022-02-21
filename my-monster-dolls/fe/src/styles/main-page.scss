@@ -41,34 +41,11 @@
   }
 }
 
-iframe {
-  height: 42%;
-  width: 42%;
-  margin-left: 30%;
-  margin-top: 2%;
-}
-.video-block-btns {
-  margin-left: 34%;
-  &_prev {
-    margin-right: 13% !important;
-    margin-left: 3% !important;
-  }
-  &_next {
-    margin-left: 10% !important;
-  }
-}
-
-a {
-  margin: 1%;
-}
-.youtube-btn {
-  width: 83px;
-  position: absolute;
-  margin: 8%;
-  left: 3%;
-}
 @media screen and(max-width: 767px) {
     .main-container .info-block p {
         font-size: 15px;
     }
 }
+
+
+

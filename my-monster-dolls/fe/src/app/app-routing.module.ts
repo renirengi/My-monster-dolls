@@ -5,7 +5,8 @@ import { MainPageComponent } from './components/main-page/main-page.component';
 import { UserPageComponent } from './components/user-page/user-page.component';
 import { CatalogPageComponent } from './components/catalog-page/catalog-page.component';
 import { DollPageComponent } from './components/doll-page/doll-page.component';
-import { AllUsersPageComponent} from './components/all-users-page/all-users-page.component'
+import { AllUsersPageComponent} from './components/all-users-page/all-users-page.component';
+import { WatchUserPageComponent } from './components/watch-user-page/watch-user-page.component';
 
 const routes: Routes = [
   { path: '', component: StartPageComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'user', component: UserPageComponent },
   { path: 'catalog', component: CatalogPageComponent },
   { path: 'catalog/:id', component: DollPageComponent },
-  { path: 'users', component: AllUsersPageComponent }
+  { path: 'users', component: AllUsersPageComponent },
+  { path: 'users/:id', component:WatchUserPageComponent}
 ];
 
 @NgModule({

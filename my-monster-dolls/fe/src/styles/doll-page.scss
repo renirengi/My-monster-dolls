@@ -2,148 +2,162 @@
   background-color: white;
 
   .doll-page-title,
-  .doll-page-series {
-    padding-top: 1em;
-    text-align: center;
-    width: 100%;
-    color: var(--lime);
-    font-family: var(--Quintessential);
-    letter-spacing: 10px;
-    text-transform: uppercase;
-    font-size: 52px;
-    font-weight: bold;
-  }
+  .doll-page-series{
+  padding-top: 1em;
+  text-align: center;
+  width: 100%;
+  color: var(--lime);
+  font-family: var(--Quintessential);
+  letter-spacing:10px;
+  text-transform: uppercase;
+  font-size: 52px;
+  font-weight: bold;
+}
 
-  .doll-page-series {
-    text-transform: none;
-    font-size: 48px;
-    padding: 0;
-    letter-spacing: 5px;
-  }
+.doll-page-series {
+  text-transform: none;
+  font-size: 48px;
+  padding: 0;
+  letter-spacing:5px;
+}
 
-  .doll-page-information {
-    width: 80%;
-    margin: 4vh auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    font-family: var(--Risque);
+.doll-page-information {
+ width: 80%;
+ margin: 4vh auto;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ font-family: var(--Risque);
 
-    .doll-page-information-img {
-      max-width: 400px;
-      width: 100%;
-    }
 
-    p {
-      font-size: 30px;
-    }
+.doll-page-information-img {
+  max-width: 400px;
+  width: 100%;
+}
 
-    .span-title {
-      color: var(--lime);
-      font-size: 30px;
-    }
+p {
+  font-size: 30px;
+}
 
-    .doll-page-text {
-      margin: auto 0;
-      font-size: 36px;
-      min-width: 280px;
-    }
+.span-title {
+  color: var(--lime);
+  font-size: 30px;
+}
 
-    .doll-button {
-      font-family: var(--Risque);
-      font-size: 30px;
-      border: 2px solid var(--lime);
-      border-radius: 30px;
-      background-color: var(--lime);
-      width: 260px;
-      height: 5vh;
-      opacity: 0.8;
-      cursor: pointer;
-      transition: 0.3s;
-      margin: 1vh 2%;
-    }
+.doll-page-text  {
+  margin: auto 0;
+  font-size: 36px;
+  min-width: 280px;
+}
 
-    .doll-button:hover {
-      opacity: 1;
-      background-color: var(--font-gold);
-    }
-    .doll-button:active {
-      opacity: 1;
-      background-color: var(--pink-rusberry);
-    }
-
-    .disabled-button {
-      border: 2px solid var(--lime);
-      width: 260px;
-      height: 5vh;
-      margin: 1vh 2%;
-      border-radius: 30px;
-      font-family: var(--Risque);
-      font-size: 26px;
-    }
-  }
-
-  .rating-area {
-    overflow: hidden;
-    width: 280px;
-    margin: 0 auto;
-  }
-
-  .rating-area:not(:checked) > input {
-    display: none;
-  }
-
-  .rating-area:not(:checked) > label {
-    float: right;
-    width: 42px;
-    padding: 0;
-    cursor: pointer;
-    font-size: 50px;
-    line-height: 32px;
-    color: lightgrey;
-    text-shadow: 1px 1px #bbb;
-  }
-
-  .rating-area:not(:checked) > label:before {
-    content: '★';
-  }
-
-  .rating-area > input:checked ~ label {
-    color: gold;
-    text-shadow: 1px 1px #c60;
-  }
-
-  .rating-area:not(:checked) > label:hover,
-  .rating-area:not(:checked) > label:hover ~ label {
-    color: gold;
-  }
-
-  .rating-area > input:checked + label:hover,
-  .rating-area > input:checked + label:hover ~ label,
-  .rating-area > input:checked ~ label:hover,
-  .rating-area > input:checked ~ label:hover ~ label,
-  .rating-area > label:hover ~ input:checked ~ label {
-    color: gold;
-    text-shadow: 1px 1px goldenrod;
-  }
-
-  .rate-area > label:active {
-    position: relative;
-  }
-
-  .doll-text {
-    width: 80%;
-    margin: 4vh auto;
+  .doll-button {
     font-family: var(--Risque);
     font-size: 30px;
-    text-align: justify;
+    border: 2px solid var(--lime);
+    border-radius: 30px;
+    background-color: var(--lime);
+    width: 260px;
+    height: 5vh;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 1vh 2%;
   }
 
-  .doll-page-content {
-    height: 50vh;
-    width: 280px;
-  }
+ .doll-button:hover{
+     opacity: 1;
+     background-color: var(--font-gold);
+ }
+ .doll-button:active{
+     opacity: 1;
+     background-color: var(--pink-rusberry);
 }
+
+.disabled-button {
+  border: 2px solid var(--lime);
+  width: 260px;
+  height: 5vh;
+  margin: 1vh 2%;
+  border-radius: 30px;
+  font-family: var(--Risque);
+  font-size: 26px;
+}
+}
+.doll-page-vide  {
+  width: 50vw;
+
+}
+
+iframe {
+  display:block;
+  margin: 0 auto;
+  width: 280px;
+  height:20vh;
+}
+
+.rating-area {
+	overflow: hidden;
+	width: 280px;
+	margin: 0 auto;
+}
+
+.rating-area:not(:checked) > input {
+	display: none;
+}
+
+.rating-area:not(:checked) > label {
+	float: right;
+	width: 42px;
+	padding: 0;
+	cursor: pointer;
+	font-size: 50px;
+	line-height: 32px;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+}
+
+.rating-area:not(:checked) > label:before {
+	content: '★';
+}
+
+.rating-area > input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px #c60;
+}
+
+.rating-area:not(:checked) > label:hover,
+.rating-area:not(:checked) > label:hover ~ label {
+	color: gold;
+}
+
+.rating-area > input:checked + label:hover,
+.rating-area > input:checked + label:hover ~ label,
+.rating-area > input:checked ~ label:hover,
+.rating-area > input:checked ~ label:hover ~ label,
+.rating-area > label:hover ~ input:checked ~ label {
+	color: gold;
+	text-shadow: 1px 1px goldenrod;
+}
+
+.rate-area > label:active {
+	position: relative;
+}
+
+
+.doll-text{
+  width: 80%;
+  margin: 4vh auto;
+  font-family: var(--Risque);
+  font-size: 30px;
+  text-align: justify;
+}
+
+.doll-page-content {
+  height: 50vh;
+  width: 280px;
+}
+}
+
 @media screen and (max-width: 767px) {
   .doll-page-title {
     font-size: 32px !important;
