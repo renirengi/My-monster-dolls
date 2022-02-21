@@ -51,6 +51,19 @@
       "poor material quality": false,
       "oily hair": false,
       "none of the above": true
+    },
+    {
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": false,
+        "poor material quality": false,
+        "oily hair": false,
+        "none of the above": true
+      },
+      "dollId": 1,
+      "userId": 3,
+      "id": 6,
+      "text": ""
     }
   ],
   "users": [
@@ -136,8 +149,17 @@
           1
         ]
       }
+    },
+    {
+      "id": 3,
+      "email": "bla@mail.ru",
+      "name": "bla",
+      "password": "asd",
+      "rights": 2,
+      "personalData": {
+        "birthday": ""
+      }
     }
-
   ],
   "dolls": [
     {

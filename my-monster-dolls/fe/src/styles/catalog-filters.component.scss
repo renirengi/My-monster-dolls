@@ -92,20 +92,29 @@
       }
     }
   }
-  @media screen and(max-width: 767px) {
-    .catalog-filter .catalog-filter-container .character h3,
-    .catalog-filter .catalog-filter-container .year h3,
-    .catalog-filter .catalog-filter-container .type h3,
-    .catalog-filter .catalog-filter-container .series h3,
-    .catalog-filter .catalog-filter-container .exclusive h3 {
-      font-size: 23px;
-    }
-    .character select option:hover,
-    .year select option:hover,
-    .type select option:hover,
-    .series select option:hover,
-    .exclusive select option:hover {
-      background-color: var(--pink-rusberry);
-    }
+}
+@media screen and(max-width: 767px) {
+  .catalog-filter .catalog-filter-container .character h3,
+  .catalog-filter .catalog-filter-container .year h3,
+  .catalog-filter .catalog-filter-container .type h3,
+  .catalog-filter .catalog-filter-container .series h3,
+  .catalog-filter .catalog-filter-container .exclusive h3 {
+    font-size: 23px;
+  }
+  .character select option:hover,
+  .year select option:hover,
+  .type select option:hover,
+  .series select option:hover,
+  .exclusive select option:hover {
+    background-color: var(--pink-rusberry);
+  }
+  select{
+    width: 220px;
+  }
+}
+@media screen and(min-width: 768px) and (max-width: 1023px) {
+
+  select{
+    width: 520px;
   }
 }
