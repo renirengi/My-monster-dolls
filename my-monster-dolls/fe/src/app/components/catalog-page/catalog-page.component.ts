@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
 import { firstValueFrom, lastValueFrom, map } from 'rxjs';
 import { IDoll } from '../../models';
 import { DollsService } from '../../services/dolls.service';

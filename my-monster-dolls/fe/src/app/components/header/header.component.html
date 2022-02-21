@@ -1,30 +1,23 @@
 <header class="header">
   <div class="icons-settings">
     <mat-icon aria-hidden="false" aria-label="Example home icon">
-      <span class="material-icons"> language </span>
+      <span class="material-icons">
+        language
+      </span>
     </mat-icon>
-    <mat-icon
-      (click)="playMusic()"
-      aria-hidden="false"
-      aria-label="Example home icon"
-      [ngClass]="{ color: audioPlays === true }"
-    >
-      <span class="material-icons"> music_note </span>
+    <mat-icon (click)="playMusic()" aria-hidden="false" aria-label="Example home icon" [ngClass]="{'color': audioPlays === true}">
+      <span class="material-icons">
+        music_note
+      </span>
     </mat-icon>
     <mat-icon aria-hidden="false" aria-label="Example home icon">
-      <span class="material-icons"> home </span>
+      <span class="material-icons">
+        wallpaper
+      </span>
     </mat-icon>
   </div>
   <div class="input-container">
-    <div>
-      <input
-        matInput
-        class="input input-search"
-        placeholder="Search"
-        [value]="dollsSearchString$ | async"
-        (change)="onSearch($event)"
-      />
-    </div>
+    <input matInput class="input input-search" placeholder="Search" [value]="dollsSearchString$ | async" (change)="onSearch($event)" />
     <button mat-icon-button matSuffix (click)="onClean()" [attr.aria-label]="'Clean search string'">
       <mat-icon>close</mat-icon>
     </button>
@@ -35,7 +28,7 @@
     </ng-container>
 
     <ng-template #loginOrRegister>
-      <button mat-stroked-button (click)="showLoginModal()">Login</button>
+      <button mat-stroked-button (click)="showLoginModal()">Login</button> or
       <button mat-stroked-button (click)="showRegisterModal()">Register</button>
     </ng-template>
   </div>

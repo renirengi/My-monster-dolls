@@ -1,55 +1,16 @@
-input {
-  background-color: black;
-  border: solid 1px rgb(180, 180, 180) !important;
-  margin-right: 3vh;
-  color: white;
-  padding-left: 15px;
+input{
+    background-color: black;
+    border: solid 1px rgb(180, 180, 180) !important;
+    margin-right: 3vh;
+    color: white;
+    padding-left: 15px;
 }
-button {
-  font-size: 13px;
+button{
+    font-size: 13px;
 }
-.material-icons {
-  cursor: pointer;
+.material-icons{
+    cursor: pointer;
 }
-.color {
-  color: green;
-}
-@media only screen and (max-width: 767px) {
-  .header {
-    height: 20vh;
-    align-items: initial;
-  }
-  .icons-settings {
-    display: flex;
-    flex-direction: column;
-  }
-  .material-icons {
-    font-size: 20px;
-  }
-  .input-container {
-    display: flex;
-    width: 95%;
-    height: 40%;
-  }
-  .user-container{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-  }
-  .header .input-container .input-search {
-    width: 95%;
-    height: 5vh;
-    margin-top: 22%;
-  }
-  .mat-icon-button {
-    display: none;
-    width: 20px;
-    height: 20px;
-    line-height: 30px;
-  }
-  .mat-stroked-button {
-    width: 10px;
-    height: 30px;
-    font-size: 10px;
-  }
+.color{
+    color: green;
 }

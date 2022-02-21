@@ -1,14 +1,19 @@
-<ng-container *ngIf="users$ | async as user" class="comment-container">
-  <div class="all-user-page-information">
-    <img class="img-user-page-information" [src]="user.avatar" />
-
-    <div class="aboutMe-user-page-information">
-      <p><span class = "about-span">Real name: </span><br>{{ user.personalData.realName }}</p>
-      <p><span class = "about-span">About me: </span><br>{{ user.personalData.about }}</p>
-      <p><span class = "about-span">Phone: </span><br>{{ user.personalData.phone }}</p>
-      <p><span class = "about-span">Country: </span><br>{{ user.personalData.country }}</p>
-
+<ng-container *ngFor="let user of users;" class="comment-container">
+  <div class="one-user-information">
+    <img *ngIf="user.avatar" class="one-user-img" [src]="user.avatar" />
+    <img *ngIf="!user.avatar" class="one-user-img"
+      src="https://i.pinimg.com/280x280_RS/04/ff/49/04ff4992f981e4672fa824a6ab6ffea6.jpg" />
+    <div class="one-users-own-information">
+      <p>Nick: {{ user.name }} </p>
+      <p>Email: {{ user.email }} </p>
+      <p>Password: {{ user.password }} </p>
+      <p>Right: {{ user.rights }} </p>
+      <p>Real name: {{ user.personalData.realName }}</p>
+      <p>About me: {{ user.personalData.about }}</p>
+      <p>Phone: {{ user.personalData.phone }}</p>
+      <p>Country: {{ user.personalData.country }}</p>
     </div>
-
   </div>
+
+
 </ng-container>

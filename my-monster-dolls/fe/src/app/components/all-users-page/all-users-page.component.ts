@@ -5,18 +5,18 @@ import { IUser } from 'src/app/models';
 import { firstValueFrom, lastValueFrom, map } from 'rxjs';
 
 @Component({
-  selector: 'app-all-users-page',
+  selector: 'all-users-page',
   templateUrl: './all-users-page.component.html'
 })
 export class AllUsersPageComponent implements OnInit {
 
-  public users$: Observable<IUser>;
+  public users!: any;
 
   constructor(private usersService: UsersService ) { }
 
   async ngOnInit() {
-    this.users$ = this.usersService.getAllUsers();
-
+   this.users = await firstValueFrom(this.usersService.getAllUsers())
+    console.log (this.users)
   }
 
 }

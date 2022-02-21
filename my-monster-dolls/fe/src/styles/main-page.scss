@@ -1,74 +1,46 @@
-.main-container {
-  max-width: 80%;
-  margin: 4vh auto;
-  height: auto;
+    .main-container{
+        max-width: 80%;
+        margin: 4vh auto;
+        height: auto;
 
-  .info-block {
-    background-color: white;
-    color: black;
-    padding-top: 2%;
-    &_text {
+    .info-block {
+       background-color: white;
+       color: black;
+       padding-top: 2%;
+       &_text {
       width: 80%;
       margin-left: 10%;
     }
 
-    &_cards {
+     &_cards {
       display: flex;
       align-items: center;
       margin-left: 3%;
 
       &_img {
-        width: 80%;
-      }
+          width: 80%;
+      };
     }
 
-    p {
+  p {
       text-align: justify;
-      font-family: var(--Forum);
+      font-family: var(--Risque);
       font-size: 30px;
       font-weight: bolder;
+  }
     }
-  }
 
-  .slider-container {
-    background-color: black;
-    height: 20vh;
-  }
-
-  .insta-container {
-    background-color: white;
-    height: 30vh;
-  }
-}
-
-iframe {
-  height: 42%;
-  width: 42%;
-  margin-left: 30%;
-  margin-top: 2%;
-}
-.video-block-btns {
-  margin-left: 34%;
-  &_prev {
-    margin-right: 13% !important;
-    margin-left: 3% !important;
-  }
-  &_next {
-    margin-left: 10% !important;
-  }
-}
-
-a {
-  margin: 1%;
-}
-.youtube-btn {
-  width: 83px;
-  position: absolute;
-  margin: 8%;
-  left: 3%;
-}
-@media screen and(max-width: 767px) {
-    .main-container .info-block p {
-        font-size: 15px;
+    .slider-container{
+        background-color: black;
+        height: 20vh;
     }
-}
+
+    .insta-container {
+      background-color: white;
+      height: 30vh;
+    }
+
+  }
+
+
+
