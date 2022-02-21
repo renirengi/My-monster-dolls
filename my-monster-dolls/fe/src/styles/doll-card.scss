@@ -1,0 +1,38 @@
+doll-card {
+  box-sizing: border-box;
+  margin: 3em 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 30px;
+  width: 280px;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+  margin: 2%;
+
+  .title-container{
+    width: 80%;
+    
+    .doll-character-title {
+    margin: 0 auto;
+    font-size: 26px;
+    font-family: var(--Risque);
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--pink-rusberry);
+    text-align: center;
+   }
+  }
+
+  img {
+    max-height: 30vh;
+    max-width: 200px;
+    padding: 1em;
+    right: 0;
+    top: 0;
+  }
+
+}

@@ -1,0 +1,21 @@
+
+<catalog-filters (filtersChanged)="applyFilters($event)"></catalog-filters>
+
+
+<div class="catalog-main">
+  <dolls-list
+    *ngIf="dolls; else loading"
+    [dolls]="dolls"
+    [currentPage]="displayedPage"
+    [showLoadMore]="showLoadMore"
+    (loadMore)="onLoadMore()"
+  ></dolls-list>
+</div>
+
+<ng-template #loading>Loading...</ng-template>
+
+
+
+
+
+

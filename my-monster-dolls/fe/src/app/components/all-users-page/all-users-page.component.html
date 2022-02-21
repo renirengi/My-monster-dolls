@@ -1,0 +1,19 @@
+<ng-container *ngFor="let user of users;" class="comment-container">
+  <div class="one-user-information">
+    <img *ngIf="user.avatar" class="one-user-img" [src]="user.avatar" />
+    <img *ngIf="!user.avatar" class="one-user-img"
+      src="https://i.pinimg.com/280x280_RS/04/ff/49/04ff4992f981e4672fa824a6ab6ffea6.jpg" />
+    <div class="one-users-own-information">
+      <p>Nick: {{ user.name }} </p>
+      <p>Email: {{ user.email }} </p>
+      <p>Password: {{ user.password }} </p>
+      <p>Right: {{ user.rights }} </p>
+      <p>Real name: {{ user.personalData.realName }}</p>
+      <p>About me: {{ user.personalData.about }}</p>
+      <p>Phone: {{ user.personalData.phone }}</p>
+      <p>Country: {{ user.personalData.country }}</p>
+    </div>
+  </div>
+
+
+</ng-container>

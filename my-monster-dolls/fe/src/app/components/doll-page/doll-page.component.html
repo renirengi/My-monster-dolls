@@ -1,0 +1,67 @@
+<ng-container *ngIf="doll$ | async as doll">
+
+    <div class="doll-page-container">
+      <h3 class="doll-page-title">{{ doll.character }}</h3>
+      <h4 class="doll-page-series">{{ doll.series }}</h4>
+      <div class="doll-page-information">
+        <img class="doll-page-information-img" [src]="doll.galleryImagesLinks[0]" />
+        <div class="doll-page-text">
+          <p><span class="span-title">Year:</span> {{ doll.year }}</p>
+          <p><span class="span-title">Type:</span> {{ doll.type }}</p>
+          <p><span class="span-title">Gender:</span> {{ doll.gender }}</p>
+          <p><span class="span-title">Number:</span> {{ doll.modelNumber }}</p>
+          <p *ngIf="doll.reissue">
+            <span class="span-title">Reissue:</span> Yes
+          </p>
+          <p *ngIf="!doll.reissue">
+            <span class="span-title">Reissue:</span> No
+          </p>
+          <ng-container *ngIf="user$ | async as user">
+          <button class="disabled-button" mat-stroked-button *ngIf="inOwnList$(doll.id) | async; else wantButton">
+            You already have it
+          </button>
+          <ng-template #wantButton>
+            <button class="doll-button" mat-stroked-button (click)="onIWant(doll.id)">I want to buy it</button>
+          </ng-template>
+          <button class="disabled-button" mat-stroked-button *ngIf="inOwnList$(doll.id) | async; else haveButton">
+            You already have it
+          </button>
+          <ng-template #haveButton>
+            <button class="doll-button" mat-stroked-button (click)="onIHave(doll.id)">I have it</button>
+
+          </ng-template>
+          </ng-container>
+          </div>
+        <div class="doll-page-content">
+          <iframe src="https://www.youtube.com/embed/jK1n_57kNhM" title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+        <doll-slider [doll]="doll"></doll-slider>
+        </div>
+      </div>
+
+
+      <div>
+        <ng-container *ngIf="user$ | async as user">
+        <star-rating [rating]="getStarRatingFromDoll(doll)" (update)="onStarRatingUpdate(doll, user, $event)">
+        </star-rating>
+
+        <details-rating [ratingName]="'Hair'" [rating]="getUserRatingByType(doll, user, 'hair')"
+          (update)="onRatingUpdate(doll, user, 'hair', $event)">
+        </details-rating>
+        <details-rating [ratingName]="'Body'" [rating]="getUserRatingByType(doll, user, 'body')"
+          (update)="onRatingUpdate(doll, user, 'body', $event)">
+        </details-rating>
+        <details-rating [ratingName]="'Accessories'" [rating]="getUserRatingByType(doll, user, 'accessories')"
+          (update)="onRatingUpdate(doll, user, 'accessories', $event)"></details-rating>
+       </ng-container>
+        </div>
+
+      <p class="doll-text">{{ doll.description }}</p>
+
+    </div>
+    <ng-container *ngIf="user$ | async as user">
+    <doll-comment [doll]="doll" (update)="onCommentUpdate(doll, $event)"> </doll-comment>
+    </ng-container>
+
+</ng-container>

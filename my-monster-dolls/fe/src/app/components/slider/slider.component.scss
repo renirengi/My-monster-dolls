@@ -1,0 +1,98 @@
+
+.image{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.slider-HautCouture {
+  position: absolute;
+  z-index: 100;
+  top: 75%;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white);
+  font-family: var(--Risque);
+  font-size: 60px;
+  letter-spacing: 5px;
+  text-shadow: black;
+}
+
+.slider-Greta {
+  position: absolute;
+  z-index: 100;
+  top: 40%;
+  left: 15%;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--lime);
+  font-family: var(--Risque);
+  font-size: 60px;
+  letter-spacing: 5px;
+  text-shadow: black;
+}
+
+.slider-Lidia{
+  position: absolute;
+  z-index: 100;
+  top: 40%;
+  left: 8%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: var(--Risque);
+  font-size: 60px;
+  letter-spacing: 5px;
+  text-shadow: black;
+}
+
+.slider-twins{
+  position: absolute;
+  z-index: 100;
+  top: 40%;
+  left: 15%;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--cream-pink);
+  font-family: var(--Risque);
+  font-size: 60px;
+  letter-spacing: 5px;
+  text-shadow: black;
+}
+
+.slider-it{
+  position: absolute;
+  z-index: 100;
+  top: 40%;
+  left: 15%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: var(--Risque);
+  font-size: 60px;
+  letter-spacing: 5px;
+  text-shadow: black;
+}
+
+
+.picsum-img-wrapper{
+    height: auto;
+}
+::ng-deep .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    margin:0 auto;
+    border-radius: 50% ;
+    background-color: white;
+}
+
+::ng-deep .carousel-indicators .active{
+    background-color:var(--pink-rusberry);
+}
+::ng-deep .carousel-control-next{
+    display: none;
+}
+::ng-deep .carousel-control-prev{
+    display: none;
+}
