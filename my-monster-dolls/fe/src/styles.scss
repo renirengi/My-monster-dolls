@@ -17,11 +17,7 @@
 @use 'styles/star-rating.component.scss';
 @use 'styles/doll-comment.component.scss';
 @use 'styles/comment-modal.scss';
-/* Default theme. ~960B */
-@import '~@vime/core/themes/default.css';
-
-/* Optional light theme (extends default). ~400B */
-@import '~@vime/core/themes/light.css';
+@use 'styles/doll-slider.scss';
 
 
 
@@ -42,7 +38,7 @@
 
 
 body {
-  background-image: url("https://art-nto.ru/800/600/https/abload.de/img/background-texturesykpl.jpg") !important;
+  background-image: url("http://beloweb.ru/wp-content/uploads/2014/05/1234567109.jpg") !important;
   background-size: cover;
   color: white !important;
 }
@@ -163,10 +159,10 @@ body {
          }
 
          button{
-          font-family: var(--Forum);
+          font-family: var(--Risque);
           font-size: 30px;
-          border: 2px solid var(--font-gold);
-          background-color: var(--font-gold);
+          border: 2px solid var(--lime);
+          background-color: var(--lime);
           border-radius: 30px;
           width: 260px;
           height: 5vh;
@@ -180,7 +176,7 @@ body {
 
        button:hover{
            opacity: 1;
-           background-color: var(--lime);
+           background-color: var(--font-gold);
        }
 
        button:active{
@@ -189,6 +185,7 @@ body {
       }
     }
 }
+
 }
 
 

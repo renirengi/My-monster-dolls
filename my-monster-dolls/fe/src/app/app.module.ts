@@ -46,10 +46,11 @@ import { UserAboutComponent } from './components/user-about/user-about.component
 import { UserPageComponent } from './components/user-page/user-page.component';
 import { UsersService } from './services/users.service';
 import { WantedComponent } from './components/wanted/wanted.component';
-import { CommentModalComponent } from './components/comment-modal/comment-modal.component';
 import { DollCommentComponent } from './components/doll-comment/doll-comment.component';
 import { DollVideoComponent } from './components/doll-video/doll-video.component';
 import { DetailsRatingComponent } from './components/details-rating/details-rating.component';
+import { WatchUserPageComponent } from './components/watch-user-page/watch-user-page.component';
+import { AllUsersPageComponent } from './components/all-users-page/all-users-page.component';
 
 
 
@@ -104,10 +105,11 @@ import { DetailsRatingComponent } from './components/details-rating/details-rati
     UserAboutComponent,
     UserPageComponent,
     WantedComponent,
-    CommentModalComponent,
     DollCommentComponent,
     DollVideoComponent,
     DetailsRatingComponent,
+    WatchUserPageComponent,
+    AllUsersPageComponent,
 
   ],
   providers: [DollsService, UsersService, CookieService],

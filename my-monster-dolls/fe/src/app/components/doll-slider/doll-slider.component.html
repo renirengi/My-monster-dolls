@@ -1,10 +1,17 @@
-<div style="width: 280px; height: 25vh; text-align: center; margin: 0; padding: 0">
-  <ng-image-slider
-    #nav
-    [images]="imageObject"
-    [infinite]="true"
-    [autoSlide]="false"
-    [imageSize]="{ width: '100%', height: '646px' }"
-    slideImage="1"
-  ></ng-image-slider>
-</div>
+<ngb-carousel>
+  <ng-template ngbSlide>
+    <div class="doll-img-wrapper">
+         <img class="image-doll-page-slider" [src]="doll.galleryImagesLinks[0]" alt="Random first slide">
+    </div>
+    <div class="carousel-caption">
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="doll-img-wrapper">
+      <img class="image-doll-page-slider" [src]="doll.galleryImagesLinks[1]" alt="Random first slide">
+    </div>
+    <div class="carousel-caption">
+    </div>
+  </ng-template>
+
+</ngb-carousel>

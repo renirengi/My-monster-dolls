@@ -1,43 +1,54 @@
-import { Component, Input, Output, EventEmitter, OnInit } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { firstValueFrom, Observable } from 'rxjs';
-import { IDoll} from 'src/app/models';
+import { IDoll } from 'src/app/models';
 import { IUser } from 'src/app/models';
 import { IFeedback } from 'src/app/models/feedback';
 import { UsersService } from 'src/app/services/users.service';
-import { FeedbackService } from 'src/app/services/feedback.service';
 import { MatDialog } from '@angular/material/dialog';
-import { CommentModalComponent } from '../comment-modal/comment-modal.component';
 
 @Component({
   selector: 'doll-comment',
   templateUrl: './doll-comment.component.html',
 })
-export class DollCommentComponent implements OnInit{
-  private _doll: IDoll;
-  public user$: Observable<IUser | null>;
-  public feedback$: any;
-
-
-  @Input() text?: any = '';
-  @Input() doll: IDoll;
+export class DollCommentComponent {
+  @Input()
+  get doll(): IDoll {
+    return this._doll;
+  }
+  set doll(val: IDoll) {
+    this._doll = val;
+    this._textfeedbackList = this.getFeedbackList(this._doll.feedback);
+  }
   @Output() update = new EventEmitter();
+  public user$: Observable<IUser | null>;
+  private _doll: IDoll;
+  public comment:string = '';
+  public _textfeedbackList: Promise<{name: string, text: string, id: number, avatar?: string}[]>;
 
-  constructor(private usersService: UsersService, public dialog: MatDialog, private feedbackService: FeedbackService ) {
+  constructor(private usersService: UsersService, public dialog: MatDialog) {
     this.user$ = this.usersService.currentUser$;
   }
 
-  ngOnInit(){
-    this.feedback$ = this.feedbackService.getDollFeedback(this.doll.id);
-    console.log(this.feedback$);
+  private async getFeedbackList(feedback?: IFeedback[]) {
+    if (feedback) {
+      const feedbackWithText = feedback.filter(fb => !!fb.text);
+
+      if (feedbackWithText.length > 0) {
+        const userIds = feedbackWithText.map((fb => fb.userId));
+        const users = await firstValueFrom(this.usersService.getUsers(userIds));
+
+        return feedbackWithText.map((fb, index) => ({...users[index], text: fb.text!}));
+      }
+    }
+
+    return Promise.resolve([]);
   }
 
-  async showCommentModal(doll: IDoll) {
-
-    const modalConfig = { width: '50vw', data: { doll } };
-    const dialogRef = this.dialog.open(CommentModalComponent, modalConfig);
-    const text = await firstValueFrom(dialogRef.afterClosed());
-    this.update.emit(text);
-
+  public onClick () {
+    this.update.emit(this.comment);
   }
+
+
 }

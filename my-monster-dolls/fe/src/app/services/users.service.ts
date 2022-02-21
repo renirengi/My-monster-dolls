@@ -62,6 +62,14 @@ export class UsersService {
     );
   }
 
+  public getUsers(userIds: number[]): Observable<Pick<IUser, 'id'|'name'|'avatar'>[]> {
+    const paramsStr = userIds.map(id => `id=${id}`).join('&');
+
+    return this.http.get<IUser[]>(`${this.baseUrl}?${paramsStr}`).pipe(
+      map((users) => users.map(({id, name, avatar}) => ({id, name, avatar})))
+    );
+  }
+
   public logOutUser(): void {
     this.onUserUpdate(null);
   }
@@ -87,6 +95,9 @@ export class UsersService {
 
       this.currentUser$.next(currentUser);
     }
+  }
+  public getAllUsers(): Observable<IUser>{
+    return this.http.get<IUser>(this.baseUrl);
   }
 
 }
