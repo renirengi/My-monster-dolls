@@ -11,7 +11,8 @@
 <div class="comment-form-container">
   <ng-container *ngIf="user$ | async as user">
     <div class="image-title-container">
-      <img class= "comment-img" [src]="user.avatar" />
+      <img *ngIf="user.avatar" class="comment-img" [src]="user.avatar"  />
+      <img *ngIf="!user.avatar" class="comment-img" src="https://i.pinimg.com/280x280_RS/04/ff/49/04ff4992f981e4672fa824a6ab6ffea6.jpg" />
       <span class="comment-title">{{user.name}}</span>
     </div>
   </ng-container>

@@ -25,9 +25,9 @@ export interface IUserCollection {
 
 export interface IUserLotData {
   itemId: number;
-  price: string;
-  description: string;
-  photos: string[];
+  price?: string;
+  description?: string;
+  photos?: string[];
 }
 
 export enum UserRights {

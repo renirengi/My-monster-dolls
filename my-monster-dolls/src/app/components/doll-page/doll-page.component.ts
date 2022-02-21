@@ -7,38 +7,38 @@ import { DollsService } from 'src/app/services/dolls.service';
 import { UsersService } from 'src/app/services/users.service';
 import { MatDialog } from '@angular/material/dialog';
 
+const dollFeedbackRatingDefaut = {
+  hair: {
+    'poor stitching quality': false,
+    'too many styling aids': false,
+    'poor material quality': false,
+    'oily hair': false,
+    'none of the above': false,
+  },
+  body: {
+    'poor plastic quality': false,
+    'coating wear': false,
+    'scuff marks': false,
+    'paintwork defect': false,
+    'none of the above': false,
+  },
+  accessories: {
+    'poor fabric quality': false,
+    'fabric fading': false,
+    'worn off sequins': false,
+    'low waist pants': false,
+    'none of the above': false,
+  },
+};
+
 @Component({
-  selector: 'app-doll-page',
+  selector: 'doll-page',
   templateUrl: './doll-page.component.html',
 })
 export class DollPageComponent {
   public doll$: Observable<IDoll>;
   public user$: Observable<IUser | null>;
   public textComment: any;
-
-  private readonly dollFeedbackRatingDefaut = {
-    hair: {
-      'poor stitching quality': false,
-      'too many styling aids': false,
-      'poor material quality': false,
-      'oily hair': false,
-      'none of the above': false,
-    },
-    body: {
-      'poor plastic quality': false,
-      'coating wear': false,
-      'scuff marks': false,
-      'paintwork defect': false,
-      'none of the above': false,
-    },
-    accessories: {
-      'poor fabric quality': false,
-      'fabric fading': false,
-      'worn off sequins': false,
-      'low waist pants': false,
-      'none of the above': false,
-    },
-  };
 
   constructor(
     private activatedRoute: ActivatedRoute,
@@ -52,51 +52,24 @@ export class DollPageComponent {
     this.user$ = this.usersService.currentUser$;
   }
 
-  public async onIHave(id: number) {
-    const operation$ = this.user$.pipe(
-      first(),
-      map((user) => {
-        const own = [...(user?.collection?.own || []), id];
-        const collection = { ...(user?.collection || {}), own };
-        return { ...user, collection } as IUser;
-      }),
-      switchMap((user) => this.usersService.updateUser(user))
-    );
+  public async onIHave(id: number, user: IUser) {
+    const own = [...(user?.collection?.own || []), id];
+    const collection = { ...(user?.collection || {}), own };
+    const updatedUser = { ...user, collection };
 
-    await firstValueFrom(operation$);
+    await firstValueFrom(this.usersService.updateUser(updatedUser));
   }
 
-  public async onIWant(id: number) {
-    const operation$ = this.user$.pipe(
-      first(),
-      map((user) => {
-        const wanted = [...(user?.collection?.wanted || []), id];
-        const collection = { ...(user?.collection || {}), wanted };
-        return { ...user, collection } as IUser;
-      }),
-      switchMap((user) => this.usersService.updateUser(user))
-    );
-    await firstValueFrom(operation$);
+  public async onIWant(id: number, user: IUser) {
+    const wanted = [...(user?.collection?.wanted || []), id];
+    const collection = { ...(user?.collection || {}), wanted };
+    const updatedUser = { ...user, collection };
+
+    await firstValueFrom(this.usersService.updateUser(updatedUser));
   }
 
-  public async onIWantToSell(id: number) {
-    const operation$ = this.user$.pipe(
-      first(),
-      map((user) => {
-        const sell = [...(user?.collection?.sell || []), id];
-        const collection = { ...(user?.collection || {}), sell };
-        return { ...user, collection } as IUser;
-      }),
-      switchMap((user) => this.usersService.updateUser(user))
-    );
-    await firstValueFrom(operation$);
-  }
-
-  public inOwnList$(id: number): Observable<boolean> {
-    return this.user$.pipe(
-      first(),
-      map((user) => !!user?.collection?.own?.includes(id))
-    );
+  public inOwnList(id: number, user: IUser): boolean {
+    return !!user?.collection?.own?.includes(id);
   }
 
   public async onStarRatingUpdate(doll: IDoll, user: IUser, starRating: number) {
@@ -112,11 +85,15 @@ export class DollPageComponent {
     this.doll$ = this.dollsService.updateDollFeedback(doll, user.id, { [type]: rating }).pipe(first());
   }
 
-  public getUserRatingByType(doll: IDoll, user: IUser, type: 'hair' | 'body' | 'accessories'): {[key: string]: boolean} {
+  public getUserRatingByType(
+    doll: IDoll,
+    user: IUser,
+    type: 'hair' | 'body' | 'accessories'
+  ): { [key: string]: boolean } {
     const feedback = doll.feedback?.find((fb) => fb.userId === user.id);
-    const typedRating = (feedback && feedback[type]) || this.dollFeedbackRatingDefaut[type];
+    const typedRating = (feedback && feedback[type]) || dollFeedbackRatingDefaut[type];
 
-    return typedRating as {[key: string]: boolean};
+    return typedRating as { [key: string]: boolean };
   }
 
   public getStarRatingFromDoll(doll: IDoll): number {
@@ -125,8 +102,7 @@ export class DollPageComponent {
     return Math.round(average(starRating as number[]));
   }
 
-  public async onCommentUpdate(doll: IDoll, text: string) {
-    const user = (await firstValueFrom(this.user$)) as IUser;
+  public async onCommentUpdate(doll: IDoll, user: IUser, text: string) {
     this.doll$ = this.dollsService.updateDollFeedback(doll, user.id, { text }).pipe(first());
   }
 

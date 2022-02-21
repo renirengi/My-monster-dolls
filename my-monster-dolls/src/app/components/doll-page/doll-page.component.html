@@ -17,17 +17,17 @@
             <span class="span-title">Reissue:</span> No
           </p>
           <ng-container *ngIf="user$ | async as user">
-          <button class="disabled-button" mat-stroked-button *ngIf="inOwnList$(doll.id) | async; else wantButton">
+          <button class="disabled-button" mat-stroked-button *ngIf="inOwnList(doll.id, user); else wantButton">
             You already have it
           </button>
           <ng-template #wantButton>
-            <button class="doll-button" mat-stroked-button (click)="onIWant(doll.id)">I want to buy it</button>
+            <button class="doll-button" mat-stroked-button (click)="onIWant(doll.id, user)">I want to buy it</button>
           </ng-template>
-          <button class="disabled-button" mat-stroked-button *ngIf="inOwnList$(doll.id) | async; else haveButton">
+          <button class="disabled-button" mat-stroked-button *ngIf="inOwnList(doll.id, user); else haveButton">
             You already have it
           </button>
           <ng-template #haveButton>
-            <button class="doll-button" mat-stroked-button (click)="onIHave(doll.id)">I have it</button>
+            <button class="doll-button" mat-stroked-button (click)="onIHave(doll.id, user)">I have it</button>
 
           </ng-template>
           </ng-container>
@@ -45,7 +45,7 @@
         <ng-container *ngIf="user$ | async as user">
         <star-rating [rating]="getStarRatingFromDoll(doll)" (update)="onStarRatingUpdate(doll, user, $event)">
         </star-rating>
-
+        <div class="doll-rating">
         <details-rating [ratingName]="'Hair'" [rating]="getUserRatingByType(doll, user, 'hair')"
           (update)="onRatingUpdate(doll, user, 'hair', $event)">
         </details-rating>
@@ -54,6 +54,7 @@
         </details-rating>
         <details-rating [ratingName]="'Accessories'" [rating]="getUserRatingByType(doll, user, 'accessories')"
           (update)="onRatingUpdate(doll, user, 'accessories', $event)"></details-rating>
+          </div>
        </ng-container>
         </div>
 
@@ -61,7 +62,7 @@
 
     </div>
     <ng-container *ngIf="user$ | async as user">
-    <doll-comment [doll]="doll" (update)="onCommentUpdate(doll, $event)"> </doll-comment>
+    <doll-comment [doll]="doll" (update)="onCommentUpdate(doll, user, $event)"> </doll-comment>
     </ng-container>
 
 </ng-container>

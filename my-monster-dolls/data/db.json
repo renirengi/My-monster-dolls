@@ -21,18 +21,40 @@
       "userId": 1,
       "dollId": 2,
       "starRating": 3,
-      "text": "Выгялит лучше чем моя бывшая. Но не сильно.",
+      "text": "Выглядит лучше чем моя бывшая. Но не сильно.",
       "poor stitching quality": false,
       "too many styling aids": false,
       "poor material quality": false,
       "oily hair": false,
-      "none of the above": true
+      "none of the above": true,
+      "hair": {
+        "poor stitching quality": true,
+        "too many styling aids": false,
+        "poor material quality": false,
+        "oily hair": false,
+        "none of the above": true
+      },
+      "body": {
+        "poor plastic quality": true,
+        "coating wear": false,
+        "scuff marks": true,
+        "paintwork defect": false,
+        "none of the above": false
+      },
+      "accessories": {
+        "poor fabric quality": false,
+        "fabric fading": false,
+        "worn off sequins": true,
+        "low waist pants": true,
+        "none of the above": false
+      }
     },
     {
       "id": 3,
       "userId": 1,
       "dollId": 3,
-      "starRating": 5
+      "starRating": 5,
+      "text": "ghvghvghvgh"
     },
     {
       "id": 4,
@@ -74,7 +96,7 @@
       "password": "123456",
       "rights": 2,
       "personalData": {
-        "realName": "Хрень",
+        "realName": "Olga",
         "phone": "+375291714557",
         "about": "Collector",
         "country": "BY"
@@ -118,9 +140,6 @@
           127,
           241,
           193,
-          1,
-          1,
-          1,
           3
         ],
         "sell": [
@@ -158,6 +177,16 @@
       "rights": 2,
       "personalData": {
         "birthday": ""
+      }
+    },
+    {
+      "id": 4,
+      "email": "Renisenb-helga@mail.ru",
+      "name": "Enot",
+      "password": "qwerty",
+      "rights": 2,
+      "personalData": {
+        "birthday": "1989-07-12T20:00:00.000Z"
       }
     }
   ],

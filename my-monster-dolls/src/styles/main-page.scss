@@ -28,17 +28,23 @@
       font-size: 30px;
       font-weight: bolder;
     }
+
   }
+
+
 
   .slider-container {
     background-color: black;
     height: 20vh;
   }
 
-  .insta-container {
-    background-color: white;
-    height: 30vh;
+  .links {
+    width: 50%;
+    margin: 4% auto;
+    display: flex;
   }
+
+
 }
 
 @media screen and(max-width: 767px) {

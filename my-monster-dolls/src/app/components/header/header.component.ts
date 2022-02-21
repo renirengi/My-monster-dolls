@@ -65,5 +65,8 @@ export class HeaderComponent {
       this.audioPlays = true;
     }
   }
+  public goToMainPage() {
+    this.router.navigate(['/main']);
+  }
 
 }
