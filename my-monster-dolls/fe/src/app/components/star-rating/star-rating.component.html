@@ -1,9 +1,0 @@
-<button
-  class="rating-star"
-  [ngClass]="{ active: isActive(val) }"
-  *ngFor="let val of values"
-  (click)="apply(val)"
-  [attr.aria-label]="'Rating ' + val"
->
-  ★
-</button>
