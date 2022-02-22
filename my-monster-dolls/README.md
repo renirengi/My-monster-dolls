@@ -8,7 +8,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Database server
 
-Run `npm run startdb` in parallel bash console. User REST API in `http://localhost:4200/`. Read API [documatation](https://github.com/typicode/json-server).
+Run `npm run startdb` in parallel bash console. Use REST API in `http://localhost:4200/`. Read API [documatation](https://github.com/typicode/json-server).
 
 ## Code scaffolding
 
