@@ -6,7 +6,7 @@
     "start": "ng serve",
     "startdb": "json-server --watch data/db.json",
     "build": "ng build",
-    "buildgh": "ng build --base-href https://renirengi.github.io/My-monster-dolls/",
+    "buildgh": "ng build --base-href \"https://renirengi.github.io/My-monster-dolls/\"",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
