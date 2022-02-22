@@ -17,17 +17,17 @@
             <span class="span-title">Reissue:</span> No
           </p>
           <ng-container *ngIf="user$ | async as user">
-          <button class="disabled-button" mat-stroked-button *ngIf="inOwnList(doll.id, user); else wantButton">
+          <button class="disabled-button glow" mat-stroked-button *ngIf="inOwnList(doll.id, user); else wantButton">
             You already have it
           </button>
           <ng-template #wantButton>
-            <button class="doll-button" mat-stroked-button (click)="onIWant(doll.id, user)">I want to buy it</button>
+            <button class="doll-button glow" mat-stroked-button (click)="onIWant(doll.id, user)">I want to buy it</button>
           </ng-template>
-          <button class="disabled-button" mat-stroked-button *ngIf="inOwnList(doll.id, user); else haveButton">
+          <button class="disabled-button glow" mat-stroked-button *ngIf="inOwnList(doll.id, user); else haveButton">
             You already have it
           </button>
           <ng-template #haveButton>
-            <button class="doll-button" mat-stroked-button (click)="onIHave(doll.id, user)">I have it</button>
+            <button class="doll-button glow" mat-stroked-button (click)="onIHave(doll.id, user)">I have it</button>
 
           </ng-template>
           </ng-container>

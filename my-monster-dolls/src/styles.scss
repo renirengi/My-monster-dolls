@@ -178,6 +178,18 @@ body {
   }
 }
 
+@keyframes glowing {
+  0% { box-shadow: 0 0 -20px var(--lime); }
+  40% { box-shadow: 0 0 30px var(--lime); }
+  60% { box-shadow: 0 0 30px var(--lime); }
+  100% { box-shadow: 0 0 -20px var(--lime); }
+}
+
+.glow {
+  animation: glowing 3000ms infinite;
+}
+
+
 
 /* Importing Bootstrap SCSS file. */
 
