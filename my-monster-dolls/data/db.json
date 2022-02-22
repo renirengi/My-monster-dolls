@@ -86,6 +86,27 @@
       "userId": 3,
       "id": 6,
       "text": ""
+    },
+    {
+      "starRating": 4,
+      "dollId": 10,
+      "userId": 1,
+      "id": 7,
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": true,
+        "poor material quality": false,
+        "oily hair": true,
+        "none of the above": false
+      },
+      "body": {
+        "poor plastic quality": false,
+        "coating wear": false,
+        "scuff marks": true,
+        "paintwork defect": false,
+        "none of the above": false
+      },
+      "text": "gvfytgfvtgtuytguyuy"
     }
   ],
   "users": [
@@ -98,7 +119,7 @@
       "personalData": {
         "realName": "Olga",
         "phone": "+375291714557",
-        "about": "Collector",
+        "about": "gyhuguyhjgb",
         "country": "BY"
       },
       "avatar": "https://99px.ru/sstorage/1/2016/09/image_1060916232919859946.jpg",
@@ -114,8 +135,6 @@
           201,
           199,
           220,
-          223,
-          334,
           354,
           355,
           478,
@@ -125,7 +144,8 @@
           231,
           42,
           3,
-          38
+          38,
+          2
         ],
         "wanted": [
           42,
@@ -151,6 +171,14 @@
             "description": "Новая кукла, в коробке. Не вскрывалась. Коробка целая не выгорела. Без торга",
             "photos": [
               "https://images.ua.prom.st/145997798_w640_h640_kukla-monster-high.jpg"
+            ]
+          },
+          {
+            "itemId": 334,
+            "price": "67$",
+            "description": "ggbuyguygyugyu",
+            "photos": [
+              ""
             ]
           }
         ]
@@ -189,6 +217,16 @@
       "rights": 2,
       "personalData": {
         "birthday": "1989-07-12T20:00:00.000Z"
+      }
+    },
+    {
+      "id": 5,
+      "email": "rimmm@gmail.com",
+      "name": "Rem",
+      "password": "123456",
+      "rights": 2,
+      "personalData": {
+        "birthday": "1993-10-11T21:00:00.000Z"
       }
     }
   ],
