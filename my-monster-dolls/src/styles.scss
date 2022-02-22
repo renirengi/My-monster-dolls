@@ -20,11 +20,12 @@
 @use 'styles/doll-slider.scss';
 @use 'styles/all-users-page.component.scss';
 @use 'styles/watch-user-page.component.scss';
+
 :root {
   --lime: rgba(207, 194, 80, 1);
   --pink-rusberry: rgba(233, 30, 99, 1);
   --font-gold: #9d8665;
-  --cream-pink: #EEC5C5;
+  --cream-pink: #eec5c5;
   --Forum: 'Forum', sans-serif;
   --Roboto: 'Roboto', sans-serif;
   --Comforter: 'Comforter Brush', cursive;
@@ -34,7 +35,7 @@
 }
 
 body {
-  background-image: url("http://beloweb.ru/wp-content/uploads/2014/05/1234567109.jpg") !important;
+  background-image: url('http://beloweb.ru/wp-content/uploads/2014/05/1234567109.jpg') !important;
   background-size: cover;
   color: white !important;
 }
@@ -179,18 +180,20 @@ body {
 }
 
 @keyframes glowing {
-  0% { box-shadow: 0 0 -20px var(--lime); }
-  40% { box-shadow: 0 0 30px var(--lime); }
-  60% { box-shadow: 0 0 30px var(--lime); }
-  100% { box-shadow: 0 0 -20px var(--lime); }
+  0% {
+    box-shadow: 0 0 -20px var(--lime);
+  }
+  40% {
+    box-shadow: 0 0 30px var(--lime);
+  }
+  60% {
+    box-shadow: 0 0 30px var(--lime);
+  }
+  100% {
+    box-shadow: 0 0 -20px var(--lime);
+  }
 }
 
 .glow {
   animation: glowing 3000ms infinite;
 }
-
-
-
-/* Importing Bootstrap SCSS file. */
-
-@import '~bootstrap/scss/bootstrap';
