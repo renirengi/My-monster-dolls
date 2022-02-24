@@ -107,6 +107,488 @@
         "none of the above": false
       },
       "text": "gvfytgfvtgtuytguyuy"
+    },
+    {
+      "starRating": 5,
+      "dollId": 158,
+      "userId": 1,
+      "id": 8,
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": false,
+        "poor material quality": true,
+        "oily hair": false,
+        "none of the above": false
+      },
+      "body": {
+        "poor plastic quality": false,
+        "coating wear": false,
+        "scuff marks": false,
+        "paintwork defect": false,
+        "none of the above": true
+      },
+      "accessories": {
+        "poor fabric quality": false,
+        "fabric fading": false,
+        "worn off sequins": false,
+        "low waist pants": false,
+        "none of the above": true
+      },
+      "text": "У меня от другого коллекционера. В очень хорошем состоянии. Одна из самых красивых кукол, однако расчёсывать её не стоит, т.к. люрекс расслоиться."
+    },
+    {
+      "starRating": 5,
+      "dollId": 161,
+      "userId": 1,
+      "id": 9,
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": false,
+        "poor material quality": false,
+        "oily hair": true,
+        "none of the above": false
+      },
+      "text": "У меня после коллекционера. Голова была жирная, после мойки локоны распрямились, завивать заново лениво. Само качество прекрасное. Нужно быть острожными с коленями, они выгибаются вперед"
+    },
+    {
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": false,
+        "poor material quality": false,
+        "oily hair": false,
+        "none of the above": true
+      },
+      "dollId": 162,
+      "userId": 1,
+      "id": 10,
+      "starRating": 5,
+      "text": "При покупке волосы были нормальные, но через полгода пришлось мыть. Откреплять обруч не советую."
+    },
+    {
+      "starRating": 5,
+      "dollId": 163,
+      "userId": 1,
+      "id": 11,
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": false,
+        "poor material quality": false,
+        "oily hair": false,
+        "none of the above": true
+      },
+      "text": "У меня после ребёнка. одна из первых кукол. Тряпка ввиде сумки утеряна, но меня это не расстраивает. Волосы прекрасные, не жирные, что радует, учитывая флок. Флок в хорошем состоянии."
+    },
+    {
+      "starRating": 4,
+      "dollId": 172,
+      "userId": 1,
+      "id": 12,
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": false,
+        "poor material quality": false,
+        "oily hair": true,
+        "none of the above": false
+      },
+      "text": "Лично для меня это несколько проблемная кукла. Теряются плавники и наколенники. У меня один потерялся в первый же день, ребёнок взял в руки. Два года искала замену. Волосы были жирнющие, после мойки  локоны распрямились, но не полностью. И меня бесит шлем."
+    },
+    {
+      "starRating": 5,
+      "dollId": 340,
+      "userId": 1,
+      "id": 13,
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": false,
+        "poor material quality": false,
+        "oily hair": false,
+        "none of the above": true
+      },
+      "body": {
+        "poor plastic quality": true,
+        "coating wear": false,
+        "scuff marks": false,
+        "paintwork defect": false,
+        "none of the above": false
+      },
+      "text": "Обожаю её. Одна из самых любимых Спектр. Но лицо начинает потиху желтеть, кончик носа. Волосы не жирные."
+    },
+    {
+      "starRating": 5,
+      "dollId": 198,
+      "userId": 1,
+      "id": 14,
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": false,
+        "poor material quality": false,
+        "oily hair": false,
+        "none of the above": true
+      },
+      "body": {
+        "poor plastic quality": false,
+        "coating wear": false,
+        "scuff marks": false,
+        "paintwork defect": false,
+        "none of the above": true
+      },
+      "text": "Очень красивая кукла. У меня колготки не порвались. О качестве волос судить не могу, не откреплена шапка. Откреплять не рекомендую."
+    },
+    {
+      "starRating": 4,
+      "dollId": 201,
+      "userId": 1,
+      "id": 15,
+      "body": {
+        "poor plastic quality": false,
+        "coating wear": false,
+        "scuff marks": false,
+        "paintwork defect": true,
+        "none of the above": false
+      },
+      "text": "У меня бу. Волосы при покупке нормальные, но их уже мыли. Через два года повторно мыть их не пришлсь. Самая большая проблема, как и у всех Твайл, ободранный принт на ногах.  В целом, не самая любимая. Ингогда подумываю заменить её, но пока не созрела."
+    },
+    {
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": true,
+        "poor material quality": false,
+        "oily hair": true,
+        "none of the above": false
+      },
+      "dollId": 199,
+      "userId": 1,
+      "id": 16,
+      "body": {
+        "poor plastic quality": false,
+        "coating wear": false,
+        "scuff marks": false,
+        "paintwork defect": false,
+        "none of the above": true
+      },
+      "starRating": 5,
+      "text": "На данный момент единственная коробочная кукла. Я её распаковала. Насчёт волос, понятно укладочных средств очень много. Через год из головы начал потиху просачиваться клей, что неимоверно злит. Расплетать и мыть не хочу, так как сама не заплету так же. НО!  Я её обожаю."
+    },
+    {
+      "starRating": 5,
+      "dollId": 220,
+      "userId": 1,
+      "id": 17,
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": false,
+        "poor material quality": false,
+        "oily hair": true,
+        "none of the above": false
+      },
+      "body": {
+        "poor plastic quality": false,
+        "coating wear": false,
+        "scuff marks": true,
+        "paintwork defect": false,
+        "none of the above": false
+      },
+      "text": "Её мне подарили. Голова была жирнющая, пришлось просто замачивать в тальке. После сушки завивка немного раскрутилась и сильно растрепалась. Платье сильно облезает в месте прикосновения пальцев."
+    },
+    {
+      "starRating": 5,
+      "dollId": 354,
+      "userId": 1,
+      "id": 18,
+      "body": {
+        "poor plastic quality": false,
+        "coating wear": false,
+        "scuff marks": false,
+        "paintwork defect": false,
+        "none of the above": true
+      },
+      "text": "Очень красивая кукла, волосы тонкие шелковистые, не жирныею Мне нравятся цвета. Самая любимая кукла в из этой серии."
+    },
+    {
+      "starRating": 4,
+      "dollId": 355,
+      "userId": 1,
+      "id": 19,
+      "text": "Я очень хотела себе эту куклу, но по факту, это не лучшая реализация персонажа. Лицо специфическое, волосы при покупке жирные, пришлось мыть, укладка пропала. теперь волосы выглядят не очень аккуратно."
+    },
+    {
+      "starRating": 5,
+      "dollId": 478,
+      "userId": 1,
+      "id": 20,
+      "text": "Одна из самых красивых реализаций персонажа. Очень красивая кукла. Волосы при покупке жирные, пришлось мыть. Через два года перемывать не пришлось. P.S. Неожиданно, мой ребёнок совершенно не боиться этих безжизненных глаз. У него это самая любимая кукла. Периодически просит дать подержать \"привидение с ведёрком\".\""
+    },
+    {
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": false,
+        "poor material quality": false,
+        "oily hair": true,
+        "none of the above": true
+      },
+      "dollId": 476,
+      "userId": 1,
+      "id": 21,
+      "starRating": 4,
+      "text": "На мой взгляд это скорее экш-фигурка. Пластиковые волосы, ну такое. Как реализация персонажа, не плохо. P.S, Однако в уходе - это самая удобная кукла. Аллергик внутри меня апплодирует стоя."
+    },
+    {
+      "starRating": 5,
+      "dollId": 390,
+      "userId": 1,
+      "id": 22,
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": true,
+        "poor material quality": false,
+        "oily hair": true,
+        "none of the above": false
+      },
+      "body": {
+        "poor plastic quality": false,
+        "coating wear": false,
+        "scuff marks": false,
+        "paintwork defect": true,
+        "none of the above": false
+      },
+      "text": "У меня обе куклы купленные в разное время у разных продавцов. И у обеих дефекты печати. Волосы, жирные, залитые укладочным средством. Мыть нельзя. Но если вы уже помыли, подрисовывайте полоски маркером и заново заливайте лаком или любым стайлинговым средством"
+    },
+    {
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": false,
+        "poor material quality": false,
+        "oily hair": false,
+        "none of the above": true
+      },
+      "dollId": 366,
+      "userId": 1,
+      "id": 23,
+      "body": {
+        "poor plastic quality": false,
+        "coating wear": false,
+        "scuff marks": false,
+        "paintwork defect": false,
+        "none of the above": true
+      },
+      "starRating": 3,
+      "text": "Признаюсь, у меня из парочки только Гил. И на мой взгляд, реализация персонажа просто ужасна. Такой пустой взгляд и надменное лицо ещё поискать надо. Из-за своего аквариума не помещается на полку. Периодически хочется его продать, но останавливает то, что он во всех выпусках такой."
+    },
+    {
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": false,
+        "poor material quality": false,
+        "oily hair": false,
+        "none of the above": true
+      },
+      "dollId": 231,
+      "userId": 1,
+      "id": 24,
+      "body": {
+        "poor plastic quality": false,
+        "coating wear": false,
+        "scuff marks": false,
+        "paintwork defect": true,
+        "none of the above": false
+      },
+      "starRating": 5,
+      "text": "Очень красивая куколка. Волосы тоненькие, как будто переливаются на свету. Не жирные совсем. У меня проблема с руками, они обдираюся, на ногах тоже есть пару шелушинок. Для любителей приматывать мелкие запчасти к рукам куклы, крайне не рекомендую это делать. Резинка рассохнется и обдерёт краску на перчатках."
+    },
+    {
+      "starRating": 5,
+      "dollId": 334,
+      "userId": 1,
+      "id": 25,
+      "body": {
+        "poor plastic quality": false,
+        "coating wear": true,
+        "scuff marks": false,
+        "paintwork defect": false,
+        "none of the above": false
+      },
+      "text": "Я купила недорого, в полном комплекте. Часто встречаются без рога. Волосы чистые, не жирные. Хлопковая одежда изнашивается, у меня она уже не чёрная, а скорее тёмно-серая."
+    },
+    {
+      "starRating": 5,
+      "dollId": 18,
+      "userId": 1,
+      "id": 26,
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": false,
+        "poor material quality": false,
+        "oily hair": true,
+        "none of the above": false
+      },
+      "body": {
+        "poor plastic quality": false,
+        "coating wear": false,
+        "scuff marks": false,
+        "paintwork defect": false,
+        "none of the above": true
+      },
+      "text": "У меня реально первый выпуск 2010 года. После ребёнка. Убитая в хлам, пришлось восстанавливать, заменять руку. Кстати руки от Дракулаур других выпусков могут не подойти по цвету, такой вот сюрприз. Волосы жирнющие, но одежда неожиданно прекрасно сохранилась, липучки в полном порядке. "
+    },
+    {
+      "starRating": 5,
+      "dollId": 22,
+      "userId": 1,
+      "id": 27,
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": false,
+        "poor material quality": false,
+        "oily hair": true,
+        "none of the above": false
+      },
+      "body": {
+        "poor plastic quality": false,
+        "coating wear": false,
+        "scuff marks": false,
+        "paintwork defect": true,
+        "none of the above": false
+      },
+      "accessories": {
+        "poor fabric quality": true,
+        "fabric fading": false,
+        "worn off sequins": false,
+        "low waist pants": false,
+        "none of the above": true
+      },
+      "text": "Одна из первых кукол, после ребёнка, полностью убитая. Пересадила тело, отмыла голову от огромного количества жира, заменила плавники, и комбез. Найти целый комбинезон задачка повышенной сложности. зашить его невозможно."
+    },
+    {
+      "starRating": 5,
+      "dollId": 252,
+      "userId": 1,
+      "id": 28,
+      "body": {
+        "poor plastic quality": false,
+        "coating wear": false,
+        "scuff marks": false,
+        "paintwork defect": false,
+        "none of the above": true
+      },
+      "accessories": {
+        "poor fabric quality": false,
+        "fabric fading": false,
+        "worn off sequins": false,
+        "low waist pants": false,
+        "none of the above": true
+      },
+      "text": "У меня именно этот перезапуск. Голова жирная, отмыла, волосы теперь прямые., но не вижу в этом проблемы."
+    },
+    {
+      "body": {
+        "poor plastic quality": true,
+        "coating wear": false,
+        "scuff marks": false,
+        "paintwork defect": false,
+        "none of the above": false
+      },
+      "dollId": 509,
+      "userId": 1,
+      "id": 29,
+      "text": "У меня Френки. Таких жирных волос я не видела никогда. Чуть отмыла. Голова начала желтеть по линии волос. Храню в тени и надеюсь что желтизна дальше не пойдёт. Докупила ей сумку и собаку."
+    },
+    {
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": false,
+        "poor material quality": true,
+        "oily hair": false,
+        "none of the above": false
+      },
+      "dollId": 17,
+      "userId": 1,
+      "id": 30,
+      "starRating": 5,
+      "text": " У меня оба. Дьюс действительно первый выпуск, резинку пришлось заменять. Клео не понятно. Голова не жирная, но люрекс расслоился и она седовата. Обруч откреплять не стоит."
+    },
+    {
+      "starRating": 5,
+      "dollId": 223,
+      "userId": 1,
+      "id": 31,
+      "hair": {
+        "poor stitching quality": false,
+        "too many styling aids": false,
+        "poor material quality": false,
+        "oily hair": false,
+        "none of the above": true
+      },
+      "accessories": {
+        "poor fabric quality": false,
+        "fabric fading": true,
+        "worn off sequins": false,
+        "low waist pants": false,
+        "none of the above": false
+      },
+      "text": "Очень красивая кукла, но есть проблемы с расчёсыванием. Нужно отделять змей от волос. Ткань хлопок, поэтому тускнеет"
+    },
+    {
+      "body": {
+        "poor plastic quality": false,
+        "coating wear": false,
+        "scuff marks": false,
+        "paintwork defect": true,
+        "none of the above": false
+      },
+      "dollId": 375,
+      "userId": 1,
+      "id": 32,
+      "starRating": 5,
+      "text": "Любимая реализация мужского персонажа. Волосы не жирные. Ноги вытираются. Штаны низкой посадки, сажать не стоит. Шапку откреплять не стоит."
+    },
+    {
+      "starRating": 5,
+      "dollId": 368,
+      "userId": 1,
+      "id": 33,
+      "text": " У меня Скара. очень хороша, голова не жирная. Шарнир на руке расшатан, поэтому пластиковую держалку рекомендую забрать."
+    },
+    {
+      "body": {
+        "poor plastic quality": false,
+        "coating wear": false,
+        "scuff marks": false,
+        "paintwork defect": false,
+        "none of the above": true
+      },
+      "dollId": 9,
+      "userId": 1,
+      "id": 34,
+      "accessories": {
+        "poor fabric quality": false,
+        "fabric fading": false,
+        "worn off sequins": false,
+        "low waist pants": false,
+        "none of the above": true
+      },
+      "starRating": 5,
+      "text": " У меня именно первый выпуск без куклы. Не плох. Но проблемы с фиксаторами подьёма кровати."
+    },
+    {
+      "starRating": 5,
+      "dollId": 41,
+      "userId": 1,
+      "id": 35,
+      "accessories": {
+        "poor fabric quality": false,
+        "fabric fading": true,
+        "worn off sequins": false,
+        "low waist pants": false,
+        "none of the above": false
+      },
+      "text": " Моя самая любимая из всех Клео. Причина очень проста - в волосах нет дурацкого люрекса, очень красивые гладкие чистые волосы. Шарниры местами слабоваты, но стоять-сидеть может спокойно. Моя пижамка не выцвела, но знаю что бывает такая проблема."
+    },
+    {
+      "starRating": 5,
+      "dollId": 44,
+      "userId": 1,
+      "id": 36,
+      "text": ",  У меня от коллекционера, красивая, аккуратная, как будто только из коробки вынули. Одежда не выцвела, но знаю что через время может превратитьсяя тряпочку. Была такая же после ребёнка, с убитой одеждой и волосами. У моей волосы очень хороши, гладкие, красивые, идеальные."
     }
   ],
   "users": [
@@ -142,10 +624,18 @@
           390,
           366,
           231,
-          42,
-          3,
           38,
-          2
+          334,
+          18,
+          22,
+          252,
+          509,
+          17,
+          223,
+          368,
+          9,
+          41,
+          44
         ],
         "wanted": [
           42,
@@ -171,14 +661,6 @@
             "description": "Новая кукла, в коробке. Не вскрывалась. Коробка целая не выгорела. Без торга",
             "photos": [
               "https://images.ua.prom.st/145997798_w640_h640_kukla-monster-high.jpg"
-            ]
-          },
-          {
-            "itemId": 334,
-            "price": "67$",
-            "description": "ggbuyguygyugyu",
-            "photos": [
-              ""
             ]
           }
         ]

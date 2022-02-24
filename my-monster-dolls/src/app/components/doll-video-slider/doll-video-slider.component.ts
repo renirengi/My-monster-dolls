@@ -6,23 +6,29 @@ import { IDoll } from 'src/app/models';
   templateUrl: './doll-video-slider.component.html'
 })
 export class DollVideoSliderComponent implements OnInit {
-  @Input() doll: IDoll;
   public promo = "https://www.youtube.com/watch?v=nGawAhRjtoA";
   public video = "https://www.youtube.com/watch?v=iUNVDJ-B9dM";
   public videoObject: any;
+
+  @Input()
+  set doll(d: IDoll) {
+
+   this.videoObject = d.video!
+  }
 
   constructor() { }
 
   ngOnInit(): void {
    this.videoObject = [{
-      video: this.doll.promo!,
+      video: this.video,
       alt: 'youtube video'
   }, {
-      video: this.doll.video!,
+      video: this.promo,
       alt: 'youtube video'
   },
 
   ]
+
   }
 }
 

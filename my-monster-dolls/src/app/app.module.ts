@@ -51,7 +51,7 @@ import { DollVideoComponent } from './components/doll-video/doll-video.component
 import { DetailsRatingComponent } from './components/details-rating/details-rating.component';
 import { WatchUserPageComponent } from './components/watch-user-page/watch-user-page.component';
 import { AllUsersPageComponent } from './components/all-users-page/all-users-page.component';
-
+import { DollVideoSliderComponent } from './components/doll-video-slider/doll-video-slider.component';
 
 
 
@@ -110,6 +110,7 @@ import { AllUsersPageComponent } from './components/all-users-page/all-users-pag
     DetailsRatingComponent,
     WatchUserPageComponent,
     AllUsersPageComponent,
+    DollVideoSliderComponent
 
   ],
   providers: [DollsService, UsersService, CookieService],
