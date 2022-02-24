@@ -1,0 +1,30 @@
+.image-doll-page-slider {
+  max-height: 30vh;
+  max-width: 200px;
+  padding: 1em;
+  right: 0;
+  top: 0;
+
+}
+
+.doll-img-wrapper{
+  height: 30vh;
+  margin-left: 25%;
+}
+::ng-deep .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  margin:0 auto;
+  border-radius: 50% ;
+  background-color: black;
+}
+
+::ng-deep .carousel-indicators .active{
+  background-color:var(--pink-rusberry);
+}
+::ng-deep .carousel-control-next{
+  display: none;
+}
+::ng-deep .carousel-control-prev{
+  display: none;
+}

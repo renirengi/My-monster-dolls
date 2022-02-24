@@ -1,0 +1,57 @@
+.main-container {
+  max-width: 80%;
+  margin: 4vh auto;
+  height: auto;
+
+  .info-block {
+    background-color: white;
+    color: black;
+    padding-top: 2%;
+    &_text {
+      width: 80%;
+      margin-left: 10%;
+    }
+
+    &_cards {
+      display: flex;
+      align-items: center;
+      margin-left: 3%;
+
+      &_img {
+        width: 80%;
+      }
+    }
+
+    p {
+      text-align: justify;
+      font-family: var(--Forum);
+      font-size: 30px;
+      font-weight: bolder;
+    }
+
+  }
+
+
+
+  .slider-container {
+    background-color: black;
+    height: 20vh;
+  }
+
+  .links {
+    width: 50%;
+    margin: 4% auto;
+    display: flex;
+  }
+
+
+}
+
+@media screen and(max-width: 767px) {
+    .main-container .info-block p {
+        font-size: 15px;
+    }
+}
+
+
+
